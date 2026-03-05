@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hvacaudit.co/sitemap.xml
+Sitemap: https://hvac-audit.vercel.app/sitemap.xml

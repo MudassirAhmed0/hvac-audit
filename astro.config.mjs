@@ -3,7 +3,7 @@ import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  site: "https://hvacaudit.co",
+  site: process.env.SITE_URL || "https://hvac-audit.vercel.app",
   integrations: [sitemap()],
   vite: {
     plugins: [tailwindcss()],

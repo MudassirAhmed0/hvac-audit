@@ -19,9 +19,9 @@ const {
   jsonLd,
 } = Astro.props;
 
-const siteUrl = "https://hvacaudit.co";
-const pageUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
-const ogImageUrl = new URL(ogImage, siteUrl).href;
+const siteUrl = Astro.site?.href?.replace(/\/$/, "") || "https://hvacaudit.co";
+const pageUrl = canonical || `${siteUrl}${Astro.url.pathname}`;
+const ogImageUrl = `${siteUrl}${ogImage}`;
 ---
 
 <!doctype html>
