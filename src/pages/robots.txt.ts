@@ -1,7 +1,7 @@
 import type { APIRoute } from "astro";
 
 export const GET: APIRoute = ({ site }) => {
-  const siteUrl = import.meta.env.SITE_URL || site?.href?.replace(/\/$/, "") || "https://hvac-audit.vercel.app";
+  const siteUrl = import.meta.env.SITE_URL || site?.href?.replace(/\/$/, "") || "https://hvacaudit.co";
   const body = `User-agent: *
 Allow: /
 
