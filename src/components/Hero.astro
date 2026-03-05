@@ -1,0 +1,81 @@
+---
+---
+
+<section
+  class="relative min-h-[100svh] bg-surface flex flex-col overflow-hidden"
+  data-theme="dark"
+>
+  <!-- Subtle accent gradient -->
+  <div class="absolute top-0 right-0 w-1/2 h-full opacity-[0.04] pointer-events-none"
+    style="background: radial-gradient(ellipse at 70% 30%, #0ea5e9, transparent 70%);"
+    aria-hidden="true">
+  </div>
+
+  <div class="relative z-10 flex-1 flex flex-col justify-between px-6 md:px-12 lg:px-16 pt-24 md:pt-32 pb-12 md:pb-16">
+    <!-- Headline area -->
+    <div class="flex-1 flex flex-col justify-center max-w-5xl">
+      <p
+        data-reveal
+        class="inline-flex items-center gap-2 text-xs text-danger font-mono tracking-wide mb-8 md:mb-10"
+      >
+        <span class="w-1.5 h-1.5 rounded-full bg-danger" aria-hidden="true"></span>
+        Diagnostic Report
+      </p>
+
+      <h1 class="text-[clamp(2.5rem,7vw,6.5rem)] font-bold leading-[0.9] tracking-[-0.04em]">
+        <span data-reveal style="--delay: 100ms" class="block">Your HVAC website</span>
+        <span data-reveal style="--delay: 200ms" class="block">is losing you</span>
+        <span data-reveal style="--delay: 300ms" class="block">
+          <em class="text-accent not-italic">$12,000+</em>
+          <span class="text-ink-secondary text-[0.45em] font-medium tracking-normal ml-1">/month</span>
+        </span>
+      </h1>
+
+      <p
+        data-reveal
+        style="--delay: 400ms"
+        class="max-w-[38rem] text-base md:text-lg text-ink-secondary leading-relaxed mt-8"
+      >
+        53% of visitors leave if your site takes over 3 seconds to load.
+        The average HVAC website we audited? <span class="text-danger font-medium">21 seconds.</span>
+      </p>
+
+      <div data-reveal style="--delay: 500ms" class="mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
+        <a
+          href="#contact"
+          class="inline-flex items-center gap-3 px-7 py-3.5 rounded-full bg-accent text-[#0b1220] text-sm font-semibold hover:bg-accent-hover transition-colors duration-300 whitespace-nowrap"
+        >
+          Get Your Free Audit
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+        <span class="text-xs text-ink-muted font-mono">48hr turnaround</span>
+      </div>
+    </div>
+
+    <!-- Bottom stats bar -->
+    <div data-reveal style="--delay: 600ms" class="border-t border-rule-light pt-8">
+      <div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-8 md:gap-12">
+        <div class="flex gap-8 sm:gap-12 md:gap-20">
+          <div>
+            <span class="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-danger">21s</span>
+            <span class="block text-[10px] text-ink-muted mt-1.5 font-mono uppercase tracking-widest">Avg Load Time</span>
+          </div>
+          <div>
+            <span class="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-danger">60%</span>
+            <span class="block text-[10px] text-ink-muted mt-1.5 font-mono uppercase tracking-widest">No SSL</span>
+          </div>
+          <div>
+            <span class="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-danger">40%</span>
+            <span class="block text-[10px] text-ink-muted mt-1.5 font-mono uppercase tracking-widest">No CTA</span>
+          </div>
+        </div>
+
+        <p class="max-w-xs text-[11px] text-ink-muted leading-relaxed md:text-right font-mono">
+          Based on our audit of 147+ HVAC businesses across Texas.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

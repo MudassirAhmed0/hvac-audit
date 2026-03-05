@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    .bg { fill: #0b1220; }
+    .border { fill: none; stroke: transparent; stroke-width: 1; }
+    .track { fill: none; stroke: #253449; stroke-width: 2; stroke-linecap: round; }
+    .fill { fill: none; stroke: #0ea5e9; stroke-width: 2; stroke-linecap: round; }
+    .needle { stroke: #f1f5f9; stroke-width: 2; stroke-linecap: round; }
+    .dot { fill: #0ea5e9; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0b1220; }
+      .border { stroke: #64748b; stroke-width: 1.5; }
+    }
+  </style>
+  <rect width="32" height="32" rx="8" class="bg"/>
+  <rect width="32" height="32" rx="8" class="border"/>
+  <path d="M8 22a8 8 0 0 1 16 0" class="track"/>
+  <path d="M8 22a8 8 0 0 1 12.5-3.5" class="fill"/>
+  <line x1="16" y1="22" x2="20" y2="16" class="needle"/>
+  <circle cx="16" cy="22" r="1.5" class="dot"/>
+</svg>
