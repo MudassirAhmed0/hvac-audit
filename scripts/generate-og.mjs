@@ -2,7 +2,7 @@ import { chromium } from 'playwright';
 import { readFileSync } from 'fs';
 
 const browser = await chromium.launch();
-const page = await browser.newPage({ viewport: { width: 1200, height: 630 }, deviceScaleFactor: 2 });
+const page = await browser.newPage({ viewport: { width: 1200, height: 630 }, deviceScaleFactor: 1 });
 
 // Load Geist font as base64 for embedding
 const geistFont = readFileSync('public/fonts/GeistVF.woff2').toString('base64');
@@ -70,17 +70,27 @@ const html = `<!DOCTYPE html>
     max-width: 900px;
   }
   h1 .accent { color: #0ea5e9; }
-  .cta {
-    margin-top: 24px;
+  .cta-row {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  .cta-btn {
     display: inline-flex;
     align-items: center;
-    gap: 20px;
-    font-size: 16px;
-    color: #0ea5e9;
-    font-weight: 600;
+    gap: 8px;
+    padding: 12px 28px;
+    border-radius: 9999px;
+    background: #0ea5e9;
+    color: #0b1220;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
   }
-  .cta .sep {
-    color: #253449;
+  .cta-sub {
+    font-size: 13px;
+    color: #64748b;
   }
   .bottom {
     position: relative;
@@ -133,12 +143,9 @@ const html = `<!DOCTYPE html>
       Free Diagnostic Report
     </div>
     <h1>Your HVAC website is losing you <span class="accent">$12,000+</span>/month</h1>
-    <div class="cta">
-      <span>Free 8-point diagnostic</span>
-      <span class="sep">•</span>
-      <span>No credit card</span>
-      <span class="sep">•</span>
-      <span>48hr report</span>
+    <div class="cta-row">
+      <div class="cta-btn">Get Your Free Audit →</div>
+      <span class="cta-sub">No credit card • 48hr report</span>
     </div>
   </div>
   <div class="bottom">
