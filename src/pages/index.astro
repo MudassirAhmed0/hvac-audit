@@ -8,12 +8,14 @@ import Stats from "../components/Stats.astro";
 import FAQ from "../components/FAQ.astro";
 import CTAForm from "../components/CTAForm.astro";
 
+const siteUrl = import.meta.env.SITE_URL || Astro.site?.href?.replace(/\/$/, "") || "https://hvac-audit.vercel.app";
+
 const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     name: "HVAC Audit",
-    url: "https://hvac-audit.vercel.app",
+    url: siteUrl,
     description:
       "Free HVAC website audit — we find exactly where your business is losing money online and fix it.",
     founder: {
