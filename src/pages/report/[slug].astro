@@ -1,0 +1,433 @@
+---
+import Base from "../../layouts/Base.astro";
+import {
+  reports,
+  severityColors,
+  severityOrder,
+  categoryLabels,
+  categoryIcons,
+  type Report,
+  type Gap,
+} from "../../data/reports";
+
+export function getStaticPaths() {
+  return reports.map((r) => ({ params: { slug: r.slug }, props: { report: r } }));
+}
+
+const { report } = Astro.props as { report: Report };
+const { businessSummary: biz, gapSummary: gaps, impactEstimate: impact } = report;
+
+// Sort gaps by severity
+const sortedGaps = [...gaps].sort(
+  (a, b) => severityOrder[a.severity] - severityOrder[b.severity]
+);
+
+// Group gaps by category for the summary
+const categories = [...new Set(gaps.map((g) => g.category))];
+const gapsByCategory = categories.map((cat) => ({
+  category: cat,
+  label: categoryLabels[cat] || cat,
+  icon: categoryIcons[cat] || categoryIcons.business,
+  gaps: gaps.filter((g) => g.category === cat),
+  count: gaps.filter((g) => g.category === cat).length,
+}));
+
+// Severity counts
+const criticalCount = gaps.filter((g) => g.severity === "critical").length;
+const highCount = gaps.filter((g) => g.severity === "high").length;
+const mediumCount = gaps.filter((g) => g.severity === "medium").length;
+const lowCount = gaps.filter((g) => g.severity === "low").length;
+
+// Score ring values
+const scorePercent = report.totalScore;
+const circumference = 2 * Math.PI * 54;
+const strokeDashoffset = circumference - (scorePercent / 100) * circumference;
+const scoreColor =
+  scorePercent >= 80 ? "#10b981" : scorePercent >= 60 ? "#f59e0b" : "#f87171";
+
+const title = `Website Audit Report — ${report.name}`;
+const description = `Free diagnostic report for ${report.domain}. ${gaps.length} issues found — estimated ${impact.missedLeads} missed leads per month.`;
+---
+
+<Base title={title} description={description}>
+  <!-- Hero -->
+  <section class="relative pt-28 pb-16 sm:pt-32 sm:pb-20">
+    <div class="mx-auto max-w-4xl px-5">
+      <div data-reveal>
+        <p class="font-mono text-xs tracking-widest uppercase text-ink-muted mb-3">
+          Website Diagnostic Report
+        </p>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.1]">
+          {report.name}
+        </h1>
+        <p class="mt-3 text-ink-secondary text-lg">
+          {report.domain} &middot; {report.city}, {report.state}
+        </p>
+      </div>
+
+      <!-- Score + Summary Row -->
+      <div class="mt-10 grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-8 items-start" data-reveal style="--delay:100ms">
+        <!-- Score Ring -->
+        <div class="flex flex-col items-center gap-2">
+          <div class="relative w-32 h-32">
+            <svg viewBox="0 0 120 120" class="w-full h-full -rotate-90">
+              <circle
+                cx="60" cy="60" r="54"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="8"
+                class="text-rule"
+              />
+              <circle
+                cx="60" cy="60" r="54"
+                fill="none"
+                stroke={scoreColor}
+                stroke-width="8"
+                stroke-linecap="round"
+                stroke-dasharray={circumference}
+                stroke-dashoffset={strokeDashoffset}
+              />
+            </svg>
+            <div class="absolute inset-0 flex flex-col items-center justify-center">
+              <span class="text-3xl font-bold" style={`color:${scoreColor}`}>{scorePercent}</span>
+              <span class="text-[11px] text-ink-muted font-mono">/100</span>
+            </div>
+          </div>
+          <span class="text-xs text-ink-muted font-mono">Overall Score</span>
+          <span class="text-[11px] text-ink-faint font-mono">Avg. HVAC site: 72</span>
+        </div>
+
+        <!-- Summary -->
+        <div>
+          <p class="text-ink-secondary leading-relaxed">{biz.oneLiner}</p>
+
+          <div class="mt-5 grid grid-cols-3 gap-2 sm:gap-3">
+            <div class="rounded-lg border border-rule bg-surface-alt/50 px-3 py-2.5 sm:px-4 sm:py-3">
+              <p class="text-[10px] text-ink-muted font-mono uppercase tracking-wide">Issues</p>
+              <p class="mt-1 text-xl sm:text-2xl font-bold leading-tight">{gaps.length}</p>
+            </div>
+            <div class="rounded-lg border border-rule bg-surface-alt/50 px-3 py-2.5 sm:px-4 sm:py-3">
+              <p class="text-[10px] text-ink-muted font-mono uppercase tracking-wide">Missed Leads</p>
+              <p class="mt-1 text-xl sm:text-2xl font-bold text-danger leading-tight">{impact.missedLeads}<span class="text-xs font-normal text-ink-muted">/mo</span></p>
+            </div>
+            <div class="rounded-lg border border-rule bg-surface-alt/50 px-3 py-2.5 sm:px-4 sm:py-3">
+              <p class="text-[10px] text-ink-muted font-mono uppercase tracking-wide">Rating</p>
+              <p class="mt-1 text-xl sm:text-2xl font-bold leading-tight">
+                {report.rating}<span class="text-warning text-base">&#9733;</span>
+              </p>
+              <p class="text-[10px] text-ink-muted">({report.reviewCount.toLocaleString()})</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Severity Breakdown Bar -->
+  <section class="py-8 border-t border-b border-rule">
+    <div class="mx-auto max-w-4xl px-5">
+      <div class="flex items-center gap-6 flex-wrap" data-reveal>
+        <span class="text-xs font-mono text-ink-muted uppercase tracking-wide">Severity:</span>
+        {criticalCount > 0 && (
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-red-500"></span>
+            <span class="text-sm font-medium">{criticalCount} Critical</span>
+          </div>
+        )}
+        {highCount > 0 && (
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-orange-500"></span>
+            <span class="text-sm font-medium">{highCount} High</span>
+          </div>
+        )}
+        {mediumCount > 0 && (
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-yellow-500"></span>
+            <span class="text-sm font-medium">{mediumCount} Medium</span>
+          </div>
+        )}
+        {lowCount > 0 && (
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-blue-500"></span>
+            <span class="text-sm font-medium">{lowCount} Low</span>
+          </div>
+        )}
+      </div>
+
+      <!-- Stacked bar -->
+      <div class="mt-4 h-2 rounded-full bg-rule overflow-hidden flex">
+        {criticalCount > 0 && (
+          <div class="bg-red-500 h-full" style={`width:${(criticalCount / gaps.length) * 100}%`}></div>
+        )}
+        {highCount > 0 && (
+          <div class="bg-orange-500 h-full" style={`width:${(highCount / gaps.length) * 100}%`}></div>
+        )}
+        {mediumCount > 0 && (
+          <div class="bg-yellow-500 h-full" style={`width:${(mediumCount / gaps.length) * 100}%`}></div>
+        )}
+        {lowCount > 0 && (
+          <div class="bg-blue-500 h-full" style={`width:${(lowCount / gaps.length) * 100}%`}></div>
+        )}
+      </div>
+    </div>
+  </section>
+
+  <!-- Revenue Impact Math -->
+  <section class="py-14 sm:py-20">
+    <div class="mx-auto max-w-4xl px-5">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight" data-reveal>
+        How We Estimated the Impact
+      </h2>
+      <p class="mt-2 text-ink-secondary text-sm" data-reveal style="--delay:60ms">
+        Conservative estimate based on industry data. Here's the math.
+      </p>
+
+      <div class="mt-8 rounded-xl border border-rule bg-surface-alt/40 overflow-hidden" data-reveal style="--delay:120ms">
+        <!-- Step 1 -->
+        <div class="px-5 py-4 flex items-baseline gap-3 border-b border-rule/50">
+          <span class="text-xs font-mono text-ink-faint w-16 flex-none">Visitors</span>
+          <p class="text-sm text-ink-secondary">
+            ~<span class="font-semibold text-ink">{impact.monthlyVisitors.toLocaleString()}</span> estimated monthly visitors
+          </p>
+        </div>
+        <!-- Step 2 -->
+        <div class="px-5 py-4 flex items-baseline gap-3 border-b border-rule/50">
+          <span class="text-xs font-mono text-ink-faint w-16 flex-none">Bounce</span>
+          <p class="text-sm text-ink-secondary">
+            <span class="font-semibold text-ink">{impact.bouncePercent}%</span> leave due to {impact.bounceReason}
+            <span class="text-ink-muted"> = ~{impact.bouncedVisitors} lost visitors</span>
+          </p>
+        </div>
+        <!-- Step 3 -->
+        <div class="px-5 py-4 flex items-baseline gap-3 border-b border-rule/50">
+          <span class="text-xs font-mono text-ink-faint w-16 flex-none">Booking</span>
+          <p class="text-sm text-ink-secondary">
+            At a <span class="font-semibold text-ink">{impact.bookingRate}%</span> booking rate, that's
+            <span class="font-semibold text-danger"> {impact.missedLeads} missed jobs/month</span>
+          </p>
+        </div>
+        <!-- Step 4 -->
+        <div class="px-5 py-4 flex items-baseline gap-3 border-b border-rule/50">
+          <span class="text-xs font-mono text-ink-faint w-16 flex-none">Revenue</span>
+          <p class="text-sm text-ink-secondary">
+            At <span class="font-semibold text-ink">${impact.avgServiceCall}</span> avg service call =
+            <span class="font-semibold text-danger"> {impact.missedRepairRevenue}/month</span> in missed repairs
+          </p>
+        </div>
+        <!-- Install note -->
+        <div class="px-5 py-4 bg-warning/5">
+          <p class="text-sm text-ink-secondary">
+            <span class="font-semibold text-warning">Plus installs:</span> {impact.installNote}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Top 3 Gaps (callout) -->
+  <section class="py-14 sm:py-20 border-t border-rule">
+    <div class="mx-auto max-w-4xl px-5">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight" data-reveal>
+        Top 3 Issues Costing You Money
+      </h2>
+
+      <div class="mt-8 space-y-4">
+        {biz.topThreeGaps.map((gap, i) => (
+          <div
+            class="flex items-start gap-4 rounded-xl border border-rule bg-surface-alt/40 px-5 py-4"
+            data-reveal
+            style={`--delay:${(i + 1) * 80}ms`}
+          >
+            <span class="flex-none mt-0.5 w-8 h-8 rounded-lg bg-danger/15 text-danger flex items-center justify-center font-bold text-sm font-mono">
+              {i + 1}
+            </span>
+            <p class="text-ink leading-relaxed">{gap}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Seasonal Urgency Banner -->
+  <section class="py-6 bg-warning/8 border-t border-b border-warning/20">
+    <div class="mx-auto max-w-4xl px-5 flex items-start gap-3" data-reveal>
+      <svg class="w-5 h-5 text-warning flex-none mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      <p class="text-sm text-ink-secondary leading-relaxed">
+        <span class="font-semibold text-warning">Timing:</span> {biz.seasonalUrgency}
+      </p>
+    </div>
+  </section>
+
+  <!-- Full Gap List -->
+  <section class="py-14 sm:py-20">
+    <div class="mx-auto max-w-4xl px-5">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight" data-reveal>
+        All Issues ({gaps.length})
+      </h2>
+      <p class="mt-2 text-ink-secondary" data-reveal style="--delay:60ms">
+        Sorted by severity. Click any issue to see details and estimated impact.
+      </p>
+
+      <div class="mt-8 space-y-3">
+        {sortedGaps.map((gap, i) => {
+          const colors = severityColors[gap.severity];
+          const catLabel = categoryLabels[gap.category] || gap.category;
+          return (
+            <details
+              class={`group rounded-xl border ${colors.border} ${colors.bg} overflow-hidden`}
+              data-reveal
+              style={`--delay:${Math.min(i * 40, 400)}ms`}
+            >
+              <summary class="px-4 py-3.5 sm:px-5 sm:py-4 cursor-pointer select-none list-none [&::-webkit-details-marker]:hidden">
+                <div class="flex items-start gap-2.5">
+                  <span class={`flex-none w-2.5 h-2.5 rounded-full mt-1.5 ${colors.dot}`}></span>
+                  <div class="flex-1 min-w-0">
+                    <span class="font-medium text-sm sm:text-base leading-snug block">{gap.gap}</span>
+                    <div class="mt-1.5 flex items-center gap-2">
+                      <span class={`text-[10px] font-mono font-semibold ${colors.text} uppercase`}>
+                        {gap.severity}
+                      </span>
+                      <span class="text-[10px] font-mono text-ink-muted hidden sm:inline">
+                        {catLabel}
+                      </span>
+                    </div>
+                  </div>
+                  <svg class="w-4 h-4 text-ink-muted flex-none mt-1 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </div>
+              </summary>
+              <div class="px-4 pb-4 pt-1 sm:px-5 sm:pb-5 border-t border-rule/50">
+                <p class="text-sm text-ink-secondary leading-relaxed">{gap.impact}</p>
+                <div class="mt-3 flex items-center gap-4 flex-wrap">
+                  <div class="flex items-center gap-1.5">
+                    <span class="text-xs font-mono text-ink-muted">Est. cost:</span>
+                    <span class="text-sm font-semibold text-danger">{gap.estimatedMonthlyCost}/mo</span>
+                  </div>
+                  <div class="flex items-center gap-1.5">
+                    <span class="text-xs font-mono text-ink-muted">Fix effort:</span>
+                    <span class={`text-sm font-medium ${gap.fixEffort === "quick-win" ? "text-success" : gap.fixEffort === "moderate" ? "text-warning" : "text-danger"}`}>
+                      {gap.fixEffort === "quick-win" ? "Quick Win" : gap.fixEffort === "moderate" ? "Moderate" : "Major Project"}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </details>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Breakdown -->
+  <section class="py-14 sm:py-20 bg-surface-alt/50 border-t border-rule">
+    <div class="mx-auto max-w-4xl px-5">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight" data-reveal>
+        Issues by Category
+      </h2>
+
+      <div class="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-3">
+        {gapsByCategory.sort((a, b) => b.count - a.count).map((cat, i) => (
+          <div
+            class="rounded-xl border border-rule bg-surface px-4 py-4"
+            data-reveal
+            style={`--delay:${i * 60}ms`}
+          >
+            <div class="flex items-center gap-2 mb-2">
+              <svg class="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d={cat.icon} />
+              </svg>
+              <span class="text-xs font-mono text-ink-muted uppercase tracking-wide">{cat.label}</span>
+            </div>
+            <p class="text-2xl font-bold">{cat.count}</p>
+            <p class="text-xs text-ink-muted mt-0.5">
+              {cat.count === 1 ? "issue" : "issues"}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Competitive Position -->
+  <section class="py-14 sm:py-20 border-t border-rule">
+    <div class="mx-auto max-w-4xl px-5">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight" data-reveal>
+        Competitive Position
+      </h2>
+      <p class="mt-4 text-ink-secondary leading-relaxed max-w-2xl" data-reveal style="--delay:60ms">
+        {biz.competitivePosition}
+      </p>
+    </div>
+  </section>
+
+  <!-- Recommended Fix -->
+  <section class="py-14 sm:py-20 bg-accent/5 border-t border-b border-accent/20">
+    <div class="mx-auto max-w-4xl px-5">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight" data-reveal>
+        Recommended First Step
+      </h2>
+
+      <div class="mt-8 rounded-xl border border-accent/30 bg-surface px-6 py-7" data-reveal style="--delay:80ms">
+        <p class="text-lg text-ink leading-relaxed font-medium">{biz.recommendedFirstProject}</p>
+
+        <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div class="rounded-lg bg-accent/8 px-4 py-3 sm:py-4 sm:text-center flex sm:block items-center justify-between">
+            <p class="text-[10px] font-mono text-ink-muted uppercase tracking-wide">Fix Cost</p>
+            <p class="sm:mt-1 text-lg sm:text-xl font-bold text-accent">{biz.recommendedFirstProjectPrice}</p>
+          </div>
+          <div class="rounded-lg bg-accent/8 px-4 py-3 sm:py-4 sm:text-center flex sm:block items-center justify-between">
+            <p class="text-[10px] font-mono text-ink-muted uppercase tracking-wide">Timeline</p>
+            <p class="sm:mt-1 text-lg sm:text-xl font-bold text-accent">{biz.recommendedFirstProjectTimeline}</p>
+          </div>
+          <div class="rounded-lg bg-success/8 px-4 py-3 sm:py-4 sm:text-center flex sm:block items-center justify-between">
+            <p class="text-[10px] font-mono text-ink-muted uppercase tracking-wide">Missed Repairs/mo</p>
+            <p class="sm:mt-1 text-lg sm:text-xl font-bold text-success">{impact.missedRepairRevenue}</p>
+          </div>
+        </div>
+        <p class="mt-4 text-xs text-ink-muted">
+          {impact.installNote}
+        </p>
+
+        <div class="mt-6 pt-5 border-t border-rule">
+          <p class="text-xs font-mono text-ink-muted uppercase tracking-wide mb-2">Long-term opportunity</p>
+          <p class="text-sm text-ink-secondary leading-relaxed">{biz.growthOpportunity}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-20 sm:py-28">
+    <div class="mx-auto max-w-4xl px-5 text-center" data-reveal>
+      <p class="text-xs font-mono text-ink-muted uppercase tracking-wide mb-4">
+        Audited by Mudassir Ahmed &middot; 147+ HVAC websites analyzed
+      </p>
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">
+        Ready to fix these issues before summer?
+      </h2>
+      <p class="mt-3 text-ink-secondary max-w-lg mx-auto">
+        AC season starts in 6 weeks. Let's fix the biggest leaks first — quick wins that pay for themselves in the first month.
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a
+          href="/#audit"
+          class="inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-surface transition-colors hover:bg-accent-hover"
+        >
+          Get Your Free Audit
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </a>
+        <a
+          href="mailto:hello@hvacaudit.co"
+          class="inline-flex items-center gap-2 rounded-lg border border-rule px-6 py-3 text-sm font-medium text-ink-secondary transition-colors hover:border-accent hover:text-ink"
+        >
+          hello@hvacaudit.co
+        </a>
+      </div>
+    </div>
+  </section>
+</Base>

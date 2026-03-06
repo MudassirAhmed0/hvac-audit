@@ -25,3 +25,7 @@ pnpm-debug.log*
 
 # dev screenshots
 screenshots/
+
+# internal docs
+CLOSING-PLAN.md
+SCRAPER-PROMPT.md
