@@ -67,13 +67,13 @@ const audits = [
     </div>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-rule">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
     {
       audits.map((audit, i) => (
         <div
           data-reveal
           style={`--delay: ${i * 80}ms`}
-          class="group bg-surface p-8 md:p-9 hover:bg-surface-card transition-colors duration-300"
+          class="group border border-rule p-8 md:p-9 -mt-px -ml-px hover:bg-surface-card transition-colors duration-300"
         >
           <div class="flex items-center gap-4 mb-6">
             <span class="text-[10px] font-mono text-ink-faint">0{i + 1}</span>
@@ -93,7 +93,7 @@ const audits = [
   <!-- Mid-page CTA -->
   <div data-reveal style="--delay: 640ms" class="mt-16 text-center">
     <a
-      href="#contact"
+      href="#audit"
       class="inline-flex items-center gap-2 text-sm text-accent font-medium hover:text-accent-hover transition-colors duration-300"
     >
       Get your site checked

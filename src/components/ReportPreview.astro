@@ -1,0 +1,89 @@
+---
+import { reports } from "../data/reports";
+
+const audits = reports.slice(0, 3).map((r) => {
+  const circumference = 2 * Math.PI * 20;
+  const offset = circumference - (r.totalScore / 100) * circumference;
+  const scoreColor =
+    r.totalScore >= 80 ? "#10b981" : r.totalScore >= 60 ? "#f59e0b" : "#f87171";
+  return { ...r, scoreColor, circumference, offset };
+});
+---
+
+<section class="py-16 border-t border-rule" data-theme="dark">
+  <div class="px-6 md:px-12 lg:px-16">
+    <div class="flex items-end justify-between gap-4 mb-8">
+      <div data-reveal>
+        <p class="font-mono text-xs tracking-widest uppercase text-ink-muted mb-3">
+          Real audits
+        </p>
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight leading-[1.15]">
+          See what we found
+        </h2>
+      </div>
+      <a
+        href="/reports"
+        class="hidden sm:inline-flex items-center gap-2 text-sm font-medium text-ink-secondary hover:text-accent transition-colors duration-300"
+        data-reveal style="--delay:80ms"
+      >
+        All reports
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      {audits.map((audit, i) => (
+        <a
+          href={`/report/${audit.slug}/`}
+          data-reveal
+          style={`--delay:${(i + 1) * 80}ms`}
+          class="group rounded-xl border border-rule bg-surface-card hover:border-accent/40 transition-colors duration-300 p-5 flex flex-col gap-3"
+        >
+          <div class="flex items-center gap-3">
+            <div class="relative w-10 h-10 flex-none">
+              <svg viewBox="0 0 48 48" class="w-full h-full -rotate-90">
+                <circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3" class="text-rule" />
+                <circle
+                  cx="24" cy="24" r="20"
+                  fill="none"
+                  stroke={audit.scoreColor}
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-dasharray={audit.circumference}
+                  stroke-dashoffset={audit.offset}
+                />
+              </svg>
+              <div class="absolute inset-0 flex items-center justify-center">
+                <span class="text-[10px] font-bold" style={`color:${audit.scoreColor}`}>{audit.totalScore}</span>
+              </div>
+            </div>
+            <div class="min-w-0">
+              <p class="font-semibold text-sm truncate group-hover:text-accent transition-colors">{audit.name}</p>
+              <p class="text-xs text-ink-muted font-mono">{audit.domain}</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-2 text-xs font-mono text-ink-muted">
+            <span>{audit.gapSummary.length} issues</span>
+            <span class="text-rule">·</span>
+            <span class="text-danger font-semibold">~{audit.impactEstimate.missedLeads} missed leads/mo</span>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <div class="mt-6 text-center sm:hidden">
+      <a
+        href="/reports"
+        class="inline-flex items-center gap-2 text-sm font-medium text-ink-secondary hover:text-accent transition-colors"
+        data-reveal
+      >
+        All reports
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
