@@ -3,7 +3,7 @@ title: "We Audited 147 HVAC Websites. The Average Score Was 34."
 description: "Most HVAC contractor websites are losing 5-7 leads per month from fixable problems. Here's what we found across 147 audits."
 date: 2026-02-24
 readTime: "4 min read"
-cover: "/blog/cover-audit-147.png"
+cover: "/blog/cover-audit-147.webp"
 ---
 
 We spent six weeks auditing 147 HVAC contractor websites across the U.S.

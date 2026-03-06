@@ -3,7 +3,7 @@ title: "18 Seconds. Your Customer Left After 3."
 description: "The average HVAC website takes 18 seconds to load on mobile. Here's why that's destroying your lead flow."
 date: 2026-03-01
 readTime: "3 min read"
-cover: "/blog/cover-18s.png"
+cover: "/blog/cover-18s.webp"
 ---
 
 18 seconds.

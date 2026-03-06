@@ -3,7 +3,7 @@ title: "Your Score: 34. Your Competitor: 91. Guess Who Gets the Call."
 description: "When two HVAC sites show up for the same search, the one that looks more trustworthy in 5 seconds gets the call. Here's what makes the difference."
 date: 2026-03-03
 readTime: "3 min read"
-cover: "/blog/cover-34vs91.png"
+cover: "/blog/cover-34vs91.webp"
 ---
 
 We scored two HVAC websites in the same city. Same zip code. Same services. Same price range.

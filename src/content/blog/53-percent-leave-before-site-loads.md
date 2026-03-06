@@ -3,7 +3,7 @@ title: "53% of Your Customers Leave Before Your Site Loads"
 description: "More than half of HVAC website visitors bounce before the page finishes loading. Here's what that means for your business."
 date: 2026-03-05
 readTime: "3 min read"
-cover: "/blog/cover-53pct.png"
+cover: "/blog/cover-53pct.webp"
 ---
 
 53%.

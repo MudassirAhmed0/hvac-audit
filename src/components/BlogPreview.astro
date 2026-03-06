@@ -41,8 +41,11 @@ const posts = (await getCollection("blog"))
             <img
               src={post.data.cover}
               alt={post.data.title}
+              width="1080"
+              height="1080"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
               loading="lazy"
+              decoding="async"
             />
           </div>
           <div class="px-4 py-4 sm:px-5 sm:py-5">

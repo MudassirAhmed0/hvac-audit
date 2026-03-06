@@ -3,7 +3,7 @@ title: "Your HVAC Website Is Losing You $4,200 Every Month"
 description: "We broke down exactly where the money goes when your HVAC website has common problems. The math is ugly."
 date: 2026-02-28
 readTime: "3 min read"
-cover: "/blog/cover-4200.png"
+cover: "/blog/cover-4200.webp"
 ---
 
 $4,200 per month.
