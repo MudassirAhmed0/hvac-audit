@@ -1,13 +1,8 @@
 ---
 import { reports } from "../data/reports";
+import ReportCard from "./ReportCard.astro";
 
-const audits = reports.slice(0, 3).map((r) => {
-  const circumference = 2 * Math.PI * 20;
-  const offset = circumference - (r.totalScore / 100) * circumference;
-  const scoreColor =
-    r.totalScore >= 80 ? "#10b981" : r.totalScore >= 60 ? "#f59e0b" : "#f87171";
-  return { ...r, scoreColor, circumference, offset };
-});
+const audits = reports.slice(0, 3);
 ---
 
 <section class="py-16 border-t border-rule" data-theme="dark">
@@ -35,41 +30,9 @@ const audits = reports.slice(0, 3).map((r) => {
 
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
       {audits.map((audit, i) => (
-        <a
-          href={`/report/${audit.slug}/`}
-          data-reveal
-          style={`--delay:${(i + 1) * 80}ms`}
-          class="group rounded-xl border border-rule bg-surface-card hover:border-accent/40 transition-colors duration-300 p-5 flex flex-col gap-3"
-        >
-          <div class="flex items-center gap-3">
-            <div class="relative w-10 h-10 flex-none">
-              <svg viewBox="0 0 48 48" class="w-full h-full -rotate-90">
-                <circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3" class="text-rule" />
-                <circle
-                  cx="24" cy="24" r="20"
-                  fill="none"
-                  stroke={audit.scoreColor}
-                  stroke-width="3"
-                  stroke-linecap="round"
-                  stroke-dasharray={audit.circumference}
-                  stroke-dashoffset={audit.offset}
-                />
-              </svg>
-              <div class="absolute inset-0 flex items-center justify-center">
-                <span class="text-[10px] font-bold" style={`color:${audit.scoreColor}`}>{audit.totalScore}</span>
-              </div>
-            </div>
-            <div class="min-w-0">
-              <p class="font-semibold text-sm truncate group-hover:text-accent transition-colors">{audit.name}</p>
-              <p class="text-xs text-ink-muted font-mono">{audit.domain}</p>
-            </div>
-          </div>
-          <div class="flex items-center gap-2 text-xs font-mono text-ink-muted">
-            <span>{audit.gapSummary.length} issues</span>
-            <span class="text-rule">·</span>
-            <span class="text-danger font-semibold">~{audit.impactEstimate.missedLeads} missed leads/mo</span>
-          </div>
-        </a>
+        <div data-reveal style={`--delay:${(i + 1) * 80}ms`}>
+          <ReportCard report={audit} compact />
+        </div>
       ))}
     </div>
 

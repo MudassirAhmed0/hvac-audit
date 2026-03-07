@@ -1,15 +1,8 @@
 ---
 import { reports } from "../data/reports";
+import ReportCard from "./ReportCard.astro";
 
-const audits = reports.map((r) => {
-  const criticalCount = r.gapSummary.filter((g) => g.severity === "critical").length;
-  const highCount = r.gapSummary.filter((g) => g.severity === "high").length;
-  const scoreColor =
-    r.totalScore >= 80 ? "#10b981" : r.totalScore >= 60 ? "#f59e0b" : "#f87171";
-  const circumference = 2 * Math.PI * 20;
-  const offset = circumference - (r.totalScore / 100) * circumference;
-  return { ...r, criticalCount, highCount, scoreColor, circumference, offset };
-});
+const audits = reports.slice(0, 3);
 ---
 
 <section
@@ -33,75 +26,30 @@ const audits = reports.map((r) => {
         <span class="text-accent">Real problems found.</span>
       </h2>
       <p data-reveal style="--delay: 180ms" class="mt-4 text-ink-secondary text-sm md:text-base max-w-xl leading-relaxed">
-        Every audit below is a real HVAC business in Dallas. Click to see the full diagnostic report with issues, dollar impact, and recommended fixes.
+        Every audit below is a real HVAC business. Click to see the full diagnostic report with issues, dollar impact, and recommended fixes.
       </p>
     </div>
   </div>
 
   <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
     {audits.map((audit, i) => (
-      <a
-        href={`/report/${audit.slug}/`}
-        data-reveal
-        style={`--delay: ${i * 100}ms`}
-        class="group rounded-xl border border-rule bg-surface-card hover:border-accent/40 transition-colors duration-300 p-6 flex flex-col gap-4"
-      >
-        <!-- Top row: score ring + name -->
-        <div class="flex items-center gap-4">
-          <div class="relative w-12 h-12 flex-none">
-            <svg viewBox="0 0 48 48" class="w-full h-full -rotate-90">
-              <circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3" class="text-rule" />
-              <circle
-                cx="24" cy="24" r="20"
-                fill="none"
-                stroke={audit.scoreColor}
-                stroke-width="3"
-                stroke-linecap="round"
-                stroke-dasharray={audit.circumference}
-                stroke-dashoffset={audit.offset}
-              />
-            </svg>
-            <div class="absolute inset-0 flex items-center justify-center">
-              <span class="text-xs font-bold" style={`color:${audit.scoreColor}`}>{audit.totalScore}</span>
-            </div>
-          </div>
-          <div class="min-w-0">
-            <p class="font-semibold text-sm truncate group-hover:text-accent transition-colors">{audit.name}</p>
-            <p class="text-xs text-ink-muted font-mono">{audit.domain}</p>
-          </div>
-        </div>
-
-        <!-- Stats row -->
-        <div class="flex items-center gap-3 flex-wrap">
-          <span class="text-xs font-mono text-ink-muted">
-            {audit.gapSummary.length} issues
-          </span>
-          <span class="w-px h-3 bg-rule"></span>
-          <span class="text-xs font-mono text-danger font-semibold">
-            ~{audit.impactEstimate.missedLeads} missed leads/mo
-          </span>
-          <span class="w-px h-3 bg-rule"></span>
-          <span class="text-xs font-mono text-ink-muted">
-            {audit.rating}&#9733; ({audit.reviewCount.toLocaleString()})
-          </span>
-        </div>
-
-        <!-- Top gap preview -->
-        <div class="border-t border-rule pt-3">
-          <p class="text-xs text-ink-muted font-mono uppercase tracking-wide mb-2">#1 Issue</p>
-          <p class="text-sm text-ink-secondary leading-relaxed line-clamp-2">
-            {audit.businessSummary.topThreeGaps[0]}
-          </p>
-        </div>
-
-        <!-- View link -->
-        <div class="mt-auto pt-2 flex items-center gap-1.5 text-xs font-semibold text-accent opacity-0 group-hover:opacity-100 transition-opacity">
-          View full report
-          <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-          </svg>
-        </div>
-      </a>
+      <div data-reveal style={`--delay: ${i * 100}ms`}>
+        <ReportCard report={audit} />
+      </div>
     ))}
+  </div>
+
+  <div class="mt-8 text-center">
+    <a
+      href="/reports"
+      data-reveal
+      style="--delay: 300ms"
+      class="inline-flex items-center gap-2 text-sm font-medium text-ink-secondary hover:text-accent transition-colors duration-300"
+    >
+      View all reports
+      <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+      </svg>
+    </a>
   </div>
 </section>
