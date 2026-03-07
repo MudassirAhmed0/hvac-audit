@@ -2,53 +2,72 @@
 const year = new Date().getFullYear();
 ---
 
-<footer class="bg-surface border-t border-rule px-6 md:px-12 lg:px-16 py-12" data-theme="dark">
-  <div class="flex flex-col md:flex-row justify-between items-center gap-6">
-    <div class="flex items-center gap-2.5">
-      <svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true">
-        <rect width="32" height="32" rx="8" fill="#0b1220"/>
-        <rect width="32" height="32" rx="8" fill="none" stroke="#253449" stroke-width="1"/>
-        <path d="M8 22a8 8 0 0 1 16 0" fill="none" stroke="#253449" stroke-width="2" stroke-linecap="round"/>
-        <path d="M8 22a8 8 0 0 1 12.5-3.5" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round"/>
-        <line x1="16" y1="22" x2="20" y2="16" stroke="#f1f5f9" stroke-width="2" stroke-linecap="round"/>
-        <circle cx="16" cy="22" r="1.5" fill="#0ea5e9"/>
-      </svg>
-      <span class="text-sm font-semibold tracking-tight">HVAC Audit</span>
-    </div>
-
-    <div class="flex items-center gap-8">
-      <a
-        href="/blog/"
-        class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300"
-      >
-        Blog
+<footer class="border-t border-rule px-6 md:px-12 lg:px-16 pt-16 pb-8" data-theme="dark">
+  <!-- Top: brand + nav + social -->
+  <div class="flex flex-col gap-12 lg:flex-row lg:justify-between lg:gap-8">
+    <!-- Brand + tagline -->
+    <div class="max-w-xs">
+      <a href="/" class="flex items-center gap-2.5 group mb-4">
+        <svg width="28" height="28" viewBox="0 0 32 32" class="shrink-0" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="#0b1220"/>
+          <rect width="32" height="32" rx="8" fill="none" stroke="#253449" stroke-width="1"/>
+          <path d="M8 22a8 8 0 0 1 16 0" fill="none" stroke="#253449" stroke-width="2" stroke-linecap="round"/>
+          <path d="M8 22a8 8 0 0 1 12.5-3.5" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round"/>
+          <line x1="16" y1="22" x2="20" y2="16" stroke="#f1f5f9" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="16" cy="22" r="1.5" fill="#0ea5e9"/>
+        </svg>
+        <span class="text-sm font-semibold tracking-tight">HVAC Audit</span>
       </a>
-      <a
-        href="/reports/"
-        class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300"
-      >
-        Reports
-      </a>
-      <a
-        href="/about/"
-        class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300"
-      >
-        About
-      </a>
-      <a
-        href="mailto:hello@hvacaudit.co"
-        class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300"
-      >
-        hello@hvacaudit.co
-      </a>
-    </div>
-
-    <div class="flex items-center gap-6">
-      <a href="/privacy/" class="text-xs text-ink-muted hover:text-ink-secondary transition-colors duration-300">Privacy</a>
-      <a href="/terms/" class="text-xs text-ink-muted hover:text-ink-secondary transition-colors duration-300">Terms</a>
-      <p class="text-xs text-ink-muted">
-        &copy; {year} HVAC Audit
+      <p class="text-sm text-ink-muted leading-relaxed">
+        Free website audits for HVAC contractors. We find what's costing you calls and fix it.
       </p>
+    </div>
+
+    <!-- Navigation columns -->
+    <div class="flex gap-16 sm:gap-20">
+      <div>
+        <p class="text-[10px] font-mono font-semibold uppercase tracking-widest text-ink-faint mb-4">Company</p>
+        <ul class="space-y-3">
+          <li><a href="/about/" class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">About</a></li>
+          <li><a href="/blog/" class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">Blog</a></li>
+          <li><a href="/reports/" class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">Reports</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-[10px] font-mono font-semibold uppercase tracking-widest text-ink-faint mb-4">Connect</p>
+        <ul class="space-y-3">
+          <li><a href="mailto:hello@hvacaudit.co" class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">hello@hvacaudit.co</a></li>
+          <li><a href="https://www.linkedin.com/company/hvacaudit" target="_blank" rel="noopener noreferrer" class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/hvacaudit" target="_blank" rel="noopener noreferrer" class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">Instagram</a></li>
+          <li><a href="https://www.facebook.com/hvacaudit" target="_blank" rel="noopener noreferrer" class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="lg:text-right">
+      <p class="text-sm font-semibold mb-2">See what's wrong with your site.</p>
+      <a
+        href="/#audit"
+        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-accent text-[#0b1220] text-xs font-semibold uppercase tracking-wide hover:bg-accent-hover transition-colors duration-300"
+      >
+        Free Audit
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+          <path d="M2 6h8M7 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div class="border-t border-rule mt-12 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+    <p class="text-xs text-ink-faint">
+      &copy; {year} HVAC Audit. All rights reserved.
+    </p>
+    <div class="flex items-center gap-6">
+      <a href="/privacy/" class="text-xs text-ink-faint hover:text-ink-secondary transition-colors duration-300">Privacy</a>
+      <a href="/terms/" class="text-xs text-ink-faint hover:text-ink-secondary transition-colors duration-300">Terms</a>
+      <a href="/sitemap.xml" class="text-xs text-ink-faint hover:text-ink-secondary transition-colors duration-300">Sitemap</a>
     </div>
   </div>
 </footer>
