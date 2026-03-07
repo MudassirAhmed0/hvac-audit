@@ -26,7 +26,7 @@ const {
   nextUrl,
 } = Astro.props;
 
-const siteUrl = import.meta.env.SITE_URL || Astro.site?.href?.replace(/\/$/, "") || "https://hvacaudit.co";
+const siteUrl = import.meta.env.SITE_URL || Astro.site?.href?.replace(/\/$/, "") || "https://hvac-audit.co";
 const pageUrl = canonical || `${siteUrl}${Astro.url.pathname}`;
 const ogImageUrl = `${siteUrl}${ogImage}`;
 ---

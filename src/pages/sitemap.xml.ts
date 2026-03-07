@@ -6,7 +6,7 @@ export const GET: APIRoute = async ({ site }) => {
   const siteUrl =
     import.meta.env.SITE_URL ||
     site?.href?.replace(/\/$/, "") ||
-    "https://hvacaudit.co";
+    "https://hvac-audit.co";
 
   const today = new Date().toISOString().split("T")[0];
 
