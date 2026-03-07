@@ -41,7 +41,7 @@ const jsonLd = [
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
-      { "@type": "ListItem", position: 2, name: "Blog", item: `${siteUrl}/blog` },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${siteUrl}/blog/` },
       { "@type": "ListItem", position: 3, name: post.data.title },
     ],
   },
@@ -59,7 +59,7 @@ const jsonLd = [
       <!-- Header (full width) -->
       <div class="mb-10">
         <a
-          href="/blog"
+          href="/blog/"
           class="inline-flex items-center gap-1.5 text-xs font-mono text-ink-muted hover:text-accent transition-colors mb-6"
           data-reveal
         >
@@ -105,7 +105,7 @@ const jsonLd = [
         </div>
 
         <!-- Right: sticky form (desktop only) -->
-        <aside class="hidden lg:block w-[300px] xl:w-[320px] flex-none">
+        <aside class="hidden lg:block w-[300px] xl:w-[320px] flex-none" data-nosnippet>
           <div class="sticky top-24" data-reveal style="--delay:300ms">
             <div class="rounded-xl border border-rule bg-surface-alt/60 p-6">
               <p class="text-lg font-bold tracking-tight mb-1">
@@ -195,7 +195,7 @@ const jsonLd = [
       </div>
 
       <!-- Mobile form (below content) -->
-      <div class="lg:hidden mt-16 rounded-xl border border-accent/20 bg-accent/5 px-6 py-8" data-reveal>
+      <div class="lg:hidden mt-16 rounded-xl border border-accent/20 bg-accent/5 px-6 py-8" data-reveal data-nosnippet>
         <p class="text-xl font-bold tracking-tight mb-1">
           Want to know your score?
         </p>
