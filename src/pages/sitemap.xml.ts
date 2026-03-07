@@ -7,7 +7,6 @@ export const GET: APIRoute = async ({ site }) => {
     "https://hvacaudit.co";
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="${siteUrl}/sitemap-index.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>${siteUrl}/page-sitemap.xml</loc>
