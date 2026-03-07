@@ -26,8 +26,10 @@ export const GET: APIRoute = async ({ site }) => {
   });
 
   // Blog listing (paginated)
+  const page1Count = 9;
   const postsPerPage = 8;
-  const totalPages = Math.ceil(blogPosts.length / postsPerPage);
+  const remaining = blogPosts.length - page1Count;
+  const totalPages = remaining > 0 ? 1 + Math.ceil(remaining / postsPerPage) : 1;
   for (let i = 1; i <= totalPages; i++) {
     urls.push({
       loc: i === 1 ? `${siteUrl}/blog/` : `${siteUrl}/blog/page/${i}/`,
