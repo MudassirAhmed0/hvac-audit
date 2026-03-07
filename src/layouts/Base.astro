@@ -12,6 +12,8 @@ interface Props {
   canonical?: string;
   ogImage?: string;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  prevUrl?: string;
+  nextUrl?: string;
 }
 
 const {
@@ -20,6 +22,8 @@ const {
   canonical,
   ogImage = "/og-image.png",
   jsonLd,
+  prevUrl,
+  nextUrl,
 } = Astro.props;
 
 const siteUrl = import.meta.env.SITE_URL || Astro.site?.href?.replace(/\/$/, "") || "https://hvacaudit.co";
@@ -39,6 +43,8 @@ const ogImageUrl = `${siteUrl}${ogImage}`;
     <meta name="robots" content="index, follow" />
     <meta name="author" content="HVAC Audit" />
     <link rel="canonical" href={pageUrl} />
+    {prevUrl && <link rel="prev" href={`${siteUrl}${prevUrl}`} />}
+    {nextUrl && <link rel="next" href={`${siteUrl}${nextUrl}`} />}
 
     <!-- Warm up analytics connections (low priority, won't block LCP) -->
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />

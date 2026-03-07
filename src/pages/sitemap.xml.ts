@@ -25,13 +25,17 @@ export const GET: APIRoute = async ({ site }) => {
     priority: "1.0",
   });
 
-  // Blog listing
-  urls.push({
-    loc: `${siteUrl}/blog/`,
-    lastmod: sortedPosts[0]?.data.date.toISOString().split("T")[0] || today,
-    changefreq: "weekly",
-    priority: "0.9",
-  });
+  // Blog listing (paginated)
+  const postsPerPage = 8;
+  const totalPages = Math.ceil(blogPosts.length / postsPerPage);
+  for (let i = 1; i <= totalPages; i++) {
+    urls.push({
+      loc: i === 1 ? `${siteUrl}/blog/` : `${siteUrl}/blog/page/${i}/`,
+      lastmod: sortedPosts[0]?.data.date.toISOString().split("T")[0] || today,
+      changefreq: "weekly",
+      priority: i === 1 ? "0.9" : "0.5",
+    });
+  }
 
   // Blog posts
   for (const post of sortedPosts) {

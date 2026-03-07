@@ -1,0 +1,49 @@
+---
+import Base from "../../../layouts/Base.astro";
+import BlogList from "../../../components/BlogList.astro";
+import { getCollection } from "astro:content";
+
+const formspreeUrl = import.meta.env.PUBLIC_FORMSPREE_URL || "";
+
+export async function getStaticPaths() {
+  const POSTS_PER_PAGE = 8;
+  const allPosts = (await getCollection("blog")).sort(
+    (a, b) => b.data.date.getTime() - a.data.date.getTime()
+  );
+  const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
+
+  return Array.from({ length: totalPages - 1 }, (_, i) => {
+    const pageNum = i + 2;
+    const start = (pageNum - 1) * POSTS_PER_PAGE;
+    return {
+      params: { num: String(pageNum) },
+      props: {
+        page: {
+          currentPage: pageNum,
+          lastPage: totalPages,
+          data: allPosts.slice(start, start + POSTS_PER_PAGE),
+          url: {
+            prev: pageNum === 2 ? "/blog/" : `/blog/page/${pageNum - 1}/`,
+            next: pageNum < totalPages ? `/blog/page/${pageNum + 1}/` : undefined,
+          },
+        },
+      },
+    };
+  });
+}
+
+const { page } = Astro.props;
+const prevUrl = page.url.prev;
+const nextUrl = page.url.next;
+---
+
+<Base
+  title={`Blog — Page ${page.currentPage} — HVAC Audit`}
+  description="Insights on HVAC website performance, lead generation, and what's costing contractors money online."
+  prevUrl={prevUrl}
+  nextUrl={nextUrl}
+>
+  <section class="pt-28 pb-20 sm:pt-32 sm:pb-28">
+    <BlogList page={page} formspreeUrl={formspreeUrl} />
+  </section>
+</Base>
