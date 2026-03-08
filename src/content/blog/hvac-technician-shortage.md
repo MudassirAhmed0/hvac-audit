@@ -60,35 +60,27 @@ The technician shortage isn't just about demand growth. It's about the workforce
   <desc>Line chart showing positions needed growing faster than technicians available, with the gap reaching 300,000+ by 2031</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">The Widening HVAC Technician Gap</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Positions needed vs available technicians (projected)</text>
-
   <line x1="60" y1="280" x2="520" y2="280" stroke="currentColor" opacity="0.15"/>
   <line x1="60" y1="220" x2="520" y2="220" stroke="currentColor" opacity="0.08"/>
   <line x1="60" y1="160" x2="520" y2="160" stroke="currentColor" opacity="0.08"/>
   <line x1="60" y1="100" x2="520" y2="100" stroke="currentColor" opacity="0.08"/>
-
   <text x="55" y="284" text-anchor="end" font-size="9" fill="currentColor" opacity="0.5">300K</text>
   <text x="55" y="224" text-anchor="end" font-size="9" fill="currentColor" opacity="0.5">400K</text>
   <text x="55" y="164" text-anchor="end" font-size="9" fill="currentColor" opacity="0.5">500K</text>
   <text x="55" y="104" text-anchor="end" font-size="9" fill="currentColor" opacity="0.5">600K</text>
-
   <text x="100" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">2020</text>
   <text x="170" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">2022</text>
   <text x="240" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">2024</text>
   <text x="310" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">2026</text>
   <text x="380" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">2028</text>
   <text x="450" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">2031</text>
-
   <polyline points="100,240 170,220 240,190 310,155 380,120 450,90" fill="none" stroke="#ef4444" stroke-width="2.5" stroke-linejoin="round"/>
   <polyline points="100,250 170,245 240,238 310,230 380,225 450,218" fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linejoin="round"/>
-
   <polygon points="100,250 170,245 240,238 310,230 380,225 450,218 450,90 380,120 310,155 240,190 170,220 100,240" fill="#ef4444" opacity="0.08"/>
-
   <text x="460" y="85" font-size="10" fill="#ef4444" font-weight="bold">Positions needed</text>
   <text x="460" y="213" font-size="10" fill="#22c55e" font-weight="bold">Available techs</text>
-
   <text x="380" y="170" text-anchor="middle" font-size="12" fill="currentColor" opacity="0.5">300K+ gap</text>
   <text x="380" y="184" text-anchor="middle" font-size="12" fill="currentColor" opacity="0.5">by 2031</text>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: BLS, ACHR News, PHCC workforce projections (2025–2026)</text>
 </svg>
 </figure>
@@ -196,29 +188,24 @@ PE-backed companies and franchises can offer higher starting wages, corporate be
   <desc>Horizontal bar chart showing the escalating daily cost of an empty truck, from fixed costs to peak-season revenue loss</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Daily Cost of an Empty Truck</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Fixed costs + lost revenue capacity</text>
-
   <g transform="translate(20, 80)">
     <text x="160" y="28" text-anchor="end" font-size="12" fill="currentColor">Fixed costs (idle)</text>
     <rect x="165" y="10" width="60" height="36" rx="4" fill="#475569"/>
     <text x="235" y="34" font-size="14" font-weight="bold" fill="currentColor">$65–$125</text>
     <text x="340" y="34" font-size="11" fill="currentColor" opacity="0.5">/day</text>
-
     <text x="160" y="98" text-anchor="end" font-size="12" fill="currentColor">Lost revenue (normal)</text>
     <rect x="165" y="80" width="200" height="36" rx="4" fill="#eab308"/>
     <text x="375" y="104" font-size="14" font-weight="bold" fill="currentColor">$1,400–$3,900</text>
     <text x="505" y="104" font-size="11" fill="currentColor" opacity="0.5">/day</text>
-
     <text x="160" y="168" text-anchor="end" font-size="12" fill="currentColor">Lost revenue (peak)</text>
     <rect x="165" y="150" width="340" height="36" rx="4" fill="#ef4444"/>
     <text x="375" y="174" font-size="14" font-weight="bold" fill="white">$2,000–$7,800</text>
     <text x="505" y="174" font-size="11" fill="currentColor" opacity="0.5">/day</text>
   </g>
-
   <g transform="translate(40, 290)">
     <text x="0" y="0" font-size="12" fill="currentColor" opacity="0.7">One missing tech for one summer = $180K–$700K in lost revenue capacity.</text>
     <text x="0" y="20" font-size="12" fill="currentColor" opacity="0.7">At typical booking rates, actual losses are $90K–$350K per season.</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: ServiceTitan, ACCA, BLS HVAC wage data (2025–2026)</text>
 </svg>
 </figure>

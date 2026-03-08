@@ -46,38 +46,28 @@ The problem is that most HVAC companies treat the chatbot as a replacement for g
   <desc>Grouped bar chart showing chatbot impact: after-hours lead capture rises from 12% to 40% with chatbot (+233%), while daytime conversion only rises from 2.8% to 3.9% with chatbot (+39%)</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Chatbot Conversion Impact by Time of Day</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">After-hours capture is the primary win</text>
-
   <g transform="translate(130, 58)">
     <rect x="0" y="0" width="12" height="12" rx="2" fill="#475569"/>
     <text x="18" y="11" font-size="11" fill="currentColor">Without chatbot</text>
     <rect x="150" y="0" width="12" height="12" rx="2" fill="#22c55e"/>
     <text x="168" y="11" font-size="11" fill="currentColor">With chatbot</text>
   </g>
-
   <g transform="translate(60, 90)">
     <text x="110" y="14" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">After-Hours Lead Capture</text>
-
     <rect x="30" y="35" width="70" height="170" rx="6" fill="#475569"/>
     <text x="65" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">12%</text>
-
     <rect x="115" y="35" width="70" height="170" rx="6" fill="#22c55e"/>
     <text x="150" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">40%</text>
-
     <text x="110" y="228" text-anchor="middle" font-size="11" fill="#22c55e" font-weight="bold">+233%</text>
   </g>
-
   <g transform="translate(300, 90)">
     <text x="110" y="14" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Daytime Conversion Rate</text>
-
     <rect x="30" y="130" width="70" height="75" rx="6" fill="#475569"/>
     <text x="65" y="123" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">2.8%</text>
-
     <rect x="115" y="110" width="70" height="95" rx="6" fill="#22c55e"/>
     <text x="150" y="103" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">3.9%</text>
-
     <text x="110" y="228" text-anchor="middle" font-size="11" fill="#22c55e" font-weight="bold">+39%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Drift, Intercom, ServiceTitan partner data (2024–2026)</text>
 </svg>
 </figure>
@@ -161,7 +151,6 @@ When we [audit HVAC websites](/blog/hvac-website-not-getting-calls/) that use ch
   <desc>Line chart showing cumulative chatbot revenue vs cost over 12 months: cost stays linear at $200/month, while revenue from captured leads grows from $900 in month 1 to $12,600 cumulative by month 12, yielding a 5.25x return</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Chatbot ROI: Cost vs. Revenue (12 Months)</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Cumulative cost vs. cumulative revenue from chatbot-captured leads</text>
-
   <g transform="translate(60, 65)">
     <!-- Y axis labels -->
     <text x="-8" y="8" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">$14K</text>
@@ -170,7 +159,6 @@ When we [audit HVAC websites](/blog/hvac-website-not-getting-calls/) that use ch
     <text x="-8" y="158" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">$4K</text>
     <text x="-8" y="208" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">$1K</text>
     <text x="-8" y="240" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">$0</text>
-
     <!-- Grid lines -->
     <line x1="0" y1="5" x2="440" y2="5" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="55" x2="440" y2="55" stroke="currentColor" stroke-opacity="0.08"/>
@@ -178,17 +166,14 @@ When we [audit HVAC websites](/blog/hvac-website-not-getting-calls/) that use ch
     <line x1="0" y1="155" x2="440" y2="155" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="205" x2="440" y2="205" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="240" x2="440" y2="240" stroke="currentColor" stroke-opacity="0.08"/>
-
     <!-- Revenue line (green) -->
     <polyline points="0,224 40,210 80,195 120,178 160,160 200,142 240,122 280,102 320,80 360,58 400,36 440,15" fill="none" stroke="#22c55e" stroke-width="2.5"/>
     <circle cx="440" cy="15" r="4" fill="#22c55e"/>
     <text x="440" y="10" text-anchor="end" font-size="11" font-weight="bold" fill="#22c55e">$12.6K</text>
-
     <!-- Cost line (red, dashed) -->
     <polyline points="0,236 40,232 80,228 120,224 160,220 200,216 240,212 280,208 320,204 360,200 400,196 440,192" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="6,4"/>
     <circle cx="440" cy="192" r="4" fill="#ef4444"/>
     <text x="440" y="188" text-anchor="end" font-size="11" font-weight="bold" fill="#ef4444">$2.4K</text>
-
     <!-- X axis labels -->
     <text x="0" y="260" text-anchor="middle" font-size="10" fill="currentColor">Mo 1</text>
     <text x="80" y="260" text-anchor="middle" font-size="10" fill="currentColor">Mo 3</text>
@@ -197,14 +182,12 @@ When we [audit HVAC websites](/blog/hvac-website-not-getting-calls/) that use ch
     <text x="320" y="260" text-anchor="middle" font-size="10" fill="currentColor">Mo 9</text>
     <text x="440" y="260" text-anchor="middle" font-size="10" fill="currentColor">Mo 12</text>
   </g>
-
   <g transform="translate(100, 348)">
     <line x1="0" y1="6" x2="20" y2="6" stroke="#22c55e" stroke-width="2.5"/>
     <text x="26" y="10" font-size="11" fill="currentColor">Cumulative revenue</text>
     <line x1="180" y1="6" x2="200" y2="6" stroke="#ef4444" stroke-width="2" stroke-dasharray="6,4"/>
     <text x="206" y="10" font-size="11" fill="currentColor">Cumulative cost</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Drift, Intercom, ServiceTitan partner data, hvacaudit.co estimates (2024–2026)</text>
 </svg>
 </figure>

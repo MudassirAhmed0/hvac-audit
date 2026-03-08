@@ -51,14 +51,12 @@ Meanwhile, the contractor's website might say "emergency service available" some
   <title>Daytime vs. After-Hours Call Economics</title>
   <desc>Grouped bar chart comparing daytime and after-hours HVAC calls across three metrics: close rate (35-45% vs 70-85%), average ticket ($300-600 vs $600-1200), and price sensitivity (high vs low)</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Why After-Hours Calls Are Worth 3x</text>
-
   <g transform="translate(130, 55)">
     <rect x="0" y="0" width="12" height="12" rx="2" fill="#475569"/>
     <text x="18" y="11" font-size="11" fill="currentColor">Daytime</text>
     <rect x="100" y="0" width="12" height="12" rx="2" fill="#22c55e"/>
     <text x="118" y="11" font-size="11" fill="currentColor">After-hours</text>
   </g>
-
   <g transform="translate(40, 85)">
     <text x="90" y="40" text-anchor="middle" font-size="12" fill="currentColor">Close rate</text>
     <rect x="30" y="90" width="50" height="108" rx="5" fill="#475569"/>
@@ -66,7 +64,6 @@ Meanwhile, the contractor's website might say "emergency service available" some
     <rect x="90" y="48" width="50" height="150" rx="5" fill="#22c55e"/>
     <text x="115" y="43" text-anchor="middle" font-size="12" font-weight="bold" fill="currentColor">78%</text>
   </g>
-
   <g transform="translate(210, 85)">
     <text x="90" y="40" text-anchor="middle" font-size="12" fill="currentColor">Avg ticket</text>
     <rect x="30" y="108" width="50" height="90" rx="5" fill="#475569"/>
@@ -74,7 +71,6 @@ Meanwhile, the contractor's website might say "emergency service available" some
     <rect x="90" y="48" width="50" height="150" rx="5" fill="#22c55e"/>
     <text x="115" y="43" text-anchor="middle" font-size="12" font-weight="bold" fill="currentColor">$900</text>
   </g>
-
   <g transform="translate(380, 85)">
     <text x="90" y="40" text-anchor="middle" font-size="12" fill="currentColor">Price resistance</text>
     <rect x="30" y="68" width="50" height="130" rx="5" fill="#475569"/>
@@ -82,7 +78,6 @@ Meanwhile, the contractor's website might say "emergency service available" some
     <rect x="90" y="148" width="50" height="50" rx="5" fill="#22c55e"/>
     <text x="115" y="143" text-anchor="middle" font-size="12" font-weight="bold" fill="currentColor">Low</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: ServiceTitan, ACHR News, FIELDBOSS (2024–2026)</text>
 </svg>
 </figure>

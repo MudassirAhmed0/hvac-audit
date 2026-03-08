@@ -51,24 +51,19 @@ This is why [busy doesn't mean profitable](/blog/hvac-busy-but-broke/). A compan
   <desc>Line chart showing monthly HVAC revenue peaking at $182K in July and dropping to $47K in January, while fixed costs remain flat at $38K per month. The gap between revenue and costs narrows dangerously in winter months.</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">The Cash Flow Rollercoaster</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Monthly revenue vs. fixed costs (typical $1.2M HVAC company)</text>
-
   <g transform="translate(55, 60)">
     <line x1="0" y1="260" x2="460" y2="260" stroke="currentColor" stroke-opacity="0.15"/>
     <line x1="0" y1="195" x2="460" y2="195" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="130" x2="460" y2="130" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="65" x2="460" y2="65" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="0" x2="460" y2="0" stroke="currentColor" stroke-opacity="0.08"/>
-
     <text x="-8" y="264" text-anchor="end" font-size="9" fill="currentColor" opacity="0.4">$0</text>
     <text x="-8" y="199" text-anchor="end" font-size="9" fill="currentColor" opacity="0.4">$50K</text>
     <text x="-8" y="134" text-anchor="end" font-size="9" fill="currentColor" opacity="0.4">$100K</text>
     <text x="-8" y="69" text-anchor="end" font-size="9" fill="currentColor" opacity="0.4">$150K</text>
     <text x="-8" y="4" text-anchor="end" font-size="9" fill="currentColor" opacity="0.4">$200K</text>
-
     <polyline points="0,195 38,175 77,130 115,55 153,25 192,20 230,40 268,100 307,175 345,220 383,210 422,180" fill="none" stroke="#0ea5e9" stroke-width="3"/>
-
     <line x1="0" y1="161" x2="460" y2="161" stroke="#ef4444" stroke-width="2" stroke-dasharray="6 4"/>
-
     <text x="20" y="278" font-size="9" fill="currentColor" opacity="0.4">Jan</text>
     <text x="58" y="278" font-size="9" fill="currentColor" opacity="0.4">Feb</text>
     <text x="97" y="278" font-size="9" fill="currentColor" opacity="0.4">Mar</text>
@@ -82,14 +77,12 @@ This is why [busy doesn't mean profitable](/blog/hvac-busy-but-broke/). A compan
     <text x="403" y="278" font-size="9" fill="currentColor" opacity="0.4">Nov</text>
     <text x="441" y="278" font-size="9" fill="currentColor" opacity="0.4">Dec</text>
   </g>
-
   <g transform="translate(170, 340)">
     <line x1="0" y1="5" x2="20" y2="5" stroke="#0ea5e9" stroke-width="3"/>
     <text x="26" y="9" font-size="10" fill="currentColor">Revenue</text>
     <line x1="100" y1="5" x2="120" y2="5" stroke="#ef4444" stroke-width="2" stroke-dasharray="6 4"/>
     <text x="126" y="9" font-size="10" fill="currentColor">Fixed costs ($38K/mo)</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: ServiceTitan, C-Suite Support, ACCA (2025–2026)</text>
 </svg>
 </figure>
@@ -130,25 +123,20 @@ The fix is operational, not financial: shorten payment terms, require deposits o
   <desc>Horizontal bar chart showing four strategies to fix HVAC cash flow, ranked by annual impact: raise prices adds $60-90K, maintenance agreements add $60K recurring, tracking marketing saves $18K, and shorter payment terms recovers $20-30K faster</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Four Fixes That Break the Cash Flow Cycle</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Estimated annual impact on a $600K HVAC company</text>
-
   <g transform="translate(20, 70)">
     <text x="145" y="28" text-anchor="end" font-size="12" fill="currentColor">Raise prices 10–15%</text>
     <rect x="155" y="10" width="300" height="32" rx="5" fill="#22c55e"/>
     <text x="465" y="32" font-size="13" font-weight="bold" fill="currentColor">+$60–90K</text>
-
     <text x="145" y="88" text-anchor="end" font-size="12" fill="currentColor">Maintenance agreements</text>
     <rect x="155" y="70" width="250" height="32" rx="5" fill="#0ea5e9"/>
     <text x="415" y="92" font-size="13" font-weight="bold" fill="currentColor">+$60K recurring</text>
-
     <text x="145" y="148" text-anchor="end" font-size="12" fill="currentColor">Shorter payment terms</text>
     <rect x="155" y="130" width="130" height="32" rx="5" fill="#eab308"/>
     <text x="295" y="152" font-size="13" font-weight="bold" fill="currentColor">+$20–30K faster</text>
-
     <text x="145" y="208" text-anchor="end" font-size="12" fill="currentColor">Track marketing ROI</text>
     <rect x="155" y="190" width="100" height="32" rx="5" fill="#ef4444"/>
     <text x="265" y="212" font-size="13" font-weight="bold" fill="currentColor">-$18K waste</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: ACCA, ServiceTitan, HVAC Know It All (2025–2026)</text>
 </svg>
 </figure>

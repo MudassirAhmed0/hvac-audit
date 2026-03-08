@@ -47,32 +47,25 @@ Three forces drove HVAC customer acquisition costs up 70% in under a year.
   <title>HVAC Customer Acquisition Cost: The 70% Spike</title>
   <desc>Area chart showing HVAC customer acquisition cost rising from $242 in June 2022 to $412 by April 2023</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Customer Acquisition Cost: 70% Spike in 10 Months</text>
-
   <g transform="translate(60, 60)">
     <line x1="0" y1="230" x2="420" y2="230" stroke="currentColor" stroke-opacity="0.15"/>
     <line x1="0" y1="172" x2="420" y2="172" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="115" x2="420" y2="115" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="57" x2="420" y2="57" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="0" x2="420" y2="0" stroke="currentColor" stroke-opacity="0.08"/>
-
     <text x="-8" y="234" text-anchor="end" font-size="9" fill="currentColor" opacity="0.4">$0</text>
     <text x="-8" y="176" text-anchor="end" font-size="9" fill="currentColor" opacity="0.4">$150</text>
     <text x="-8" y="119" text-anchor="end" font-size="9" fill="currentColor" opacity="0.4">$300</text>
     <text x="-8" y="61" text-anchor="end" font-size="9" fill="currentColor" opacity="0.4">$450</text>
-
     <path d="M0,137 L38,130 L77,122 L115,110 L153,95 L192,82 L230,72 L268,65 L307,58 L345,52 L383,47 L420,42 L420,230 L0,230 Z" fill="#ef4444" fill-opacity="0.15"/>
     <polyline points="0,137 38,130 77,122 115,110 153,95 192,82 230,72 268,65 307,58 345,52 383,47 420,42" fill="none" stroke="#ef4444" stroke-width="3"/>
-
     <circle cx="0" cy="137" r="5" fill="#ef4444"/>
     <text x="0" y="155" text-anchor="middle" font-size="11" font-weight="bold" fill="#ef4444">$242</text>
-
     <circle cx="420" cy="42" r="5" fill="#ef4444"/>
     <text x="420" y="35" text-anchor="middle" font-size="11" font-weight="bold" fill="#ef4444">$412</text>
-
     <text x="50" y="250" font-size="9" fill="currentColor" opacity="0.4">Jun 2022</text>
     <text x="370" y="250" font-size="9" fill="currentColor" opacity="0.4">Apr 2023</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: JB Warranties, Phil Risher Marketing (2022–2023)</text>
 </svg>
 </figure>

@@ -51,37 +51,29 @@ When we audit HVAC websites, the same problems appear on almost every site. Thes
   <desc>Horizontal bar chart showing seven website problems ranked by conversion impact: no pricing loses 70% of visitors, slow load loses 53%, no reviews check loses 93% validation, no click-to-call loses 35% mobile, no emergency messaging loses after-hours leads, generic pages convert near zero, complex forms lose 60%+ of submissions</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">7 Conversion Killers on HVAC Websites</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">% of visitors or conversions lost to each problem</text>
-
   <g transform="translate(20, 65)">
     <text x="130" y="18" text-anchor="end" font-size="11" fill="currentColor">No pricing shown</text>
     <rect x="140" y="4" width="280" height="22" rx="4" fill="#ef4444"/>
     <text x="430" y="20" font-size="11" font-weight="bold" fill="currentColor">70% skip</text>
-
     <text x="130" y="50" text-anchor="end" font-size="11" fill="currentColor">Slow load (3s+)</text>
     <rect x="140" y="36" width="212" height="22" rx="4" fill="#ef4444"/>
     <text x="362" y="52" font-size="11" font-weight="bold" fill="currentColor">53% leave</text>
-
     <text x="130" y="82" text-anchor="end" font-size="11" fill="currentColor">No reviews on site</text>
     <rect x="140" y="68" width="186" height="22" rx="4" fill="#eab308"/>
     <text x="336" y="84" font-size="11" font-weight="bold" fill="currentColor">93% check elsewhere</text>
-
     <text x="130" y="114" text-anchor="end" font-size="11" fill="currentColor">No click-to-call</text>
     <rect x="140" y="100" width="140" height="22" rx="4" fill="#eab308"/>
     <text x="290" y="116" font-size="11" font-weight="bold" fill="currentColor">35% mobile loss</text>
-
     <text x="130" y="146" text-anchor="end" font-size="11" fill="currentColor">No after-hours msg</text>
     <rect x="140" y="132" width="120" height="22" rx="4" fill="#eab308"/>
     <text x="270" y="148" font-size="11" font-weight="bold" fill="currentColor">78% of sites miss this</text>
-
     <text x="130" y="178" text-anchor="end" font-size="11" fill="currentColor">Generic pages</text>
     <rect x="140" y="164" width="100" height="22" rx="4" fill="#475569"/>
     <text x="250" y="180" font-size="11" font-weight="bold" fill="currentColor">near-zero conversion</text>
-
     <text x="130" y="210" text-anchor="end" font-size="11" fill="currentColor">Complex forms (7+ fields)</text>
     <rect x="140" y="196" width="160" height="22" rx="4" fill="#475569"/>
     <text x="310" y="212" font-size="11" font-weight="bold" fill="currentColor">60%+ abandonment</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: ACHR News, ServiceTitan, Invesp, hvacaudit.co 147-site study (2025–2026)</text>
 </svg>
 </figure>
@@ -127,37 +119,30 @@ The [average HVAC site costs its owner $4,200/month in missed leads.](/blog/hvac
   <desc>Line chart showing how revenue increases with conversion rate: at 2% conversion, 600 monthly visitors produce $6K; at 15%, the same traffic produces $45K</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Same 600 Visitors, Different Revenue</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Monthly revenue at $500 avg ticket by conversion rate</text>
-
   <g transform="translate(70, 65)">
     <line x1="0" y1="230" x2="400" y2="230" stroke="currentColor" stroke-opacity="0.15"/>
     <line x1="0" y1="172" x2="400" y2="172" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="115" x2="400" y2="115" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="57" x2="400" y2="57" stroke="currentColor" stroke-opacity="0.08"/>
-
     <text x="-8" y="234" text-anchor="end" font-size="9" fill="currentColor" opacity="0.4">$0</text>
     <text x="-8" y="176" text-anchor="end" font-size="9" fill="currentColor" opacity="0.4">$15K</text>
     <text x="-8" y="119" text-anchor="end" font-size="9" fill="currentColor" opacity="0.4">$30K</text>
     <text x="-8" y="61" text-anchor="end" font-size="9" fill="currentColor" opacity="0.4">$45K</text>
-
     <polyline points="0,199 100,172 200,115 300,57 400,0" fill="none" stroke="#22c55e" stroke-width="3"/>
     <circle cx="0" cy="199" r="5" fill="#ef4444"/>
     <circle cx="100" cy="172" r="5" fill="#eab308"/>
     <circle cx="200" cy="115" r="5" fill="#0ea5e9"/>
     <circle cx="400" cy="0" r="5" fill="#22c55e"/>
-
     <text x="0" y="218" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">2%</text>
     <text x="100" y="168" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">5%</text>
     <text x="200" y="111" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">10%</text>
     <text x="400" y="20" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">15%</text>
-
     <text x="10" y="196" font-size="10" fill="#ef4444">$6K</text>
     <text x="110" y="169" font-size="10" fill="#eab308">$15K</text>
     <text x="210" y="112" font-size="10" fill="#0ea5e9">$30K</text>
     <text x="405" y="16" font-size="10" fill="#22c55e">$45K</text>
-
     <text x="200" y="250" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.4">Conversion rate</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Invesp, ServMark DMA (2025)</text>
 </svg>
 </figure>

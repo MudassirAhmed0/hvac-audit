@@ -65,46 +65,39 @@ This applies to every service. Emergency repair, system installation, maintenanc
   <title>The Trust Signal Gap</title>
   <desc>Grouped bar chart comparing what percentage of homeowners want each trust signal versus what percentage of HVAC websites actually provide it, showing large gaps across all five categories</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">What Homeowners Want vs. What HVAC Sites Provide</text>
-
   <g transform="translate(140, 52)">
     <rect x="0" y="0" width="12" height="12" rx="2" fill="#0ea5e9"/>
     <text x="18" y="11" font-size="11" fill="currentColor">Homeowners want</text>
     <rect x="140" y="0" width="12" height="12" rx="2" fill="#ef4444"/>
     <text x="158" y="11" font-size="11" fill="currentColor">HVAC sites provide</text>
   </g>
-
   <g transform="translate(20, 80)">
     <text x="105" y="26" text-anchor="end" font-size="12" fill="currentColor">Pricing</text>
     <rect x="115" y="8" width="252" height="16" rx="4" fill="#0ea5e9"/>
     <text x="372" y="22" font-size="11" fill="currentColor">70%</text>
     <rect x="115" y="28" width="112" height="16" rx="4" fill="#ef4444"/>
     <text x="232" y="42" font-size="11" fill="currentColor">31%</text>
-
     <text x="105" y="80" text-anchor="end" font-size="12" fill="currentColor">Reviews on site</text>
     <rect x="115" y="62" width="328" height="16" rx="4" fill="#0ea5e9"/>
     <text x="448" y="76" font-size="11" fill="currentColor">91%</text>
     <rect x="115" y="82" width="144" height="16" rx="4" fill="#ef4444"/>
     <text x="264" y="96" font-size="11" fill="currentColor">40%</text>
-
     <text x="105" y="134" text-anchor="end" font-size="12" fill="currentColor">Response time</text>
     <rect x="115" y="116" width="266" height="16" rx="4" fill="#0ea5e9"/>
     <text x="386" y="130" font-size="11" fill="currentColor">74%</text>
     <rect x="115" y="136" width="79" height="16" rx="4" fill="#ef4444"/>
     <text x="199" y="150" font-size="11" fill="currentColor">22%</text>
-
     <text x="105" y="188" text-anchor="end" font-size="12" fill="currentColor">Credentials</text>
     <rect x="115" y="170" width="302" height="16" rx="4" fill="#0ea5e9"/>
     <text x="422" y="184" font-size="11" fill="currentColor">84%</text>
     <rect x="115" y="190" width="162" height="16" rx="4" fill="#ef4444"/>
     <text x="282" y="204" font-size="11" fill="currentColor">45%</text>
-
     <text x="105" y="242" text-anchor="end" font-size="12" fill="currentColor">Scope of work</text>
     <rect x="115" y="224" width="227" height="16" rx="4" fill="#0ea5e9"/>
     <text x="347" y="238" font-size="11" fill="currentColor">63%</text>
     <rect x="115" y="244" width="65" height="16" rx="4" fill="#ef4444"/>
     <text x="185" y="258" font-size="11" fill="currentColor">18%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: ACHR News, ServiceDirect, Elevate Market Research, hvacaudit.co 147-site study (2025–2026)</text>
 </svg>
 </figure>
@@ -131,45 +124,38 @@ Real team photos on your website — not stock images — signal "these are actu
   <desc>Lollipop chart showing six homeowner priorities ranked by importance: reputation at 92%, warranty at 86%, pricing at 85%, credentials at 84%, response time at 74%, and personal safety at 68%</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">What Homeowners Prioritize Before Calling</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">% rating each factor "extremely" or "very" important</text>
-
   <g transform="translate(20, 70)">
     <text x="110" y="18" text-anchor="end" font-size="12" fill="currentColor">Reputation</text>
     <line x1="120" y1="14" x2="480" y2="14" stroke="currentColor" stroke-opacity="0.1" stroke-width="1"/>
     <line x1="120" y1="14" x2="456" y2="14" stroke="#22c55e" stroke-width="3"/>
     <circle cx="456" cy="14" r="6" fill="#22c55e"/>
     <text x="468" y="18" font-size="12" font-weight="bold" fill="currentColor">92%</text>
-
     <text x="110" y="68" text-anchor="end" font-size="12" fill="currentColor">Warranty</text>
     <line x1="120" y1="64" x2="480" y2="64" stroke="currentColor" stroke-opacity="0.1" stroke-width="1"/>
     <line x1="120" y1="64" x2="434" y2="64" stroke="#0ea5e9" stroke-width="3"/>
     <circle cx="434" cy="64" r="6" fill="#0ea5e9"/>
     <text x="446" y="68" font-size="12" font-weight="bold" fill="currentColor">86%</text>
-
     <text x="110" y="118" text-anchor="end" font-size="12" fill="currentColor">Pricing clarity</text>
     <line x1="120" y1="114" x2="480" y2="114" stroke="currentColor" stroke-opacity="0.1" stroke-width="1"/>
     <line x1="120" y1="114" x2="430" y2="114" stroke="#0ea5e9" stroke-width="3"/>
     <circle cx="430" cy="114" r="6" fill="#0ea5e9"/>
     <text x="442" y="118" font-size="12" font-weight="bold" fill="currentColor">85%</text>
-
     <text x="110" y="168" text-anchor="end" font-size="12" fill="currentColor">Credentials</text>
     <line x1="120" y1="164" x2="480" y2="164" stroke="currentColor" stroke-opacity="0.1" stroke-width="1"/>
     <line x1="120" y1="164" x2="426" y2="164" stroke="#0ea5e9" stroke-width="3"/>
     <circle cx="426" cy="164" r="6" fill="#0ea5e9"/>
     <text x="438" y="168" font-size="12" font-weight="bold" fill="currentColor">84%</text>
-
     <text x="110" y="218" text-anchor="end" font-size="12" fill="currentColor">Response time</text>
     <line x1="120" y1="214" x2="480" y2="214" stroke="currentColor" stroke-opacity="0.1" stroke-width="1"/>
     <line x1="120" y1="214" x2="390" y2="214" stroke="#eab308" stroke-width="3"/>
     <circle cx="390" cy="214" r="6" fill="#eab308"/>
     <text x="402" y="218" font-size="12" font-weight="bold" fill="currentColor">74%</text>
-
     <text x="110" y="268" text-anchor="end" font-size="12" fill="currentColor">Personal safety</text>
     <line x1="120" y1="264" x2="480" y2="264" stroke="currentColor" stroke-opacity="0.1" stroke-width="1"/>
     <line x1="120" y1="264" x2="368" y2="264" stroke="#ef4444" stroke-width="3"/>
     <circle cx="368" cy="264" r="6" fill="#ef4444"/>
     <text x="380" y="268" font-size="12" font-weight="bold" fill="currentColor">68%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: ACHR News, FIELDBOSS, ServiceDirect (2025–2026)</text>
 </svg>
 </figure>

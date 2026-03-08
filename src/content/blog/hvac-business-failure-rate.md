@@ -56,39 +56,30 @@ Most new contractors start with less than $20,000 in capital — enough for a do
   <desc>Horizontal bar chart comparing what an HVAC startup actually costs ($80-120K across vehicle, tools, insurance, marketing, and reserves) versus what most new contractors start with (under $20K)</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">What Starting an HVAC Business Actually Costs</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">vs. what most new contractors start with</text>
-
   <g transform="translate(20, 70)">
     <text x="110" y="24" text-anchor="end" font-size="11" fill="currentColor">Vehicle</text>
     <rect x="120" y="10" width="165" height="24" rx="4" fill="#0ea5e9"/>
     <text x="295" y="28" font-size="11" fill="currentColor">$35–55K</text>
-
     <text x="110" y="58" text-anchor="end" font-size="11" fill="currentColor">Tools & equipment</text>
     <rect x="120" y="44" width="75" height="24" rx="4" fill="#0ea5e9"/>
     <text x="205" y="62" font-size="11" fill="currentColor">$15–25K</text>
-
     <text x="110" y="92" text-anchor="end" font-size="11" fill="currentColor">Insurance & license</text>
     <rect x="120" y="78" width="45" height="24" rx="4" fill="#0ea5e9"/>
     <text x="175" y="96" font-size="11" fill="currentColor">$8–15K</text>
-
     <text x="110" y="126" text-anchor="end" font-size="11" fill="currentColor">Marketing (6 mo)</text>
     <rect x="120" y="112" width="90" height="24" rx="4" fill="#0ea5e9"/>
     <text x="220" y="130" font-size="11" fill="currentColor">$12–30K</text>
-
     <text x="110" y="160" text-anchor="end" font-size="11" fill="currentColor">Cash reserve (6 mo)</text>
     <rect x="120" y="146" width="60" height="24" rx="4" fill="#0ea5e9"/>
     <text x="190" y="164" font-size="11" fill="currentColor">$10–20K</text>
-
     <line x1="120" y1="190" x2="470" y2="190" stroke="currentColor" stroke-opacity="0.15"/>
-
     <text x="110" y="214" text-anchor="end" font-size="11" font-weight="bold" fill="currentColor">Total needed</text>
     <rect x="120" y="200" width="380" height="24" rx="4" fill="#475569"/>
     <text x="510" y="218" font-size="11" font-weight="bold" fill="currentColor">$80–145K</text>
-
     <text x="110" y="252" text-anchor="end" font-size="11" font-weight="bold" fill="#ef4444">Typical capital</text>
     <rect x="120" y="238" width="55" height="24" rx="4" fill="#ef4444"/>
     <text x="185" y="256" font-size="11" font-weight="bold" fill="#ef4444">< $20K</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: ACHR News, GoDuo, SBA (2025–2026)</text>
 </svg>
 </figure>
@@ -125,39 +116,33 @@ The businesses that fail in years 3–5 are usually the ones that grew too fast 
   <desc>Lollipop chart showing five failure patterns ranked by frequency: no business skills hits 70% of failures, undercapitalization 65%, no marketing 60%, first off-season 55%, and scaling losses 40%</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">The 5 Patterns That Kill HVAC Businesses</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">% of failures involving each pattern (patterns overlap)</text>
-
   <g transform="translate(20, 70)">
     <text x="135" y="24" text-anchor="end" font-size="11" fill="currentColor">No business skills</text>
     <line x1="145" y1="20" x2="470" y2="20" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="145" y1="20" x2="415" y2="20" stroke="#ef4444" stroke-width="3"/>
     <circle cx="415" cy="20" r="6" fill="#ef4444"/>
     <text x="430" y="24" font-size="12" font-weight="bold" fill="currentColor">70%</text>
-
     <text x="135" y="74" text-anchor="end" font-size="11" fill="currentColor">Undercapitalized</text>
     <line x1="145" y1="70" x2="470" y2="70" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="145" y1="70" x2="397" y2="70" stroke="#ef4444" stroke-width="3"/>
     <circle cx="397" cy="70" r="6" fill="#ef4444"/>
     <text x="412" y="74" font-size="12" font-weight="bold" fill="currentColor">65%</text>
-
     <text x="135" y="124" text-anchor="end" font-size="11" fill="currentColor">No marketing plan</text>
     <line x1="145" y1="120" x2="470" y2="120" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="145" y1="120" x2="378" y2="120" stroke="#eab308" stroke-width="3"/>
     <circle cx="378" cy="120" r="6" fill="#eab308"/>
     <text x="393" y="124" font-size="12" font-weight="bold" fill="currentColor">60%</text>
-
     <text x="135" y="174" text-anchor="end" font-size="11" fill="currentColor">First off-season</text>
     <line x1="145" y1="170" x2="470" y2="170" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="145" y1="170" x2="359" y2="170" stroke="#eab308" stroke-width="3"/>
     <circle cx="359" cy="170" r="6" fill="#eab308"/>
     <text x="374" y="174" font-size="12" font-weight="bold" fill="currentColor">55%</text>
-
     <text x="135" y="224" text-anchor="end" font-size="11" fill="currentColor">Scaling losses</text>
     <line x1="145" y1="220" x2="470" y2="220" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="145" y1="220" x2="320" y2="220" stroke="#0ea5e9" stroke-width="3"/>
     <circle cx="320" cy="220" r="6" fill="#0ea5e9"/>
     <text x="335" y="224" font-size="12" font-weight="bold" fill="currentColor">40%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: ACHR News, GoDuo, SBA Small Business Survival Rates (2025)</text>
 </svg>
 </figure>

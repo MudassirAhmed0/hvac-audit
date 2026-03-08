@@ -48,35 +48,27 @@ Here's how PE rollups work in HVAC:
   <desc>Vertical bar chart showing PE's growing dominance in HVAC acquisitions, from 28% in 2022 to 50.6% in H1 2025</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">PE Share of HVAC M&A Deals</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">% of all HVAC business acquisitions involving PE firms</text>
-
   <line x1="80" y1="280" x2="500" y2="280" stroke="currentColor" opacity="0.15"/>
   <line x1="80" y1="220" x2="500" y2="220" stroke="currentColor" opacity="0.08"/>
   <line x1="80" y1="160" x2="500" y2="160" stroke="currentColor" opacity="0.08"/>
   <line x1="80" y1="100" x2="500" y2="100" stroke="currentColor" opacity="0.08"/>
-
   <text x="75" y="284" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">0%</text>
   <text x="75" y="224" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">20%</text>
   <text x="75" y="164" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">40%</text>
   <text x="75" y="104" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">60%</text>
-
   <rect x="120" y="196" width="70" height="84" rx="4" fill="#475569"/>
   <text x="155" y="188" text-anchor="middle" font-size="14" font-weight="bold" fill="currentColor">28%</text>
   <text x="155" y="300" text-anchor="middle" font-size="11" fill="currentColor">2022</text>
-
   <rect x="230" y="168" width="70" height="112" rx="4" fill="#eab308"/>
   <text x="265" y="160" text-anchor="middle" font-size="14" font-weight="bold" fill="currentColor">37%</text>
   <text x="265" y="300" text-anchor="middle" font-size="11" fill="currentColor">2023</text>
-
   <rect x="340" y="148" width="70" height="132" rx="4" fill="#0ea5e9"/>
   <text x="375" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="currentColor">44%</text>
   <text x="375" y="300" text-anchor="middle" font-size="11" fill="currentColor">2024</text>
-
   <rect x="450" y="128" width="70" height="152" rx="4" fill="#ef4444"/>
   <text x="485" y="118" text-anchor="middle" font-size="14" font-weight="bold" fill="currentColor">50.6%</text>
   <text x="485" y="300" text-anchor="middle" font-size="11" fill="currentColor">H1 2025</text>
-
   <text x="280" y="345" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7">88% YoY increase in PE deal volume from H1 2024 to H1 2025</text>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: FOCUS Investment Banking, HVAC Industry Report (2025)</text>
 </svg>
 </figure>
@@ -137,46 +129,32 @@ Independent HVAC companies that survive (and beat) PE-backed competitors share s
   <desc>Side-by-side comparison showing PE-backed companies outspend independents on marketing and generate more reviews, but independents have higher customer retention</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">PE-Backed vs Independent HVAC Companies</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Key competitive metrics comparison</text>
-
   <text x="300" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#ef4444">PE-Backed</text>
   <text x="460" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#22c55e">Independent</text>
-
   <line x1="40" y1="88" x2="530" y2="88" stroke="currentColor" opacity="0.1"/>
-
   <text x="140" y="112" text-anchor="end" font-size="11" fill="currentColor">Marketing budget</text>
   <text x="300" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">$800K–$2M</text>
   <text x="460" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">$48K–$72K</text>
-
   <line x1="40" y1="126" x2="530" y2="126" stroke="currentColor" opacity="0.06"/>
-
   <text x="140" y="152" text-anchor="end" font-size="11" fill="currentColor">Reviews/month</text>
   <text x="300" y="152" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">30–50</text>
   <text x="460" y="152" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">5–10</text>
-
   <line x1="40" y1="166" x2="530" y2="166" stroke="currentColor" opacity="0.06"/>
-
   <text x="140" y="192" text-anchor="end" font-size="11" fill="currentColor">Call answer rate</text>
   <text x="300" y="192" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">98%</text>
   <text x="460" y="192" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">62%</text>
-
   <line x1="40" y1="206" x2="530" y2="206" stroke="currentColor" opacity="0.06"/>
-
   <text x="140" y="232" text-anchor="end" font-size="11" fill="currentColor">Equipment cost</text>
   <text x="300" y="232" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">8–15% less</text>
   <text x="460" y="232" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">List price</text>
-
   <line x1="40" y1="246" x2="530" y2="246" stroke="currentColor" opacity="0.06"/>
-
   <text x="140" y="272" text-anchor="end" font-size="11" fill="currentColor">Customer retention</text>
   <text x="300" y="272" text-anchor="middle" font-size="13" font-weight="bold" fill="#eab308">68%</text>
   <text x="460" y="272" text-anchor="middle" font-size="13" font-weight="bold" fill="#22c55e">81%</text>
-
   <line x1="40" y1="286" x2="530" y2="286" stroke="currentColor" opacity="0.06"/>
-
   <text x="140" y="312" text-anchor="end" font-size="11" fill="currentColor">Avg ticket size</text>
   <text x="300" y="312" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">$487</text>
   <text x="460" y="312" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">$412</text>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: FOCUS, ServiceTitan Benchmark Report, ACCA (2025)</text>
 </svg>
 </figure>

@@ -94,7 +94,6 @@ Body text below 16px on mobile is unreadable without zooming. **41% of HVAC site
   <desc>Donut chart showing that 86% of HVAC websites score below 50, with 42% scoring below 25 out of 100</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Score Distribution Across 147 HVAC Sites</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Average score: 34/100</text>
-
   <g transform="translate(200, 200)">
     <circle cx="0" cy="0" r="110" fill="none" stroke="#22c55e" stroke-width="38"
             stroke-dasharray="20.7 670.4" stroke-dashoffset="0" transform="rotate(-90)"/>
@@ -107,7 +106,6 @@ Body text below 16px on mobile is unreadable without zooming. **41% of HVAC site
     <text x="0" y="-4" text-anchor="middle" font-size="28" font-weight="900" fill="currentColor">34</text>
     <text x="0" y="18" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">avg score</text>
   </g>
-
   <g transform="translate(370, 120)">
     <rect x="0" y="0" width="10" height="10" rx="2" fill="#22c55e"/>
     <text x="16" y="10" font-size="11" fill="currentColor">80+ — 3%</text>
@@ -118,7 +116,6 @@ Body text below 16px on mobile is unreadable without zooming. **41% of HVAC site
     <rect x="0" y="72" width="10" height="10" rx="2" fill="#ef4444"/>
     <text x="16" y="82" font-size="11" fill="currentColor">Below 25 — 42%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC website audit data, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>
@@ -229,63 +226,47 @@ This category carries the lowest weight because it's relative, not absolute. But
   <desc>Horizontal stacked bar showing how the 100-point score is distributed across 8 categories, with bars indicating what percentage of sites fail each category</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">How the 100-Point Score Is Distributed</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Category weights in the HVAC website audit</text>
-
   <g transform="translate(40, 70)">
     <rect x="0" y="0" width="96" height="45" rx="4" fill="#ef4444"/>
     <text x="48" y="28" text-anchor="middle" font-size="10" font-weight="bold" fill="white">Speed 20%</text>
-
     <rect x="96" y="0" width="72" height="45" rx="4" fill="#eab308"/>
     <text x="132" y="28" text-anchor="middle" font-size="10" font-weight="bold" fill="white">Mobile 15%</text>
-
     <rect x="168" y="0" width="72" height="45" rx="4" fill="#22c55e"/>
     <text x="204" y="28" text-anchor="middle" font-size="10" font-weight="bold" fill="white">SEO 15%</text>
-
     <rect x="240" y="0" width="72" height="45" rx="4" fill="#0ea5e9"/>
     <text x="276" y="28" text-anchor="middle" font-size="10" font-weight="bold" fill="white">CTA 15%</text>
-
     <rect x="312" y="0" width="48" height="45" rx="4" fill="#a855f7"/>
     <text x="336" y="28" text-anchor="middle" font-size="10" font-weight="bold" fill="white">SSL 10%</text>
-
     <rect x="360" y="0" width="48" height="45" rx="4" fill="#f97316"/>
     <text x="384" y="22" text-anchor="middle" font-size="9" font-weight="bold" fill="white">Reviews</text>
     <text x="384" y="34" text-anchor="middle" font-size="9" font-weight="bold" fill="white">10%</text>
-
     <rect x="408" y="0" width="48" height="45" rx="4" fill="#475569"/>
     <text x="432" y="22" text-anchor="middle" font-size="9" font-weight="bold" fill="white">Contact</text>
     <text x="432" y="34" text-anchor="middle" font-size="9" font-weight="bold" fill="white">10%</text>
-
     <rect x="456" y="0" width="24" height="45" rx="4" fill="#334155"/>
     <text x="468" y="28" text-anchor="middle" font-size="8" font-weight="bold" fill="white">5%</text>
   </g>
-
   <g transform="translate(40, 145)">
     <text x="0" y="0" font-size="12" font-weight="bold" fill="currentColor">Where most HVAC sites lose points:</text>
-
     <text x="0" y="30" font-size="11" fill="currentColor">Page Speed — 89% fail (avg load 18.4s vs 3s target)</text>
     <rect x="340" y="18" width="140" height="14" rx="3" fill="currentColor" opacity="0.06"/>
     <rect x="340" y="18" width="125" height="14" rx="3" fill="#ef4444" opacity="0.4"/>
-
     <text x="0" y="54" font-size="11" fill="currentColor">CTA Clarity — 74% have hidden or missing phone/form</text>
     <rect x="340" y="42" width="140" height="14" rx="3" fill="currentColor" opacity="0.06"/>
     <rect x="340" y="42" width="104" height="14" rx="3" fill="#0ea5e9" opacity="0.4"/>
-
     <text x="0" y="78" font-size="11" fill="currentColor">Mobile Experience — 68% have at least one issue</text>
     <rect x="340" y="66" width="140" height="14" rx="3" fill="currentColor" opacity="0.06"/>
     <rect x="340" y="66" width="95" height="14" rx="3" fill="#eab308" opacity="0.4"/>
-
     <text x="0" y="102" font-size="11" fill="currentColor">Review Integration — 64% show zero reviews on site</text>
     <rect x="340" y="90" width="140" height="14" rx="3" fill="currentColor" opacity="0.06"/>
     <rect x="340" y="90" width="90" height="14" rx="3" fill="#f97316" opacity="0.4"/>
-
     <text x="0" y="126" font-size="11" fill="currentColor">SEO Health — 58% have title tag or heading issues</text>
     <rect x="340" y="114" width="140" height="14" rx="3" fill="currentColor" opacity="0.06"/>
     <rect x="340" y="114" width="81" height="14" rx="3" fill="#22c55e" opacity="0.4"/>
-
     <text x="0" y="150" font-size="11" fill="currentColor">Contact Accessibility — 33% hide phone in footer only</text>
     <rect x="340" y="138" width="140" height="14" rx="3" fill="currentColor" opacity="0.06"/>
     <rect x="340" y="138" width="46" height="14" rx="3" fill="#475569" opacity="0.4"/>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC website audit methodology, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>

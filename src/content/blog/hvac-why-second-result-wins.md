@@ -85,11 +85,9 @@ This is exactly [how homeowners actually choose](/blog/hvac-how-homeowners-choos
     <text x="180" y="18" text-anchor="end" font-size="13" fill="currentColor">Workmanship quality</text>
     <rect x="190" y="4" width="340" height="32" rx="5" fill="#ef4444"/>
     <text x="538" y="25" font-size="14" font-weight="bold" fill="currentColor">82%</text>
-
     <text x="180" y="78" text-anchor="end" font-size="13" fill="currentColor">Pricing transparency</text>
     <rect x="190" y="64" width="319" height="32" rx="5" fill="#eab308"/>
     <text x="517" y="85" font-size="14" font-weight="bold" fill="currentColor">77%</text>
-
     <text x="180" y="138" text-anchor="end" font-size="13" fill="currentColor">Personal safety</text>
     <rect x="190" y="124" width="282" height="32" rx="5" fill="#0ea5e9"/>
     <text x="480" y="145" font-size="14" font-weight="bold" fill="currentColor">68%</text>

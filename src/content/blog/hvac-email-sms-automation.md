@@ -52,63 +52,44 @@ A contractor with 2,000 past customers sitting in their CRM has a 2,000-person e
   <desc>Three-column comparison showing email, SMS, and phone follow-up effectiveness for HVAC contractors</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Follow-Up Channel Performance</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">How each channel performs for HVAC lead follow-up</text>
-
   <g transform="translate(20, 65)">
     <!-- Email column -->
     <rect x="0" y="0" width="160" height="270" rx="8" fill="#0ea5e9" fill-opacity="0.08" stroke="#0ea5e9" stroke-opacity="0.2"/>
     <text x="80" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0ea5e9">Email</text>
-
     <text x="80" y="60" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">ROI per $1 spent</text>
     <text x="80" y="82" text-anchor="middle" font-size="28" font-weight="900" fill="#0ea5e9">$36</text>
-
     <text x="80" y="110" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Open rate</text>
     <text x="80" y="130" text-anchor="middle" font-size="22" font-weight="bold" fill="currentColor">25–35%</text>
-
     <text x="80" y="158" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Click rate</text>
     <text x="80" y="178" text-anchor="middle" font-size="22" font-weight="bold" fill="currentColor">3–5%</text>
-
     <text x="80" y="206" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Cost per message</text>
     <text x="80" y="226" text-anchor="middle" font-size="22" font-weight="bold" fill="currentColor">$0.001</text>
-
     <text x="80" y="256" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Best for: Nurture + repeat</text>
-
     <!-- SMS column -->
     <rect x="180" y="0" width="160" height="270" rx="8" fill="#22c55e" fill-opacity="0.08" stroke="#22c55e" stroke-opacity="0.2"/>
     <text x="260" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#22c55e">SMS</text>
-
     <text x="260" y="60" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Open rate</text>
     <text x="260" y="82" text-anchor="middle" font-size="28" font-weight="900" fill="#22c55e">98%</text>
-
     <text x="260" y="110" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Response rate</text>
     <text x="260" y="130" text-anchor="middle" font-size="22" font-weight="bold" fill="currentColor">45%</text>
-
     <text x="260" y="158" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Avg read time</text>
     <text x="260" y="178" text-anchor="middle" font-size="22" font-weight="bold" fill="currentColor">3 min</text>
-
     <text x="260" y="206" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Cost per message</text>
     <text x="260" y="226" text-anchor="middle" font-size="22" font-weight="bold" fill="currentColor">$0.02</text>
-
     <text x="260" y="256" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Best for: Urgent follow-up</text>
-
     <!-- Phone column -->
     <rect x="360" y="0" width="160" height="270" rx="8" fill="#ef4444" fill-opacity="0.08" stroke="#ef4444" stroke-opacity="0.2"/>
     <text x="440" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#ef4444">Phone</text>
-
     <text x="440" y="60" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Connection rate</text>
     <text x="440" y="82" text-anchor="middle" font-size="28" font-weight="900" fill="#ef4444">8–12%</text>
-
     <text x="440" y="110" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Conversion rate</text>
     <text x="440" y="130" text-anchor="middle" font-size="22" font-weight="bold" fill="currentColor">25–35%</text>
-
     <text x="440" y="158" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Avg attempts</text>
     <text x="440" y="178" text-anchor="middle" font-size="22" font-weight="bold" fill="currentColor">3–5</text>
-
     <text x="440" y="206" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Cost per attempt</text>
     <text x="440" y="226" text-anchor="middle" font-size="22" font-weight="bold" fill="currentColor">$3–$5</text>
-
     <text x="440" y="256" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Best for: High-value leads</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Litmus, Gartner, SMS Comparison, ServiceTitan (2023–2025)</text>
 </svg>
 </figure>
@@ -183,44 +164,36 @@ The automation tools available range from free to $500/month. Here's what works 
   <desc>Waterfall chart showing how automated follow-ups recover revenue: 80 monthly leads, 46 don't book, 7-9 recovered through automation, generating $42K-54K annual revenue</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Revenue Recovery Through Automation</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">What a 3-truck company recovers with automated follow-ups</text>
-
   <g transform="translate(45, 75)">
     <!-- Grid lines -->
     <line x1="60" y1="220" x2="470" y2="220" stroke="currentColor" stroke-opacity="0.15"/>
     <line x1="60" y1="165" x2="470" y2="165" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="60" y1="110" x2="470" y2="110" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="60" y1="55" x2="470" y2="55" stroke="currentColor" stroke-opacity="0.08"/>
-
     <!-- Y-axis labels -->
     <text x="55" y="224" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">0</text>
     <text x="55" y="169" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">25</text>
     <text x="55" y="114" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">50</text>
     <text x="55" y="59" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">75</text>
-
     <!-- Total leads bar -->
     <rect x="75" y="48" width="75" height="172" rx="4" fill="#0ea5e9"/>
     <text x="112" y="40" text-anchor="middle" font-size="13" font-weight="bold" fill="#0ea5e9">80</text>
     <text x="112" y="240" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">Total leads</text>
-
     <!-- Booked on first call -->
     <rect x="175" y="90" width="75" height="130" rx="4" fill="#22c55e"/>
     <text x="212" y="82" text-anchor="middle" font-size="13" font-weight="bold" fill="#22c55e">34</text>
     <text x="212" y="240" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">Booked (42%)</text>
-
     <!-- Lost without follow-up -->
     <rect x="275" y="118" width="75" height="102" rx="4" fill="#ef4444"/>
     <text x="312" y="110" text-anchor="middle" font-size="13" font-weight="bold" fill="#ef4444">37–39</text>
     <text x="312" y="240" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">Still lost</text>
-
     <!-- Recovered by automation -->
     <rect x="375" y="190" width="75" height="30" rx="4" fill="#f97316"/>
     <text x="412" y="182" text-anchor="middle" font-size="13" font-weight="bold" fill="#f97316">7–9</text>
     <text x="412" y="240" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">Recovered</text>
-
     <!-- Arrow and annotation -->
     <text x="412" y="264" text-anchor="middle" font-size="11" font-weight="bold" fill="#f97316">= $42K–$54K/yr</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: ServiceTitan, Hatch App, hvacaudit.co analysis (2024–2025)</text>
 </svg>
 </figure>

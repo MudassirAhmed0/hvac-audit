@@ -62,31 +62,24 @@ The 50-scoring sites answer maybe one of these. The pricing is on an interior pa
   <desc>Horizontal bar chart showing five optimization areas with their point impact: speed improvement adds 12-15 points, above-fold trust adds 10-12, pricing transparency adds 8-10, review depth adds 6-8, and mobile UX adds 5-8 points</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">5 Fixes That Bridge the Gap</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Approximate point impact per fix (out of 100)</text>
-
   <g transform="translate(20, 70)">
     <text x="130" y="28" text-anchor="end" font-size="12" fill="currentColor">Speed (under 3s)</text>
     <rect x="140" y="10" width="250" height="32" rx="5" fill="#22c55e"/>
     <text x="400" y="32" font-size="13" font-weight="bold" fill="currentColor">+12–15 pts</text>
-
     <text x="130" y="78" text-anchor="end" font-size="12" fill="currentColor">Above-fold trust</text>
     <rect x="140" y="60" width="200" height="32" rx="5" fill="#0ea5e9"/>
     <text x="350" y="82" font-size="13" font-weight="bold" fill="currentColor">+10–12 pts</text>
-
     <text x="130" y="128" text-anchor="end" font-size="12" fill="currentColor">Pricing visible</text>
     <rect x="140" y="110" width="160" height="32" rx="5" fill="#eab308"/>
     <text x="310" y="132" font-size="13" font-weight="bold" fill="currentColor">+8–10 pts</text>
-
     <text x="130" y="178" text-anchor="end" font-size="12" fill="currentColor">Review depth</text>
     <rect x="140" y="160" width="130" height="32" rx="5" fill="#eab308"/>
     <text x="280" y="182" font-size="13" font-weight="bold" fill="currentColor">+6–8 pts</text>
-
     <text x="130" y="228" text-anchor="end" font-size="12" fill="currentColor">Mobile UX</text>
     <rect x="140" y="210" width="110" height="32" rx="5" fill="#0ea5e9"/>
     <text x="260" y="232" font-size="13" font-weight="bold" fill="currentColor">+5–8 pts</text>
   </g>
-
   <text x="305" y="290" text-anchor="middle" font-size="12" fill="currentColor" opacity="0.5">Combined potential: +41–53 points</text>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: hvacaudit.co 147-site study (2026)</text>
 </svg>
 </figure>
@@ -142,16 +135,12 @@ The mobile differences between 50 and 90:
   <desc>Area chart showing the distribution of 147 HVAC website scores, with heavy clustering between 20-40 and very few sites scoring above 70</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Where 147 HVAC Websites Actually Score</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Most sites cluster at 30-40 — the jump to 90 requires 5 specific fixes</text>
-
   <g transform="translate(55, 60)">
     <line x1="0" y1="240" x2="440" y2="240" stroke="currentColor" stroke-opacity="0.15"/>
-
     <path d="M0,240 L44,235 L88,200 L132,100 L176,80 L220,120 L264,190 L308,220 L352,232 L396,236 L440,238 L440,240 L0,240 Z" fill="#0ea5e9" fill-opacity="0.2"/>
     <polyline points="0,240 44,235 88,200 132,100 176,80 220,120 264,190 308,220 352,232 396,236 440,238" fill="none" stroke="#0ea5e9" stroke-width="3"/>
-
     <line x1="176" y1="60" x2="176" y2="240" stroke="#ef4444" stroke-width="1" stroke-dasharray="4 3"/>
     <text x="176" y="55" text-anchor="middle" font-size="10" fill="#ef4444">avg: 34</text>
-
     <text x="0" y="258" font-size="9" fill="currentColor" opacity="0.4">0</text>
     <text x="88" y="258" font-size="9" fill="currentColor" opacity="0.4">20</text>
     <text x="176" y="258" font-size="9" fill="currentColor" opacity="0.4">40</text>
@@ -159,7 +148,6 @@ The mobile differences between 50 and 90:
     <text x="352" y="258" font-size="9" fill="currentColor" opacity="0.4">80</text>
     <text x="440" y="258" font-size="9" fill="currentColor" opacity="0.4">100</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: hvacaudit.co 147-site study (2026)</text>
 </svg>
 </figure>

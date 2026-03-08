@@ -56,37 +56,29 @@ When we [looked at HVAC websites the way a homeowner would](/blog/hvac-audit-hom
   <desc>Horizontal bar chart showing emergency UX adoption: 24/7 badge 22%, after-hours phone 18%, sticky call button 19%, loads under 3s 14%, response time promise 11%, emergency pricing 8%, live chat after hours 6%</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Emergency UX Readiness (147 Sites Audited)</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">% of HVAC websites with each emergency element</text>
-
   <g transform="translate(20, 65)">
     <text x="170" y="18" text-anchor="end" font-size="11" fill="currentColor">"24/7" badge above fold</text>
     <rect x="180" y="4" width="132" height="22" rx="4" fill="#ef4444"/>
     <text x="320" y="20" font-size="11" font-weight="bold" fill="currentColor">22%</text>
-
     <text x="170" y="52" text-anchor="end" font-size="11" fill="currentColor">Sticky call button (mobile)</text>
     <rect x="180" y="38" width="114" height="22" rx="4" fill="#ef4444"/>
     <text x="302" y="54" font-size="11" font-weight="bold" fill="currentColor">19%</text>
-
     <text x="170" y="86" text-anchor="end" font-size="11" fill="currentColor">After-hours phone number</text>
     <rect x="180" y="72" width="108" height="22" rx="4" fill="#ef4444"/>
     <text x="296" y="88" font-size="11" font-weight="bold" fill="currentColor">18%</text>
-
     <text x="170" y="120" text-anchor="end" font-size="11" fill="currentColor">Loads under 3 seconds</text>
     <rect x="180" y="106" width="84" height="22" rx="4" fill="#eab308"/>
     <text x="272" y="122" font-size="11" font-weight="bold" fill="currentColor">14%</text>
-
     <text x="170" y="154" text-anchor="end" font-size="11" fill="currentColor">Response time promise</text>
     <rect x="180" y="140" width="66" height="22" rx="4" fill="#eab308"/>
     <text x="254" y="156" font-size="11" font-weight="bold" fill="currentColor">11%</text>
-
     <text x="170" y="188" text-anchor="end" font-size="11" fill="currentColor">Emergency pricing shown</text>
     <rect x="180" y="174" width="48" height="22" rx="4" fill="#475569"/>
     <text x="236" y="190" font-size="11" font-weight="bold" fill="currentColor">8%</text>
-
     <text x="170" y="222" text-anchor="end" font-size="11" fill="currentColor">After-hours chat / chatbot</text>
     <rect x="180" y="208" width="36" height="22" rx="4" fill="#475569"/>
     <text x="224" y="224" font-size="11" font-weight="bold" fill="currentColor">6%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: hvacaudit.co 147-site audit (2025–2026)</text>
 </svg>
 </figure>
@@ -195,7 +187,6 @@ Assume both companies get 30 emergency-intent website visits per month (homeowne
   <desc>Two donut charts comparing how 30 emergency visitors convert: Score 24 site captures 2 calls ($1,980/mo), Score 91 site captures 23 calls ($20,520/mo)</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Emergency Conversions: Low Score vs. High Score</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Same 30 emergency visitors per month, different outcomes</text>
-
   <!-- Site A donut (left) -->
   <g transform="translate(145, 185)">
     <text x="0" y="-115" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Score: 24/100</text>
@@ -208,7 +199,6 @@ Assume both companies get 30 emergency-intent website visits per month (homeowne
     <text x="0" y="12" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.6">calls</text>
     <text x="0" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#ef4444">$1,980/mo</text>
   </g>
-
   <!-- Site C donut (right) -->
   <g transform="translate(415, 185)">
     <text x="0" y="-115" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Score: 91/100</text>
@@ -221,9 +211,7 @@ Assume both companies get 30 emergency-intent website visits per month (homeowne
     <text x="0" y="12" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.6">calls</text>
     <text x="0" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#22c55e">$20,520/mo</text>
   </g>
-
   <text x="280" y="320" text-anchor="middle" font-size="12" fill="currentColor" opacity="0.5">30 emergency visitors/month — same market, same traffic</text>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: hvacaudit.co 147-site audit, modeled conversion data (2025–2026)</text>
 </svg>
 </figure>

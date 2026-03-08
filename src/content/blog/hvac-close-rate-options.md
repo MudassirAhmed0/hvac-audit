@@ -52,7 +52,6 @@ The key insight: each tier isn't just more expensive. Each tier solves a differe
   <desc>Grouped bar chart showing single-quote proposals close at 43% with 26% premium share, while four-option proposals close at 52% with 42% premium share</desc>
   <text x="280" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Single Quote vs. Four-Option Proposals</text>
   <text x="280" y="48" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">ACCA Contractor of the Future Study (1,000+ contractors)</text>
-
   <g transform="translate(80, 70)">
     <line x1="0" y1="250" x2="400" y2="250" stroke="currentColor" opacity="0.15"/>
     <line x1="0" y1="200" x2="400" y2="200" stroke="currentColor" opacity="0.08"/>
@@ -60,27 +59,20 @@ The key insight: each tier isn't just more expensive. Each tier solves a differe
     <line x1="0" y1="100" x2="400" y2="100" stroke="currentColor" opacity="0.08"/>
     <line x1="0" y1="50" x2="400" y2="50" stroke="currentColor" opacity="0.08"/>
     <line x1="0" y1="0" x2="400" y2="0" stroke="currentColor" opacity="0.08"/>
-
     <text x="-8" y="254" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">0%</text>
     <text x="-8" y="154" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">40%</text>
     <text x="-8" y="4" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">100%</text>
-
     <text x="100" y="275" text-anchor="middle" font-size="12" fill="currentColor">Close Rate</text>
     <text x="300" y="275" text-anchor="middle" font-size="12" fill="currentColor">Premium Share</text>
-
     <rect x="55" y="142.5" width="40" height="107.5" rx="4" fill="#475569"/>
     <text x="75" y="137" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">43%</text>
-
     <rect x="105" y="120" width="40" height="130" rx="4" fill="#0ea5e9"/>
     <text x="125" y="115" text-anchor="middle" font-size="13" font-weight="bold" fill="#0ea5e9">52%</text>
-
     <rect x="255" y="185" width="40" height="65" rx="4" fill="#475569"/>
     <text x="275" y="180" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">26%</text>
-
     <rect x="305" y="145" width="40" height="105" rx="4" fill="#22c55e"/>
     <text x="325" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#22c55e">42%</text>
   </g>
-
   <g transform="translate(140, 365)">
     <rect x="0" y="0" width="10" height="10" rx="2" fill="#475569"/>
     <text x="14" y="10" font-size="10" fill="currentColor">Single quote</text>
@@ -137,35 +129,29 @@ Even conservatively, if [equipment prices keep climbing](/blog/hvac-equipment-pr
   <desc>Comparison showing $1.35M revenue from single-quote approach versus $1.85M from four-option proposals, a $496K difference from the same number of leads</desc>
   <text x="280" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Annual Revenue: Same Leads, Different Presentation</text>
   <text x="280" y="48" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Based on 349 proposals/year, $9K avg base ticket</text>
-
   <g transform="translate(60, 80)">
     <line x1="0" y1="230" x2="440" y2="230" stroke="currentColor" opacity="0.15"/>
     <line x1="0" y1="172" x2="440" y2="172" stroke="currentColor" opacity="0.08"/>
     <line x1="0" y1="115" x2="440" y2="115" stroke="currentColor" opacity="0.08"/>
     <line x1="0" y1="57" x2="440" y2="57" stroke="currentColor" opacity="0.08"/>
     <line x1="0" y1="0" x2="440" y2="0" stroke="currentColor" opacity="0.08"/>
-
     <text x="-8" y="234" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">$0</text>
     <text x="-8" y="176" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">$500K</text>
     <text x="-8" y="119" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">$1.0M</text>
     <text x="-8" y="61" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">$1.5M</text>
     <text x="-8" y="4" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">$2.0M</text>
-
     <rect x="80" y="74" width="100" height="156" rx="6" fill="#475569"/>
     <text x="130" y="150" text-anchor="middle" font-size="18" font-weight="bold" fill="#f1f5f9">$1.35M</text>
     <text x="130" y="170" text-anchor="middle" font-size="11" fill="#f1f5f9" opacity="0.7">150 closes</text>
     <text x="130" y="250" text-anchor="middle" font-size="12" fill="currentColor">Single Quote</text>
-
     <rect x="260" y="17" width="100" height="213" rx="6" fill="#0ea5e9"/>
     <text x="310" y="120" text-anchor="middle" font-size="18" font-weight="bold" fill="#0b1220">$1.85M</text>
     <text x="310" y="140" text-anchor="middle" font-size="11" fill="#0b1220" opacity="0.7">181 closes</text>
     <text x="310" y="250" text-anchor="middle" font-size="12" fill="currentColor">Four Options</text>
-
     <line x1="180" y1="74" x2="260" y2="17" stroke="#22c55e" stroke-width="2" stroke-dasharray="6 4"/>
     <text x="220" y="35" text-anchor="middle" font-size="12" font-weight="bold" fill="#22c55e">+$496K</text>
     <text x="220" y="50" text-anchor="middle" font-size="10" fill="#22c55e" opacity="0.7">+37%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: ACCA data applied to typical mid-market HVAC operation</text>
 </svg>
 </figure>

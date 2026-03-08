@@ -46,22 +46,18 @@ This is the gap between an [acquisition-focused business](/blog/hvac-customer-ac
   <desc>Horizontal bar chart comparing three customer types: one-time customer at $285, maintenance agreement customer at $4,500 over 5 years, and full-lifecycle customer at $12,000+ including replacement and referrals</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">One Customer, Three Outcomes</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Lifetime value depends on whether you keep them</text>
-
   <g transform="translate(20, 75)">
     <text x="130" y="30" text-anchor="end" font-size="13" fill="currentColor">One-time repair</text>
     <rect x="140" y="12" width="32" height="36" rx="6" fill="#ef4444"/>
     <text x="182" y="36" font-size="15" font-weight="bold" fill="currentColor">$285</text>
-
     <text x="130" y="105" text-anchor="end" font-size="13" fill="currentColor">Maintenance customer</text>
     <rect x="140" y="87" width="180" height="36" rx="6" fill="#eab308"/>
     <text x="330" y="111" font-size="15" font-weight="bold" fill="currentColor">$4,500</text>
     <text x="395" y="111" font-size="11" fill="currentColor" opacity="0.5">over 5 years</text>
-
     <text x="130" y="180" text-anchor="end" font-size="13" fill="currentColor">Full lifecycle</text>
     <rect x="140" y="162" width="360" height="36" rx="6" fill="#22c55e"/>
     <text x="510" y="186" font-size="15" font-weight="900" fill="currentColor">$12K+</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Coach Ellie Marshall, ServiceTitan, ACCA (2025–2026)</text>
 </svg>
 </figure>
@@ -120,33 +116,28 @@ When your website only speaks to new customers — "Learn about our services!" �
   <title>Acquisition vs. Retention Cost</title>
   <desc>Lollipop chart comparing three metrics: new customer acquisition at $412, retention cost at $40-60, and the fact that existing customers spend 67% more per transaction</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Why Retention Beats Acquisition</text>
-
   <g transform="translate(20, 70)">
     <text x="160" y="28" text-anchor="end" font-size="12" fill="currentColor">Cost to acquire new customer</text>
     <line x1="170" y1="24" x2="420" y2="24" stroke="currentColor" stroke-opacity="0.1" stroke-width="1"/>
     <line x1="170" y1="24" x2="410" y2="24" stroke="#ef4444" stroke-width="3"/>
     <circle cx="410" cy="24" r="6" fill="#ef4444"/>
     <text x="425" y="28" font-size="13" font-weight="bold" fill="currentColor">$412</text>
-
     <text x="160" y="88" text-anchor="end" font-size="12" fill="currentColor">Cost to keep existing customer</text>
     <line x1="170" y1="84" x2="420" y2="84" stroke="currentColor" stroke-opacity="0.1" stroke-width="1"/>
     <line x1="170" y1="84" x2="205" y2="84" stroke="#22c55e" stroke-width="3"/>
     <circle cx="205" cy="84" r="6" fill="#22c55e"/>
     <text x="220" y="88" font-size="13" font-weight="bold" fill="currentColor">$40–60</text>
-
     <text x="160" y="148" text-anchor="end" font-size="12" fill="currentColor">Existing customers spend more</text>
     <line x1="170" y1="144" x2="420" y2="144" stroke="currentColor" stroke-opacity="0.1" stroke-width="1"/>
     <line x1="170" y1="144" x2="370" y2="144" stroke="#0ea5e9" stroke-width="3"/>
     <circle cx="370" cy="144" r="6" fill="#0ea5e9"/>
     <text x="385" y="148" font-size="13" font-weight="bold" fill="currentColor">+67%</text>
-
     <text x="160" y="208" text-anchor="end" font-size="12" fill="currentColor">Retention +5% = profit</text>
     <line x1="170" y1="204" x2="420" y2="204" stroke="currentColor" stroke-opacity="0.1" stroke-width="1"/>
     <line x1="170" y1="204" x2="340" y2="204" stroke="#eab308" stroke-width="3"/>
     <circle cx="340" cy="204" r="6" fill="#eab308"/>
     <text x="355" y="208" font-size="13" font-weight="bold" fill="currentColor">+25–95%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Bain & Company, ServiceTitan, JB Warranties (2025–2026)</text>
 </svg>
 </figure>

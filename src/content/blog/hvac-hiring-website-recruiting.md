@@ -74,25 +74,20 @@ A real careers page includes:
   <desc>Horizontal bar chart showing that 71% of HVAC websites have no careers page at all, leaving the vast majority of companies invisible to job seekers</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Recruiting Presence Across 147 HVAC Websites</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">94% have minimal or zero recruiting content</text>
-
   <g transform="translate(20, 80)">
     <text x="200" y="28" text-anchor="end" font-size="12" fill="currentColor">No careers page</text>
     <rect x="205" y="10" width="285" height="36" rx="4" fill="#ef4444"/>
     <text x="500" y="34" font-size="14" font-weight="bold" fill="currentColor">71%</text>
-
     <text x="200" y="88" text-anchor="end" font-size="12" fill="currentColor">Basic "We're hiring" text</text>
     <rect x="205" y="70" width="56" height="36" rx="4" fill="#eab308"/>
     <text x="271" y="94" font-size="14" font-weight="bold" fill="currentColor">14%</text>
-
     <text x="200" y="148" text-anchor="end" font-size="12" fill="currentColor">Dedicated careers page</text>
     <rect x="205" y="130" width="36" height="36" rx="4" fill="#0ea5e9"/>
     <text x="251" y="154" font-size="14" font-weight="bold" fill="currentColor">9%</text>
-
     <text x="200" y="208" text-anchor="end" font-size="12" fill="currentColor">Full recruiting presence</text>
     <rect x="205" y="190" width="24" height="36" rx="4" fill="#22c55e"/>
     <text x="239" y="214" font-size="14" font-weight="bold" fill="currentColor">6%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC website audit data, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>
@@ -176,27 +171,22 @@ The worst time to start recruiting is when you've already lost a tech. The best 
   <desc>Horizontal bar chart comparing application volume from job boards alone vs job board plus basic careers page vs full recruiting presence website</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Application Rates by Recruiting Approach</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Relative application volume (job board only = baseline)</text>
-
   <g transform="translate(20, 80)">
     <text x="180" y="30" text-anchor="end" font-size="12" fill="currentColor">Job board only</text>
     <rect x="185" y="12" width="80" height="38" rx="6" fill="#475569"/>
     <text x="275" y="38" font-size="16" font-weight="bold" fill="currentColor">1x</text>
     <text x="300" y="38" font-size="11" fill="currentColor" opacity="0.5">baseline</text>
-
     <text x="180" y="100" text-anchor="end" font-size="12" fill="currentColor">+ Basic careers page</text>
     <rect x="185" y="82" width="145" height="38" rx="6" fill="#0ea5e9"/>
     <text x="340" y="108" font-size="16" font-weight="bold" fill="currentColor">1.8x</text>
-
     <text x="180" y="170" text-anchor="end" font-size="12" fill="currentColor">+ Full recruiting site</text>
     <rect x="185" y="152" width="255" height="38" rx="6" fill="#22c55e"/>
     <text x="450" y="178" font-size="16" font-weight="bold" fill="currentColor">3.2x</text>
   </g>
-
   <g transform="translate(40, 270)">
     <text x="0" y="0" font-size="11" fill="currentColor" opacity="0.7">"Full recruiting site" = careers page + pay ranges + benefits + team photos</text>
     <text x="0" y="18" font-size="11" fill="currentColor" opacity="0.7">+ employee testimonials + easy application + company culture content</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC recruiting data, hvacaudit.co + industry surveys (2025–2026)</text>
 </svg>
 </figure>

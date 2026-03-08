@@ -62,33 +62,26 @@ When we audited [top-performing HVAC websites](/blog/hvac-website-audit-147-site
   <desc>Vertical bar chart showing how adding more city pages increases organic traffic, from 1x baseline with 1 page to 3.2x with 15 or more pages</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Organic Traffic Multiplier by City Page Count</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Baseline = single "Service Areas" page</text>
-
   <line x1="80" y1="280" x2="520" y2="280" stroke="currentColor" opacity="0.15"/>
   <line x1="80" y1="220" x2="520" y2="220" stroke="currentColor" opacity="0.08"/>
   <line x1="80" y1="160" x2="520" y2="160" stroke="currentColor" opacity="0.08"/>
   <line x1="80" y1="100" x2="520" y2="100" stroke="currentColor" opacity="0.08"/>
-
   <text x="75" y="284" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">1x</text>
   <text x="75" y="224" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">2x</text>
   <text x="75" y="164" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">3x</text>
   <text x="75" y="104" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">4x</text>
-
   <rect x="120" y="220" width="70" height="60" rx="4" fill="#475569"/>
   <text x="155" y="215" text-anchor="middle" font-size="14" font-weight="bold" fill="currentColor">1x</text>
   <text x="155" y="300" text-anchor="middle" font-size="11" fill="currentColor">1 page</text>
-
   <rect x="230" y="184" width="70" height="96" rx="4" fill="#0ea5e9"/>
   <text x="265" y="179" text-anchor="middle" font-size="14" font-weight="bold" fill="currentColor">1.6x</text>
   <text x="265" y="300" text-anchor="middle" font-size="11" fill="currentColor">5 pages</text>
-
   <rect x="340" y="142" width="70" height="138" rx="4" fill="#0ea5e9"/>
   <text x="375" y="137" text-anchor="middle" font-size="14" font-weight="bold" fill="currentColor">2.3x</text>
   <text x="375" y="300" text-anchor="middle" font-size="11" fill="currentColor">10 pages</text>
-
   <rect x="450" y="88" width="70" height="192" rx="4" fill="#22c55e"/>
   <text x="485" y="83" text-anchor="middle" font-size="14" font-weight="bold" fill="currentColor">3.2x</text>
   <text x="485" y="300" text-anchor="middle" font-size="11" fill="currentColor">15+ pages</text>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC site audit data, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>
@@ -147,23 +140,19 @@ When we look at [what pages generate the most HVAC leads](/blog/hvac-website-pag
   <desc>Horizontal bar chart comparing homepage conversion rate of 2.1% to city landing page conversion rate of 3.8%, showing city pages convert 81% better</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Conversion Rate: Homepage vs City Pages</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">HVAC website average across audited sites</text>
-
   <g transform="translate(20, 90)">
     <text x="130" y="30" text-anchor="end" font-size="13" fill="currentColor">Homepage</text>
     <rect x="140" y="10" width="130" height="40" rx="6" fill="#475569"/>
     <text x="280" y="36" font-size="18" font-weight="bold" fill="currentColor">2.1%</text>
     <text x="320" y="36" font-size="11" fill="currentColor" opacity="0.5">conversion rate</text>
-
     <text x="130" y="110" text-anchor="end" font-size="13" fill="currentColor">City pages</text>
     <rect x="140" y="90" width="240" height="40" rx="6" fill="#22c55e"/>
     <text x="390" y="116" font-size="18" font-weight="bold" fill="currentColor">3.8%</text>
     <text x="430" y="116" font-size="11" fill="currentColor" opacity="0.5">conversion rate</text>
-
     <line x1="140" y1="155" x2="380" y2="155" stroke="currentColor" opacity="0.1"/>
     <text x="260" y="180" text-anchor="middle" font-size="13" font-weight="bold" fill="#22c55e">+81% higher conversion</text>
     <text x="260" y="198" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">from the same traffic source</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC site audit data, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>

@@ -44,7 +44,6 @@ This targeting combination produces audiences of **15,000–40,000 people per ma
   <desc>Line chart showing steep decline in conversion likelihood as response time increases from 5 minutes to 60+ minutes for HVAC Facebook leads</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Facebook Lead Conversion by Response Time</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Likelihood of converting vs. 30-minute baseline</text>
-
   <g transform="translate(70, 70)">
     <!-- Grid lines -->
     <line x1="0" y1="230" x2="420" y2="230" stroke="currentColor" stroke-opacity="0.15"/>
@@ -52,40 +51,32 @@ This targeting combination produces audiences of **15,000–40,000 people per ma
     <line x1="0" y1="115" x2="420" y2="115" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="57" x2="420" y2="57" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="0" x2="420" y2="0" stroke="currentColor" stroke-opacity="0.08"/>
-
     <!-- Y-axis labels -->
     <text x="-10" y="234" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">0x</text>
     <text x="-10" y="176" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">7x</text>
     <text x="-10" y="119" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">14x</text>
     <text x="-10" y="61" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">21x</text>
-
     <!-- Area fill -->
     <path d="M0,20 L105,120 L210,195 L315,218 L420,230 L420,230 L0,230 Z" fill="#0ea5e9" fill-opacity="0.12"/>
     <!-- Line -->
     <polyline points="0,20 105,120 210,195 315,218 420,230" fill="none" stroke="#0ea5e9" stroke-width="3"/>
-
     <!-- Data points -->
     <circle cx="0" cy="20" r="6" fill="#22c55e"/>
     <text x="0" y="10" text-anchor="middle" font-size="12" font-weight="bold" fill="#22c55e">21x</text>
     <text x="0" y="248" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">5 min</text>
-
     <circle cx="105" cy="120" r="5" fill="#0ea5e9"/>
     <text x="105" y="110" text-anchor="middle" font-size="12" font-weight="bold" fill="#0ea5e9">8x</text>
     <text x="105" y="248" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">15 min</text>
-
     <circle cx="210" cy="195" r="5" fill="#eab308"/>
     <text x="210" y="185" text-anchor="middle" font-size="12" font-weight="bold" fill="#eab308">2x</text>
     <text x="210" y="248" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">30 min</text>
-
     <circle cx="315" cy="218" r="5" fill="#f97316"/>
     <text x="315" y="208" text-anchor="middle" font-size="12" font-weight="bold" fill="#f97316">0.8x</text>
     <text x="315" y="248" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">60 min</text>
-
     <circle cx="420" cy="230" r="5" fill="#ef4444"/>
     <text x="420" y="220" text-anchor="middle" font-size="12" font-weight="bold" fill="#ef4444">0.2x</text>
     <text x="420" y="248" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Next day</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: InsideSales.com, Hatch App, ServiceTitan (2023–2025)</text>
 </svg>
 </figure>
@@ -142,41 +133,34 @@ This sequence produces **4–6 additional leads per 1,000 website visitors** —
   <desc>Vertical bar chart comparing HVAC Facebook ad cost per lead across four campaign types, showing retargeting is cheapest at $15-30</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Facebook CPL by Campaign Type</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Average HVAC cost per lead on Facebook/Instagram</text>
-
   <g transform="translate(60, 70)">
     <!-- Grid lines -->
     <line x1="0" y1="230" x2="440" y2="230" stroke="currentColor" stroke-opacity="0.15"/>
     <line x1="0" y1="172" x2="440" y2="172" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="115" x2="440" y2="115" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="57" x2="440" y2="57" stroke="currentColor" stroke-opacity="0.08"/>
-
     <!-- Y-axis labels -->
     <text x="-10" y="234" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">$0</text>
     <text x="-10" y="176" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">$40</text>
     <text x="-10" y="119" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">$80</text>
     <text x="-10" y="61" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">$120</text>
-
     <!-- Retargeting bar -->
     <rect x="20" y="178" width="80" height="52" rx="4" fill="#22c55e"/>
     <text x="60" y="170" text-anchor="middle" font-size="13" font-weight="bold" fill="#22c55e">$15–$30</text>
     <text x="60" y="256" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Retargeting</text>
-
     <!-- Lead forms bar -->
     <rect x="130" y="150" width="80" height="80" rx="4" fill="#0ea5e9"/>
     <text x="170" y="142" text-anchor="middle" font-size="13" font-weight="bold" fill="#0ea5e9">$28–$45</text>
     <text x="170" y="256" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Lead Forms</text>
-
     <!-- Landing page bar -->
     <rect x="240" y="100" width="80" height="130" rx="4" fill="#f97316"/>
     <text x="280" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#f97316">$55–$85</text>
     <text x="280" y="256" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Landing Page</text>
-
     <!-- Cold awareness bar -->
     <rect x="350" y="53" width="80" height="177" rx="4" fill="#ef4444"/>
     <text x="390" y="45" text-anchor="middle" font-size="13" font-weight="bold" fill="#ef4444">$80–$120</text>
     <text x="390" y="256" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Cold Awareness</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: AdEspresso, Housecall Pro, hvacaudit.co analysis (2024–2025)</text>
 </svg>
 </figure>

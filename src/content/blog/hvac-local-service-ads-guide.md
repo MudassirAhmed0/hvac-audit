@@ -53,29 +53,23 @@ When you factor in the higher close rate, the effective [customer acquisition co
   <desc>Horizontal bar chart comparing HVAC lead costs: LSA Tier 3 $45-60, LSA Tier 2 $55-70, LSA Tier 1 $75-85, PPC Average $104, PPC unoptimized $137-246</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Cost Per Lead: LSAs vs. Traditional PPC</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Average HVAC cost per verified lead by channel</text>
-
   <g transform="translate(20, 75)">
     <text x="140" y="28" text-anchor="end" font-size="12" fill="currentColor">LSA — Tier 3</text>
     <rect x="150" y="10" width="130" height="30" rx="4" fill="#22c55e"/>
     <text x="290" y="32" font-size="13" font-weight="bold" fill="#22c55e">$45–$60</text>
-
     <text x="140" y="78" text-anchor="end" font-size="12" fill="currentColor">LSA — Tier 2</text>
     <rect x="150" y="60" width="160" height="30" rx="4" fill="#0ea5e9"/>
     <text x="320" y="82" font-size="13" font-weight="bold" fill="#0ea5e9">$55–$70</text>
-
     <text x="140" y="128" text-anchor="end" font-size="12" fill="currentColor">LSA — Tier 1</text>
     <rect x="150" y="110" width="195" height="30" rx="4" fill="#f97316"/>
     <text x="355" y="132" font-size="13" font-weight="bold" fill="#f97316">$75–$85</text>
-
     <text x="140" y="178" text-anchor="end" font-size="12" fill="currentColor">PPC Average</text>
     <rect x="150" y="160" width="240" height="30" rx="4" fill="#ef4444"/>
     <text x="400" y="182" font-size="13" font-weight="bold" fill="#ef4444">$104</text>
-
     <text x="140" y="228" text-anchor="end" font-size="12" fill="currentColor">PPC Unoptimized</text>
     <rect x="150" y="210" width="340" height="30" rx="4" fill="#ef4444" fill-opacity="0.6"/>
     <text x="498" y="232" font-size="13" font-weight="bold" fill="#ef4444">$137–$246</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Google LSA data, WordStream, LocalIQ (2024–2025)</text>
 </svg>
 </figure>
@@ -141,49 +135,38 @@ The [marketing budget allocation](/blog/hvac-marketing-budget/) for LSAs should 
   <desc>Stacked bar showing LSA ranking factors: Reviews 45%, Responsiveness 30%, Proximity 15%, Business Hours 10%</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">LSA Ranking Factors by Weight</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">What determines your position in the LSA pack</text>
-
   <g transform="translate(60, 80)">
     <!-- Full bar background -->
     <rect x="0" y="40" width="440" height="60" rx="6" fill="currentColor" fill-opacity="0.05"/>
-
     <!-- Reviews segment: 45% = 198px -->
     <rect x="0" y="40" width="198" height="60" rx="6" fill="#22c55e"/>
     <text x="99" y="67" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Reviews</text>
     <text x="99" y="87" text-anchor="middle" font-size="18" font-weight="900" fill="#ffffff">45%</text>
-
     <!-- Responsiveness segment: 30% = 132px -->
     <rect x="198" y="40" width="132" height="60" fill="#0ea5e9"/>
     <text x="264" y="67" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Response</text>
     <text x="264" y="87" text-anchor="middle" font-size="18" font-weight="900" fill="#ffffff">30%</text>
-
     <!-- Proximity segment: 15% = 66px -->
     <rect x="330" y="40" width="66" height="60" fill="#f97316"/>
     <text x="363" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">15%</text>
-
     <!-- Business hours segment: 10% = 44px -->
     <rect x="396" y="40" width="44" height="60" rx="6" fill="#a855f7"/>
     <text x="418" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">10%</text>
-
     <!-- Legend -->
     <g transform="translate(0, 140)">
       <rect x="0" y="0" width="12" height="12" rx="2" fill="#22c55e"/>
       <text x="18" y="11" font-size="11" fill="currentColor">Reviews (count + rating)</text>
-
       <rect x="170" y="0" width="12" height="12" rx="2" fill="#0ea5e9"/>
       <text x="188" y="11" font-size="11" fill="currentColor">Responsiveness</text>
-
       <rect x="300" y="0" width="12" height="12" rx="2" fill="#f97316"/>
       <text x="318" y="11" font-size="11" fill="currentColor">Proximity</text>
-
       <rect x="390" y="0" width="12" height="12" rx="2" fill="#a855f7"/>
       <text x="408" y="11" font-size="11" fill="currentColor">Business hours</text>
     </g>
-
     <!-- Annotations -->
     <text x="99" y="130" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">150+ reviews, 4.7+ stars</text>
     <text x="264" y="130" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Under 5 min</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Google LSA documentation, Scorpion, Housecall Pro (2024–2025)</text>
 </svg>
 </figure>

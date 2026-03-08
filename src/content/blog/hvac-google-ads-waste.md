@@ -38,7 +38,6 @@ The contractors who build a proper [landing page playbook](/blog/hvac-landing-pa
   <desc>Donut chart showing breakdown of wasted HVAC Google Ads spend: broad match bleed 40%, poor landing pages 25%, no call tracking 20%, geographic bleed 15%</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Where Your Wasted 30% Actually Goes</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Breakdown of non-converting HVAC ad spend</text>
-
   <g transform="translate(200, 200)">
     <!-- Donut segments — total circumference for r=90 is ~565.5 -->
     <circle cx="0" cy="0" r="90" fill="none" stroke="#ef4444" stroke-width="44"
@@ -52,21 +51,16 @@ The contractors who build a proper [landing page playbook](/blog/hvac-landing-pa
     <text x="0" y="-6" text-anchor="middle" font-size="28" font-weight="900" fill="#ef4444">30%</text>
     <text x="0" y="16" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">total waste</text>
   </g>
-
   <g transform="translate(340, 110)">
     <rect x="0" y="0" width="12" height="12" rx="2" fill="#ef4444"/>
     <text x="18" y="11" font-size="11" fill="currentColor">Broad match bleed (40%)</text>
-
     <rect x="0" y="28" width="12" height="12" rx="2" fill="#f97316"/>
     <text x="18" y="39" font-size="11" fill="currentColor">Bad landing pages (25%)</text>
-
     <rect x="0" y="56" width="12" height="12" rx="2" fill="#eab308"/>
     <text x="18" y="67" font-size="11" fill="currentColor">No call tracking (20%)</text>
-
     <rect x="0" y="84" width="12" height="12" rx="2" fill="#a855f7"/>
     <text x="18" y="95" font-size="11" fill="currentColor">Geographic bleed (15%)</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: WordStream, Hanapin Marketing, hvacaudit.co 147-site study (2023–2025)</text>
 </svg>
 </figure>
@@ -125,7 +119,6 @@ If you're not running a [24/7 answering service](/blog/hvac-call-tracking-setup/
   <desc>Bar chart showing HVAC cost per click rising from $6.84 in 2022 to $9.20 in 2023 to $12.31 in 2024</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">HVAC Google Ads: CPC Is Accelerating</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Average cost per click by year</text>
-
   <g transform="translate(80, 70)">
     <!-- Y-axis labels -->
     <text x="-10" y="245" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">$0</text>
@@ -133,29 +126,24 @@ If you're not running a [24/7 answering service](/blog/hvac-call-tracking-setup/
     <text x="-10" y="125" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">$10</text>
     <text x="-10" y="65" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">$15</text>
     <text x="-10" y="5" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">$20</text>
-
     <!-- Grid lines -->
     <line x1="0" y1="240" x2="400" y2="240" stroke="currentColor" stroke-opacity="0.15"/>
     <line x1="0" y1="180" x2="400" y2="180" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="120" x2="400" y2="120" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="60" x2="400" y2="60" stroke="currentColor" stroke-opacity="0.08"/>
-
     <!-- 2022 bar -->
     <rect x="30" y="158" width="80" height="82" rx="4" fill="#0ea5e9"/>
     <text x="70" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#0ea5e9">$6.84</text>
     <text x="70" y="268" text-anchor="middle" font-size="12" fill="currentColor" opacity="0.5">2022</text>
-
     <!-- 2023 bar -->
     <rect x="160" y="130" width="80" height="110" rx="4" fill="#f97316"/>
     <text x="200" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#f97316">$9.20</text>
     <text x="200" y="268" text-anchor="middle" font-size="12" fill="currentColor" opacity="0.5">2023</text>
-
     <!-- 2024 bar -->
     <rect x="290" y="92" width="80" height="148" rx="4" fill="#ef4444"/>
     <text x="330" y="84" text-anchor="middle" font-size="14" font-weight="bold" fill="#ef4444">$12.31</text>
     <text x="330" y="268" text-anchor="middle" font-size="12" fill="currentColor" opacity="0.5">2024</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: WordStream, LocalIQ, Google Ads Benchmarks (2022–2024)</text>
 </svg>
 </figure>

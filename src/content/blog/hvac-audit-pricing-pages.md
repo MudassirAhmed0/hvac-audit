@@ -70,41 +70,33 @@ This connects directly to [the 7 questions homeowners want answered](/blog/hvac-
   <desc>Vertical bar chart showing HVAC website conversion rates climb from 1.2% with no pricing to 14.7% with complete pricing visibility across all six dimensions</desc>
   <text x="280" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Conversion Rate by Pricing Visibility (147 Sites)</text>
   <text x="280" y="48" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Pricing score 0-6 based on six visibility dimensions</text>
-
   <g transform="translate(70, 70)">
     <line x1="0" y1="250" x2="430" y2="250" stroke="currentColor" opacity="0.15"/>
     <line x1="0" y1="200" x2="430" y2="200" stroke="currentColor" opacity="0.08"/>
     <line x1="0" y1="150" x2="430" y2="150" stroke="currentColor" opacity="0.08"/>
     <line x1="0" y1="100" x2="430" y2="100" stroke="currentColor" opacity="0.08"/>
     <line x1="0" y1="50" x2="430" y2="50" stroke="currentColor" opacity="0.08"/>
-
     <text x="-8" y="254" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">0%</text>
     <text x="-8" y="204" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">4%</text>
     <text x="-8" y="154" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">8%</text>
     <text x="-8" y="104" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">12%</text>
     <text x="-8" y="54" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">16%</text>
-
     <rect x="20" y="235" width="50" height="15" rx="3" fill="#ef4444"/>
     <text x="45" y="230" text-anchor="middle" font-size="11" font-weight="bold" fill="currentColor">1.2%</text>
     <text x="45" y="270" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.6">Score 0</text>
-
     <rect x="95" y="224" width="50" height="26" rx="3" fill="#ef4444" opacity="0.8"/>
     <text x="120" y="219" text-anchor="middle" font-size="11" font-weight="bold" fill="currentColor">2.1%</text>
     <text x="120" y="270" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.6">Score 1</text>
-
     <rect x="170" y="190" width="50" height="60" rx="3" fill="#eab308"/>
     <text x="195" y="185" text-anchor="middle" font-size="11" font-weight="bold" fill="currentColor">4.8%</text>
     <text x="195" y="270" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.6">Score 2-3</text>
-
     <rect x="245" y="147" width="50" height="103" rx="3" fill="#0ea5e9"/>
     <text x="270" y="142" text-anchor="middle" font-size="11" font-weight="bold" fill="currentColor">8.3%</text>
     <text x="270" y="270" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.6">Score 4-5</text>
-
     <rect x="320" y="67" width="50" height="183" rx="3" fill="#22c55e"/>
     <text x="345" y="62" text-anchor="middle" font-size="11" font-weight="bold" fill="currentColor">14.7%</text>
     <text x="345" y="270" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.6">Score 6</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC Audit 147-site study (2026)</text>
 </svg>
 </figure>
@@ -177,35 +169,28 @@ Contractors in low-transparency markets have an outsized opportunity. If only 24
   <desc>Horizontal bar chart showing Southeast leads at 38% pricing transparency, followed by Southwest at 34%, Midwest at 29%, Northeast at 27%, and West Coast at 24%</desc>
   <text x="280" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Pricing Transparency by Region</text>
   <text x="280" y="48" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">% of HVAC websites showing any pricing, 147-site audit</text>
-
   <g transform="translate(20, 80)">
     <text x="130" y="20" text-anchor="end" font-size="13" fill="currentColor">Southeast</text>
     <rect x="140" y="6" width="228" height="26" rx="4" fill="#22c55e"/>
     <text x="374" y="24" font-size="13" font-weight="bold" fill="currentColor">38%</text>
-
     <text x="130" y="64" text-anchor="end" font-size="13" fill="currentColor">Southwest</text>
     <rect x="140" y="50" width="204" height="26" rx="4" fill="#0ea5e9"/>
     <text x="350" y="68" font-size="13" font-weight="bold" fill="currentColor">34%</text>
-
     <text x="130" y="108" text-anchor="end" font-size="13" fill="currentColor">Midwest</text>
     <rect x="140" y="94" width="174" height="26" rx="4" fill="#eab308"/>
     <text x="320" y="112" font-size="13" font-weight="bold" fill="currentColor">29%</text>
-
     <text x="130" y="152" text-anchor="end" font-size="13" fill="currentColor">Northeast</text>
     <rect x="140" y="138" width="162" height="26" rx="4" fill="#eab308" opacity="0.7"/>
     <text x="308" y="156" font-size="13" font-weight="bold" fill="currentColor">27%</text>
-
     <text x="130" y="196" text-anchor="end" font-size="13" fill="currentColor">West Coast</text>
     <rect x="140" y="182" width="144" height="26" rx="4" fill="#ef4444"/>
     <text x="290" y="200" font-size="13" font-weight="bold" fill="currentColor">24%</text>
-
     <line x1="140" y1="0" x2="140" y2="215" stroke="currentColor" opacity="0.1"/>
     <line x1="290" y1="0" x2="290" y2="215" stroke="currentColor" opacity="0.06" stroke-dasharray="4 4"/>
     <text x="290" y="235" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.4">25%</text>
     <line x1="440" y1="0" x2="440" y2="215" stroke="currentColor" opacity="0.06" stroke-dasharray="4 4"/>
     <text x="440" y="235" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.4">50%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC Audit 147-site study across 23 states (2026)</text>
 </svg>
 </figure>

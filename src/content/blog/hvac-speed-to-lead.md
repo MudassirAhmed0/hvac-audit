@@ -45,25 +45,20 @@ The gap between a 42% booking rate and a 70%+ booking rate comes down to what ha
   <desc>Horizontal bar chart showing how response time affects lead qualification: under 5 minutes is 21x more likely, 5-10 minutes is 4x, 10-30 minutes is baseline, and 30+ minutes is below baseline</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Response Time vs. Lead Qualification</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Likelihood of qualifying the lead relative to 30-minute baseline</text>
-
   <g transform="translate(20, 75)">
     <text x="120" y="28" text-anchor="end" font-size="12" fill="currentColor">Under 5 min</text>
     <rect x="130" y="10" width="340" height="32" rx="5" fill="#22c55e"/>
     <text x="480" y="32" font-size="14" font-weight="bold" fill="currentColor">21x</text>
-
     <text x="120" y="88" text-anchor="end" font-size="12" fill="currentColor">5–10 min</text>
     <rect x="130" y="70" width="65" height="32" rx="5" fill="#0ea5e9"/>
     <text x="205" y="92" font-size="14" font-weight="bold" fill="currentColor">4x</text>
-
     <text x="120" y="148" text-anchor="end" font-size="12" fill="currentColor">10–30 min</text>
     <rect x="130" y="130" width="16" height="32" rx="5" fill="#eab308"/>
     <text x="156" y="152" font-size="14" font-weight="bold" fill="currentColor">1x</text>
-
     <text x="120" y="208" text-anchor="end" font-size="12" fill="currentColor">30+ min</text>
     <rect x="130" y="190" width="8" height="32" rx="5" fill="#ef4444"/>
     <text x="148" y="212" font-size="14" font-weight="bold" fill="currentColor">< 1x</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Hatch App, Inquirly, InsideSales.com (2023–2025)</text>
 </svg>
 </figure>
@@ -102,7 +97,6 @@ If you're not answering calls within 5 minutes — or at minimum, returning miss
   <title>What 30% Unanswered Calls Actually Cost</title>
   <desc>Donut chart showing the cost cascade of unanswered calls: 50 weekly calls, 15 missed (30%), 10 real leads lost, 4 bookings lost, resulting in $8,400 monthly revenue loss</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">What 30% Unanswered Calls Cost Per Month</text>
-
   <g transform="translate(280, 190)">
     <circle cx="0" cy="0" r="110" fill="none" stroke="#22c55e" stroke-width="38"
             stroke-dasharray="484" stroke-dashoffset="0" transform="rotate(-90)"/>
@@ -111,14 +105,12 @@ If you're not answering calls within 5 minutes — or at minimum, returning miss
     <text x="0" y="-8" text-anchor="middle" font-size="32" font-weight="900" fill="#ef4444">$8,400</text>
     <text x="0" y="16" text-anchor="middle" font-size="12" fill="currentColor" opacity="0.5">lost per month</text>
   </g>
-
   <g transform="translate(40, 330)">
     <rect x="0" y="0" width="12" height="12" rx="2" fill="#22c55e"/>
     <text x="18" y="11" font-size="11" fill="currentColor">Answered: 35 calls/week</text>
     <rect x="220" y="0" width="12" height="12" rx="2" fill="#ef4444"/>
     <text x="238" y="11" font-size="11" fill="currentColor">Missed: 15 calls/week → $8,400/mo lost</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Hatch App, Inquirly, ServiceTitan (2024–2025)</text>
 </svg>
 </figure>

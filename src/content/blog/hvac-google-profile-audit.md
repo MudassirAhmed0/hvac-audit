@@ -65,7 +65,6 @@ A contractor with 17 reviews gaining 2 per month reaches 41 by year's end. A com
   <desc>Pie chart showing that nearly half of HVAC Google profiles have 10 or fewer reviews, with 18% having zero reviews at all</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Google Review Distribution: 312 HVAC Profiles</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Average profile has just 17 reviews</text>
-
   <g transform="translate(200, 200)">
     <circle cx="0" cy="0" r="110" fill="none" stroke="#ef4444" stroke-width="38"
             stroke-dasharray="124.4 566.7" stroke-dashoffset="0" transform="rotate(-90)"/>
@@ -80,7 +79,6 @@ A contractor with 17 reviews gaining 2 per month reaches 41 by year's end. A com
     <text x="0" y="-4" text-anchor="middle" font-size="28" font-weight="900" fill="currentColor">17</text>
     <text x="0" y="18" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">avg reviews</text>
   </g>
-
   <g transform="translate(370, 120)">
     <rect x="0" y="0" width="10" height="10" rx="2" fill="#ef4444"/>
     <text x="16" y="10" font-size="11" fill="currentColor">0 reviews — 18%</text>
@@ -93,7 +91,6 @@ A contractor with 17 reviews gaining 2 per month reaches 41 by year's end. A com
     <rect x="0" y="96" width="10" height="10" rx="2" fill="#a855f7"/>
     <text x="16" y="106" font-size="11" fill="currentColor">100+ — 9%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: GBP audit data across 15 U.S. markets, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>
@@ -164,40 +161,30 @@ The fix takes 15 seconds per review. A simple "Thank you for the kind words" on 
   <desc>Stacked horizontal bar showing most HVAC Google profiles are severely incomplete, with only 8% fully optimized</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">GBP Completeness: 312 HVAC Profiles</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Scored across 14 profile factors</text>
-
   <g transform="translate(40, 80)">
     <rect x="0" y="0" width="42" height="50" rx="4" fill="#22c55e"/>
     <text x="21" y="30" text-anchor="middle" font-size="11" font-weight="bold" fill="white">8%</text>
-
     <rect x="42" y="0" width="155" height="50" rx="4" fill="#0ea5e9"/>
     <text x="119" y="30" text-anchor="middle" font-size="13" font-weight="bold" fill="white">31%</text>
-
     <rect x="197" y="0" width="195" height="50" rx="4" fill="#eab308"/>
     <text x="294" y="30" text-anchor="middle" font-size="13" font-weight="bold" fill="white">39%</text>
-
     <rect x="392" y="0" width="108" height="50" rx="4" fill="#ef4444"/>
     <text x="446" y="30" text-anchor="middle" font-size="13" font-weight="bold" fill="white">22%</text>
   </g>
-
   <g transform="translate(40, 160)">
     <rect x="0" y="0" width="12" height="12" rx="2" fill="#22c55e"/>
     <text x="18" y="11" font-size="11" fill="currentColor">Fully optimized (80-100) — 8%</text>
-
     <rect x="0" y="28" width="12" height="12" rx="2" fill="#0ea5e9"/>
     <text x="18" y="39" font-size="11" fill="currentColor">Partially optimized (50-79) — 31%</text>
-
     <rect x="0" y="56" width="12" height="12" rx="2" fill="#eab308"/>
     <text x="18" y="67" font-size="11" fill="currentColor">Minimally filled (25-49) — 39%</text>
-
     <rect x="0" y="84" width="12" height="12" rx="2" fill="#ef4444"/>
     <text x="18" y="95" font-size="11" fill="currentColor">Essentially empty (0-24) — 22%</text>
   </g>
-
   <g transform="translate(40, 290)">
     <text x="0" y="0" font-size="12" fill="currentColor" opacity="0.7">Key finding: 61% of HVAC profiles are minimally filled or empty.</text>
     <text x="0" y="20" font-size="12" fill="currentColor" opacity="0.7">The Map Pack generates ~60% of local leads — most contractors aren't competing for them.</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: GBP audit data across 15 U.S. markets, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>

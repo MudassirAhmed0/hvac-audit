@@ -46,31 +46,24 @@ This is the hidden cost of platform neglect. You're spending money on Google Ads
   <desc>Horizontal bars showing 87% check Google, 34% check Yelp, 29% check Facebook, 22% check BBB, and 18% check Nextdoor before hiring an HVAC contractor</desc>
   <text x="280" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Where Homeowners Check HVAC Reviews</text>
   <text x="280" y="48" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">% of homeowners who check each platform before calling</text>
-
   <g transform="translate(20, 80)">
     <text x="120" y="20" text-anchor="end" font-size="13" fill="currentColor" font-weight="600">Google</text>
     <rect x="130" y="6" width="348" height="26" rx="4" fill="#0ea5e9"/>
     <text x="484" y="24" font-size="13" font-weight="bold" fill="currentColor">87%</text>
-
     <text x="120" y="64" text-anchor="end" font-size="13" fill="currentColor">Yelp</text>
     <rect x="130" y="50" width="136" height="26" rx="4" fill="#ef4444"/>
     <text x="272" y="68" font-size="13" font-weight="bold" fill="currentColor">34%</text>
-
     <text x="120" y="108" text-anchor="end" font-size="13" fill="currentColor">Facebook</text>
     <rect x="130" y="94" width="116" height="26" rx="4" fill="#3b82f6"/>
     <text x="252" y="112" font-size="13" font-weight="bold" fill="currentColor">29%</text>
-
     <text x="120" y="152" text-anchor="end" font-size="13" fill="currentColor">BBB</text>
     <rect x="130" y="138" width="88" height="26" rx="4" fill="#eab308"/>
     <text x="224" y="156" font-size="13" font-weight="bold" fill="currentColor">22%</text>
-
     <text x="120" y="196" text-anchor="end" font-size="13" fill="currentColor">Nextdoor</text>
     <rect x="130" y="182" width="72" height="26" rx="4" fill="#22c55e"/>
     <text x="208" y="200" font-size="13" font-weight="bold" fill="currentColor">18%</text>
-
     <line x1="130" y1="0" x2="130" y2="215" stroke="currentColor" opacity="0.1"/>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: BrightLocal Local Consumer Review Survey (2025)</text>
 </svg>
 </figure>
@@ -151,41 +144,33 @@ Your [review strategy](/blog/hvac-google-reviews-strategy/) doesn't need to be c
   <desc>Stacked bar chart showing that 14% of HVAC companies respond to all Google reviews, dropping to 8% for Yelp, 6% for Facebook, 4% for BBB, and 3% for Nextdoor</desc>
   <text x="280" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">HVAC Review Response Rates by Platform</text>
   <text x="280" y="48" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">% of companies that respond to all reviews on each platform</text>
-
   <g transform="translate(70, 80)">
     <line x1="0" y1="240" x2="420" y2="240" stroke="currentColor" opacity="0.15"/>
     <line x1="0" y1="180" x2="420" y2="180" stroke="currentColor" opacity="0.06" stroke-dasharray="4 4"/>
     <line x1="0" y1="120" x2="420" y2="120" stroke="currentColor" opacity="0.06" stroke-dasharray="4 4"/>
     <line x1="0" y1="60" x2="420" y2="60" stroke="currentColor" opacity="0.06" stroke-dasharray="4 4"/>
     <line x1="0" y1="0" x2="420" y2="0" stroke="currentColor" opacity="0.06" stroke-dasharray="4 4"/>
-
     <text x="-8" y="244" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">0%</text>
     <text x="-8" y="184" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">25%</text>
     <text x="-8" y="124" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">50%</text>
     <text x="-8" y="64" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">75%</text>
     <text x="-8" y="4" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">100%</text>
-
     <rect x="15" y="173" width="55" height="67" rx="4" fill="#0ea5e9"/>
     <text x="42" y="168" text-anchor="middle" font-size="13" font-weight="bold" fill="#0ea5e9">14%</text>
     <text x="42" y="258" text-anchor="middle" font-size="11" fill="currentColor">Google</text>
-
     <rect x="95" y="221" width="55" height="19" rx="4" fill="#ef4444"/>
     <text x="122" y="216" text-anchor="middle" font-size="13" font-weight="bold" fill="#ef4444">8%</text>
     <text x="122" y="258" text-anchor="middle" font-size="11" fill="currentColor">Yelp</text>
-
     <rect x="175" y="226" width="55" height="14" rx="4" fill="#3b82f6"/>
     <text x="202" y="221" text-anchor="middle" font-size="13" font-weight="bold" fill="#3b82f6">6%</text>
     <text x="202" y="258" text-anchor="middle" font-size="11" fill="currentColor">Facebook</text>
-
     <rect x="255" y="230" width="55" height="10" rx="4" fill="#eab308"/>
     <text x="282" y="225" text-anchor="middle" font-size="13" font-weight="bold" fill="#eab308">4%</text>
     <text x="282" y="258" text-anchor="middle" font-size="11" fill="currentColor">BBB</text>
-
     <rect x="335" y="233" width="55" height="7" rx="4" fill="#22c55e"/>
     <text x="362" y="228" text-anchor="middle" font-size="13" font-weight="bold" fill="#22c55e">3%</text>
     <text x="362" y="258" text-anchor="middle" font-size="11" fill="currentColor">Nextdoor</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC Audit 147-site study + review profile analysis (2026)</text>
 </svg>
 </figure>

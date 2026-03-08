@@ -36,49 +36,38 @@ The culprits are almost always the same: uncompressed hero images at 3–5MB, un
   <desc>Horizontal bar chart showing the percentage of HVAC websites exhibiting each common mistake: no pricing 89%, slow load 84%, no click-to-call 81%, no after-hours messaging 78%, no reviews on site 74%, stock photos only 68%, broken mobile layout 63%, no service area pages 57%, buried contact info 52%, missing GBP link 27%</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">How Often Each Mistake Appears (147 Sites)</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">% of audited HVAC websites with each problem</text>
-
   <g transform="translate(20, 62)">
     <text x="145" y="18" text-anchor="end" font-size="11" fill="currentColor">No pricing info</text>
     <rect x="155" y="4" width="298" height="20" rx="4" fill="#ef4444"/>
     <text x="460" y="19" font-size="11" font-weight="bold" fill="currentColor">89%</text>
-
     <text x="145" y="46" text-anchor="end" font-size="11" fill="currentColor">Slow load (18s avg)</text>
     <rect x="155" y="32" width="281" height="20" rx="4" fill="#ef4444"/>
     <text x="443" y="47" font-size="11" font-weight="bold" fill="currentColor">84%</text>
-
     <text x="145" y="74" text-anchor="end" font-size="11" fill="currentColor">No click-to-call</text>
     <rect x="155" y="60" width="271" height="20" rx="4" fill="#ef4444"/>
     <text x="433" y="75" font-size="11" font-weight="bold" fill="currentColor">81%</text>
-
     <text x="145" y="102" text-anchor="end" font-size="11" fill="currentColor">No after-hours msg</text>
     <rect x="155" y="88" width="261" height="20" rx="4" fill="#eab308"/>
     <text x="423" y="103" font-size="11" font-weight="bold" fill="currentColor">78%</text>
-
     <text x="145" y="130" text-anchor="end" font-size="11" fill="currentColor">No reviews on site</text>
     <rect x="155" y="116" width="248" height="20" rx="4" fill="#eab308"/>
     <text x="410" y="131" font-size="11" font-weight="bold" fill="currentColor">74%</text>
-
     <text x="145" y="158" text-anchor="end" font-size="11" fill="currentColor">Stock photos only</text>
     <rect x="155" y="144" width="227" height="20" rx="4" fill="#eab308"/>
     <text x="389" y="159" font-size="11" font-weight="bold" fill="currentColor">68%</text>
-
     <text x="145" y="186" text-anchor="end" font-size="11" fill="currentColor">Broken mobile layout</text>
     <rect x="155" y="172" width="211" height="20" rx="4" fill="#475569"/>
     <text x="373" y="187" font-size="11" font-weight="bold" fill="currentColor">63%</text>
-
     <text x="145" y="214" text-anchor="end" font-size="11" fill="currentColor">No service area pages</text>
     <rect x="155" y="200" width="191" height="20" rx="4" fill="#475569"/>
     <text x="353" y="215" font-size="11" font-weight="bold" fill="currentColor">57%</text>
-
     <text x="145" y="242" text-anchor="end" font-size="11" fill="currentColor">Buried contact info</text>
     <rect x="155" y="228" width="174" height="20" rx="4" fill="#475569"/>
     <text x="336" y="243" font-size="11" font-weight="bold" fill="currentColor">52%</text>
-
     <text x="145" y="270" text-anchor="end" font-size="11" fill="currentColor">Missing GBP link</text>
     <rect x="155" y="256" width="90" height="20" rx="4" fill="#475569"/>
     <text x="252" y="271" font-size="11" font-weight="bold" fill="currentColor">27%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: hvacaudit.co 147-site audit (2025–2026)</text>
 </svg>
 </figure>
@@ -153,7 +142,6 @@ Even a basic one-page website is better than no website. A GBP without a website
   <desc>Donut chart showing score distribution: 61% scored 0-34 (failing), 23% scored 35-54 (poor), 11% scored 55-74 (average), 5% scored 75-100 (good to excellent)</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Website Score Distribution (147 Audits)</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Average score: 34/100</text>
-
   <g transform="translate(190, 200)">
     <!-- 61% failing: 0-34 -->
     <circle cx="0" cy="0" r="100" fill="none" stroke="#ef4444" stroke-width="40"
@@ -167,25 +155,19 @@ Even a basic one-page website is better than no website. A GBP without a website
     <!-- 5% good: 75-100 -->
     <circle cx="0" cy="0" r="100" fill="none" stroke="#22c55e" stroke-width="40"
             stroke-dasharray="31.4 628.3" stroke-dashoffset="-596.9" transform="rotate(-90)"/>
-
     <text x="0" y="-8" text-anchor="middle" font-size="30" font-weight="900" fill="currentColor">34</text>
     <text x="0" y="14" text-anchor="middle" font-size="12" fill="currentColor" opacity="0.5">avg score</text>
   </g>
-
   <g transform="translate(340, 120)">
     <rect x="0" y="0" width="12" height="12" rx="2" fill="#ef4444"/>
     <text x="18" y="11" font-size="11" fill="currentColor">0–34: 61% of sites (failing)</text>
-
     <rect x="0" y="28" width="12" height="12" rx="2" fill="#eab308"/>
     <text x="18" y="39" font-size="11" fill="currentColor">35–54: 23% (poor)</text>
-
     <rect x="0" y="56" width="12" height="12" rx="2" fill="#0ea5e9"/>
     <text x="18" y="67" font-size="11" fill="currentColor">55–74: 11% (average)</text>
-
     <rect x="0" y="84" width="12" height="12" rx="2" fill="#22c55e"/>
     <text x="18" y="95" font-size="11" fill="currentColor">75–100: 5% (strong)</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: hvacaudit.co 147-site audit (2025–2026)</text>
 </svg>
 </figure>

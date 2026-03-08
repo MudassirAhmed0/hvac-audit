@@ -60,24 +60,18 @@ Instead of "Includes: coil cleaning, filter replacement, refrigerant check, elec
   <desc>Funnel visualization showing 52% of HVAC sites have no mention of maintenance agreements, 25% have a brief mention, 15% have a dedicated page without pricing, 6% show pricing, and only 2% offer online sign-up</desc>
   <text x="280" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Maintenance Agreement Visibility on HVAC Websites</text>
   <text x="280" y="48" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">147-site audit, March 2026</text>
-
   <g transform="translate(80, 70)">
     <polygon points="0,0 400,0 370,50 30,50" fill="#ef4444" opacity="0.85"/>
     <text x="200" y="33" text-anchor="middle" font-size="13" font-weight="bold" fill="#f1f5f9">No mention at all — 52%</text>
-
     <polygon points="30,58 370,58 340,108 60,108" fill="#eab308" opacity="0.85"/>
     <text x="200" y="91" text-anchor="middle" font-size="13" font-weight="bold" fill="#0b1220">Brief homepage mention — 25%</text>
-
     <polygon points="60,116 340,116 310,166 90,166" fill="#475569" opacity="0.85"/>
     <text x="200" y="149" text-anchor="middle" font-size="13" font-weight="bold" fill="#f1f5f9">Dedicated page, no pricing — 15%</text>
-
     <polygon points="90,174 310,174 285,224 115,224" fill="#0ea5e9" opacity="0.85"/>
     <text x="200" y="207" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1220">Page with pricing — 6%</text>
-
     <polygon points="115,232 285,232 265,270 135,270" fill="#22c55e" opacity="0.85"/>
     <text x="200" y="258" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1220">Online sign-up — 2%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC Audit 147-site study (2026)</text>
 </svg>
 </figure>
@@ -154,40 +148,34 @@ After analyzing the top-performing maintenance pages across our audit data, here
   <desc>Horizontal bars comparing agreement customers to non-agreement customers on retention (82% vs 20%), lifetime value ($13K vs $1.8K), and annual spend ($2,100 vs $900)</desc>
   <text x="280" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Agreement vs. Non-Agreement Customers</text>
   <text x="280" y="48" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Industry averages across residential HVAC</text>
-
   <g transform="translate(20, 80)">
     <text x="140" y="18" text-anchor="end" font-size="12" fill="currentColor" font-weight="600">Retention Rate</text>
     <rect x="150" y="4" width="76" height="22" rx="4" fill="#475569"/>
     <text x="232" y="20" font-size="11" fill="currentColor" opacity="0.6">20%</text>
     <rect x="150" y="32" width="312" height="22" rx="4" fill="#0ea5e9"/>
     <text x="468" y="48" font-size="11" font-weight="bold" fill="currentColor">82%</text>
-
     <text x="140" y="88" text-anchor="end" font-size="12" fill="currentColor" font-weight="600">Lifetime Value</text>
     <rect x="150" y="74" width="54" height="22" rx="4" fill="#475569"/>
     <text x="210" y="90" font-size="11" fill="currentColor" opacity="0.6">$1,800</text>
     <rect x="150" y="102" width="390" height="22" rx="4" fill="#22c55e"/>
     <text x="446" y="118" font-size="11" font-weight="bold" fill="currentColor">$13,000</text>
-
     <text x="140" y="158" text-anchor="end" font-size="12" fill="currentColor" font-weight="600">Annual Spend</text>
     <rect x="150" y="144" width="118" height="22" rx="4" fill="#475569"/>
     <text x="274" y="160" font-size="11" fill="currentColor" opacity="0.6">$900</text>
     <rect x="150" y="172" width="275" height="22" rx="4" fill="#eab308"/>
     <text x="431" y="188" font-size="11" font-weight="bold" fill="currentColor">$2,100</text>
-
     <text x="140" y="228" text-anchor="end" font-size="12" fill="currentColor" font-weight="600">Referral Rate</text>
     <rect x="150" y="214" width="38" height="22" rx="4" fill="#475569"/>
     <text x="194" y="230" font-size="11" fill="currentColor" opacity="0.6">5%</text>
     <rect x="150" y="242" width="114" height="22" rx="4" fill="#ef4444"/>
     <text x="270" y="258" font-size="11" font-weight="bold" fill="currentColor">22%</text>
   </g>
-
   <g transform="translate(100, 355)">
     <rect x="0" y="0" width="10" height="10" rx="2" fill="#475569"/>
     <text x="14" y="10" font-size="10" fill="currentColor">Non-agreement customer</text>
     <rect x="180" y="0" width="10" height="10" rx="2" fill="#0ea5e9"/>
     <text x="194" y="10" font-size="10" fill="currentColor">Agreement customer</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: Service Roundtable / BDR data (2024-2025)</text>
 </svg>
 </figure>

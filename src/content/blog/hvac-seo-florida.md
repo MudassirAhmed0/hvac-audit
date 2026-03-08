@@ -50,33 +50,26 @@ Florida isn't one market. It's at least six distinct metros with different compe
   <desc>Horizontal bar chart showing Miami-Dade has over 4200 licensed HVAC contractors, far exceeding other Florida markets</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Licensed HVAC Contractors by Florida Metro</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Florida total: 38,290 HVAC technicians (most in the US)</text>
-
   <g transform="translate(20, 65)">
     <text x="115" y="22" text-anchor="end" font-size="12" fill="currentColor">Miami / Broward</text>
     <rect x="120" y="6" width="340" height="28" rx="4" fill="#ef4444"/>
     <text x="468" y="26" font-size="13" font-weight="bold" fill="currentColor">4,200+</text>
-
     <text x="115" y="66" text-anchor="end" font-size="12" fill="currentColor">Tampa Bay</text>
     <rect x="120" y="50" width="170" height="28" rx="4" fill="#eab308"/>
     <text x="298" y="70" font-size="13" font-weight="bold" fill="currentColor">2,100+</text>
-
     <text x="115" y="110" text-anchor="end" font-size="12" fill="currentColor">Orlando</text>
     <rect x="120" y="94" width="145" height="28" rx="4" fill="#0ea5e9"/>
     <text x="273" y="114" font-size="13" font-weight="bold" fill="currentColor">1,800+</text>
-
     <text x="115" y="154" text-anchor="end" font-size="12" fill="currentColor">Jacksonville</text>
     <rect x="120" y="138" width="73" height="28" rx="4" fill="#22c55e"/>
     <text x="201" y="158" font-size="13" font-weight="bold" fill="currentColor">900+</text>
-
     <text x="115" y="198" text-anchor="end" font-size="12" fill="currentColor">Fort Myers</text>
     <rect x="120" y="182" width="57" height="28" rx="4" fill="#a855f7"/>
     <text x="185" y="202" font-size="13" font-weight="bold" fill="currentColor">700+</text>
-
     <text x="115" y="242" text-anchor="end" font-size="12" fill="currentColor">Panhandle</text>
     <rect x="120" y="226" width="41" height="28" rx="4" fill="#475569"/>
     <text x="169" y="246" font-size="13" font-weight="bold" fill="currentColor">500+</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: BLS, Florida DBPR licensing data (2025–2026)</text>
 </svg>
 </figure>
@@ -157,17 +150,14 @@ The same applies to Haitian Creole in North Miami, Portuguese in parts of Orland
   <desc>Line chart comparing monthly search volumes showing Florida maintains high demand year-round while northern states have extreme summer peaks and winter valleys</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">HVAC Search Demand: Florida vs Northern States</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Relative search volume by month (indexed to 100)</text>
-
   <line x1="60" y1="280" x2="530" y2="280" stroke="currentColor" opacity="0.15"/>
   <line x1="60" y1="220" x2="530" y2="220" stroke="currentColor" opacity="0.08"/>
   <line x1="60" y1="160" x2="530" y2="160" stroke="currentColor" opacity="0.08"/>
   <line x1="60" y1="100" x2="530" y2="100" stroke="currentColor" opacity="0.08"/>
-
   <text x="55" y="284" text-anchor="end" font-size="9" fill="currentColor" opacity="0.5">0</text>
   <text x="55" y="224" text-anchor="end" font-size="9" fill="currentColor" opacity="0.5">33</text>
   <text x="55" y="164" text-anchor="end" font-size="9" fill="currentColor" opacity="0.5">66</text>
   <text x="55" y="104" text-anchor="end" font-size="9" fill="currentColor" opacity="0.5">100</text>
-
   <text x="80" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">Jan</text>
   <text x="120" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">Feb</text>
   <text x="160" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">Mar</text>
@@ -180,17 +170,14 @@ The same applies to Haitian Creole in North Miami, Portuguese in parts of Orland
   <text x="440" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">Oct</text>
   <text x="480" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">Nov</text>
   <text x="520" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">Dec</text>
-
   <polyline points="80,220 120,230 160,200 200,160 240,120 280,100 320,100 360,105 400,130 440,180 480,220 520,230" fill="none" stroke="#ef4444" stroke-width="2.5" stroke-linejoin="round"/>
   <polyline points="80,195 120,200 160,180 200,155 240,130 280,115 320,110 360,110 400,120 440,150 480,175 520,190" fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linejoin="round"/>
-
   <g transform="translate(140, 320)">
     <line x1="0" y1="5" x2="20" y2="5" stroke="#ef4444" stroke-width="2.5"/>
     <text x="26" y="9" font-size="11" fill="currentColor">Northern states</text>
     <line x1="160" y1="5" x2="180" y2="5" stroke="#22c55e" stroke-width="2.5"/>
     <text x="186" y="9" font-size="11" fill="currentColor">Florida</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: Google Trends, HVAC keyword data (2024–2026)</text>
 </svg>
 </figure>

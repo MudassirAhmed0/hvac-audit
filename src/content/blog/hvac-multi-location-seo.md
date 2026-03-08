@@ -52,29 +52,23 @@ The fix is tedious but straightforward: audit every directory listing, standardi
   <desc>Horizontal bar chart showing the most common citation problems, with inconsistent business names being the most prevalent at 53%</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Citation Issues in Multi-Location HVAC Companies</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">% of companies with each issue</text>
-
   <g transform="translate(20, 70)">
     <text x="180" y="22" text-anchor="end" font-size="12" fill="currentColor">Inconsistent name</text>
     <rect x="185" y="6" width="265" height="28" rx="4" fill="#ef4444"/>
     <text x="460" y="26" font-size="13" font-weight="bold" fill="currentColor">53%</text>
-
     <text x="180" y="68" text-anchor="end" font-size="12" fill="currentColor">Old phone numbers</text>
     <rect x="185" y="52" width="210" height="28" rx="4" fill="#eab308"/>
     <text x="405" y="72" font-size="13" font-weight="bold" fill="currentColor">42%</text>
-
     <text x="180" y="114" text-anchor="end" font-size="12" fill="currentColor">Duplicate listings</text>
     <rect x="185" y="98" width="155" height="28" rx="4" fill="#0ea5e9"/>
     <text x="350" y="118" font-size="13" font-weight="bold" fill="currentColor">31%</text>
-
     <text x="180" y="160" text-anchor="end" font-size="12" fill="currentColor">Wrong address</text>
     <rect x="185" y="144" width="140" height="28" rx="4" fill="#0ea5e9"/>
     <text x="335" y="164" font-size="13" font-weight="bold" fill="currentColor">28%</text>
-
     <text x="180" y="206" text-anchor="end" font-size="12" fill="currentColor">Closed listings active</text>
     <rect x="185" y="190" width="95" height="28" rx="4" fill="#475569"/>
     <text x="290" y="210" font-size="13" font-weight="bold" fill="currentColor">19%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: Multi-location HVAC audit data, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>
@@ -157,26 +151,22 @@ The contractors we see ranking in multiple cities have methodically built and ma
   <desc>Visual comparison showing multi-location companies with a GBP per city appear in the Map Pack 3.8 times more often than single-location companies</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Map Pack Appearances by Location Strategy</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Companies serving the same geographic area</text>
-
   <g transform="translate(40, 80)">
     <text x="0" y="15" font-size="12" fill="currentColor" font-weight="bold">Single-location GBP</text>
     <text x="0" y="32" font-size="11" fill="currentColor" opacity="0.5">One office, service area set to 5 cities</text>
     <rect x="0" y="42" width="100" height="40" rx="6" fill="#475569"/>
     <text x="110" y="68" font-size="18" font-weight="bold" fill="currentColor">1x</text>
     <text x="140" y="68" font-size="11" fill="currentColor" opacity="0.5">baseline appearances</text>
-
     <text x="0" y="120" font-size="12" fill="currentColor" font-weight="bold">Multi-location GBP</text>
     <text x="0" y="137" font-size="11" fill="currentColor" opacity="0.5">GBP per city with city pages + local reviews</text>
     <rect x="0" y="147" width="380" height="40" rx="6" fill="#22c55e"/>
     <text x="390" y="173" font-size="18" font-weight="bold" fill="currentColor">3.8x</text>
     <text x="428" y="173" font-size="11" fill="currentColor" opacity="0.5">appearances</text>
   </g>
-
   <g transform="translate(40, 280)">
     <text x="0" y="0" font-size="11" fill="currentColor" opacity="0.7">Multi-location strategy requires: dedicated GBP per office, city pages on website,</text>
     <text x="0" y="18" font-size="11" fill="currentColor" opacity="0.7">consistent citations, and geographically diverse reviews for each market.</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: Multi-location HVAC audit data, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>

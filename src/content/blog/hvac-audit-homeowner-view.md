@@ -100,24 +100,20 @@ The financing section shows monthly payment options: "$89/month for a new system
   <desc>Horizontal bar chart comparing three HVAC websites by audit score: Site A at 28/100 in red, Site B at 54/100 in yellow, Site C at 91/100 in green, with load times and outcomes annotated</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Three Sites, One Homeowner, One Call</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Audit score out of 100 — higher is better</text>
-
   <g transform="translate(20, 75)">
     <text x="70" y="28" text-anchor="end" font-size="14" font-weight="bold" fill="currentColor">Site A</text>
     <rect x="80" y="10" width="131" height="36" rx="6" fill="#ef4444"/>
     <text x="220" y="34" font-size="18" font-weight="900" fill="currentColor">28</text>
     <text x="250" y="34" font-size="11" fill="currentColor" opacity="0.5">14s load · No call</text>
-
     <text x="70" y="108" text-anchor="end" font-size="14" font-weight="bold" fill="currentColor">Site B</text>
     <rect x="80" y="90" width="252" height="36" rx="6" fill="#eab308"/>
     <text x="341" y="114" font-size="18" font-weight="900" fill="currentColor">54</text>
     <text x="371" y="114" font-size="11" fill="currentColor" opacity="0.5">4.2s load · No call</text>
-
     <text x="70" y="188" text-anchor="end" font-size="14" font-weight="bold" fill="currentColor">Site C</text>
     <rect x="80" y="170" width="425" height="36" rx="6" fill="#22c55e"/>
     <text x="514" y="194" font-size="18" font-weight="900" fill="currentColor">91</text>
     <text x="165" y="232" font-size="11" fill="currentColor" opacity="0.5">1.8s load · Called in 18 seconds</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: hvacaudit.co 147-site study (2026)</text>
 </svg>
 </figure>
@@ -156,7 +152,6 @@ If your site answers all three in 5 seconds, you get the call. If it answers non
   <desc>Donut chart showing three equal components of the 5-second trust test: availability (can they help now), pricing (how much), and trust (can I trust them), with each representing one-third of the decision</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">The 5-Second Trust Test</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">3 questions homeowners answer before scrolling</text>
-
   <g transform="translate(280, 195)">
     <circle cx="0" cy="0" r="100" fill="none" stroke="#22c55e" stroke-width="36"
             stroke-dasharray="209.4 419" stroke-dashoffset="0" transform="rotate(-90)"/>
@@ -167,7 +162,6 @@ If your site answers all three in 5 seconds, you get the call. If it answers non
     <text x="0" y="-4" text-anchor="middle" font-size="28" font-weight="900" fill="currentColor">5 sec</text>
     <text x="0" y="18" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">or they're gone</text>
   </g>
-
   <g transform="translate(40, 330)">
     <rect x="0" y="0" width="12" height="12" rx="2" fill="#22c55e"/>
     <text x="18" y="11" font-size="11" fill="currentColor">Available now?</text>
@@ -176,7 +170,6 @@ If your site answers all three in 5 seconds, you get the call. If it answers non
     <rect x="300" y="0" width="12" height="12" rx="2" fill="#eab308"/>
     <text x="318" y="11" font-size="11" fill="currentColor">Can I trust them?</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: hvacaudit.co 147-site study, Stanford Web Credibility Project (2025–2026)</text>
 </svg>
 </figure>

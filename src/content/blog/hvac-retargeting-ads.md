@@ -60,7 +60,6 @@ Not all retargeting is created equal. Showing the same ad for 90 days creates ba
   <desc>Area chart showing that 60% of HVAC retargeting conversions occur in the first 7 days, with rapidly diminishing returns after day 14</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">When Retargeting Converts: The 30-Day Window</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">% of total retargeting conversions by time since first visit</text>
-
   <g transform="translate(70, 70)">
     <!-- Grid lines -->
     <line x1="0" y1="220" x2="420" y2="220" stroke="currentColor" stroke-opacity="0.15"/>
@@ -68,47 +67,37 @@ Not all retargeting is created equal. Showing the same ad for 90 days creates ba
     <line x1="0" y1="110" x2="420" y2="110" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="55" x2="420" y2="55" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="0" x2="420" y2="0" stroke="currentColor" stroke-opacity="0.08"/>
-
     <!-- Y-axis labels -->
     <text x="-10" y="224" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">0%</text>
     <text x="-10" y="169" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">25%</text>
     <text x="-10" y="114" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">50%</text>
     <text x="-10" y="59" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">75%</text>
-
     <!-- Area fill -->
     <path d="M0,220 L30,88 L90,50 L150,115 L210,155 L270,190 L330,208 L390,215 L420,218 L420,220 L0,220 Z" fill="#0ea5e9" fill-opacity="0.15"/>
     <polyline points="0,220 30,88 90,50 150,115 210,155 270,190 330,208 390,215 420,218" fill="none" stroke="#0ea5e9" stroke-width="3"/>
-
     <!-- Annotation: Days 1-7 peak -->
     <circle cx="90" cy="50" r="6" fill="#22c55e"/>
     <text x="90" y="38" text-anchor="middle" font-size="12" font-weight="bold" fill="#22c55e">60%</text>
-
     <!-- Annotation: Days 8-14 -->
     <circle cx="210" cy="155" r="5" fill="#0ea5e9"/>
     <text x="210" y="145" text-anchor="middle" font-size="11" font-weight="bold" fill="#0ea5e9">25%</text>
-
     <!-- Annotation: Days 15-30 -->
     <circle cx="330" cy="208" r="5" fill="#f97316"/>
     <text x="330" y="198" text-anchor="middle" font-size="11" font-weight="bold" fill="#f97316">12%</text>
-
     <!-- X-axis labels -->
     <text x="0" y="240" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Day 1</text>
     <text x="90" y="240" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Day 7</text>
     <text x="210" y="240" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Day 14</text>
     <text x="330" y="240" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Day 30</text>
     <text x="420" y="240" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Day 45+</text>
-
     <!-- Phase labels -->
     <rect x="10" y="255" width="150" height="20" rx="3" fill="#22c55e" fill-opacity="0.15"/>
     <text x="85" y="269" text-anchor="middle" font-size="9" fill="#22c55e">Reminder Phase</text>
-
     <rect x="165" y="255" width="120" height="20" rx="3" fill="#0ea5e9" fill-opacity="0.15"/>
     <text x="225" y="269" text-anchor="middle" font-size="9" fill="#0ea5e9">Social Proof</text>
-
     <rect x="290" y="255" width="100" height="20" rx="3" fill="#f97316" fill-opacity="0.15"/>
     <text x="340" y="269" text-anchor="middle" font-size="9" fill="#f97316">Urgency/Offer</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: AdRoll, Criteo, hvacaudit.co retargeting data (2024–2025)</text>
 </svg>
 </figure>
@@ -174,43 +163,32 @@ The biggest mistake: waiting to install pixels until you're "ready" for retarget
   <desc>Side-by-side comparison showing that $500 in retargeting spend produces more leads at lower cost than $500 in cold Google Ads</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">$500/Month: Retargeting vs. Cold Campaigns</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Same budget, dramatically different results</text>
-
   <g transform="translate(40, 70)">
     <!-- Cold campaigns column -->
     <rect x="0" y="0" width="220" height="260" rx="8" fill="#ef4444" fill-opacity="0.08" stroke="#ef4444" stroke-opacity="0.2"/>
     <text x="110" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#ef4444">Cold Google Ads</text>
     <text x="110" y="48" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">$500/month budget</text>
-
     <text x="110" y="82" text-anchor="middle" font-size="11" fill="currentColor">Clicks</text>
     <text x="110" y="102" text-anchor="middle" font-size="24" font-weight="bold" fill="currentColor">41–73</text>
-
     <text x="110" y="132" text-anchor="middle" font-size="11" fill="currentColor">Leads</text>
     <text x="110" y="152" text-anchor="middle" font-size="24" font-weight="bold" fill="#ef4444">2–4</text>
-
     <text x="110" y="182" text-anchor="middle" font-size="11" fill="currentColor">Cost per lead</text>
     <text x="110" y="202" text-anchor="middle" font-size="24" font-weight="bold" fill="#ef4444">$104</text>
-
     <text x="110" y="232" text-anchor="middle" font-size="11" fill="currentColor">Close rate</text>
     <text x="110" y="248" text-anchor="middle" font-size="20" font-weight="bold" fill="currentColor">25–30%</text>
-
     <!-- Retargeting column -->
     <rect x="250" y="0" width="220" height="260" rx="8" fill="#22c55e" fill-opacity="0.08" stroke="#22c55e" stroke-opacity="0.2"/>
     <text x="360" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#22c55e">Retargeting</text>
     <text x="360" y="48" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">$500/month budget</text>
-
     <text x="360" y="82" text-anchor="middle" font-size="11" fill="currentColor">Impressions</text>
     <text x="360" y="102" text-anchor="middle" font-size="24" font-weight="bold" fill="currentColor">62K–166K</text>
-
     <text x="360" y="132" text-anchor="middle" font-size="11" fill="currentColor">Leads</text>
     <text x="360" y="152" text-anchor="middle" font-size="24" font-weight="bold" fill="#22c55e">14–25</text>
-
     <text x="360" y="182" text-anchor="middle" font-size="11" fill="currentColor">Cost per lead</text>
     <text x="360" y="202" text-anchor="middle" font-size="24" font-weight="bold" fill="#22c55e">$20–$35</text>
-
     <text x="360" y="232" text-anchor="middle" font-size="11" fill="currentColor">Close rate</text>
     <text x="360" y="248" text-anchor="middle" font-size="20" font-weight="bold" fill="currentColor">35–50%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: WordStream, AdRoll, Criteo, hvacaudit.co analysis (2024–2025)</text>
 </svg>
 </figure>

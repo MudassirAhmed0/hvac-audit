@@ -44,23 +44,17 @@ Angi Leads continues to operate under a different brand name, but the business m
   <desc>Funnel chart showing lead generation platform conversion: 22 leads purchased at $75 each, only 8 answer the phone, 3 book appointments, and 1 becomes a paying customer, costing $1,650 for a $480 job</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">22 Leads Purchased → 1 Customer</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Typical Angi Leads funnel for an HVAC contractor</text>
-
   <g transform="translate(80, 65)">
     <rect x="0" y="0" width="400" height="48" rx="6" fill="#475569"/>
     <text x="200" y="30" text-anchor="middle" font-size="14" font-weight="bold" fill="#f1f5f9">22 leads purchased — $1,650</text>
-
     <rect x="50" y="60" width="300" height="48" rx="6" fill="#eab308"/>
     <text x="200" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">8 answer the phone (36%)</text>
-
     <rect x="100" y="120" width="200" height="48" rx="6" fill="#0ea5e9"/>
     <text x="200" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3 book appointment (14%)</text>
-
     <rect x="140" y="180" width="120" height="48" rx="6" fill="#ef4444"/>
     <text x="200" y="210" text-anchor="middle" font-size="14" font-weight="bold" fill="#f1f5f9">1 pays (4.5%)</text>
-
     <text x="200" y="260" text-anchor="middle" font-size="16" font-weight="900" fill="#ef4444">$1,650 cost → $480 revenue</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Adapt Digital Marketing, FTC Settlement (2022–2025)</text>
 </svg>
 </figure>
@@ -105,33 +99,26 @@ Quitting cold turkey creates a lead gap. Here's the transition:
   <title>Cost Per Customer by Channel</title>
   <desc>Horizontal bar chart comparing true customer acquisition cost across six marketing channels, from Google Business Profile at $0-125 to Angi Leads at $1,200-1,800</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">True Cost Per Customer by Channel</text>
-
   <g transform="translate(20, 60)">
     <text x="85" y="28" text-anchor="end" font-size="11" fill="currentColor">GBP (organic)</text>
     <rect x="95" y="12" width="35" height="28" rx="4" fill="#22c55e"/>
     <text x="140" y="32" font-size="12" font-weight="bold" fill="currentColor">$0–125</text>
-
     <text x="85" y="73" text-anchor="end" font-size="11" fill="currentColor">Referrals</text>
     <rect x="95" y="57" width="28" height="28" rx="4" fill="#22c55e"/>
     <text x="133" y="77" font-size="12" font-weight="bold" fill="currentColor">$0–85</text>
-
     <text x="85" y="118" text-anchor="end" font-size="11" fill="currentColor">SEO</text>
     <rect x="95" y="102" width="100" height="28" rx="4" fill="#0ea5e9"/>
     <text x="205" y="122" font-size="12" font-weight="bold" fill="currentColor">$200–500</text>
-
     <text x="85" y="163" text-anchor="end" font-size="11" fill="currentColor">Google Ads</text>
     <rect x="95" y="147" width="110" height="28" rx="4" fill="#eab308"/>
     <text x="215" y="167" font-size="12" font-weight="bold" fill="currentColor">$250–500</text>
-
     <text x="85" y="208" text-anchor="end" font-size="11" fill="currentColor">Thumbtack</text>
     <rect x="95" y="192" width="190" height="28" rx="4" fill="#ef4444" opacity="0.7"/>
     <text x="295" y="212" font-size="12" font-weight="bold" fill="currentColor">$400–850</text>
-
     <text x="85" y="253" text-anchor="end" font-size="11" fill="currentColor">Angi Leads</text>
     <rect x="95" y="237" width="370" height="28" rx="4" fill="#ef4444"/>
     <text x="475" y="257" font-size="12" font-weight="bold" fill="currentColor">$1,200–1,800</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Adapt Digital, Home Service Direct, JB Warranties (2023–2025)</text>
 </svg>
 </figure>

@@ -66,52 +66,39 @@ This is why a systematic [Google reviews strategy](/blog/hvac-google-reviews-str
   <desc>Line chart showing how a 20-review attack drops a rating from 4.8 to 4.07 with 85 reviews, to 4.37 with 150 reviews, and to 4.56 with 300 reviews — demonstrating that volume is protection</desc>
   <text x="280" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Rating Impact of a 20-Review Attack</text>
   <text x="280" y="48" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Starting rating: 4.8 stars, attacked with 20 fake 1-star reviews</text>
-
   <g transform="translate(70, 75)">
     <line x1="0" y1="0" x2="0" y2="220" stroke="currentColor" opacity="0.15"/>
     <line x1="0" y1="220" x2="420" y2="220" stroke="currentColor" opacity="0.15"/>
-
     <line x1="0" y1="0" x2="420" y2="0" stroke="currentColor" opacity="0.06" stroke-dasharray="4 4"/>
     <text x="-8" y="5" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">5.0</text>
-
     <line x1="0" y1="44" x2="420" y2="44" stroke="currentColor" opacity="0.06" stroke-dasharray="4 4"/>
     <text x="-8" y="49" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">4.5</text>
-
     <line x1="0" y1="110" x2="420" y2="110" stroke="currentColor" opacity="0.06" stroke-dasharray="4 4"/>
     <text x="-8" y="115" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">4.0</text>
-
     <line x1="0" y1="176" x2="420" y2="176" stroke="currentColor" opacity="0.06" stroke-dasharray="4 4"/>
     <text x="-8" y="181" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">3.5</text>
-
     <line x1="0" y1="44" x2="420" y2="44" stroke="#22c55e" opacity="0.2" stroke-width="20"/>
     <text x="425" y="49" font-size="9" fill="#22c55e" opacity="0.6">Safe zone (4.5+)</text>
-
     <text x="70" y="240" text-anchor="middle" font-size="11" fill="currentColor">85 reviews</text>
     <text x="210" y="240" text-anchor="middle" font-size="11" fill="currentColor">150 reviews</text>
     <text x="350" y="240" text-anchor="middle" font-size="11" fill="currentColor">300 reviews</text>
-
     <circle cx="70" y="17" r="3" fill="currentColor" opacity="0.3"/>
     <circle cx="210" y="17" r="3" fill="currentColor" opacity="0.3"/>
     <circle cx="350" y="17" r="3" fill="currentColor" opacity="0.3"/>
     <line x1="70" y1="17" x2="350" y2="17" stroke="currentColor" opacity="0.2" stroke-dasharray="4 4"/>
     <text x="210" y="12" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.4">Before attack: 4.8</text>
-
     <circle cx="70" cy="104" r="6" fill="#ef4444"/>
     <text x="70" y="125" text-anchor="middle" font-size="13" font-weight="bold" fill="#ef4444">4.07</text>
     <text x="70" y="140" text-anchor="middle" font-size="10" fill="#ef4444" opacity="0.7">-0.73 pts</text>
-
     <circle cx="210" cy="62" r="6" fill="#eab308"/>
     <text x="210" y="83" text-anchor="middle" font-size="13" font-weight="bold" fill="#eab308">4.37</text>
     <text x="210" y="98" text-anchor="middle" font-size="10" fill="#eab308" opacity="0.7">-0.43 pts</text>
-
     <circle cx="350" cy="36" r="6" fill="#22c55e"/>
     <text x="350" y="57" text-anchor="middle" font-size="13" font-weight="bold" fill="#22c55e">4.56</text>
     <text x="350" y="72" text-anchor="middle" font-size="10" fill="#22c55e" opacity="0.7">-0.24 pts</text>
-
     <line x1="70" y1="104" x2="210" y2="62" stroke="currentColor" opacity="0.3" stroke-width="2"/>
     <line x1="210" y1="62" x2="350" y2="36" stroke="currentColor" opacity="0.3" stroke-width="2"/>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: Rating calculation based on weighted average model</text>
 </svg>
 </figure>
@@ -194,29 +181,23 @@ The practical challenge is proof. You need to document: the reviews aren't from 
   <desc>Horizontal bar chart showing standard flagging succeeds 20% of the time, GBP support form 35%, social media escalation 48%, legal removal request 65%, and documented fraud report 72%</desc>
   <text x="280" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Removal Success Rate by Method</text>
   <text x="280" y="48" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Estimated success rates for fake Google review removal</text>
-
   <g transform="translate(20, 80)">
     <text x="170" y="20" text-anchor="end" font-size="12" fill="currentColor">Standard flag</text>
     <rect x="180" y="6" width="72" height="24" rx="4" fill="#ef4444"/>
     <text x="258" y="23" font-size="12" font-weight="bold" fill="currentColor">20%</text>
-
     <text x="170" y="64" text-anchor="end" font-size="12" fill="currentColor">GBP support form</text>
     <rect x="180" y="50" width="126" height="24" rx="4" fill="#eab308"/>
     <text x="312" y="67" font-size="12" font-weight="bold" fill="currentColor">35%</text>
-
     <text x="170" y="108" text-anchor="end" font-size="12" fill="currentColor">Social media escalation</text>
     <rect x="180" y="94" width="173" height="24" rx="4" fill="#eab308"/>
     <text x="359" y="111" font-size="12" font-weight="bold" fill="currentColor">48%</text>
-
     <text x="170" y="152" text-anchor="end" font-size="12" fill="currentColor">Legal removal request</text>
     <rect x="180" y="138" width="234" height="24" rx="4" fill="#0ea5e9"/>
     <text x="420" y="155" font-size="12" font-weight="bold" fill="currentColor">65%</text>
-
     <text x="170" y="196" text-anchor="end" font-size="12" fill="currentColor">Documented fraud report</text>
     <rect x="180" y="182" width="259" height="24" rx="4" fill="#22c55e"/>
     <text x="445" y="199" font-size="12" font-weight="bold" fill="currentColor">72%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: Reputation management industry data (2024-2025)</text>
 </svg>
 </figure>

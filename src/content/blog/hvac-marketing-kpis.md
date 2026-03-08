@@ -59,29 +59,23 @@ When we audited [147 HVAC websites](/blog/hvac-website-audit-147-sites/), only 1
   <desc>Horizontal bar chart comparing the cost per lead across five HVAC marketing channels, showing Google Business Profile as cheapest and HomeAdvisor as most expensive</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Cost Per Lead by Marketing Channel</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">HVAC industry averages (2025–2026)</text>
-
   <g transform="translate(20, 70)">
     <text x="160" y="25" text-anchor="end" font-size="12" fill="currentColor">Google Business Profile</text>
     <rect x="165" y="10" width="20" height="28" rx="4" fill="#22c55e"/>
     <text x="195" y="30" font-size="12" font-weight="bold" fill="currentColor">$0–$10</text>
-
     <text x="160" y="75" text-anchor="end" font-size="12" fill="currentColor">SEO (organic)</text>
     <rect x="165" y="60" width="80" height="28" rx="4" fill="#22c55e"/>
     <text x="255" y="80" font-size="12" font-weight="bold" fill="currentColor">$15–$45</text>
-
     <text x="160" y="125" text-anchor="end" font-size="12" fill="currentColor">Social media ads</text>
     <rect x="165" y="110" width="130" height="28" rx="4" fill="#eab308"/>
     <text x="305" y="130" font-size="12" font-weight="bold" fill="currentColor">$30–$80</text>
-
     <text x="160" y="175" text-anchor="end" font-size="12" fill="currentColor">Google Ads</text>
     <rect x="165" y="160" width="200" height="28" rx="4" fill="#eab308"/>
     <text x="375" y="180" font-size="12" font-weight="bold" fill="currentColor">$45–$120</text>
-
     <text x="160" y="225" text-anchor="end" font-size="12" fill="currentColor">HomeAdvisor / Angi</text>
     <rect x="165" y="210" width="290" height="28" rx="4" fill="#ef4444"/>
     <text x="465" y="230" font-size="12" font-weight="bold" fill="currentColor">$65–$180</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC marketing data, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>
@@ -191,56 +185,45 @@ Review velocity also predicts future Map Pack performance. If your velocity is i
   <desc>Dashboard showing seven KPI gauges indicating what healthy, warning, and critical thresholds look like for each metric</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Your Marketing KPI Health Check</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Where do you stand on each metric?</text>
-
   <g transform="translate(20, 65)">
     <text x="160" y="14" text-anchor="end" font-size="11" fill="currentColor" font-weight="bold">KPI</text>
     <text x="255" y="14" text-anchor="middle" font-size="10" fill="#ef4444" font-weight="bold">Critical</text>
     <text x="370" y="14" text-anchor="middle" font-size="10" fill="#eab308" font-weight="bold">Warning</text>
     <text x="480" y="14" text-anchor="middle" font-size="10" fill="#22c55e" font-weight="bold">Healthy</text>
-
     <line x1="170" y1="22" x2="530" y2="22" stroke="currentColor" opacity="0.1"/>
-
     <text x="160" y="44" text-anchor="end" font-size="10" fill="currentColor">CAC</text>
     <text x="255" y="44" text-anchor="middle" font-size="10" fill="currentColor">$500+</text>
     <text x="370" y="44" text-anchor="middle" font-size="10" fill="currentColor">$280-$450</text>
     <text x="480" y="44" text-anchor="middle" font-size="10" fill="currentColor">Under $200</text>
-
     <text x="160" y="72" text-anchor="end" font-size="10" fill="currentColor">Cost per lead</text>
     <text x="255" y="72" text-anchor="middle" font-size="10" fill="currentColor">$150+</text>
     <text x="370" y="72" text-anchor="middle" font-size="10" fill="currentColor">$80-$150</text>
     <text x="480" y="72" text-anchor="middle" font-size="10" fill="currentColor">Under $50</text>
-
     <text x="160" y="100" text-anchor="end" font-size="10" fill="currentColor">Lead-to-job rate</text>
     <text x="255" y="100" text-anchor="middle" font-size="10" fill="currentColor">Under 20%</text>
     <text x="370" y="100" text-anchor="middle" font-size="10" fill="currentColor">25-35%</text>
     <text x="480" y="100" text-anchor="middle" font-size="10" fill="currentColor">45%+</text>
-
     <text x="160" y="128" text-anchor="end" font-size="10" fill="currentColor">Revenue/tech</text>
     <text x="255" y="128" text-anchor="middle" font-size="10" fill="currentColor">Under $200K</text>
     <text x="370" y="128" text-anchor="middle" font-size="10" fill="currentColor">$200K-$350K</text>
     <text x="480" y="128" text-anchor="middle" font-size="10" fill="currentColor">$400K+</text>
-
     <text x="160" y="156" text-anchor="end" font-size="10" fill="currentColor">Website CVR</text>
     <text x="255" y="156" text-anchor="middle" font-size="10" fill="currentColor">Under 1.5%</text>
     <text x="370" y="156" text-anchor="middle" font-size="10" fill="currentColor">2-3.5%</text>
     <text x="480" y="156" text-anchor="middle" font-size="10" fill="currentColor">5%+</text>
-
     <text x="160" y="184" text-anchor="end" font-size="10" fill="currentColor">Review velocity</text>
     <text x="255" y="184" text-anchor="middle" font-size="10" fill="currentColor">Under 3/mo</text>
     <text x="370" y="184" text-anchor="middle" font-size="10" fill="currentColor">5-10/mo</text>
     <text x="480" y="184" text-anchor="middle" font-size="10" fill="currentColor">15+/mo</text>
-
     <text x="160" y="212" text-anchor="end" font-size="10" fill="currentColor">Channel ROI</text>
     <text x="255" y="212" text-anchor="middle" font-size="10" fill="currentColor">Under 3:1</text>
     <text x="370" y="212" text-anchor="middle" font-size="10" fill="currentColor">3:1-7:1</text>
     <text x="480" y="212" text-anchor="middle" font-size="10" fill="currentColor">8:1+</text>
   </g>
-
   <g transform="translate(40, 300)">
     <text x="0" y="0" font-size="11" fill="currentColor" opacity="0.7">86% of HVAC companies track total revenue only — missing the leading indicators</text>
     <text x="0" y="18" font-size="11" fill="currentColor" opacity="0.7">that predict whether marketing spend is producing profitable growth.</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC marketing data, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>

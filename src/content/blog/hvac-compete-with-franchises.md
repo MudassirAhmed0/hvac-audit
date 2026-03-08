@@ -46,13 +46,10 @@ Franchise operations have structural disadvantages that independent contractors 
   <desc>Visual comparison showing where franchise and independent HVAC companies each have natural advantages</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Where Each Side Wins</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Franchise advantages vs independent advantages</text>
-
   <rect x="30" y="60" width="240" height="26" rx="4" fill="#ef4444" opacity="0.15"/>
   <text x="150" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="#ef4444">Franchise Advantages</text>
-
   <rect x="290" y="60" width="240" height="26" rx="4" fill="#22c55e" opacity="0.15"/>
   <text x="410" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="#22c55e">Independent Advantages</text>
-
   <g transform="translate(30, 100)">
     <text x="15" y="14" font-size="11" fill="currentColor">Brand recognition (67%)</text>
     <text x="15" y="40" font-size="11" fill="currentColor">Call answer rate (94%)</text>
@@ -61,7 +58,6 @@ Franchise operations have structural disadvantages that independent contractors 
     <text x="15" y="118" font-size="11" fill="currentColor">Financing programs built-in</text>
     <text x="15" y="144" font-size="11" fill="currentColor">Marketing budget ($800K+)</text>
   </g>
-
   <g transform="translate(290, 100)">
     <text x="15" y="14" font-size="11" fill="currentColor">Local trust (81% prefer)</text>
     <text x="15" y="40" font-size="11" fill="currentColor">Authentic city content</text>
@@ -71,11 +67,9 @@ Franchise operations have structural disadvantages that independent contractors 
     <text x="15" y="144" font-size="11" fill="currentColor">Tech retention (2x better)</text>
     <text x="15" y="170" font-size="11" fill="currentColor">Flexible/responsive service</text>
   </g>
-
   <text x="280" y="310" text-anchor="middle" font-size="12" fill="currentColor" opacity="0.7">Key insight: franchises win on visibility and systems.</text>
   <text x="280" y="328" text-anchor="middle" font-size="12" fill="currentColor" opacity="0.7">Independents win on trust, price, and relationships.</text>
   <text x="280" y="346" text-anchor="middle" font-size="12" fill="currentColor" opacity="0.7">The battle is decided by which side closes their gaps first.</text>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC industry analysis, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>
@@ -170,33 +164,26 @@ The average franchise HVAC website scores 62/100. The average independent scores
   <desc>Vertical bar chart showing the gap between average independent HVAC website scores (34), franchise scores (62), and what top independents achieve (80+)</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Website Audit Scores: The Gap You Need to Close</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Independent avg vs franchise avg vs top independents</text>
-
   <line x1="80" y1="280" x2="480" y2="280" stroke="currentColor" opacity="0.15"/>
   <line x1="80" y1="232" x2="480" y2="232" stroke="currentColor" opacity="0.08"/>
   <line x1="80" y1="184" x2="480" y2="184" stroke="currentColor" opacity="0.08"/>
   <line x1="80" y1="136" x2="480" y2="136" stroke="currentColor" opacity="0.08"/>
   <line x1="80" y1="88" x2="480" y2="88" stroke="currentColor" opacity="0.08"/>
-
   <text x="75" y="284" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">0</text>
   <text x="75" y="236" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">25</text>
   <text x="75" y="188" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">50</text>
   <text x="75" y="140" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">75</text>
   <text x="75" y="92" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">100</text>
-
   <rect x="130" y="215" width="80" height="65" rx="4" fill="#ef4444"/>
   <text x="170" y="207" text-anchor="middle" font-size="18" font-weight="bold" fill="currentColor">34</text>
   <text x="170" y="300" text-anchor="middle" font-size="10" fill="currentColor">Avg independent</text>
-
   <rect x="250" y="161" width="80" height="119" rx="4" fill="#eab308"/>
   <text x="290" y="153" text-anchor="middle" font-size="18" font-weight="bold" fill="currentColor">62</text>
   <text x="290" y="300" text-anchor="middle" font-size="10" fill="currentColor">Avg franchise</text>
-
   <rect x="370" y="126" width="80" height="154" rx="4" fill="#22c55e"/>
   <text x="410" y="118" text-anchor="middle" font-size="18" font-weight="bold" fill="currentColor">80+</text>
   <text x="410" y="300" text-anchor="middle" font-size="10" fill="currentColor">Top independents</text>
-
   <text x="280" y="340" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7">Top independents outperform franchise websites — at a fraction of the cost.</text>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC website audit data, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>

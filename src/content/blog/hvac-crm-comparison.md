@@ -102,51 +102,37 @@ This is the honest comparison. No affiliate links. No sponsored endorsements. Ju
   <desc>Grouped bar chart showing annual CRM costs for 3-tech, 5-tech, and 10-tech HVAC companies across ServiceTitan, Jobber, and Housecall Pro</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Annual CRM Cost by Company Size</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">ServiceTitan vs Jobber vs Housecall Pro</text>
-
   <g transform="translate(40, 70)">
     <text x="80" y="15" text-anchor="middle" font-size="11" fill="currentColor" font-weight="bold">3 techs</text>
     <text x="250" y="15" text-anchor="middle" font-size="11" fill="currentColor" font-weight="bold">5 techs</text>
     <text x="420" y="15" text-anchor="middle" font-size="11" fill="currentColor" font-weight="bold">10 techs</text>
   </g>
-
   <g transform="translate(20, 90)">
     <rect x="30" y="0" width="28" height="175" rx="3" fill="#ef4444"/>
     <text x="44" y="192" text-anchor="middle" font-size="8" fill="currentColor">ST</text>
-
     <rect x="62" y="145" width="28" height="30" rx="3" fill="#22c55e"/>
     <text x="76" y="192" text-anchor="middle" font-size="8" fill="currentColor">Job</text>
-
     <rect x="94" y="130" width="28" height="45" rx="3" fill="#0ea5e9"/>
     <text x="108" y="192" text-anchor="middle" font-size="8" fill="currentColor">HCP</text>
-
     <text x="76" y="215" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">$9K-$18K</text>
     <text x="76" y="228" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">$1.4K / $2K</text>
-
     <rect x="200" y="0" width="28" height="210" rx="3" fill="#ef4444"/>
     <text x="214" y="192" text-anchor="middle" font-size="8" fill="currentColor">ST</text>
-
     <rect x="232" y="145" width="28" height="30" rx="3" fill="#22c55e"/>
     <text x="246" y="192" text-anchor="middle" font-size="8" fill="currentColor">Job</text>
-
     <rect x="264" y="118" width="28" height="57" rx="3" fill="#0ea5e9"/>
     <text x="278" y="192" text-anchor="middle" font-size="8" fill="currentColor">HCP</text>
-
     <text x="246" y="215" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">$15K-$30K</text>
     <text x="246" y="228" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">$1.4K / $3K</text>
-
     <rect x="370" y="0" width="28" height="250" rx="3" fill="#ef4444"/>
     <text x="384" y="192" text-anchor="middle" font-size="8" fill="currentColor">ST</text>
-
     <rect x="402" y="137" width="28" height="38" rx="3" fill="#22c55e"/>
     <text x="416" y="192" text-anchor="middle" font-size="8" fill="currentColor">Job</text>
-
     <rect x="434" y="100" width="28" height="75" rx="3" fill="#0ea5e9"/>
     <text x="448" y="192" text-anchor="middle" font-size="8" fill="currentColor">HCP</text>
-
     <text x="416" y="215" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">$30K-$60K</text>
     <text x="416" y="228" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">$2.9K / $4.8K</text>
   </g>
-
   <g transform="translate(40, 340)">
     <rect x="0" y="0" width="10" height="10" rx="2" fill="#ef4444"/>
     <text x="14" y="10" font-size="10" fill="currentColor">ServiceTitan</text>
@@ -155,7 +141,6 @@ This is the honest comparison. No affiliate links. No sponsored endorsements. Ju
     <rect x="185" y="0" width="10" height="10" rx="2" fill="#0ea5e9"/>
     <text x="199" y="10" font-size="10" fill="currentColor">Housecall Pro</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: Published pricing, HVAC operator interviews (2025–2026)</text>
 </svg>
 </figure>
@@ -264,52 +249,42 @@ Your [marketing budget](/blog/hvac-marketing-budget/) is probably your second-la
   <title>Which HVAC CRM Fits Your Operation</title>
   <desc>Flowchart showing Jobber is best for 1-10 techs under $1.5M, Housecall Pro for 3-15 techs at $500K-$3M, and ServiceTitan for 10+ techs above $2M</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Which CRM Fits Your Operation</text>
-
   <rect x="180" y="50" width="200" height="35" rx="6" fill="currentColor" opacity="0.08"/>
   <text x="280" y="73" text-anchor="middle" font-size="12" fill="currentColor">How many techs?</text>
-
   <line x1="180" y1="85" x2="120" y2="115" stroke="currentColor" opacity="0.2"/>
   <line x1="280" y1="85" x2="280" y2="115" stroke="currentColor" opacity="0.2"/>
   <line x1="380" y1="85" x2="440" y2="115" stroke="currentColor" opacity="0.2"/>
-
   <rect x="40" y="115" width="160" height="50" rx="6" fill="#22c55e" opacity="0.15"/>
   <text x="120" y="137" text-anchor="middle" font-size="12" font-weight="bold" fill="#22c55e">Jobber</text>
   <text x="120" y="155" text-anchor="middle" font-size="10" fill="currentColor">1-10 techs, under $1.5M</text>
-
   <rect x="200" y="115" width="160" height="50" rx="6" fill="#0ea5e9" opacity="0.15"/>
   <text x="280" y="137" text-anchor="middle" font-size="12" font-weight="bold" fill="#0ea5e9">Housecall Pro</text>
   <text x="280" y="155" text-anchor="middle" font-size="10" fill="currentColor">3-15 techs, $500K-$3M</text>
-
   <rect x="360" y="115" width="160" height="50" rx="6" fill="#ef4444" opacity="0.15"/>
   <text x="440" y="137" text-anchor="middle" font-size="12" font-weight="bold" fill="#ef4444">ServiceTitan</text>
   <text x="440" y="155" text-anchor="middle" font-size="10" fill="currentColor">10+ techs, $2M+</text>
-
   <g transform="translate(40, 190)">
     <text x="80" y="15" text-anchor="middle" font-size="10" font-weight="bold" fill="currentColor">Best for:</text>
     <text x="80" y="35" text-anchor="middle" font-size="9" fill="currentColor">Simplicity</text>
     <text x="80" y="50" text-anchor="middle" font-size="9" fill="currentColor">Fast setup</text>
     <text x="80" y="65" text-anchor="middle" font-size="9" fill="currentColor">Low cost</text>
     <text x="80" y="80" text-anchor="middle" font-size="9" fill="currentColor">Owner-operators</text>
-
     <text x="240" y="15" text-anchor="middle" font-size="10" font-weight="bold" fill="currentColor">Best for:</text>
     <text x="240" y="35" text-anchor="middle" font-size="9" fill="currentColor">Marketing automation</text>
     <text x="240" y="50" text-anchor="middle" font-size="9" fill="currentColor">Growing companies</text>
     <text x="240" y="65" text-anchor="middle" font-size="9" fill="currentColor">Mid-range budget</text>
     <text x="240" y="80" text-anchor="middle" font-size="9" fill="currentColor">Review management</text>
-
     <text x="400" y="15" text-anchor="middle" font-size="10" font-weight="bold" fill="currentColor">Best for:</text>
     <text x="400" y="35" text-anchor="middle" font-size="9" fill="currentColor">Advanced reporting</text>
     <text x="400" y="50" text-anchor="middle" font-size="9" fill="currentColor">Marketing attribution</text>
     <text x="400" y="65" text-anchor="middle" font-size="9" fill="currentColor">Multi-location ops</text>
     <text x="400" y="80" text-anchor="middle" font-size="9" fill="currentColor">Enterprise features</text>
   </g>
-
   <g transform="translate(40, 300)">
     <text x="80" y="0" text-anchor="middle" font-size="11" font-weight="bold" fill="#22c55e">$468-$2,868/yr</text>
     <text x="240" y="0" text-anchor="middle" font-size="11" font-weight="bold" fill="#0ea5e9">$780-$4,800/yr</text>
     <text x="400" y="0" text-anchor="middle" font-size="11" font-weight="bold" fill="#ef4444">$30K-$60K/yr</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: Published pricing, HVAC operator interviews (2025–2026)</text>
 </svg>
 </figure>

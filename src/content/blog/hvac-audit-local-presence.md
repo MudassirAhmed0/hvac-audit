@@ -118,69 +118,53 @@ Seasonal market with strong heating demand. **Chicago's winter heating searches 
   <desc>Horizontal bar chart showing wide variance in local presence scores from Miami at 18 to Raleigh at 52</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Local Presence Scores Across 15 HVAC Markets</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Composite score: GBP + citations + reviews + local content</text>
-
   <g transform="translate(20, 54)">
     <text x="75" y="14" text-anchor="end" font-size="9" fill="currentColor">Miami</text>
     <rect x="80" y="2" width="55" height="16" rx="3" fill="#ef4444"/>
     <text x="140" y="14" font-size="9" font-weight="bold" fill="currentColor">18</text>
-
     <text x="75" y="34" text-anchor="end" font-size="9" fill="currentColor">Houston</text>
     <rect x="80" y="22" width="67" height="16" rx="3" fill="#ef4444"/>
     <text x="152" y="34" font-size="9" font-weight="bold" fill="currentColor">22</text>
-
     <text x="75" y="54" text-anchor="end" font-size="9" fill="currentColor">DFW</text>
     <rect x="80" y="42" width="77" height="16" rx="3" fill="#ef4444"/>
     <text x="162" y="54" font-size="9" font-weight="bold" fill="currentColor">25</text>
-
     <text x="75" y="74" text-anchor="end" font-size="9" fill="currentColor">Phoenix</text>
     <rect x="80" y="62" width="89" height="16" rx="3" fill="#eab308"/>
     <text x="174" y="74" font-size="9" font-weight="bold" fill="currentColor">29</text>
-
     <text x="75" y="94" text-anchor="end" font-size="9" fill="currentColor">Atlanta</text>
     <rect x="80" y="82" width="95" height="16" rx="3" fill="#eab308"/>
     <text x="180" y="94" font-size="9" font-weight="bold" fill="currentColor">31</text>
-
     <text x="75" y="114" text-anchor="end" font-size="9" fill="currentColor">Denver</text>
     <rect x="80" y="102" width="101" height="16" rx="3" fill="#eab308"/>
     <text x="186" y="114" font-size="9" font-weight="bold" fill="currentColor">33</text>
-
     <text x="75" y="134" text-anchor="end" font-size="9" fill="currentColor">Tampa</text>
     <rect x="80" y="122" width="104" height="16" rx="3" fill="#eab308"/>
     <text x="189" y="134" font-size="9" font-weight="bold" fill="currentColor">34</text>
-
     <text x="75" y="154" text-anchor="end" font-size="9" fill="currentColor">Chicago</text>
     <rect x="80" y="142" width="107" height="16" rx="3" fill="#eab308"/>
     <text x="192" y="154" font-size="9" font-weight="bold" fill="currentColor">35</text>
-
     <text x="75" y="174" text-anchor="end" font-size="9" fill="currentColor">Nashville</text>
     <rect x="80" y="162" width="117" height="16" rx="3" fill="#eab308"/>
     <text x="202" y="174" font-size="9" font-weight="bold" fill="currentColor">38</text>
-
     <text x="75" y="194" text-anchor="end" font-size="9" fill="currentColor">Portland</text>
     <rect x="80" y="182" width="123" height="16" rx="3" fill="#0ea5e9"/>
     <text x="208" y="194" font-size="9" font-weight="bold" fill="currentColor">40</text>
-
     <text x="75" y="214" text-anchor="end" font-size="9" fill="currentColor">Charlotte</text>
     <rect x="80" y="202" width="129" height="16" rx="3" fill="#0ea5e9"/>
     <text x="214" y="214" font-size="9" font-weight="bold" fill="currentColor">42</text>
-
     <text x="75" y="234" text-anchor="end" font-size="9" fill="currentColor">Minneapolis</text>
     <rect x="80" y="222" width="135" height="16" rx="3" fill="#0ea5e9"/>
     <text x="220" y="234" font-size="9" font-weight="bold" fill="currentColor">44</text>
-
     <text x="75" y="254" text-anchor="end" font-size="9" fill="currentColor">San Antonio</text>
     <rect x="80" y="242" width="141" height="16" rx="3" fill="#22c55e"/>
     <text x="226" y="254" font-size="9" font-weight="bold" fill="currentColor">46</text>
-
     <text x="75" y="274" text-anchor="end" font-size="9" fill="currentColor">Austin</text>
     <rect x="80" y="262" width="147" height="16" rx="3" fill="#22c55e"/>
     <text x="232" y="274" font-size="9" font-weight="bold" fill="currentColor">48</text>
-
     <text x="75" y="294" text-anchor="end" font-size="9" fill="currentColor">Raleigh</text>
     <rect x="80" y="282" width="160" height="16" rx="3" fill="#22c55e"/>
     <text x="245" y="294" font-size="9" font-weight="bold" fill="currentColor">52</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC local presence audit, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>
@@ -293,60 +277,41 @@ Companies serving multiple cities had the poorest local presence scores in every
   <desc>Scatter chart showing that larger HVAC markets tend to have lower average local presence scores, with Miami lowest and Raleigh highest</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Bigger Markets, Worse Local Presence</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Market size (contractor count) vs avg local presence score</text>
-
   <line x1="80" y1="300" x2="520" y2="300" stroke="currentColor" opacity="0.15"/>
   <line x1="80" y1="300" x2="80" y2="70" stroke="currentColor" opacity="0.15"/>
-
   <text x="300" y="330" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Contractor count (market size) →</text>
   <text x="40" y="185" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5" transform="rotate(-90, 40, 185)">Local presence score →</text>
-
   <circle cx="480" cy="270" r="6" fill="#ef4444"/>
   <text x="480" y="288" text-anchor="middle" font-size="8" fill="currentColor">Miami</text>
-
   <circle cx="420" cy="252" r="6" fill="#ef4444"/>
   <text x="420" y="270" text-anchor="middle" font-size="8" fill="currentColor">Houston</text>
-
   <circle cx="390" cy="240" r="6" fill="#ef4444"/>
   <text x="390" y="230" text-anchor="middle" font-size="8" fill="currentColor">DFW</text>
-
   <circle cx="330" cy="216" r="6" fill="#eab308"/>
   <text x="330" y="208" text-anchor="middle" font-size="8" fill="currentColor">Phoenix</text>
-
   <circle cx="310" cy="204" r="6" fill="#eab308"/>
   <text x="310" y="222" text-anchor="middle" font-size="8" fill="currentColor">Atlanta</text>
-
   <circle cx="270" cy="192" r="6" fill="#eab308"/>
   <text x="270" y="210" text-anchor="middle" font-size="8" fill="currentColor">Denver</text>
-
   <circle cx="300" cy="196" r="6" fill="#eab308"/>
   <text x="300" y="188" text-anchor="middle" font-size="8" fill="currentColor">Tampa</text>
-
   <circle cx="340" cy="186" r="6" fill="#eab308"/>
   <text x="355" y="180" text-anchor="middle" font-size="8" fill="currentColor">Chicago</text>
-
   <circle cx="220" cy="168" r="6" fill="#eab308"/>
   <text x="220" y="160" text-anchor="middle" font-size="8" fill="currentColor">Nashville</text>
-
   <circle cx="180" cy="156" r="6" fill="#0ea5e9"/>
   <text x="180" y="148" text-anchor="middle" font-size="8" fill="currentColor">Portland</text>
-
   <circle cx="200" cy="144" r="6" fill="#0ea5e9"/>
   <text x="200" y="162" text-anchor="middle" font-size="8" fill="currentColor">Charlotte</text>
-
   <circle cx="190" cy="132" r="6" fill="#0ea5e9"/>
   <text x="190" y="124" text-anchor="middle" font-size="8" fill="currentColor">Minneapolis</text>
-
   <circle cx="150" cy="114" r="6" fill="#22c55e"/>
   <text x="150" y="106" text-anchor="middle" font-size="8" fill="currentColor">San Antonio</text>
-
   <circle cx="140" cy="102" r="6" fill="#22c55e"/>
   <text x="140" y="120" text-anchor="middle" font-size="8" fill="currentColor">Austin</text>
-
   <circle cx="110" cy="84" r="6" fill="#22c55e"/>
   <text x="110" y="76" text-anchor="middle" font-size="8" fill="currentColor">Raleigh</text>
-
   <line x1="100" y1="90" x2="490" y2="265" stroke="currentColor" stroke-width="1" stroke-dasharray="4" opacity="0.3"/>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC local presence audit across 15 markets, hvacaudit.co (2025–2026)</text>
 </svg>
 </figure>

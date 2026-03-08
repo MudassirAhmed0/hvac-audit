@@ -52,25 +52,20 @@ The homeowner comparing your $8,200 quote to their neighbor's $5,800 installatio
   <desc>Horizontal bar chart showing four cost drivers: R-454B refrigerant up 478%, tariffs adding 15-30%, equipment manufacturers up 20-30%, and labor costs up 15-20%</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">What's Actually Driving Higher Prices</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Cost increase per category since 2020</text>
-
   <g transform="translate(20, 75)">
     <text x="130" y="28" text-anchor="end" font-size="12" fill="currentColor">R-454B refrigerant</text>
     <rect x="140" y="10" width="340" height="32" rx="5" fill="#ef4444"/>
     <text x="490" y="32" font-size="13" font-weight="bold" fill="currentColor">+478%</text>
-
     <text x="130" y="88" text-anchor="end" font-size="12" fill="currentColor">Tariffs (steel/aluminum)</text>
     <rect x="140" y="70" width="120" height="32" rx="5" fill="#eab308"/>
     <text x="270" y="92" font-size="13" font-weight="bold" fill="currentColor">+15–30%</text>
-
     <text x="130" y="148" text-anchor="end" font-size="12" fill="currentColor">Equipment OEM pricing</text>
     <rect x="140" y="130" width="140" height="32" rx="5" fill="#0ea5e9"/>
     <text x="290" y="152" font-size="13" font-weight="bold" fill="currentColor">+20–30%</text>
-
     <text x="130" y="208" text-anchor="end" font-size="12" fill="currentColor">Technician wages</text>
     <rect x="140" y="190" width="100" height="32" rx="5" fill="#475569"/>
     <text x="250" y="212" font-size="13" font-weight="bold" fill="currentColor">+15–20%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: ACHR News, HVAC Today, AHRI (2020–2026)</text>
 </svg>
 </figure>
@@ -111,7 +106,6 @@ The equipment price increase is real, permanent, and industry-wide. Your competi
   <desc>Grouped bar chart showing two pricing strategies: monthly payments increase close rate from 21% to 42%, and presenting 4+ options increases close rate from 43% to 52%</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Two Strategies That Close More Jobs</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Same price, different framing</text>
-
   <g transform="translate(80, 80)">
     <text x="90" y="0" text-anchor="middle" font-size="12" fill="currentColor">Monthly payments</text>
     <rect x="30" y="10" width="50" height="150" rx="5" fill="#ef4444"/>
@@ -121,7 +115,6 @@ The equipment price increase is real, permanent, and industry-wide. Your competi
     <text x="125" y="170" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Monthly</text>
     <text x="125" y="5" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">42%</text>
   </g>
-
   <g transform="translate(300, 80)">
     <text x="90" y="0" text-anchor="middle" font-size="12" fill="currentColor">Multiple options</text>
     <rect x="30" y="40" width="50" height="120" rx="5" fill="#eab308"/>
@@ -131,7 +124,6 @@ The equipment price increase is real, permanent, and industry-wide. Your competi
     <text x="125" y="170" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">4+ options</text>
     <text x="125" y="17" text-anchor="middle" font-size="13" font-weight="bold" fill="currentColor">52%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: ACCA Contractor of the Future Study, Bryant Dealers (2025)</text>
 </svg>
 </figure>

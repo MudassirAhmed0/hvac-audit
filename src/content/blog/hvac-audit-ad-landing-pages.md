@@ -50,35 +50,29 @@ Landing pages with 3+ trust signals above the fold converted at **9.8%** in our 
   <desc>Horizontal bar chart showing the percentage of 50 audited HVAC landing pages failing each of three critical tests</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">3 Tests — 50 HVAC Landing Pages Audited</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">% of landing pages failing each critical element</text>
-
   <g transform="translate(20, 80)">
     <!-- Test 1: Pricing -->
     <text x="155" y="28" text-anchor="end" font-size="12" fill="currentColor">No pricing visible</text>
     <rect x="165" y="10" width="301" height="36" rx="5" fill="#ef4444"/>
     <text x="476" y="34" font-size="15" font-weight="bold" fill="#ef4444">86%</text>
     <text x="315" y="34" text-anchor="middle" font-size="11" fill="#ffffff">43 of 50 pages</text>
-
     <!-- Test 2: Phone number -->
     <text x="155" y="92" text-anchor="end" font-size="12" fill="currentColor">Phone buried/missing</text>
     <rect x="165" y="74" width="266" height="36" rx="5" fill="#f97316"/>
     <text x="441" y="98" font-size="15" font-weight="bold" fill="#f97316">76%</text>
     <text x="298" y="98" text-anchor="middle" font-size="11" fill="#ffffff">38 of 50 pages</text>
-
     <!-- Test 3: Trust signals -->
     <text x="155" y="156" text-anchor="end" font-size="12" fill="currentColor">No trust signals ATF</text>
     <rect x="165" y="138" width="252" height="36" rx="5" fill="#eab308"/>
     <text x="427" y="162" font-size="15" font-weight="bold" fill="#eab308">72%</text>
     <text x="291" y="162" text-anchor="middle" font-size="11" fill="#ffffff">36 of 50 pages</text>
-
     <!-- Conversion rate comparison -->
     <line x1="165" y1="210" x2="470" y2="210" stroke="currentColor" stroke-opacity="0.1"/>
     <text x="165" y="240" font-size="12" fill="currentColor">Avg conversion — failing all 3:</text>
     <text x="410" y="240" font-size="16" font-weight="bold" fill="#ef4444">2.1%</text>
-
     <text x="165" y="265" font-size="12" fill="currentColor">Avg conversion — passing all 3:</text>
     <text x="410" y="265" font-size="16" font-weight="bold" fill="#22c55e">11.2%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: hvacaudit.co 50-page landing page audit (2025–2026)</text>
 </svg>
 </figure>
@@ -147,7 +141,6 @@ The [landing page playbook](/blog/hvac-landing-page-playbook/) covers this in de
   <desc>Vertical bar chart showing progressive conversion rate improvement from homepage (2.3%) to basic landing page (5.1%) to optimized landing page (11.2%)</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Where Your Traffic Lands Changes Everything</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Conversion rate by landing page type (50-page HVAC audit)</text>
-
   <g transform="translate(70, 70)">
     <!-- Grid lines -->
     <line x1="0" y1="220" x2="420" y2="220" stroke="currentColor" stroke-opacity="0.15"/>
@@ -156,33 +149,28 @@ The [landing page playbook](/blog/hvac-landing-page-playbook/) covers this in de
     <line x1="0" y1="88" x2="420" y2="88" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="44" x2="420" y2="44" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="0" x2="420" y2="0" stroke="currentColor" stroke-opacity="0.08"/>
-
     <!-- Y-axis labels -->
     <text x="-10" y="224" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">0%</text>
     <text x="-10" y="180" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">3%</text>
     <text x="-10" y="136" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">6%</text>
     <text x="-10" y="92" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">9%</text>
     <text x="-10" y="48" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">12%</text>
-
     <!-- Homepage bar: 2.3% -->
     <rect x="30" y="186" width="90" height="34" rx="4" fill="#ef4444"/>
     <text x="75" y="178" text-anchor="middle" font-size="15" font-weight="bold" fill="#ef4444">2.3%</text>
     <text x="75" y="248" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Homepage</text>
     <text x="75" y="262" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.35">(31 pages)</text>
-
     <!-- Basic landing page: 5.1% -->
     <rect x="165" y="145" width="90" height="75" rx="4" fill="#f97316"/>
     <text x="210" y="137" text-anchor="middle" font-size="15" font-weight="bold" fill="#f97316">5.1%</text>
     <text x="210" y="248" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Basic LP</text>
     <text x="210" y="262" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.35">(12 pages)</text>
-
     <!-- Optimized landing page: 11.2% -->
     <rect x="300" y="55" width="90" height="165" rx="4" fill="#22c55e"/>
     <text x="345" y="47" text-anchor="middle" font-size="15" font-weight="bold" fill="#22c55e">11.2%</text>
     <text x="345" y="248" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Optimized LP</text>
     <text x="345" y="262" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.35">(7 pages)</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: hvacaudit.co 50-page landing page audit (2025–2026)</text>
 </svg>
 </figure>

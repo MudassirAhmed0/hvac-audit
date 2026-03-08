@@ -57,7 +57,6 @@ Now fix the mobile UX. Add a sticky tap-to-call. Compress images for fast mobile
   <desc>Area chart showing mobile traffic rising from 52% in 2019 to 73% in 2026 while desktop traffic declined from 48% to 27%</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Mobile Share of HVAC Website Traffic</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Desktop keeps shrinking — mobile is the default</text>
-
   <g transform="translate(60, 65)">
     <!-- Y axis labels -->
     <text x="-8" y="8" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">80%</text>
@@ -65,24 +64,20 @@ Now fix the mobile UX. Add a sticky tap-to-call. Compress images for fast mobile
     <text x="-8" y="128" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">40%</text>
     <text x="-8" y="188" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">20%</text>
     <text x="-8" y="248" text-anchor="end" font-size="10" fill="currentColor" opacity="0.5">0%</text>
-
     <!-- Grid lines -->
     <line x1="0" y1="5" x2="440" y2="5" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="65" x2="440" y2="65" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="125" x2="440" y2="125" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="185" x2="440" y2="185" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="245" x2="440" y2="245" stroke="currentColor" stroke-opacity="0.08"/>
-
     <!-- Mobile area (fill) -->
     <polygon points="0,149 73,134 147,119 220,104 293,89 367,74 440,62 440,245 0,245" fill="#0ea5e9" fill-opacity="0.15"/>
     <!-- Mobile line -->
     <polyline points="0,149 73,134 147,119 220,104 293,89 367,74 440,62" fill="none" stroke="#0ea5e9" stroke-width="2.5"/>
-
     <!-- Desktop area (fill) -->
     <polygon points="0,101 73,116 147,131 220,146 293,161 367,176 440,188 440,245 0,245" fill="#475569" fill-opacity="0.1"/>
     <!-- Desktop line -->
     <polyline points="0,101 73,116 147,131 220,146 293,161 367,176 440,188" fill="none" stroke="#475569" stroke-width="2" stroke-dasharray="6,4"/>
-
     <!-- Data point labels (mobile) -->
     <circle cx="0" cy="149" r="3" fill="#0ea5e9"/>
     <text x="0" y="168" text-anchor="middle" font-size="10" font-weight="bold" fill="#0ea5e9">52%</text>
@@ -90,7 +85,6 @@ Now fix the mobile UX. Add a sticky tap-to-call. Compress images for fast mobile
     <text x="220" y="97" text-anchor="middle" font-size="10" font-weight="bold" fill="#0ea5e9">63%</text>
     <circle cx="440" cy="62" r="3" fill="#0ea5e9"/>
     <text x="440" y="55" text-anchor="middle" font-size="10" font-weight="bold" fill="#0ea5e9">73%</text>
-
     <!-- X axis labels -->
     <text x="0" y="265" text-anchor="middle" font-size="10" fill="currentColor">2019</text>
     <text x="73" y="265" text-anchor="middle" font-size="10" fill="currentColor">2020</text>
@@ -100,14 +94,12 @@ Now fix the mobile UX. Add a sticky tap-to-call. Compress images for fast mobile
     <text x="367" y="265" text-anchor="middle" font-size="10" fill="currentColor">2024</text>
     <text x="440" y="265" text-anchor="middle" font-size="10" fill="currentColor">2026</text>
   </g>
-
   <g transform="translate(130, 348)">
     <line x1="0" y1="6" x2="20" y2="6" stroke="#0ea5e9" stroke-width="2.5"/>
     <text x="26" y="10" font-size="11" fill="currentColor">Mobile</text>
     <line x1="100" y1="6" x2="120" y2="6" stroke="#475569" stroke-width="2" stroke-dasharray="6,4"/>
     <text x="126" y="10" font-size="11" fill="currentColor">Desktop</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: BrightLocal, Statcounter, Google (2019–2026)</text>
 </svg>
 </figure>
@@ -175,7 +167,6 @@ Here's the timeline:
   <desc>Lollipop chart showing six mobile UX factors and the percentage of conversions they affect: sticky call button +45%, load under 3s +38%, readable text +26%, simple form +22%, emergency badge +18%, clean navigation +15%</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Mobile UX Fixes Ranked by Conversion Lift</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Estimated conversion improvement from each fix</text>
-
   <g transform="translate(20, 70)">
     <!-- Lollipop lines and circles -->
     <text x="150" y="18" text-anchor="end" font-size="12" fill="currentColor">Sticky call button</text>
@@ -183,38 +174,32 @@ Here's the timeline:
     <line x1="160" y1="14" x2="430" y2="14" stroke="#22c55e" stroke-width="2.5"/>
     <circle cx="430" cy="14" r="6" fill="#22c55e"/>
     <text x="445" y="19" font-size="12" font-weight="bold" fill="currentColor">+45%</text>
-
     <text x="150" y="62" text-anchor="end" font-size="12" fill="currentColor">Load under 3s</text>
     <line x1="160" y1="58" x2="460" y2="58" stroke="currentColor" stroke-opacity="0.12" stroke-width="1"/>
     <line x1="160" y1="58" x2="387" y2="58" stroke="#22c55e" stroke-width="2.5"/>
     <circle cx="387" cy="58" r="6" fill="#22c55e"/>
     <text x="402" y="63" font-size="12" font-weight="bold" fill="currentColor">+38%</text>
-
     <text x="150" y="106" text-anchor="end" font-size="12" fill="currentColor">Readable text (16px+)</text>
     <line x1="160" y1="102" x2="460" y2="102" stroke="currentColor" stroke-opacity="0.12" stroke-width="1"/>
     <line x1="160" y1="102" x2="316" y2="102" stroke="#0ea5e9" stroke-width="2.5"/>
     <circle cx="316" cy="102" r="6" fill="#0ea5e9"/>
     <text x="331" y="107" font-size="12" font-weight="bold" fill="currentColor">+26%</text>
-
     <text x="150" y="150" text-anchor="end" font-size="12" fill="currentColor">3-field form</text>
     <line x1="160" y1="146" x2="460" y2="146" stroke="currentColor" stroke-opacity="0.12" stroke-width="1"/>
     <line x1="160" y1="146" x2="292" y2="146" stroke="#0ea5e9" stroke-width="2.5"/>
     <circle cx="292" cy="146" r="6" fill="#0ea5e9"/>
     <text x="307" y="151" font-size="12" font-weight="bold" fill="currentColor">+22%</text>
-
     <text x="150" y="194" text-anchor="end" font-size="12" fill="currentColor">Emergency badge</text>
     <line x1="160" y1="190" x2="460" y2="190" stroke="currentColor" stroke-opacity="0.12" stroke-width="1"/>
     <line x1="160" y1="190" x2="268" y2="190" stroke="#eab308" stroke-width="2.5"/>
     <circle cx="268" cy="190" r="6" fill="#eab308"/>
     <text x="283" y="195" font-size="12" font-weight="bold" fill="currentColor">+18%</text>
-
     <text x="150" y="238" text-anchor="end" font-size="12" fill="currentColor">Clean navigation</text>
     <line x1="160" y1="234" x2="460" y2="234" stroke="currentColor" stroke-opacity="0.12" stroke-width="1"/>
     <line x1="160" y1="234" x2="250" y2="234" stroke="#eab308" stroke-width="2.5"/>
     <circle cx="250" cy="234" r="6" fill="#eab308"/>
     <text x="265" y="239" font-size="12" font-weight="bold" fill="currentColor">+15%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Google, Baymard Institute, ServiceTitan, hvacaudit.co (2024–2026)</text>
 </svg>
 </figure>

@@ -56,7 +56,6 @@ The worst version of this: paying [HomeAdvisor or Angi $1,400 per booked job](/b
   <title>Where $598K in Revenue Actually Goes</title>
   <desc>Donut chart showing breakdown of HVAC company revenue: labor takes 32%, materials 28%, overhead 18%, marketing 10%, owner compensation 10%, and net profit just 2%</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Where $598K in Revenue Actually Goes</text>
-
   <g transform="translate(280, 190)">
     <circle cx="0" cy="0" r="110" fill="none" stroke="#ef4444" stroke-width="38"
             stroke-dasharray="221.2 470" stroke-dashoffset="0" transform="rotate(-90)"/>
@@ -73,7 +72,6 @@ The worst version of this: paying [HomeAdvisor or Angi $1,400 per booked job](/b
     <text x="0" y="-4" text-anchor="middle" font-size="28" font-weight="900" fill="currentColor">$76K</text>
     <text x="0" y="18" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Owner take-home</text>
   </g>
-
   <g transform="translate(20, 325)">
     <rect x="0" y="0" width="10" height="10" rx="2" fill="#ef4444"/>
     <text x="14" y="10" font-size="10" fill="currentColor">Labor 32%</text>
@@ -88,7 +86,6 @@ The worst version of this: paying [HomeAdvisor or Angi $1,400 per booked job](/b
     <rect x="480" y="0" width="10" height="10" rx="2" fill="#334155"/>
     <text x="494" y="10" font-size="10" fill="currentColor">Profit 2%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: HVAC Know It All, ServiceTitan, ACCA (2025–2026)</text>
 </svg>
 </figure>
@@ -119,23 +116,19 @@ A contractor charging $350 for a repair that costs $280 in labor and parts makes
   <desc>Horizontal bar chart showing how increasing net margin from 5% to 10% to 15% changes annual profit from $30K to $60K to $90K</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">What Better Margins Mean on $598K Revenue</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Same revenue, different pricing strategy</text>
-
   <g transform="translate(20, 75)">
     <text x="100" y="30" text-anchor="end" font-size="13" fill="currentColor">5% margin</text>
     <rect x="110" y="12" width="100" height="36" rx="6" fill="#ef4444"/>
     <text x="220" y="36" font-size="16" font-weight="bold" fill="currentColor">$30K</text>
     <text x="270" y="36" font-size="11" fill="currentColor" opacity="0.5">industry average</text>
-
     <text x="100" y="100" text-anchor="end" font-size="13" fill="currentColor">10% margin</text>
     <rect x="110" y="82" width="200" height="36" rx="6" fill="#eab308"/>
     <text x="320" y="106" font-size="16" font-weight="bold" fill="currentColor">$60K</text>
-
     <text x="100" y="170" text-anchor="end" font-size="13" fill="currentColor">15% margin</text>
     <rect x="110" y="152" width="300" height="36" rx="6" fill="#22c55e"/>
     <text x="420" y="176" font-size="16" font-weight="bold" fill="currentColor">$90K</text>
     <text x="470" y="176" font-size="11" fill="currentColor" opacity="0.5">top performers</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: HVAC Know It All, ACCA Contractor of the Future Study (2025)</text>
 </svg>
 </figure>

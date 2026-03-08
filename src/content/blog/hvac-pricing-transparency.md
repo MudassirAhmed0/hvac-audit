@@ -78,15 +78,12 @@ But here's what's more interesting. The mix shifts. When you show one option, on
     <text x="180" y="18" text-anchor="end" font-size="13" fill="currentColor">Single quote</text>
     <rect x="190" y="4" width="198" height="24" rx="4" fill="#475569"/>
     <text x="394" y="21" font-size="13" font-weight="bold" fill="currentColor"> 43%</text>
-
     <text x="180" y="66" text-anchor="end" font-size="13" fill="currentColor">4+ options shown</text>
     <rect x="190" y="52" width="240" height="24" rx="4" fill="#0ea5e9"/>
     <text x="436" y="69" font-size="13" font-weight="bold" fill="currentColor"> 52%</text>
-
     <text x="180" y="130" text-anchor="end" font-size="13" fill="currentColor" opacity="0.5">Premium share (1 quote)</text>
     <rect x="190" y="116" width="120" height="24" rx="4" fill="#475569" opacity="0.6"/>
     <text x="316" y="133" font-size="13" font-weight="bold" fill="currentColor" opacity="0.6"> 26%</text>
-
     <text x="180" y="178" text-anchor="end" font-size="13" fill="currentColor">Premium share (4+ options)</text>
     <rect x="190" y="164" width="194" height="24" rx="4" fill="#22c55e"/>
     <text x="390" y="181" font-size="13" font-weight="bold" fill="currentColor"> 42%</text>
@@ -148,11 +145,9 @@ A homeowner who reads "$6,500-$15,000 for AC replacement" and calls is ready for
     <text x="10" y="18" font-size="13" fill="currentColor">Homeowners who skip sites without pricing</text>
     <rect x="10" y="30" width="460" height="44" rx="6" fill="#0ea5e9"/>
     <text x="440" y="58" font-size="22" font-weight="bold" fill="#0b1220">70%</text>
-
     <text x="10" y="108" font-size="13" fill="currentColor">HVAC websites that actually show pricing</text>
     <rect x="10" y="120" width="204" height="44" rx="6" fill="#475569"/>
     <text x="184" y="148" font-size="22" font-weight="bold" fill="#f1f5f9">31%</text>
-
     <line x1="214" y1="120" x2="214" y2="200" stroke="#0ea5e9" stroke-width="1" stroke-dasharray="4 4" opacity="0.4"/>
     <text x="340" y="195" text-anchor="middle" font-size="14" fill="#0ea5e9" font-weight="600">39-point gap = lost leads</text>
   </g>

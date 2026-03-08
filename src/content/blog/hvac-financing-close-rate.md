@@ -60,7 +60,6 @@ A financing page isn't complicated. It needs four elements: monthly payment exam
   <desc>Donut chart showing that 68% of HVAC websites have zero financing information, 14% have a brief mention, 11% have a dedicated page, and 7% show only a logo in the footer</desc>
   <text x="280" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Financing Info on HVAC Websites</text>
   <text x="280" y="48" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">147-site audit, March 2026</text>
-
   <g transform="translate(280, 195)">
     <circle cx="0" cy="0" r="110" fill="none" stroke="#ef4444" stroke-width="38"
             stroke-dasharray="469.9 221.2" stroke-dashoffset="0" transform="rotate(-90)"/>
@@ -73,7 +72,6 @@ A financing page isn't complicated. It needs four elements: monthly payment exam
     <text x="0" y="-4" text-anchor="middle" font-size="28" font-weight="900" fill="currentColor">68%</text>
     <text x="0" y="18" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">No financing info</text>
   </g>
-
   <g transform="translate(60, 340)">
     <rect x="0" y="0" width="10" height="10" rx="2" fill="#ef4444"/>
     <text x="14" y="10" font-size="10" fill="currentColor">No mention 68%</text>
@@ -84,7 +82,6 @@ A financing page isn't complicated. It needs four elements: monthly payment exam
     <rect x="410" y="0" width="10" height="10" rx="2" fill="#475569"/>
     <text x="424" y="10" font-size="10" fill="currentColor">Logo only 7%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: HVAC Audit 147-site study (2026)</text>
 </svg>
 </figure>
@@ -171,33 +168,28 @@ The average HVAC website scores **34 out of 100** in our audits and takes **18.4
   <desc>Horizontal bar chart comparing without-financing and with-financing metrics: close rate rises from baseline to +11%, average ticket from $9,200 to $12,800, and premium selection from 26% to 42%</desc>
   <text x="280" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">How Proactive Financing Changes Sales Metrics</text>
   <text x="280" y="48" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">ACCA data, 1,000+ contractors</text>
-
   <g transform="translate(20, 75)">
     <text x="130" y="18" text-anchor="end" font-size="12" fill="currentColor">Close rate lift</text>
     <rect x="140" y="4" width="60" height="24" rx="4" fill="#475569"/>
     <text x="206" y="21" font-size="11" fill="currentColor" opacity="0.6">+4% (if asked)</text>
     <rect x="140" y="36" width="165" height="24" rx="4" fill="#0ea5e9"/>
     <text x="311" y="53" font-size="11" font-weight="bold" fill="currentColor">+11% (lead with it)</text>
-
     <text x="130" y="98" text-anchor="end" font-size="12" fill="currentColor">Avg ticket</text>
     <rect x="140" y="84" width="138" height="24" rx="4" fill="#475569"/>
     <text x="284" y="101" font-size="11" fill="currentColor" opacity="0.6">$9,200 (cash)</text>
     <rect x="140" y="116" width="192" height="24" rx="4" fill="#22c55e"/>
     <text x="338" y="133" font-size="11" font-weight="bold" fill="currentColor">$12,800 (financed)</text>
-
     <text x="130" y="178" text-anchor="end" font-size="12" fill="currentColor">Premium share</text>
     <rect x="140" y="164" width="98" height="24" rx="4" fill="#475569"/>
     <text x="244" y="181" font-size="11" fill="currentColor" opacity="0.6">26% (no financing)</text>
     <rect x="140" y="196" width="158" height="24" rx="4" fill="#eab308"/>
     <text x="304" y="213" font-size="11" font-weight="bold" fill="currentColor">42% (with financing)</text>
-
     <text x="130" y="258" text-anchor="end" font-size="12" fill="currentColor">Financing uptake</text>
     <rect x="140" y="244" width="79" height="24" rx="4" fill="#475569"/>
     <text x="225" y="261" font-size="11" fill="currentColor" opacity="0.6">21% (if asked)</text>
     <rect x="140" y="276" width="158" height="24" rx="4" fill="#ef4444"/>
     <text x="304" y="293" font-size="11" font-weight="bold" fill="currentColor">42% (lead with it)</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Source: ACCA Contractor of the Future Study (2025)</text>
 </svg>
 </figure>

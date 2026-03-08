@@ -49,25 +49,20 @@ The assumption is that happy customers naturally refer. They don't. Research on 
   <desc>Horizontal bar chart showing trust levels: friends/family referrals at 92%, online reviews at 70%, social media at 47%, advertising at 33%</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">The Trust Hierarchy: Why Referrals Win</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">% of consumers who trust each source when choosing a contractor</text>
-
   <g transform="translate(20, 75)">
     <text x="150" y="30" text-anchor="end" font-size="12" fill="currentColor">Friends/Family</text>
     <rect x="160" y="12" width="322" height="32" rx="5" fill="#22c55e"/>
     <text x="492" y="34" font-size="14" font-weight="bold" fill="#22c55e">92%</text>
-
     <text x="150" y="84" text-anchor="end" font-size="12" fill="currentColor">Online Reviews</text>
     <rect x="160" y="66" width="245" height="32" rx="5" fill="#0ea5e9"/>
     <text x="415" y="88" font-size="14" font-weight="bold" fill="#0ea5e9">70%</text>
-
     <text x="150" y="138" text-anchor="end" font-size="12" fill="currentColor">Social Media</text>
     <rect x="160" y="120" width="165" height="32" rx="5" fill="#eab308"/>
     <text x="335" y="142" font-size="14" font-weight="bold" fill="#eab308">47%</text>
-
     <text x="150" y="192" text-anchor="end" font-size="12" fill="currentColor">Advertising</text>
     <rect x="160" y="174" width="116" height="32" rx="5" fill="#ef4444"/>
     <text x="286" y="196" font-size="14" font-weight="bold" fill="#ef4444">33%</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Nielsen Trust in Advertising, BrightLocal Consumer Survey (2023–2025)</text>
 </svg>
 </figure>
@@ -144,7 +139,6 @@ Manual referral programs work but don't scale. **Automated referral tools increa
   <desc>Bar chart comparing ROI across marketing channels: Referrals 6-10x, SEO 5-8x, LSAs 3-5x, Google Ads 2-3x, Lead gen platforms 0.5-1x</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Marketing ROI by Channel</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Revenue returned per dollar spent (HVAC average)</text>
-
   <g transform="translate(60, 70)">
     <!-- Grid lines -->
     <line x1="0" y1="230" x2="440" y2="230" stroke="currentColor" stroke-opacity="0.15"/>
@@ -153,7 +147,6 @@ Manual referral programs work but don't scale. **Automated referral tools increa
     <line x1="0" y1="92" x2="440" y2="92" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="46" x2="440" y2="46" stroke="currentColor" stroke-opacity="0.08"/>
     <line x1="0" y1="0" x2="440" y2="0" stroke="currentColor" stroke-opacity="0.08"/>
-
     <!-- Y-axis labels -->
     <text x="-8" y="234" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">0x</text>
     <text x="-8" y="188" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">2x</text>
@@ -161,33 +154,27 @@ Manual referral programs work but don't scale. **Automated referral tools increa
     <text x="-8" y="96" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">6x</text>
     <text x="-8" y="50" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">8x</text>
     <text x="-8" y="4" text-anchor="end" font-size="10" fill="currentColor" opacity="0.4">10x</text>
-
     <!-- Referrals bar: 6-10x, show at 8x center = 46px from top -->
     <rect x="15" y="0" width="65" height="230" rx="4" fill="#22c55e"/>
     <text x="47" y="-8" text-anchor="middle" font-size="13" font-weight="bold" fill="#22c55e">6–10x</text>
     <text x="47" y="252" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Referrals</text>
-
     <!-- SEO bar: 5-8x, show at 6.5x -->
     <rect x="105" y="46" width="65" height="184" rx="4" fill="#0ea5e9"/>
     <text x="137" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#0ea5e9">5–8x</text>
     <text x="137" y="252" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">SEO</text>
-
     <!-- LSAs bar: 3-5x -->
     <rect x="195" y="115" width="65" height="115" rx="4" fill="#f97316"/>
     <text x="227" y="107" text-anchor="middle" font-size="13" font-weight="bold" fill="#f97316">3–5x</text>
     <text x="227" y="252" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">LSAs</text>
-
     <!-- Google Ads bar: 2-3x -->
     <rect x="285" y="161" width="65" height="69" rx="4" fill="#eab308"/>
     <text x="317" y="153" text-anchor="middle" font-size="13" font-weight="bold" fill="#eab308">2–3x</text>
     <text x="317" y="252" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Google Ads</text>
-
     <!-- Lead gen platforms: 0.5-1x -->
     <rect x="375" y="207" width="65" height="23" rx="4" fill="#ef4444"/>
     <text x="407" y="199" text-anchor="middle" font-size="13" font-weight="bold" fill="#ef4444">0.5–1x</text>
     <text x="407" y="252" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Lead Gen</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Nielsen, Wharton School, hvacaudit.co audit data (2023–2025)</text>
 </svg>
 </figure>

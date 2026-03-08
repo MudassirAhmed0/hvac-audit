@@ -70,7 +70,6 @@ The GBP factors that determine voice search visibility:
   <desc>Pie chart showing that 79% of voice search answers come from either featured snippets or Google Business Profile data</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Where Voice Search Answers Come From</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Source type for voice assistant responses</text>
-
   <g transform="translate(195, 200)">
     <circle cx="0" cy="0" r="110" fill="none" stroke="#0ea5e9" stroke-width="38"
             stroke-dasharray="281.3 409.8" stroke-dashoffset="0" transform="rotate(-90)"/>
@@ -81,7 +80,6 @@ The GBP factors that determine voice search visibility:
     <text x="0" y="-4" text-anchor="middle" font-size="22" font-weight="900" fill="currentColor">79%</text>
     <text x="0" y="18" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">snippets + GBP</text>
   </g>
-
   <g transform="translate(365, 120)">
     <rect x="0" y="0" width="10" height="10" rx="2" fill="#0ea5e9"/>
     <text x="16" y="10" font-size="11" fill="currentColor">Featured snippets — 40.7%</text>
@@ -90,9 +88,7 @@ The GBP factors that determine voice search visibility:
     <rect x="0" y="56" width="10" height="10" rx="2" fill="#475569"/>
     <text x="16" y="66" font-size="11" fill="currentColor">Other structured — 21.1%</text>
   </g>
-
   <text x="280" y="340" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7">HVAC contractors optimized for both: 0 out of 147 audited.</text>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Backlinko voice search study, SEMrush (2024–2025)</text>
 </svg>
 </figure>
@@ -163,44 +159,36 @@ Voice search and AI-powered search (ChatGPT, Google AI Overviews, Perplexity) ar
   <desc>Line chart showing steady growth in voice search as a percentage of total searches, from 20% in 2020 to 27% in 2025 and projected to exceed 35% by 2028</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Voice Search as % of Total Searches</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Actual through 2025, projected through 2028</text>
-
   <line x1="60" y1="280" x2="520" y2="280" stroke="currentColor" opacity="0.15"/>
   <line x1="60" y1="230" x2="520" y2="230" stroke="currentColor" opacity="0.08"/>
   <line x1="60" y1="180" x2="520" y2="180" stroke="currentColor" opacity="0.08"/>
   <line x1="60" y1="130" x2="520" y2="130" stroke="currentColor" opacity="0.08"/>
-
   <text x="55" y="284" text-anchor="end" font-size="9" fill="currentColor" opacity="0.5">10%</text>
   <text x="55" y="234" text-anchor="end" font-size="9" fill="currentColor" opacity="0.5">20%</text>
   <text x="55" y="184" text-anchor="end" font-size="9" fill="currentColor" opacity="0.5">30%</text>
   <text x="55" y="134" text-anchor="end" font-size="9" fill="currentColor" opacity="0.5">40%</text>
-
   <text x="100" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">2020</text>
   <text x="180" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">2022</text>
   <text x="260" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">2024</text>
   <text x="340" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">2025</text>
   <text x="420" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">2027</text>
   <text x="500" y="298" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">2028</text>
-
   <polyline points="100,230 180,215 260,200 340,195" fill="none" stroke="#0ea5e9" stroke-width="2.5" stroke-linejoin="round"/>
   <polyline points="340,195 420,175 500,155" fill="none" stroke="#0ea5e9" stroke-width="2.5" stroke-linejoin="round" stroke-dasharray="6 4"/>
-
   <circle cx="100" cy="230" r="4" fill="#0ea5e9"/>
   <circle cx="180" cy="215" r="4" fill="#0ea5e9"/>
   <circle cx="260" cy="200" r="4" fill="#0ea5e9"/>
   <circle cx="340" cy="195" r="4" fill="#0ea5e9"/>
   <circle cx="420" cy="175" r="3" fill="#0ea5e9" opacity="0.5"/>
   <circle cx="500" cy="155" r="3" fill="#0ea5e9" opacity="0.5"/>
-
   <text x="105" y="222" font-size="10" fill="currentColor">20%</text>
   <text x="185" y="207" font-size="10" fill="currentColor">23%</text>
   <text x="265" y="192" font-size="10" fill="currentColor">26%</text>
   <text x="345" y="187" font-size="10" font-weight="bold" fill="currentColor">27%</text>
   <text x="425" y="167" font-size="10" fill="currentColor" opacity="0.6">~32%</text>
   <text x="505" y="147" font-size="10" fill="currentColor" opacity="0.6">~36%</text>
-
   <line x1="330" y1="195" x2="330" y2="280" stroke="currentColor" stroke-dasharray="3" opacity="0.2"/>
   <text x="330" y="310" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.4">← actual | projected →</text>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Statista, Think with Google, eMarketer (2024–2026)</text>
 </svg>
 </figure>

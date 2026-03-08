@@ -102,25 +102,21 @@ The contractor who texts "Your tech Mike is on his way, ETA 20 minutes" wins ove
     <line x1="190" y1="12" x2="478" y2="12" stroke="#22c55e" stroke-width="3"/>
     <circle cx="478" cy="12" r="6" fill="#22c55e"/>
     <text x="492" y="17" font-size="13" font-weight="bold" fill="currentColor">93%</text>
-
     <text x="185" y="68" text-anchor="end" font-size="13" fill="currentColor">Judge by website design</text>
     <line x1="190" y1="62" x2="423" y2="62" stroke="currentColor" opacity="0.08" stroke-width="1"/>
     <line x1="190" y1="62" x2="423" y2="62" stroke="#0ea5e9" stroke-width="3"/>
     <circle cx="423" cy="62" r="6" fill="#0ea5e9"/>
     <text x="437" y="67" font-size="13" font-weight="bold" fill="currentColor">75%</text>
-
     <text x="185" y="118" text-anchor="end" font-size="13" fill="currentColor">Call someone they know</text>
     <line x1="190" y1="112" x2="416" y2="112" stroke="currentColor" opacity="0.08" stroke-width="1"/>
     <line x1="190" y1="112" x2="416" y2="112" stroke="#0ea5e9" stroke-width="3"/>
     <circle cx="416" cy="112" r="6" fill="#0ea5e9"/>
     <text x="430" y="117" font-size="13" font-weight="bold" fill="currentColor">73%</text>
-
     <text x="185" y="168" text-anchor="end" font-size="13" fill="currentColor">Skip sites without pricing</text>
     <line x1="190" y1="162" x2="407" y2="162" stroke="currentColor" opacity="0.08" stroke-width="1"/>
     <line x1="190" y1="162" x2="407" y2="162" stroke="#eab308" stroke-width="3"/>
     <circle cx="407" cy="162" r="6" fill="#eab308"/>
     <text x="421" y="167" font-size="13" font-weight="bold" fill="currentColor">70%</text>
-
     <text x="185" y="218" text-anchor="end" font-size="13" fill="currentColor">Found via word of mouth</text>
     <line x1="190" y1="212" x2="398" y2="212" stroke="currentColor" opacity="0.08" stroke-width="1"/>
     <line x1="190" y1="212" x2="398" y2="212" stroke="#475569" stroke-width="3"/>

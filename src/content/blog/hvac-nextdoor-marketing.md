@@ -48,29 +48,23 @@ A claimed page displays your:
   <desc>Funnel chart showing Nextdoor lead conversion: 5000 impressions, 850 profile views, 145 website visits, 25 leads, 15 booked jobs</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">The Nextdoor HVAC Lead Funnel</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Average monthly conversion path from impressions to booked jobs</text>
-
   <g transform="translate(80, 70)">
     <!-- Funnel stages — trapezoids getting narrower -->
     <polygon points="0,0 400,0 370,48 30,48" fill="#0ea5e9" fill-opacity="0.9"/>
     <text x="200" y="20" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">5,000 Post Impressions</text>
     <text x="200" y="38" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.8">Neighbors who see your content</text>
-
     <polygon points="30,56 370,56 330,104 70,104" fill="#0ea5e9" fill-opacity="0.7"/>
     <text x="200" y="76" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">850 Profile Views (17%)</text>
     <text x="200" y="94" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.8">Click to your business page</text>
-
     <polygon points="70,112 330,112 290,160 110,160" fill="#22c55e" fill-opacity="0.8"/>
     <text x="200" y="132" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">145 Website Visits (17%)</text>
     <text x="200" y="150" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.8">Click through to your website</text>
-
     <polygon points="110,168 290,168 260,216 140,216" fill="#22c55e" fill-opacity="0.6"/>
     <text x="200" y="188" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">25 Leads (17% CVR)</text>
     <text x="200" y="206" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.8">Call or submit form</text>
-
     <polygon points="140,224 260,224 240,260 160,260" fill="#f97316" fill-opacity="0.9"/>
     <text x="200" y="248" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">15 Jobs (60%)</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Nextdoor Business, BrightLocal, hvacaudit.co analysis (2024–2025)</text>
 </svg>
 </figure>
@@ -137,7 +131,6 @@ This flywheel effect is why the contractors who start early on Nextdoor build an
   <desc>Grid of four stat boxes showing Nextdoor's audience composition for HVAC marketing</desc>
   <text x="280" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="currentColor">Why Nextdoor's Audience Is Perfect for HVAC</text>
   <text x="280" y="44" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.5">Platform demographics vs. HVAC customer profile</text>
-
   <g transform="translate(40, 70)">
     <!-- Box 1: Homeowners -->
     <rect x="0" y="0" width="220" height="120" rx="8" fill="#22c55e" fill-opacity="0.12" stroke="#22c55e" stroke-opacity="0.3"/>
@@ -145,21 +138,18 @@ This flywheel effect is why the contractors who start early on Nextdoor build an
     <text x="110" y="62" text-anchor="middle" font-size="12" fill="currentColor">Homeowners</text>
     <text x="110" y="82" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">vs. 44% on Facebook</text>
     <text x="110" y="102" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">vs. 33% on Instagram</text>
-
     <!-- Box 2: Reach -->
     <rect x="240" y="0" width="220" height="120" rx="8" fill="#0ea5e9" fill-opacity="0.12" stroke="#0ea5e9" stroke-opacity="0.3"/>
     <text x="350" y="40" text-anchor="middle" font-size="36" font-weight="900" fill="#0ea5e9">1 in 3</text>
     <text x="350" y="62" text-anchor="middle" font-size="12" fill="currentColor">US Households</text>
     <text x="350" y="82" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Active on Nextdoor</text>
     <text x="350" y="102" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Verified addresses only</text>
-
     <!-- Box 3: Median income -->
     <rect x="0" y="140" width="220" height="120" rx="8" fill="#f97316" fill-opacity="0.12" stroke="#f97316" stroke-opacity="0.3"/>
     <text x="110" y="180" text-anchor="middle" font-size="36" font-weight="900" fill="#f97316">$95K</text>
     <text x="110" y="202" text-anchor="middle" font-size="12" fill="currentColor">Median HH Income</text>
     <text x="110" y="222" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Can afford repairs + replacements</text>
     <text x="110" y="242" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">Above US median of $75K</text>
-
     <!-- Box 4: Conversion rate -->
     <rect x="240" y="140" width="220" height="120" rx="8" fill="#a855f7" fill-opacity="0.12" stroke="#a855f7" stroke-opacity="0.3"/>
     <text x="350" y="180" text-anchor="middle" font-size="36" font-weight="900" fill="#a855f7">17%</text>
@@ -167,7 +157,6 @@ This flywheel effect is why the contractors who start early on Nextdoor build an
     <text x="350" y="222" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">vs. 2–5% avg HVAC site</text>
     <text x="350" y="242" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5">4–5x higher than baseline</text>
   </g>
-
   <text x="280" y="372" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.35">Sources: Nextdoor Business, Nielsen, Comscore (2024–2025)</text>
 </svg>
 </figure>
