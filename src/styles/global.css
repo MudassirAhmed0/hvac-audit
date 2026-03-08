@@ -171,8 +171,6 @@ input:focus-visible, button:focus-visible {
   gap: 8px;
   height: 44px;
 }
-@media (min-width: 640px) { .toc-desktop { display: flex; } }
-@media (min-width: 640px) { .toc-mobile { display: none; } }
 
 .toc-mobile {
   display: flex;
@@ -180,6 +178,10 @@ input:focus-visible, button:focus-visible {
   gap: 10px;
   height: 44px;
 }
+.toc-mobile .toc-label { display: none; }
+
+@media (min-width: 640px) { .toc-desktop { display: flex; } }
+@media (min-width: 640px) { .toc-mobile { display: none; } }
 
 .toc-label {
   font-family: var(--font-mono);
