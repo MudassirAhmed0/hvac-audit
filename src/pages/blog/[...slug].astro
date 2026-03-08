@@ -73,10 +73,16 @@ const jsonLd = [
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
       </button>
     </div>
-    <!-- Mobile: dropdown -->
+    <!-- Mobile: custom dropdown -->
     <div class="toc-mobile">
       <span class="toc-label">In this article</span>
-      <select id="toc-select" class="toc-select" aria-label="Jump to section"></select>
+      <div class="toc-dropdown" id="toc-dropdown">
+        <button class="toc-dropdown-trigger" id="toc-dropdown-trigger" aria-expanded="false" aria-haspopup="listbox" aria-label="Jump to section">
+          <span class="toc-dropdown-text" id="toc-dropdown-text">Select section</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="toc-dropdown-chevron"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <ul class="toc-dropdown-menu" id="toc-dropdown-menu" role="listbox"></ul>
+      </div>
     </div>
   </nav>
 
@@ -369,14 +375,18 @@ const jsonLd = [
     // ── Table of Contents ──
     const tocBar = document.getElementById("toc-bar") as HTMLElement;
     const tocPills = document.getElementById("toc-pills") as HTMLElement;
-    const tocSelect = document.getElementById("toc-select") as HTMLSelectElement;
+    const tocDropdown = document.getElementById("toc-dropdown") as HTMLElement;
+    const tocTrigger = document.getElementById("toc-dropdown-trigger") as HTMLButtonElement;
+    const tocDropdownText = document.getElementById("toc-dropdown-text") as HTMLElement;
+    const tocMenu = document.getElementById("toc-dropdown-menu") as HTMLElement;
     const tocLeft = document.getElementById("toc-left") as HTMLButtonElement;
     const tocRight = document.getElementById("toc-right") as HTMLButtonElement;
     const prose = document.querySelector(".prose") as HTMLElement;
 
     if (tocBar && prose) {
-      // Collect H2s and assign IDs
       const headings = Array.from(prose.querySelectorAll("h2")) as HTMLElement[];
+      const menuItems: HTMLElement[] = [];
+
       headings.forEach((h, i) => {
         if (!h.id) {
           h.id = h.textContent!.trim().toLowerCase()
@@ -397,18 +407,42 @@ const jsonLd = [
         });
         tocPills.appendChild(pill);
 
-        // Mobile option
-        const opt = document.createElement("option");
-        opt.value = h.id;
-        opt.textContent = h.textContent!.trim();
-        tocSelect.appendChild(opt);
+        // Mobile dropdown item
+        const li = document.createElement("li");
+        li.className = "toc-dropdown-item";
+        li.textContent = h.textContent!.trim();
+        li.setAttribute("role", "option");
+        li.dataset.id = h.id;
+        li.addEventListener("click", () => {
+          h.scrollIntoView({ behavior: "smooth", block: "start" });
+          history.replaceState(null, "", `#${h.id}`);
+          tocDropdownText.textContent = h.textContent!.trim();
+          closeDropdown();
+        });
+        tocMenu.appendChild(li);
+        menuItems.push(li);
       });
 
-      // Mobile select navigation
-      tocSelect.addEventListener("change", () => {
-        const target = document.getElementById(tocSelect.value);
-        target?.scrollIntoView({ behavior: "smooth", block: "start" });
-        history.replaceState(null, "", `#${tocSelect.value}`);
+      // Set initial text
+      if (headings.length > 0) {
+        tocDropdownText.textContent = headings[0].textContent!.trim();
+      }
+
+      // Toggle dropdown
+      function closeDropdown() {
+        tocDropdown.classList.remove("is-open");
+        tocTrigger.setAttribute("aria-expanded", "false");
+      }
+      function toggleDropdown() {
+        const open = tocDropdown.classList.toggle("is-open");
+        tocTrigger.setAttribute("aria-expanded", String(open));
+      }
+
+      tocTrigger.addEventListener("click", toggleDropdown);
+
+      // Close on outside click
+      document.addEventListener("click", (e) => {
+        if (!tocDropdown.contains(e.target as Node)) closeDropdown();
       });
 
       // Arrow scroll buttons
@@ -428,11 +462,10 @@ const jsonLd = [
 
       // Show/hide bar based on cover image position
       const coverImg = document.querySelector("[data-reveal]") as HTMLElement;
-      let tocVisible = false;
 
       const showObserver = new IntersectionObserver(([entry]) => {
-        tocVisible = !entry.isIntersecting;
-        tocBar.classList.toggle("is-visible", tocVisible);
+        tocBar.classList.toggle("is-visible", !entry.isIntersecting);
+        if (entry.isIntersecting) closeDropdown();
       }, { threshold: 0, rootMargin: "-64px 0px 0px 0px" });
 
       if (coverImg) showObserver.observe(coverImg);
@@ -448,8 +481,8 @@ const jsonLd = [
             if (idx !== -1 && idx !== activeIdx) {
               activeIdx = idx;
               pills.forEach((p, j) => p.classList.toggle("is-active", j === idx));
-              tocSelect.selectedIndex = idx;
-              // Auto-scroll pills to keep active visible
+              menuItems.forEach((m, j) => m.classList.toggle("is-active", j === idx));
+              tocDropdownText.textContent = headings[idx].textContent!.trim();
               const activePill = pills[idx] as HTMLElement;
               if (activePill) {
                 const pillRect = activePill.getBoundingClientRect();
