@@ -1,4 +1,5 @@
 import reportsJson from "./reports.json";
+import privateReportsJson from "./private-reports.json";
 
 export interface Gap {
   gap: string;
@@ -50,6 +51,8 @@ export interface Report {
 }
 
 export const reports: Report[] = reportsJson as Report[];
+export const privateReports: Report[] = privateReportsJson as Report[];
+export const allReports: Report[] = [...reports, ...privateReports];
 
 export function getReport(slug: string): Report | undefined {
   return reports.find((r) => r.slug === slug);
@@ -57,6 +60,10 @@ export function getReport(slug: string): Report | undefined {
 
 export function getAllSlugs(): string[] {
   return reports.map((r) => r.slug);
+}
+
+export function isPrivateReport(slug: string): boolean {
+  return privateReports.some((r) => r.slug === slug);
 }
 
 export const severityOrder = { critical: 0, high: 1, medium: 2, low: 3 };

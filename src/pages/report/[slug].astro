@@ -1,8 +1,10 @@
 ---
 import Base from "../../layouts/Base.astro";
 import CTAForm from "../../components/CTAForm.astro";
+import PrivateReport from "../../components/PrivateReport.astro";
 import {
   reports,
+  privateReports,
   severityColors,
   severityOrder,
   categoryLabels,
@@ -12,10 +14,18 @@ import {
 } from "../../data/reports";
 
 export function getStaticPaths() {
-  return reports.map((r) => ({ params: { slug: r.slug }, props: { report: r } }));
+  const publicPaths = reports.map((r) => ({
+    params: { slug: r.slug },
+    props: { report: r, isPrivate: false },
+  }));
+  const privatePaths = privateReports.map((r) => ({
+    params: { slug: r.slug },
+    props: { report: r, isPrivate: true },
+  }));
+  return [...publicPaths, ...privatePaths];
 }
 
-const { report } = Astro.props as { report: Report };
+const { report, isPrivate } = Astro.props as { report: Report; isPrivate: boolean };
 const { businessSummary: biz, gapSummary: gaps, impactEstimate: impact } = report;
 
 // Sort gaps by severity
@@ -51,7 +61,7 @@ const reportUrl = `${siteUrl}/report/${report.slug}/`;
 const title = `Website Audit Report — ${report.name}`;
 const description = `Free diagnostic report for ${report.domain}. ${gaps.length} issues found — estimated ${impact.missedLeads} missed leads per month.`;
 
-const jsonLd = [
+const jsonLd = isPrivate ? [] : [
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -72,8 +82,10 @@ const jsonLd = [
 ];
 ---
 
-<Base title={title} description={description} jsonLd={jsonLd}>
-  <!-- Hero -->
+<Base title={title} description={description} jsonLd={jsonLd} noindex={isPrivate}>
+  {isPrivate && <PrivateReport report={report} />}
+
+  {!isPrivate && (<Fragment>
   <section class="relative pt-28 pb-16 sm:pt-32 sm:pb-20">
     <div class="mx-auto max-w-4xl px-5">
       <div class="hero-reveal">
@@ -423,4 +435,5 @@ const jsonLd = [
   </section>
 
   <CTAForm />
+  </Fragment>)}
 </Base>

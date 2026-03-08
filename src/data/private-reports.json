@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "empire-refrigeration-633f79",
+    "name": "Empire Refrigeration",
+    "domain": "weneedair.com",
+    "website": "https://weneedair.com/",
+    "rating": 4.4,
+    "reviewCount": 297,
+    "city": "El Paso",
+    "state": "TX",
+    "totalScore": 28,
+    "impactEstimate": {
+      "monthlyVisitors": 400,
+      "bounceReason": "Visitors can't see your 297 Google reviews, there's no clear way to call or book above the fold, and Google may be confused about which version of your site to show",
+      "bouncePercent": 45,
+      "bouncedVisitors": 180,
+      "bookingRate": 5,
+      "missedLeads": "6-12",
+      "avgServiceCall": 400,
+      "missedRepairRevenue": "$2,400-$4,800",
+      "installNote": "If even 1 of those was a system replacement, that's another $8,000-$15,000."
+    },
+    "businessSummary": {
+      "oneLiner": "You have a strong 4.4-star reputation with 297 Google reviews in El Paso. But your website may be costing you HVAC calls. We found several issues that could be sending potential customers to competitors instead.",
+      "topThreeGaps": [
+        "Your 297 Google reviews are invisible to website visitors — they never see your 4.4-star reputation",
+        "The phone number on your website doesn't match your Google Business Profile, which can push you lower in local search results",
+        "Google may be treating your website as two separate sites, splitting your ranking power in half"
+      ],
+      "estimatedTotalMonthlyCost": "$7K-$18K",
+      "estimatedAnnualLtvLost": "$84K-$216K",
+      "competitivePosition": "You have a strong reputation — 297 reviews at 4.4 stars in El Paso is hard to beat. But your website isn't reflecting that. Competitors with cleaner sites and visible reviews are capturing calls that should be going to you.",
+      "seasonalUrgency": "AC demand in El Paso spikes by April — earlier than most markets. Every week these gaps stay open is another week competitors capture the emergency calls and replacement jobs that should be yours.",
+      "recommendedFirstProject": "Align phone number across your website and Google Business Profile so customers and Google see the same business. Set up a single website address so Google stops splitting your ranking between two versions.",
+      "recommendedFirstProjectPrice": "$500-$1,500",
+      "recommendedFirstProjectTimeline": "3-5 days",
+      "growthOpportunity": "Full website rebuild with pages targeting each city you serve (El Paso, Las Cruces, Socorro, Horizon City), a review widget showing your Google reviews, online scheduling for after-hours bookings, and ongoing optimization to keep climbing in local search results."
+    },
+    "gapSummary": [
+      {
+        "gap": "297 Google reviews not showing on your website",
+        "impact": "You've earned a 4.4-star rating with 297 reviews — that's a real competitive advantage in El Paso. But none of them appear on your website. When a homeowner is comparing two HVAC companies side by side, they pick the one showing real customer feedback. Right now, visitors have to leave your site and search Google separately to see what your customers think of you.",
+        "category": "trust",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "Phone number on website doesn't match Google",
+        "impact": "The phone number on your website is different from the one listed on your Google Business Profile. Google uses this information to verify and rank local businesses — when the numbers don't match, Google has less confidence in your listing. This can push you lower in local search results right when El Paso homeowners are searching for HVAC help.",
+        "category": "business",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "Website loads at two different addresses",
+        "impact": "Your website works at both weneedair.com and www.weneedair.com — but there's nothing telling Google which one is the real one. Google may see these as two separate websites competing against each other. Instead of one strong listing, your ranking power is split between two copies. A simple redirect fixes this in minutes.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No clear way to call or book above the fold",
+        "impact": "When someone lands on your homepage, there's no obvious next step — no prominent 'Call Now', 'Book Online', or 'Get a Quote' button visible without scrolling. In El Paso's heat, a homeowner with a broken AC isn't going to scroll around looking for how to reach you. They'll hit the back button and call whoever makes it easiest.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Very little content for Google to work with",
+        "impact": "Your homepage has about 800 words of content. Competitors with more detailed pages covering services, service areas, credentials, and common questions tend to rank higher because Google sees them as more helpful and authoritative. More useful content on your site means more chances for El Paso customers to find you instead of a competitor.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$500-$2,000"
+      },
+      {
+        "gap": "No emergency or after-hours messaging",
+        "impact": "HVAC emergencies don't wait for business hours. There's no '24/7', 'Same-Day Service', or 'Emergency' messaging anywhere on your site. When a homeowner's AC dies at 10 PM, they call whoever looks like they're available — and right now, your website doesn't say that's you.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "No way to book online",
+        "impact": "There's no way for customers to schedule an appointment from your website. Most people prefer to book when it's convenient for them — including late at night or on weekends when your phone may not be answered. After-hours visitors go to whichever competitor lets them book at 11 PM.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No pages targeting cities you serve",
+        "impact": "There are no pages specifically about the cities you serve. When someone searches 'AC repair El Paso' or 'HVAC Las Cruces', your site doesn't have a dedicated page to match that search. Competitors with location-specific pages show up in those results — you don't.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Google can't read your business details from the code",
+        "impact": "Your website's code doesn't clearly tell Google what type of business you are, where you're located, or what hours you're open. This structured information helps Google connect your website to your Business Profile and show you in local search results. Without it, Google has to guess — and guessing means lower confidence in your listing.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Most images have no descriptions for Google",
+        "impact": "20 of 27 images on your site have no text descriptions. Google can't understand what these images show, so they can't help your rankings. The 3 images that do have descriptions use irrelevant stock photo text like 'black and white bed linen' — not exactly helpful for an HVAC company.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "No financing information for big-ticket replacements",
+        "impact": "A full HVAC system replacement costs $5,000-$15,000 — one of the biggest purchases a homeowner makes. If your website doesn't mention financing, homeowners may assume they can't afford your services and call the competitor who advertises 0% APR instead.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "Website reloads from scratch every visit",
+        "impact": "Your website forces every visitor's browser to re-download the entire page every time they visit. If a homeowner checks your site today and comes back tomorrow to call, they wait for the full load again. Competitor sites load instantly the second time around.",
+        "category": "speed",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "Google search listing has a formatting error",
+        "impact": "Your description in Google search results ends with a stray quotation mark — a small but visible error. When homeowners scan search results, this makes your listing look less polished than competitors with clean descriptions. First impressions in search results determine who gets the click.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "No blog or helpful content",
+        "impact": "Without any articles on your site, you miss searches like 'How much does AC repair cost in El Paso?' or 'When should I replace my AC unit?' Competitors who answer these common questions are capturing customers you'll never see — because your site has nothing to show for those searches.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$500-$2,000"
+      },
+      {
+        "gap": "No license number displayed",
+        "impact": "Texas requires TDLR/TACL licensing for HVAC work. Not showing your license number makes your business look less established than competitors who display theirs prominently. It's a quick trust signal that homeowners check, especially for big jobs.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "Shared links show no preview image",
+        "impact": "When someone shares your website link on Facebook, in a text message, or anywhere else — no preview image appears. It looks like a broken link. Competitors with branded preview images get more clicks from every share and referral.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$300"
+      }
+    ]
+  }
+]
