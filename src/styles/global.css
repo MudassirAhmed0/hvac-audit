@@ -213,7 +213,9 @@ input:focus-visible, button:focus-visible {
 .prose hr { border: none; border-top: 1px solid var(--color-rule); margin: 2.5rem 0; }
 .prose code { font-family: var(--font-mono); font-size: 0.85em; background: var(--color-surface-elevated); padding: 0.2em 0.45em; border-radius: 5px; color: var(--color-accent); }
 
-.prose table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.9375rem; }
+.prose .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1.5rem 0; }
+.prose table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; min-width: 480px; }
+.prose :not(.table-wrap) > table { margin: 1.5rem 0; }
 .prose thead { border-bottom: 2px solid var(--color-rule); }
 .prose th { color: var(--color-ink); font-weight: 600; text-align: left; padding: 0.75rem 1rem; white-space: nowrap; }
 .prose td { padding: 0.65rem 1rem; border-bottom: 1px solid var(--color-rule); color: var(--color-ink-secondary); }
