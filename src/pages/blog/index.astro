@@ -26,13 +26,31 @@ const page = {
   },
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Blog",
-  name: "HVAC Audit Blog",
-  description: "Insights on HVAC website performance, lead generation, and what's costing contractors money online.",
-  url: "https://hvacaudit.co/blog/",
-};
+const siteUrl = "https://hvacaudit.co";
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    name: "HVAC Audit Blog",
+    description: "Insights on HVAC website performance, lead generation, and what's costing contractors money online.",
+    url: `${siteUrl}/blog/`,
+    publisher: {
+      "@type": "Organization",
+      name: "HVAC Audit",
+      url: siteUrl,
+      logo: { "@type": "ImageObject", url: `${siteUrl}/og-image.png` },
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${siteUrl}/blog/` },
+    ],
+  },
+];
 ---
 
 <Base

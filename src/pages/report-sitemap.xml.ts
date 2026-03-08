@@ -10,12 +10,10 @@ export const GET: APIRoute = async ({ site }) => {
   const today = new Date().toISOString().split("T")[0];
 
   const urls = [
-    { loc: `${siteUrl}/reports/`, lastmod: today, changefreq: "weekly", priority: "0.9" },
+    { loc: `${siteUrl}/reports/`, lastmod: today },
     ...reports.map((r) => ({
       loc: `${siteUrl}/report/${r.slug}/`,
       lastmod: today,
-      changefreq: "monthly" as const,
-      priority: "0.7",
     })),
   ];
 
@@ -27,8 +25,6 @@ ${urls
     (u) => `  <url>
     <loc>${u.loc}</loc>
     <lastmod>${u.lastmod}</lastmod>
-    <changefreq>${u.changefreq}</changefreq>
-    <priority>${u.priority}</priority>
   </url>`
   )
   .join("\n")}

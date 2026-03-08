@@ -5,13 +5,25 @@ import ReportCard from "../../components/ReportCard.astro";
 
 const formspreeUrl = import.meta.env.PUBLIC_FORMSPREE_URL || "";
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: "HVAC Website Audit Reports",
-  description: "Real audit reports from HVAC businesses. See the exact issues costing contractors money online.",
-  url: "https://hvacaudit.co/reports/",
-};
+const siteUrl = "https://hvacaudit.co";
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "HVAC Website Audit Reports",
+    description: "Real audit reports from HVAC businesses. See the exact issues costing contractors money online.",
+    url: `${siteUrl}/reports/`,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: "Reports", item: `${siteUrl}/reports/` },
+    ],
+  },
+];
 ---
 
 <Base
@@ -147,6 +159,7 @@ const jsonLd = {
           class="flex flex-col gap-3"
           action={formspreeUrl}
           method="POST"
+          aria-label="Request a free HVAC website audit"
         >
           <input type="hidden" name="_subject" value="Reports Page Audit Request (Mobile)" />
           <input type="text" name="_gotcha" style="display:none" />

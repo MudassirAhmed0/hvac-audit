@@ -16,14 +16,23 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
+    "@id": `${siteUrl}/#organization`,
     name: "HVAC Audit",
     url: siteUrl,
     description:
       "Free HVAC website audit — we find exactly where your business is losing money online and fix it.",
+    email: "contact@hvacaudit.co",
+    logo: `${siteUrl}/og-image.png`,
     founder: {
       "@type": "Person",
       name: "Mudassir Ahmed",
+      url: `${siteUrl}/about/`,
     },
+    sameAs: [
+      "https://www.linkedin.com/company/112202285",
+      "https://www.instagram.com/hvacaudit.co/",
+      "https://www.facebook.com/profile.php?id=61587724066026",
+    ],
     areaServed: {
       "@type": "Country",
       name: "United States",
@@ -41,57 +50,10 @@ const jsonLd = [
   },
   {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What exactly do you audit?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "We run a comprehensive 8-point diagnostic: page speed, mobile experience, SEO health, SSL security, CTA clarity, review integration, contact accessibility, and a competitor gap analysis. You get a full report with specific dollar-impact estimates for each issue.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Is the audit really free?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. No credit card, no contract, no catch. We audit your site, deliver the report, and walk you through it. If you want us to fix what we found, we'll give you a quote. If not, you keep the report — it's yours.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How long does the audit take?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "We deliver your full diagnostic report within 48 hours of receiving your URL. Most are done in under 24. You'll get a detailed breakdown of every issue with priority rankings.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "I already have a website. Do I really need this?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "That's exactly who this is for. A website that exists isn't the same as a website that works. We've found that 80% of HVAC businesses with a website are still losing leads due to speed, security, or conversion issues they don't know about.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What if my site is fine?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Then we'll tell you that. We don't manufacture problems. If your site scores well across all 8 points, we'll congratulate you — and maybe suggest one or two optimizations to squeeze out more leads.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How do you calculate the $12,000/month figure?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Average HVAC service call is $300-$500. If your slow, insecure site is bouncing even 30% of visitors (industry average), and you get 200+ monthly visitors, that's 60+ lost potential customers. At even a 15% conversion rate, that's 9 jobs at $400 average = $3,600/month minimum. For businesses with higher traffic, it's much more.",
-        },
-      },
-    ],
+    "@type": "WebSite",
+    name: "HVAC Audit",
+    url: siteUrl,
+    publisher: { "@id": `${siteUrl}/#organization` },
   },
 ];
 ---

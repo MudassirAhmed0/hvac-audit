@@ -6,13 +6,11 @@ export const GET: APIRoute = async ({ site }) => {
     site?.href?.replace(/\/$/, "") ||
     "https://hvacaudit.co";
 
-  const today = new Date().toISOString().split("T")[0];
-
   const urls = [
-    { loc: `${siteUrl}/`, changefreq: "weekly", priority: "1.0" },
-    { loc: `${siteUrl}/about/`, changefreq: "monthly", priority: "0.8" },
-    { loc: `${siteUrl}/privacy/`, changefreq: "yearly", priority: "0.3" },
-    { loc: `${siteUrl}/terms/`, changefreq: "yearly", priority: "0.3" },
+    { loc: `${siteUrl}/`, lastmod: "2026-03-07" },
+    { loc: `${siteUrl}/about/`, lastmod: "2026-03-07" },
+    { loc: `${siteUrl}/privacy/`, lastmod: "2026-01-15" },
+    { loc: `${siteUrl}/terms/`, lastmod: "2026-01-15" },
   ];
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>
@@ -22,9 +20,7 @@ ${urls
   .map(
     (u) => `  <url>
     <loc>${u.loc}</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>${u.changefreq}</changefreq>
-    <priority>${u.priority}</priority>
+    <lastmod>${u.lastmod}</lastmod>
   </url>`
   )
   .join("\n")}

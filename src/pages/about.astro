@@ -1,13 +1,40 @@
 ---
 import Base from "../layouts/Base.astro";
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "AboutPage",
-  name: "About HVAC Audit",
-  description: "Meet Mudassir Ahmed — the person behind HVAC Audit. Learn why we audit HVAC websites and how we help contractors stop losing money online.",
-  url: "https://hvacaudit.co/about/",
-};
+const siteUrl = "https://hvacaudit.co";
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    name: "About HVAC Audit",
+    description: "Meet Mudassir Ahmed — the person behind HVAC Audit. Learn why we audit HVAC websites and how we help contractors stop losing money online.",
+    url: `${siteUrl}/about/`,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Mudassir Ahmed",
+    url: `${siteUrl}/about/`,
+    jobTitle: "Founder",
+    worksFor: {
+      "@type": "Organization",
+      name: "HVAC Audit",
+      url: siteUrl,
+    },
+    sameAs: [
+      "https://www.linkedin.com/company/112202285",
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: "About", item: `${siteUrl}/about/` },
+    ],
+  },
+];
 ---
 
 <Base
@@ -32,7 +59,7 @@ const jsonLd = {
     <div class="px-6 md:px-12 lg:px-16">
       <div class="flex flex-col lg:flex-row gap-10 lg:gap-20">
         <div class="lg:w-1/3" data-reveal>
-          <p class="text-xs text-accent font-mono tracking-widest uppercase">Who I Am</p>
+          <h2 class="text-xs text-accent font-mono tracking-widest uppercase">Who I Am</h2>
         </div>
         <div class="lg:w-2/3 max-w-2xl">
           <div data-reveal style="--delay:80ms">
@@ -40,14 +67,41 @@ const jsonLd = {
               Mudassir Ahmed
             </p>
             <p class="text-ink-secondary text-base leading-relaxed">
-              I build and fix websites. HVAC Audit started because I kept seeing the same thing — contractors paying for a site that was silently driving customers to their competitors. Not because the business was bad. Because the website was.
+              I'm a web developer and performance specialist who's spent years building, fixing, and optimizing websites for service businesses. My background is in full-stack development — I've worked with everything from static site generators to complex web applications — but my focus has always been on the same question: is this website actually generating revenue for the business owner?
             </p>
           </div>
           <div data-reveal style="--delay:160ms">
             <p class="text-ink-secondary text-base leading-relaxed mt-5">
-              I started documenting what I found. After <strong class="text-ink font-medium">147+ audits</strong>, the patterns are clear. Most HVAC websites fail at the same 5-6 things — and those things have a direct dollar cost.
+              HVAC Audit started because I kept seeing the same thing — contractors paying $3,000–$8,000 for a website that was silently driving customers to their competitors. Not because the business was bad. Because the website was. Slow load times, missing SSL certificates, broken mobile layouts, no clear call to action. The same problems, over and over, across every city and every company size.
             </p>
           </div>
+          <div data-reveal style="--delay:240ms">
+            <p class="text-ink-secondary text-base leading-relaxed mt-5">
+              I started documenting what I found. After <strong class="text-ink font-medium">147+ manual audits</strong>, the patterns became undeniable. The average HVAC website scores <strong class="text-ink font-medium">34 out of 100</strong> on our diagnostic. The average load time is <strong class="text-ink font-medium">18.4 seconds</strong> — six times slower than what Google recommends. Most of these businesses have no idea. Nobody told them.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why HVAC -->
+  <section class="py-16 sm:py-24 border-b border-rule">
+    <div class="px-6 md:px-12 lg:px-16">
+      <div class="flex flex-col lg:flex-row gap-10 lg:gap-20">
+        <div class="lg:w-1/3" data-reveal>
+          <h2 class="text-xs text-accent font-mono tracking-widest uppercase">Why HVAC</h2>
+        </div>
+        <div class="lg:w-2/3 max-w-2xl space-y-5">
+          <p class="text-ink-secondary text-base leading-relaxed" data-reveal style="--delay:80ms">
+            HVAC is a high-ticket, high-intent industry. When someone searches "AC repair near me" at 2pm in July, they're not browsing — they're buying. A single service call averages $300–$500. A full system install runs $8,000–$15,000. The stakes of a bad website are enormous.
+          </p>
+          <p class="text-ink-secondary text-base leading-relaxed" data-reveal style="--delay:160ms">
+            Yet the industry is underserved by web agencies. Most HVAC contractors get sold a template site by a marketing company that knows nothing about their specific conversion patterns. The result is a site that looks "fine" but bleeds leads through slow performance, missing trust signals, and buried contact information.
+          </p>
+          <p class="text-ink-secondary text-base leading-relaxed" data-reveal style="--delay:240ms">
+            I chose to specialize because depth beats breadth. After 147+ audits in a single industry, I know exactly what works, what doesn't, and what the top-performing HVAC websites do differently. That specificity makes every audit more valuable than a generalist review ever could.
+          </p>
         </div>
       </div>
     </div>
@@ -58,12 +112,12 @@ const jsonLd = {
     <div class="px-6 md:px-12 lg:px-16">
       <div class="flex flex-col lg:flex-row gap-10 lg:gap-20">
         <div class="lg:w-1/3" data-reveal>
-          <p class="text-xs text-accent font-mono tracking-widest uppercase">What I've Found</p>
+          <h2 class="text-xs text-accent font-mono tracking-widest uppercase">What I've Found</h2>
         </div>
         <div class="lg:w-2/3">
           <div class="grid grid-cols-2 lg:grid-cols-3 gap-y-10">
             <div data-reveal>
-              <span class="text-3xl sm:text-4xl font-bold tracking-tight text-danger block mb-2">21s</span>
+              <span class="text-3xl sm:text-4xl font-bold tracking-tight text-danger block mb-2">18.4s</span>
               <span class="text-[10px] text-ink-muted font-mono uppercase tracking-widest">Avg load time</span>
             </div>
             <div data-reveal style="--delay:80ms" class="border-l border-rule-light pl-6 sm:pl-8">
@@ -90,17 +144,20 @@ const jsonLd = {
     <div class="px-6 md:px-12 lg:px-16">
       <div class="flex flex-col lg:flex-row gap-10 lg:gap-20">
         <div class="lg:w-1/3" data-reveal>
-          <p class="text-xs text-accent font-mono tracking-widest uppercase">How I Work</p>
+          <h2 class="text-xs text-accent font-mono tracking-widest uppercase">How I Work</h2>
         </div>
         <div class="lg:w-2/3 max-w-2xl space-y-5">
           <p class="text-ink-secondary text-base leading-relaxed" data-reveal style="--delay:80ms">
-            No automated tools. I open your site, test every page on mobile, check the speed, read the reviews, look at what your competitors are doing, and document every issue with an estimated dollar impact.
+            Every audit follows the same 8-point diagnostic framework I've refined over 147+ reviews. No automated tools spitting out generic reports. I manually open your site, test every page on mobile and desktop, run speed diagnostics, review your Google Business profile, read your customer reviews, and analyze what your local competitors are doing better.
           </p>
           <p class="text-ink-secondary text-base leading-relaxed" data-reveal style="--delay:160ms">
-            You get a full diagnostic report — specific problems, priority rankings, and what each one is likely costing you per month. No vague advice. No fluff.
+            The eight categories I evaluate: <strong class="text-ink font-medium">page speed</strong>, <strong class="text-ink font-medium">mobile experience</strong>, <strong class="text-ink font-medium">SEO health</strong>, <strong class="text-ink font-medium">SSL security</strong>, <strong class="text-ink font-medium">call-to-action clarity</strong>, <strong class="text-ink font-medium">review integration</strong>, <strong class="text-ink font-medium">contact accessibility</strong>, and <strong class="text-ink font-medium">competitor gap analysis</strong>. Each issue gets a severity rating and an estimated monthly dollar cost based on your traffic and average ticket size.
           </p>
           <p class="text-ink-secondary text-base leading-relaxed" data-reveal style="--delay:240ms">
-            <strong class="text-ink font-medium">10 audits per week.</strong> Each one done by hand. The audit is free — no credit card, no sales call, no catch. If you want help fixing what I find, we can talk. If not, the report is yours.
+            You get a full diagnostic report — specific problems, priority rankings, and what each one is likely costing you per month. Not vague advice. Not a sales pitch disguised as an audit. Actual, actionable findings with numbers behind them.
+          </p>
+          <p class="text-ink-secondary text-base leading-relaxed" data-reveal style="--delay:320ms">
+            <strong class="text-ink font-medium">10 audits per week.</strong> Each one done by hand. The audit is free — no credit card, no sales call, no catch. If you want help fixing what I find, we can talk. If not, you keep the report. It's yours either way.
           </p>
         </div>
       </div>
@@ -112,7 +169,7 @@ const jsonLd = {
     <div class="px-6 md:px-12 lg:px-16">
       <div class="flex flex-col lg:flex-row gap-10 lg:gap-20">
         <div class="lg:w-1/3" data-reveal>
-          <p class="text-xs text-accent font-mono tracking-widest uppercase">Next Step</p>
+          <h2 class="text-xs text-accent font-mono tracking-widest uppercase">Next Step</h2>
         </div>
         <div class="lg:w-2/3" data-reveal style="--delay:80ms">
           <p class="text-xl sm:text-2xl font-bold tracking-tight leading-snug mb-6">
