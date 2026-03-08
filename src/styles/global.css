@@ -174,11 +174,11 @@ input:focus-visible, button:focus-visible {
 
 .toc-mobile {
   display: flex;
-  align-items: center;
-  gap: 10px;
-  height: 44px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 6px 0;
 }
-.toc-mobile .toc-label { display: none; }
 
 @media (min-width: 640px) { .toc-desktop { display: flex; } }
 @media (min-width: 640px) { .toc-mobile { display: none; } }
@@ -251,7 +251,7 @@ input:focus-visible, button:focus-visible {
 .toc-arrow:hover { color: var(--color-ink); }
 
 .toc-select {
-  flex: 1;
+  width: 100%;
   min-width: 0;
   padding: 6px 32px 6px 12px;
   border-radius: 8px;
