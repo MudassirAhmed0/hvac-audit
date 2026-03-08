@@ -60,6 +60,26 @@ const jsonLd = [
   ogImage={post.data.cover}
   jsonLd={jsonLd}
 >
+  <!-- Sticky TOC bar -->
+  <nav id="toc-bar" class="toc-bar" aria-label="Table of contents">
+    <!-- Desktop: horizontal pills -->
+    <div class="toc-desktop">
+      <span class="toc-label">In this article</span>
+      <button class="toc-arrow toc-arrow-left" id="toc-left" aria-label="Scroll left" tabindex="-1">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <div class="toc-pills" id="toc-pills"></div>
+      <button class="toc-arrow toc-arrow-right" id="toc-right" aria-label="Scroll right" tabindex="-1">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+    <!-- Mobile: dropdown -->
+    <div class="toc-mobile">
+      <span class="toc-label">In this article</span>
+      <select id="toc-select" class="toc-select" aria-label="Jump to section"></select>
+    </div>
+  </nav>
+
   <article>
     <div class="px-6 md:px-12 lg:px-16 pt-28 sm:pt-32 pb-20 sm:pb-28">
       <!-- Header (full width) -->
@@ -343,6 +363,106 @@ const jsonLd = [
       table.parentNode!.insertBefore(wrap, table);
       wrap.appendChild(table);
     });
+
+    // ── Table of Contents ──
+    const tocBar = document.getElementById("toc-bar") as HTMLElement;
+    const tocPills = document.getElementById("toc-pills") as HTMLElement;
+    const tocSelect = document.getElementById("toc-select") as HTMLSelectElement;
+    const tocLeft = document.getElementById("toc-left") as HTMLButtonElement;
+    const tocRight = document.getElementById("toc-right") as HTMLButtonElement;
+    const prose = document.querySelector(".prose") as HTMLElement;
+
+    if (tocBar && prose) {
+      // Collect H2s and assign IDs
+      const headings = Array.from(prose.querySelectorAll("h2")) as HTMLElement[];
+      headings.forEach((h, i) => {
+        if (!h.id) {
+          h.id = h.textContent!.trim().toLowerCase()
+            .replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")
+            || `section-${i}`;
+        }
+
+        // Desktop pill
+        const pill = document.createElement("a");
+        pill.href = `#${h.id}`;
+        pill.className = "toc-pill";
+        pill.textContent = h.textContent!.trim();
+        pill.dataset.idx = String(i);
+        pill.addEventListener("click", (e) => {
+          e.preventDefault();
+          h.scrollIntoView({ behavior: "smooth", block: "start" });
+          history.replaceState(null, "", `#${h.id}`);
+        });
+        tocPills.appendChild(pill);
+
+        // Mobile option
+        const opt = document.createElement("option");
+        opt.value = h.id;
+        opt.textContent = h.textContent!.trim();
+        tocSelect.appendChild(opt);
+      });
+
+      // Mobile select navigation
+      tocSelect.addEventListener("change", () => {
+        const target = document.getElementById(tocSelect.value);
+        target?.scrollIntoView({ behavior: "smooth", block: "start" });
+        history.replaceState(null, "", `#${tocSelect.value}`);
+      });
+
+      // Arrow scroll buttons
+      const scrollAmt = 200;
+      tocLeft.addEventListener("click", () => tocPills.scrollBy({ left: -scrollAmt, behavior: "smooth" }));
+      tocRight.addEventListener("click", () => tocPills.scrollBy({ left: scrollAmt, behavior: "smooth" }));
+
+      function updateArrows() {
+        tocLeft.style.opacity = tocPills.scrollLeft > 10 ? "1" : "0";
+        tocLeft.style.pointerEvents = tocPills.scrollLeft > 10 ? "auto" : "none";
+        const atEnd = tocPills.scrollLeft + tocPills.clientWidth >= tocPills.scrollWidth - 10;
+        tocRight.style.opacity = atEnd ? "0" : "1";
+        tocRight.style.pointerEvents = atEnd ? "none" : "auto";
+      }
+      tocPills.addEventListener("scroll", updateArrows, { passive: true });
+      updateArrows();
+
+      // Show/hide bar based on cover image position
+      const coverImg = document.querySelector("[data-reveal]") as HTMLElement;
+      let tocVisible = false;
+
+      const showObserver = new IntersectionObserver(([entry]) => {
+        tocVisible = !entry.isIntersecting;
+        tocBar.classList.toggle("is-visible", tocVisible);
+      }, { threshold: 0, rootMargin: "-64px 0px 0px 0px" });
+
+      if (coverImg) showObserver.observe(coverImg);
+
+      // Track active section
+      const pills = tocPills.querySelectorAll(".toc-pill");
+      let activeIdx = -1;
+
+      const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const idx = headings.indexOf(entry.target as HTMLElement);
+            if (idx !== -1 && idx !== activeIdx) {
+              activeIdx = idx;
+              pills.forEach((p, j) => p.classList.toggle("is-active", j === idx));
+              tocSelect.selectedIndex = idx;
+              // Auto-scroll pills to keep active visible
+              const activePill = pills[idx] as HTMLElement;
+              if (activePill) {
+                const pillRect = activePill.getBoundingClientRect();
+                const containerRect = tocPills.getBoundingClientRect();
+                if (pillRect.left < containerRect.left + 40 || pillRect.right > containerRect.right - 40) {
+                  activePill.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+                }
+              }
+            }
+          }
+        });
+      }, { threshold: 0, rootMargin: "-80px 0px -70% 0px" });
+
+      headings.forEach((h) => sectionObserver.observe(h));
+    }
 
     // Copy link button
     const copyBtn = document.getElementById("copy-link-btn") as HTMLButtonElement | null;
