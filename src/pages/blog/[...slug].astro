@@ -106,6 +106,8 @@ const jsonLd = [
             </time>
             <span class="text-rule">|</span>
             <span>{post.data.readTime}</span>
+            <span class="text-rule">|</span>
+            <span>By <a href="/about/" class="text-ink-secondary hover:text-accent transition-colors">Mudassir Ahmed</a></span>
           </div>
 
           <!-- Share -->
@@ -159,7 +161,7 @@ const jsonLd = [
               src={post.data.cover}
               alt={post.data.title}
               width="1080"
-              height="1080"
+              height="540"
               class="w-full aspect-[2/1] object-cover"
               loading="eager"
               fetchpriority="high"
