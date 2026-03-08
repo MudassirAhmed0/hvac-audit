@@ -1,5 +1,5 @@
 ---
-title: "7 Questions Every Homeowner Asks Before Calling — Your Website Answers None of Them"
+title: "7 Questions Homeowners Ask Before Calling — Your Site Answers None"
 description: "69% of homeowners search for pricing before calling. Only 15% find anything useful. Here are the 7 questions your HVAC website needs to answer — and probably doesn't."
 date: 2026-03-08
 readTime: "9 min read"

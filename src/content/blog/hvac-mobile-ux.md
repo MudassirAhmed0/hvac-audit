@@ -1,5 +1,5 @@
 ---
-title: "76% of HVAC Searchers Call Within 24 Hours — If Your Mobile UX Doesn't Kill the Call First"
+title: "76% of HVAC Searchers Call in 24 Hours — If Mobile UX Lets Them"
 description: "70% of HVAC inquiries come from mobile devices. If a homeowner can't tap-to-call within 3 seconds, you're losing the lead. Here's what mobile UX is costing you."
 date: 2026-03-08
 readTime: "8 min read"

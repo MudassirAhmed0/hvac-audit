@@ -1,5 +1,5 @@
 ---
-title: "Email, SMS & Automation: The HVAC Follow-Up System That Books Jobs While You Sleep"
+title: "The HVAC Follow-Up System That Books Jobs While You Sleep"
 description: "Email returns $36 for every dollar spent. SMS has a 98% open rate. Automated follow-ups recover 15–20% of lost leads. Here's the HVAC follow-up system that books jobs without a single manual phone call."
 date: 2026-03-08
 readTime: "9 min read"

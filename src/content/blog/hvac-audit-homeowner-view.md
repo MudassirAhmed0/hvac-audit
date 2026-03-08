@@ -1,5 +1,5 @@
 ---
-title: "Audit Breakdown: We Looked at 3 HVAC Websites the Way a Homeowner Would"
+title: "We Browsed 3 HVAC Sites Like a Homeowner — One Scored 28"
 description: "We opened 3 HVAC websites as if we needed AC repair at 11 PM. One scored 28, one scored 54, one scored 91. Here's exactly what a homeowner sees — and why most sites fail the 5-second trust test."
 date: 2026-03-08
 readTime: "10 min read"

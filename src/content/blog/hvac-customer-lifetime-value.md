@@ -1,5 +1,5 @@
 ---
-title: "One HVAC Service Call Is Worth $12,000 — If You Don't Lose the Customer"
+title: "One HVAC Call Is Worth $12,000 — If You Keep the Customer"
 description: "A single HVAC service call leads to $12,000+ in lifetime revenue — maintenance agreements, replacements, and referrals. But most contractors lose the customer after the first visit. Here's why retention beats acquisition."
 date: 2026-03-08
 readTime: "8 min read"

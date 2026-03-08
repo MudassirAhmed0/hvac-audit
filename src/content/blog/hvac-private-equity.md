@@ -1,5 +1,5 @@
 ---
-title: "Private Equity Is Coming for Your HVAC Business — Here's What That Means"
+title: "Private Equity Is Coming for Your HVAC Business — Now What"
 description: "Private equity accounted for 50.6% of all HVAC M&A deals in H1 2025 — an 88% increase year over year. Here's how PE rollups are reshaping the industry and what independent contractors should do about it."
 date: 2026-03-08
 readTime: "9 min read"

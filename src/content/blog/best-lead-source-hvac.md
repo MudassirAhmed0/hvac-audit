@@ -1,5 +1,5 @@
 ---
-title: "HomeAdvisor vs Google Ads vs SEO: Where HVAC Contractors Actually Get the Best Leads"
+title: "HomeAdvisor vs Google Ads vs SEO: Where HVAC Leads Actually Come From"
 description: "We compared cost per lead, close rate, and cost per sale across every major channel. Here's what the data says."
 date: 2026-03-07
 lastModified: 2026-03-08

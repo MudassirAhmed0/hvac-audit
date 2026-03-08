@@ -1,5 +1,5 @@
 ---
-title: "Call Tracking for HVAC Contractors: The $0 Setup That Shows Where Every Lead Comes From"
+title: "HVAC Call Tracking: The $0 Setup That Shows Where Leads Come From"
 description: "Most HVAC companies can't tell which marketing channel generates their best leads. Here's a free setup that fixes that in 30 minutes."
 date: 2026-03-07
 lastModified: 2026-03-08

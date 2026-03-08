@@ -1,5 +1,5 @@
 ---
-title: "88% of People Buy After Watching a Brand Video — HVAC Companies Don't Make Any"
+title: "88% Buy After Watching Brand Video — HVAC Companies Make None"
 description: "88% of consumers say brand video convinced them to buy. Video boosts site conversions by 80%. Yet most HVAC companies produce zero video content. Here's what that's costing."
 date: 2026-03-08
 readTime: "8 min read"

@@ -1,5 +1,5 @@
 ---
-title: "Nextdoor for HVAC: 77% Homeowners, 17% Conversion Rate — If You Do It Right"
+title: "Nextdoor for HVAC: 77% Homeowners, 17% Conversion Rate"
 description: "Nextdoor reaches 1 in 3 US households, 77% are homeowners, and HVAC posts see a 17% web-visit-to-lead conversion rate. But most contractors use it wrong. Here's the full setup."
 date: 2026-03-08
 readTime: "8 min read"

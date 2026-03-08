@@ -1,5 +1,5 @@
 ---
-title: "7 HVAC KPIs That Predict Whether Your Marketing Is Working (Before Revenue Does)"
+title: "7 HVAC KPIs That Show If Your Marketing Works — Before Revenue"
 description: "55% of HVAC contractors use Google Ads but can't tell what works. Revenue per tech ranges from $200K-$500K. These 7 KPIs show you what's working before revenue does."
 date: 2026-03-08
 readTime: "9 min read"

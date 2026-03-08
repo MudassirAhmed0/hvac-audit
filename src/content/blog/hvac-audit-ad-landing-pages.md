@@ -1,5 +1,5 @@
 ---
-title: "We Audited 50 HVAC Google Ads Landing Pages — Most Fail the Same 3 Tests"
+title: "We Audited 50 HVAC Ad Landing Pages — Most Fail 3 Tests"
 description: "We audited 50 HVAC Google Ads landing pages. The average score was below 40. Missing pricing, buried phone numbers, and zero trust signals cost contractors 50-70% of their paid clicks. Here's what we found."
 date: 2026-03-08
 readTime: "9 min read"

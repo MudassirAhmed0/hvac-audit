@@ -1,5 +1,5 @@
 ---
-title: "ServiceTitan vs Jobber vs Housecall Pro: What $250/Month/Tech Actually Gets You"
+title: "ServiceTitan vs Jobber vs Housecall Pro: The Real Cost"
 description: "ServiceTitan costs $250-500/tech/month with $5K-50K setup. Jobber starts at $39/month. Here's what each CRM actually delivers — and which one fits your operation."
 date: 2026-03-08
 readTime: "10 min read"

@@ -1,5 +1,5 @@
 ---
-title: "Audit Breakdown: We Checked 147 HVAC Websites for Pricing — Here's What We Found"
+title: "We Checked 147 HVAC Sites for Pricing — Here's What We Found"
 description: "Only 31% of HVAC websites show any pricing. Sites with pricing convert 3-5x higher. We audited 147 HVAC sites and broke down exactly what the top performers do differently."
 date: 2026-03-08
 readTime: "9 min read"

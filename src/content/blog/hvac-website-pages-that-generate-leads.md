@@ -1,5 +1,5 @@
 ---
-title: "5 HVAC Website Pages That Actually Generate Leads (and 3 That Waste Money)"
+title: "5 HVAC Pages That Generate Leads (and 3 That Waste Money)"
 description: "Not all website pages are equal. These 5 pages drive leads. These 3 are dead weight. Here's how to tell the difference."
 date: 2026-03-07
 lastModified: 2026-03-08

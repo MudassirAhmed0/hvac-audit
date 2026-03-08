@@ -1,5 +1,5 @@
 ---
-title: "Your Website Should Sell Maintenance Agreements — Here's Why It Doesn't"
+title: "Your Site Should Sell Maintenance Agreements — It Doesn't"
 description: "Maintenance agreements can represent 50%+ of an HVAC company's recurring revenue and reduce energy costs 30%. But most websites don't even mention them. Here's the data on what you're losing."
 date: 2026-03-08
 readTime: "8 min read"

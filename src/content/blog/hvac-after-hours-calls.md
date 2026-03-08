@@ -1,5 +1,5 @@
 ---
-title: "After-Hours HVAC Calls Are Worth 3x — and You're Sending Them to Voicemail"
+title: "After-Hours HVAC Calls Are Worth 3x — You Send Them to VM"
 description: "Emergency calls after 5 PM close at higher rates, command premium pricing, and convert into lifetime customers. But most HVAC companies send them straight to voicemail. Here's what that costs."
 date: 2026-03-08
 readTime: "8 min read"

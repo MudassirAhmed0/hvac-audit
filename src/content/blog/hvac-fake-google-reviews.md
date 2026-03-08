@@ -1,5 +1,5 @@
 ---
-title: "Fake Google Reviews Are Attacking HVAC Businesses — and Google Removes Only 20%"
+title: "Fake Reviews Are Attacking HVAC Businesses — Google Removes 20%"
 description: "HVAC companies are waking up to 20 fake 1-star reviews overnight. Google only removes about 20% of flagged fake reviews. Here's how to protect your business and fight back."
 date: 2026-03-08
 readTime: "8 min read"

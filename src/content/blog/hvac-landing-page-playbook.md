@@ -1,5 +1,5 @@
 ---
-title: "Stop Sending Google Ads Traffic to Your Homepage: The HVAC Landing Page Playbook"
+title: "Stop Sending Google Ads to Your Homepage — HVAC Playbook"
 description: "Most HVAC contractors send paid traffic to their homepage and wonder why it doesn't convert. Here's the landing page framework that 3-5x conversion rates."
 date: 2026-03-07
 lastModified: 2026-03-08
