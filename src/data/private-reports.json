@@ -166,5 +166,813 @@
         "estimatedMonthlyCost": "$100-$300"
       }
     ]
+  },
+  {
+    "slug": "ac-experts-orlando-d29a35",
+    "name": "A/C Experts Orlando",
+    "domain": "acexpertsorlando.net",
+    "website": "https://acexpertsorlando.net/",
+    "rating": 4.9,
+    "reviewCount": 82,
+    "city": "Orlando",
+    "state": "FL",
+    "totalScore": 38,
+    "impactEstimate": {
+      "monthlyVisitors": 400,
+      "bounceReason": "Your website tells Google you have 4 reviews instead of 82, four duplicate versions of your site are splitting your ranking power, and there's no way to book online",
+      "bouncePercent": 40,
+      "bouncedVisitors": 160,
+      "bookingRate": 5,
+      "missedLeads": "5-10",
+      "avgServiceCall": 400,
+      "missedRepairRevenue": "$2,000-$4,000",
+      "installNote": "If even 1 of those was a system replacement, that's another $8,000-$15,000."
+    },
+    "businessSummary": {
+      "oneLiner": "You have an excellent 4.9-star reputation with 82 Google reviews in Orlando. But your website may be costing you HVAC calls. We found several issues that could be sending potential customers to competitors instead.",
+      "topThreeGaps": [
+        "Your website tells Google you only have 4 reviews — but you actually have 82, which makes Google question the accuracy of your site",
+        "Google sees 4 separate copies of your website, splitting your ranking power into quarters instead of building one strong listing",
+        "You have zero tracking installed — no way to know how many people visit your site, where they come from, or if your marketing is working"
+      ],
+      "estimatedTotalMonthlyCost": "$6K-$16K",
+      "estimatedAnnualLtvLost": "$72K-$192K",
+      "competitivePosition": "You have a near-perfect reputation — 82 reviews at 4.9 stars in Orlando is outstanding. But your website has gaps that are giving competitors an unfair advantage. Companies with worse reviews but better websites are showing up ahead of you.",
+      "seasonalUrgency": "AC season in Orlando runs nearly year-round, but demand spikes hard in April through September. Every week these issues stay unfixed is another week competitors with cleaner sites capture the emergency calls and system replacements that should be yours.",
+      "recommendedFirstProject": "Fix the review count mismatch so Google sees your real 82 reviews, set up redirects so all four versions of your site point to one address, and install Google Analytics so you can finally see what's happening on your website.",
+      "recommendedFirstProjectPrice": "$500-$1,500",
+      "recommendedFirstProjectTimeline": "3-5 days",
+      "growthOpportunity": "Add online booking for after-hours leads, a live Google Reviews widget showing your 4.9-star rating, a blog targeting Orlando HVAC questions, and a financing page to close more system replacement jobs."
+    },
+    "gapSummary": [
+      {
+        "gap": "Your website tells Google you have 4 reviews — you actually have 82",
+        "impact": "The hidden code Google reads claims you have just 4 reviews with a perfect 5.0 rating. But your actual Google profile shows 82 reviews at 4.9 stars. This mismatch makes Google suspicious of your site's accuracy. You've earned 82 real reviews — your website should be showing Google the truth, not a wrong number that hurts your credibility.",
+        "category": "trust",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "4 separate versions of your website are competing against each other",
+        "impact": "Your site loads at four different addresses: with http, https, www, and non-www. All four show the same page with no redirect to a single version. Google sees this as four separate websites competing against each other. Instead of one strong listing, your ranking power is split four ways. A competitor with one clean address gets the full benefit — you get a quarter.",
+        "category": "seo",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No way to know if your website generates any calls",
+        "impact": "Your website has zero tracking — no Google Analytics, no Search Console, nothing. You have no idea how many people visit, which pages they look at, or where they come from. Every dollar you spend on marketing could be wasted and you would never know. This is like running a business with no bookkeeper.",
+        "category": "tracking",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No way to book online",
+        "impact": "When a homeowner's AC breaks at 11 PM in Orlando, they want to book service right now — not wait until morning to call. You have no way for customers to schedule appointments online. Competitors who offer a 'Book Now' button are capturing those late-night leads while your phone goes to voicemail.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "Only 6 reviews shown on your website — you have 82 on Google",
+        "impact": "You're sitting on 82 Google reviews at 4.9 stars — that's a massive trust advantage in Orlando. But your website only shows 6 generic-looking testimonials. A visitor who doesn't check Google first sees a business that looks like it just started, not one with near-perfect reviews.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Your site is missing all security protections",
+        "impact": "Your website is missing every standard security protection that modern sites have. This means your site could be loaded inside someone else's website, browsers don't enforce secure connections strictly, and Google may flag security concerns. Competitors with proper security settings get a small but real ranking boost.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No blog or helpful articles",
+        "impact": "You have zero articles on your site. In Orlando's competitive HVAC market, blog content is how you show up for questions like 'why is my AC blowing warm air Orlando' or 'best SEER rating for Florida homes.' Without a blog, you only rank for your company name and a few service pages. Competitors who answer common questions are capturing customers you'll never see.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "major",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "No financing information for system replacements",
+        "impact": "AC replacement in Orlando costs $5,000-$15,000. If a homeowner can't afford it upfront, they call the competitor who advertises '$89/month financing available.' You mention nothing about financing anywhere on your site — that's a big-ticket job walking out the door.",
+        "category": "business",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No way to track which marketing brings in calls",
+        "impact": "Without call tracking, you can't tell which marketing channel drives phone calls. If you spend money on Google Ads, SEO, or Nextdoor, you have no way to measure what's working and what's wasting money. You're making marketing decisions blind.",
+        "category": "tracking",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No Florida license number displayed",
+        "impact": "Florida homeowners look for contractor license numbers before hiring — especially for big jobs. Not showing your license makes your business look less established than competitors who display theirs prominently in the footer of every page.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "Shared links show no preview image",
+        "impact": "When someone shares your website on Facebook, Nextdoor, or in a text message, no preview image appears. It shows as a plain text link with no visual. Posts with images get more than double the engagement — every share without a preview is a missed opportunity.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$300"
+      },
+      {
+        "gap": "Images are unoptimized and slow to load",
+        "impact": "Your images are in an older format that's about twice the file size they need to be. On a slow phone connection, these images delay how fast your page appears. Modern image formats would cut the file size in half with no quality loss.",
+        "category": "speed",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "No pricing information anywhere on the site",
+        "impact": "Homeowners searching 'AC repair cost Orlando' won't find your site. You mention no prices, no ranges, and no 'starting at' figures anywhere. People want to know what to expect before they call — and competitors who share pricing ranges are building trust before the first phone call.",
+        "category": "business",
+        "severity": "medium",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No special offers or seasonal promotions",
+        "impact": "Orlando HVAC competitors frequently run promotions like '$49 AC Tune-Up' or '$500 Off New System Install.' Your site has no offers or deals. This gives homeowners no reason to pick you over a competitor offering a discount right now.",
+        "category": "lead-capture",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      }
+    ]
+  },
+  {
+    "slug": "davco-service-co-3b1297",
+    "name": "Davco Service Co.",
+    "domain": "mydavco.com",
+    "website": "https://mydavco.com/",
+    "rating": 4.9,
+    "reviewCount": 66,
+    "city": "San Antonio",
+    "state": "TX",
+    "totalScore": 28,
+    "impactEstimate": {
+      "monthlyVisitors": 350,
+      "bounceReason": "Your 66 Google reviews are invisible to visitors, the main phone number doesn't work on mobile, and the site takes 8-12 seconds to load on a phone",
+      "bouncePercent": 50,
+      "bouncedVisitors": 175,
+      "bookingRate": 5,
+      "missedLeads": "6-12",
+      "avgServiceCall": 400,
+      "missedRepairRevenue": "$2,400-$4,800",
+      "installNote": "If even 1 of those was a system replacement, that's another $8,000-$15,000."
+    },
+    "businessSummary": {
+      "oneLiner": "You have an excellent 4.9-star reputation with 66 Google reviews in San Antonio. But your website may be costing you HVAC calls. We found several issues that could be sending potential customers to competitors instead.",
+      "topThreeGaps": [
+        "Your 66 Google reviews at 4.9 stars are invisible to website visitors — they never see your excellent reputation",
+        "The main phone number on your homepage doesn't work on mobile — tapping it does nothing, so customers can't call",
+        "Google can't read your business details from the code — no structured information telling Google your name, address, hours, or services"
+      ],
+      "estimatedTotalMonthlyCost": "$8K-$20K",
+      "estimatedAnnualLtvLost": "$96K-$240K",
+      "competitivePosition": "You have one of the best reputations in San Antonio — 66 reviews at 4.9 stars is rare. But your website looks and performs like it was built in 2016. Competitors with modern sites and visible reviews are capturing calls that should be going to you.",
+      "seasonalUrgency": "AC demand in San Antonio starts climbing in March and peaks through September. Every week these issues stay unfixed is another week competitors with faster, cleaner websites capture the emergency calls and replacement jobs that should be yours.",
+      "recommendedFirstProject": "Make the phone number work on mobile so customers can actually call, add your business details to the code so Google can connect your site to your Business Profile, and display your Google reviews on the homepage.",
+      "recommendedFirstProjectPrice": "$500-$1,500",
+      "recommendedFirstProjectTimeline": "3-5 days",
+      "growthOpportunity": "Full website rebuild on a modern platform that loads in under 2 seconds, with online booking, Google Reviews widget, pages for each San Antonio neighborhood you serve, a blog targeting local HVAC questions, and a financing page to close more system replacement jobs."
+    },
+    "gapSummary": [
+      {
+        "gap": "66 Google reviews not showing on your website",
+        "impact": "You have 66 Google reviews at 4.9 stars — that's an excellent reputation in San Antonio. But your website doesn't show a single review, star rating, or testimonial. There are small review badge images linking to Google and Yelp, but no actual reviews are visible. A homeowner comparing you to a competitor who displays dozens of glowing reviews will pick the one they can see proof of.",
+        "category": "trust",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "Main phone number on homepage doesn't work on mobile",
+        "impact": "The big phone number displayed on your homepage — 210-680-7037 — looks like it should be clickable, but tapping it on a phone does absolutely nothing. The button is broken. When a San Antonio homeowner's AC dies and they find your site on their phone, they tap the number and nothing happens. That's a lost service call. The footer phone number is also plain text — not clickable either.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$2,000-$5,000"
+      },
+      {
+        "gap": "Google can't read any of your business details",
+        "impact": "Your website has zero structured data — nothing telling Google your business name, address, phone number, hours, or service area. Competitors with this information properly set up show star ratings, business hours, and click-to-call buttons directly in Google search results. You show up as a plain blue link with no extra information.",
+        "category": "seo",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "Website takes 8-12 seconds to load on a phone",
+        "impact": "Before a single image even loads, your site downloads over 2 megabytes of code files. The full page with images, maps, video, and all the scripts likely takes 8-12 seconds on a phone. When a homeowner's AC is broken and they're searching on their phone in San Antonio heat, they hit the back button and call whoever loads first.",
+        "category": "speed",
+        "severity": "critical",
+        "fixEffort": "major",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No way to book online",
+        "impact": "There's no way for customers to book a service appointment online. Many homeowners prefer to book after hours — at 10 PM on a Sunday when your office is closed. Competitors with 'Book Now' buttons capture those leads while you miss them entirely.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No tracking installed — flying completely blind",
+        "impact": "There's no Google Analytics, no call tracking, and no conversion tracking on your website. You have no idea how many people visit, where they come from, or whether any of your marketing is working. Without data, every dollar you spend on advertising could be wasted and you'd never know.",
+        "category": "tracking",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Social media links go to Google+ — shut down in 2019",
+        "impact": "Every page on your site has a link to Google+, which was permanently shut down over 6 years ago. Clicking it leads to a dead page. This tells visitors that nobody has touched this website in years, which undercuts the trust you've built with 66 five-star reviews.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "Website loads at two different addresses",
+        "impact": "Both mydavco.com and www.mydavco.com show the same content with no redirect. Google sees these as two separate websites competing against each other. Your ranking power is split in half instead of building one strong listing.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Security warning risk from mixed content",
+        "impact": "Your site loads securely (HTTPS), but it tries to load an old review widget from an insecure source. Modern browsers block this, so the widget probably doesn't work. Worse, some browsers may show a 'Not Secure' warning to visitors — which scares off anyone about to call.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No blog or educational content",
+        "impact": "Your site has zero articles. HVAC is a topic where homeowners constantly search for answers — 'why is my AC blowing warm air', 'how often should I change my filter', 'what size AC do I need'. Each of those searches is a chance to show up in Google results. Competitors who answer these questions are capturing customers you'll never see.",
+        "category": "content",
+        "severity": "critical",
+        "fixEffort": "major",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "No financing information for system replacements",
+        "impact": "HVAC replacements cost $5,000-$15,000+. Many homeowners can't pay that upfront. Competitors who advertise '$89/month financing available' close more replacement jobs because they remove the cost barrier. You mention nothing about payment plans anywhere.",
+        "category": "business",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "Emergency messaging is buried and contradicts business hours",
+        "impact": "Your site mentions '24/7 Emergency Service' but only in a small text line in the footer. It's not in the header, hero area, or anywhere a stressed homeowner would see it. Even worse, your listed hours say 'Mon-Sat 9-5, Sun Closed' — which directly contradicts the 24/7 claim. Mixed signals cost trust.",
+        "category": "business",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "Seven service area pages have broken URLs",
+        "impact": "Seven of your neighborhood pages have broken web addresses that end with trailing dashes. Instead of loading properly, they redirect temporarily — which means Google may not give them full ranking credit. These pages are supposed to help you show up for searches in Hollywood Park, Cross Mountain, Grey Forest, and other areas you serve.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "A D3 globe animation loads on every page for no reason",
+        "impact": "Every page loads a heavy animated globe visualization — a decorative element in the social media sidebar. This adds hundreds of kilobytes of unnecessary code to every single page. It provides zero value to an HVAC website and significantly slows down loading.",
+        "category": "speed",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "Footer links to a dead website company",
+        "impact": "The footer on every page links to designnrank.com, which no longer exists — the website is completely dead. It's a broken link on every single page that adds no value and makes your site look abandoned.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$300"
+      },
+      {
+        "gap": "Shared links show no preview image",
+        "impact": "When someone shares your website on Facebook, Nextdoor, or in a text message, there's no control over how the preview looks. It shows a broken or generic preview instead of your business name and a professional image.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$300"
+      },
+      {
+        "gap": "No special offers or seasonal promotions",
+        "impact": "San Antonio HVAC competitors frequently run promotions like '$49 AC Tune-Up' or '$50 Off Any Repair.' Your site has zero offers or deals. That gives homeowners no reason to call you right now instead of waiting or choosing a competitor running a sale.",
+        "category": "business",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      }
+    ]
+  },
+  {
+    "slug": "tropic-air-heat-d22aae",
+    "name": "Tropic Air & Heat",
+    "domain": "tropicairheat.com",
+    "website": "https://www.tropicairheat.com/",
+    "rating": 4.8,
+    "reviewCount": 49,
+    "city": "Arlington",
+    "state": "TX",
+    "totalScore": 32,
+    "impactEstimate": {
+      "monthlyVisitors": 250,
+      "bounceReason": "Your site tells Google it's written in Chinese, takes over 9 seconds to load, and has no way for customers to book online",
+      "bouncePercent": 45,
+      "bouncedVisitors": 112,
+      "bookingRate": 5,
+      "missedLeads": "4-8",
+      "avgServiceCall": 400,
+      "missedRepairRevenue": "$1,600-$3,200",
+      "installNote": "If even 1 of those was a system replacement, that's another $8,000-$15,000."
+    },
+    "businessSummary": {
+      "oneLiner": "You have a strong 4.8-star reputation with 49 Google reviews in Arlington. But your website may be costing you HVAC calls. We found several issues that could be sending potential customers to competitors instead.",
+      "topThreeGaps": [
+        "Your 49 Google reviews don't appear anywhere on your website — visitors never see your 4.8-star reputation",
+        "Your website tells Google it's written in Chinese instead of English, which can hurt your rankings for searches in Arlington",
+        "Your site takes over 9 seconds to load — most visitors on a phone will leave before it even appears"
+      ],
+      "estimatedTotalMonthlyCost": "$5K-$14K",
+      "estimatedAnnualLtvLost": "$60K-$168K",
+      "competitivePosition": "You have a strong reputation — 49 reviews at 4.8 stars in Arlington shows your customers love your work. But your website isn't converting that trust into phone calls. Competitors with faster sites and visible reviews are capturing the calls that should be going to you.",
+      "seasonalUrgency": "AC demand in the DFW area starts climbing by April. Every week these gaps stay open is another week competitors in Arlington, Mansfield, and Fort Worth capture the emergency calls and replacement jobs that should be yours.",
+      "recommendedFirstProject": "Fix the language setting so Google knows your site is in English, add a proper page title and description so Google shows accurate information about your business, and display your Google reviews on the homepage.",
+      "recommendedFirstProjectPrice": "$500-$1,500",
+      "recommendedFirstProjectTimeline": "3-5 days",
+      "growthOpportunity": "Move to a faster platform that loads in under 2 seconds, add pages targeting each city you serve (Mansfield, Fort Worth, Grand Prairie, Kennedale), online booking for after-hours leads, and a blog targeting common DFW HVAC questions."
+    },
+    "gapSummary": [
+      {
+        "gap": "49 Google reviews not showing on your website",
+        "impact": "You have 49 Google reviews with a 4.8-star rating — that's a strong selling point in Arlington. But none of those reviews appear on your website. A homeowner comparing HVAC companies picks the one showing real customer feedback. Right now, visitors have to leave your site and check Google separately to see what customers think of you.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Your website tells Google it's written in Chinese",
+        "impact": "Your website sends a signal to Google saying the content is in Chinese (zh-CN). This is a configuration error that can confuse Google when deciding which results to show for English searches in Arlington, TX. It doesn't mean Google can't read the page, but it's a trust signal working against you in every local search.",
+        "category": "seo",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No description showing up in Google search results",
+        "impact": "Your homepage has no description set for Google. This means Google makes up its own snippet when showing your site in search results — and it's usually random text pulled from the page. Competitors with clear descriptions that include their phone number and service area get more clicks because searchers know exactly what they're getting.",
+        "category": "seo",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Page title just says 'Home' instead of describing your business",
+        "impact": "Your page title — the blue link people see in Google — says 'Home | tropicairheat' instead of describing what you do. The title is the single most important thing Google reads to understand what a page is about. 'Home' tells Google nothing about HVAC services in Arlington.",
+        "category": "seo",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Site takes over 9 seconds to load",
+        "impact": "Your homepage took 9.3 seconds to load. The platform loads 62 separate code files on a single page. When an Arlington homeowner's AC breaks and they're searching on their phone, they're not waiting 9 seconds for a page to appear. They hit the back button and call whoever loads first.",
+        "category": "speed",
+        "severity": "critical",
+        "fixEffort": "major",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No way to book online",
+        "impact": "There's no way for customers to schedule an appointment online. Over 60% of homeowners prefer to book online, especially after business hours. Your site has 'Contact Us' buttons but no actual scheduling tool. Competitors with online booking capture leads at 10 PM when your phone is off.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "Dead Google+ social media link from 2019",
+        "impact": "Your footer links to Google+, which was shut down by Google in April 2019 — over 6 years ago. Clicking it leads to a dead page. This makes your business look outdated and signals that nobody has updated this website in years.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "Browser tab shows Wix logo instead of your business",
+        "impact": "The browser tab shows the generic Wix 'W' icon instead of your Tropic Air & Heat logo. This looks unprofessional and makes it harder for customers to find your tab when they have multiple sites open for comparison.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "No pages targeting the cities you serve",
+        "impact": "You mention Arlington, Mansfield, Pantego, Kennedale, Fort Worth, and Grand Prairie — but have zero dedicated pages for these cities. When someone searches 'AC repair Mansfield TX' or 'HVAC service Grand Prairie', your site has nothing to match. Competitors with city-specific pages show up in those results.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "major",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No blog or educational content",
+        "impact": "There's no blog on your website. Blog content helps attract homeowners searching for HVAC answers — 'why is my AC blowing warm air' or 'how often should I change my air filter.' These visitors become potential customers. Competitors who blog regularly will outrank you over time.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "major",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "Only 6 pages on the entire website",
+        "impact": "Your entire website has just 6 pages. Competitors with 20-50 pages of content outrank you because Google sees them as more authoritative. Each of your services deserves its own dedicated page — AC repair, heating installation, maintenance, duct cleaning — not everything lumped together on one page.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "major",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "Analytics may not be working",
+        "impact": "Your site references an old Google Analytics tracking code that Google stopped processing in July 2024. If this wasn't updated, you've had no working analytics for over a year — no idea how many people visit or what they do on your site.",
+        "category": "tracking",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "60% of images have no descriptions for Google",
+        "impact": "9 out of 15 images on your homepage have no descriptions. Google can't understand what these images show, so they can't help your rankings. Adding descriptions helps you show up in Google Image search and improves accessibility for all visitors.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "No emergency or same-day messaging",
+        "impact": "HVAC emergencies don't wait for business hours. Your site doesn't mention emergency service, after-hours availability, or same-day appointments anywhere. In Texas heat, a homeowner with a broken AC calls whoever looks available right now.",
+        "category": "business",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "License number not prominently displayed",
+        "impact": "Texas requires TACLA licensing for HVAC work. Your license number is mentioned somewhere but not prominently displayed. Showing it clearly in the footer of every page builds trust with homeowners who want to verify they're hiring a licensed contractor.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      }
+    ]
+  },
+  {
+    "slug": "henrys-top-notch-2d164b",
+    "name": "Henry's Top Notch A/C & Heating",
+    "domain": "henrystopnotch.com",
+    "website": "https://henrystopnotch.com/",
+    "rating": 4.8,
+    "reviewCount": 49,
+    "city": "Houston",
+    "state": "TX",
+    "totalScore": 28,
+    "impactEstimate": {
+      "monthlyVisitors": 300,
+      "bounceReason": "Your website shows a San Francisco address and a California phone number, links go to a different company's site, and there's no tracking to know how many visitors you're losing",
+      "bouncePercent": 55,
+      "bouncedVisitors": 165,
+      "bookingRate": 5,
+      "missedLeads": "6-10",
+      "avgServiceCall": 400,
+      "missedRepairRevenue": "$2,400-$4,000",
+      "installNote": "If even 1 of those was a system replacement, that's another $8,000-$15,000."
+    },
+    "businessSummary": {
+      "oneLiner": "You have a strong 4.8-star reputation with 49 Google reviews in Houston. But your website may be costing you HVAC calls. We found several issues that could be sending potential customers to competitors instead.",
+      "topThreeGaps": [
+        "Your website shows 'San Francisco, CA' as your location — instead of Houston, which makes customers question if you're a real local business",
+        "A phone number with a California area code is showing in the header — it's not your Houston number, so calls are going to the wrong place",
+        "Three links on your website send visitors to a completely different HVAC company's demo site"
+      ],
+      "estimatedTotalMonthlyCost": "$7K-$18K",
+      "estimatedAnnualLtvLost": "$84K-$216K",
+      "competitivePosition": "You have strong customer satisfaction — 49 reviews at 4.8 stars in Houston shows your work speaks for itself. But your website is actively undermining that trust with template leftovers that make the site look like it belongs to a different company in a different state.",
+      "seasonalUrgency": "Houston's brutal summer drives AC demand from April through October. Every day your website shows a San Francisco address is another day cautious homeowners are bouncing to competitors who look like real Houston businesses.",
+      "recommendedFirstProject": "Fix the wrong phone number, wrong city, and wrong email that are leftover from the website template. Remove the links going to another company's site. These quick fixes would immediately stop the most damaging issues.",
+      "recommendedFirstProjectPrice": "$300-$800",
+      "recommendedFirstProjectTimeline": "1-2 days",
+      "growthOpportunity": "Full website cleanup with Google Analytics, proper business details in the code, Google Reviews widget showing your 4.8-star rating, online booking, and locally-targeted blog content for Houston HVAC searches."
+    },
+    "gapSummary": [
+      {
+        "gap": "Website says you're in San Francisco, CA — not Houston",
+        "impact": "The header of your website shows 'San Francisco, CA' as your business location. This is leftover text from the website template that was never updated. Any Houston homeowner who notices this will immediately question whether you're a legitimate local business — and leave to call someone who clearly shows a Houston address.",
+        "category": "trust",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$2,000-$5,000"
+      },
+      {
+        "gap": "Wrong phone number showing — California area code instead of Houston",
+        "impact": "The header shows a phone number with a (707) area code — that's Northern California, not Houston. Your correct number (281) 386-4840 appears elsewhere on the page, but the most visible phone number is wrong. If a customer calls the California number, that's a lost job. This is a leftover from the website template.",
+        "category": "business",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$2,000-$5,000"
+      },
+      {
+        "gap": "Wrong email address from template developer",
+        "impact": "The header shows someone else's Gmail address as your contact email — not your business email. Customer emails sent to this address are going to the person who built the website template, not to you. Your real email appears in the footer, but the most visible one is wrong.",
+        "category": "business",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "Links on your site send visitors to a different company",
+        "impact": "Three links in the 'Why Choose Us' section send visitors to a completely different HVAC company's demo website. Customers who click these links leave your site entirely and land on someone else's page. This is template content that was never updated with your own links.",
+        "category": "trust",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "Code tells Google this site was built from a mass-produced template",
+        "impact": "The hidden code Google reads shows the website author as a template company, with links to a construction company's demo site. This tells Google your site was mass-produced from a template rather than built for your business specifically — which can hurt trust and rankings.",
+        "category": "seo",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No tracking installed — completely blind",
+        "impact": "There's no Google Analytics, no call tracking, no conversion tracking. You have zero data on how many people visit your site, which pages they look at, or where they come from. Without this data, there's no way to measure if anything you do for marketing is working.",
+        "category": "tracking",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "49 Google reviews not displayed on the homepage",
+        "impact": "Your site uses a review widget, but your 49 Google reviews at 4.8 stars are not shown on the homepage. The Google star rating is the single most powerful trust signal for HVAC customers — and it's hidden. Displaying your real rating and reviews would build instant trust with every visitor.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Homepage is extremely heavy and slow",
+        "impact": "Your homepage HTML file alone is 435 KB — about 4-5 times larger than it should be. On top of that, 45 code files are loading. When a Houston homeowner searches for emergency AC repair on a hot day, a slow-loading site means they move to the next search result.",
+        "category": "speed",
+        "severity": "high",
+        "fixEffort": "major",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "No way to book online",
+        "impact": "There's no way for customers to schedule an appointment online. Modern HVAC customers expect to be able to book without calling. Every competitor with online booking has an advantage when homeowners are searching at 11 PM.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No physical address shown anywhere",
+        "impact": "Your site only shows 'West University Place, TX' — no street address. For a service business, showing a physical address builds trust and helps with local search rankings. Without it, your site looks like it could be anyone operating from anywhere.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Internal links use insecure addresses",
+        "impact": "Many links throughout your site use 'http://' instead of 'https://' — including links to your services, homepage, and contact pages. Each of these creates an unnecessary redirect that slows loading and looks sloppy to Google.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "Business details in the code are missing phone, address, and service area",
+        "impact": "The structured data Google reads is missing your phone number, full address, and service area. It also incorrectly lists hours as 9-5 when your description says 24/7. This conflicting information confuses Google about when you're available and can show wrong hours in search results.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No emergency or 24/7 messaging visible on the page",
+        "impact": "Your description in Google mentions '24/7 availability' but this is nowhere visible on the actual homepage. If you offer emergency service, it should be the first thing a stressed homeowner sees. If you don't, the Google description is misleading customers.",
+        "category": "business",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Shared links show no preview image",
+        "impact": "When someone shares your website on Facebook, Twitter, or in a text message, no preview image appears. Shared links look like plain text with no visual — which gets far fewer clicks than a link with a branded image.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$100-$300"
+      },
+      {
+        "gap": "Blog posts exist but don't target Houston searches",
+        "impact": "You have 14 blog posts — which is a good start. But the topics are extremely generic ('What is an HVAC system?') and don't target Houston-area searches. None mention Houston, West University Place, or any local neighborhoods. Rewriting these to target real customer searches in Houston would help them actually rank.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "major",
+        "estimatedMonthlyCost": "$500-$1,500"
+      }
+    ]
+  },
+  {
+    "slug": "indoor-quality-206592",
+    "name": "Indoor Quality Heating and Air",
+    "domain": "indoorqualityairandheat.com",
+    "website": "https://indoorqualityairandheat.com/",
+    "rating": 4.7,
+    "reviewCount": 49,
+    "city": "Jacksonville",
+    "state": "FL",
+    "totalScore": 34,
+    "impactEstimate": {
+      "monthlyVisitors": 250,
+      "bounceReason": "Your 'Get Directions' link sends customers to Virginia, your phone number is hidden on phones, and a 40MB video makes the site take 8+ seconds to load",
+      "bouncePercent": 50,
+      "bouncedVisitors": 125,
+      "bookingRate": 5,
+      "missedLeads": "4-8",
+      "avgServiceCall": 400,
+      "missedRepairRevenue": "$1,600-$3,200",
+      "installNote": "If even 1 of those was a system replacement, that's another $8,000-$15,000."
+    },
+    "businessSummary": {
+      "oneLiner": "You have a strong 4.7-star reputation with 49 Google reviews in Jacksonville. But your website may be costing you HVAC calls. We found several issues that could be sending potential customers to competitors instead.",
+      "topThreeGaps": [
+        "Your 'Get Directions' link sends customers to a completely different business in Virginia — 700 miles away from Jacksonville",
+        "Your phone number is hidden on phones and tablets — the devices most people use to call an HVAC company",
+        "A 40MB video auto-loads on every visit, making your site take 8+ seconds to appear on a phone"
+      ],
+      "estimatedTotalMonthlyCost": "$5K-$14K",
+      "estimatedAnnualLtvLost": "$60K-$168K",
+      "competitivePosition": "You have a solid reputation — 49 reviews at 4.7 stars in Jacksonville shows customers trust your work. But your website has critical issues that are actively preventing phone calls. The wrong directions link and hidden phone number are the most urgent because they directly block customers from reaching you.",
+      "seasonalUrgency": "AC demand in Jacksonville runs nearly year-round but peaks from May through September. Every week these issues stay open — especially the hidden phone number and wrong directions — is another week of lost emergency calls and system replacements.",
+      "recommendedFirstProject": "Fix the Google Maps link so it points to your Jacksonville business instead of Virginia, make your phone number visible on phones and tablets, and replace the 40MB video with a lightweight image so your site loads in seconds instead of minutes.",
+      "recommendedFirstProjectPrice": "$300-$800",
+      "recommendedFirstProjectTimeline": "1-2 days",
+      "growthOpportunity": "Full website optimization with pages targeting Jacksonville neighborhoods (Mandarin, Southside, Riverside, Orange Park), Google Reviews widget showing your 4.7-star rating, online booking, a blog targeting local HVAC questions, and a financing page to close more system replacement jobs."
+    },
+    "gapSummary": [
+      {
+        "gap": "Get Directions sends customers to a business in Virginia — 700 miles away",
+        "impact": "The 'Get Directions' link in your footer points to 'Indoor Air Quality Medics' in Woodbridge, Virginia — a completely different company 700 miles from Jacksonville. This appears on every single page. Anyone who clicks it gets directions to Virginia instead of your shop. This is a devastating trust issue that needs to be fixed today.",
+        "category": "trust",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$2,000-$5,000"
+      },
+      {
+        "gap": "Phone number is hidden on phones and tablets",
+        "impact": "Your phone number has a setting that makes it completely invisible on phones and tablets. The only visible phone number on mobile is buried in the footer. When someone's AC breaks and they find your site on their phone, the phone number should be the most obvious thing they see — not hidden.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$2,000-$5,000"
+      },
+      {
+        "gap": "A 40MB video auto-loads on every visit",
+        "impact": "A 40MB video file loads as a background on your homepage — that's larger than most entire websites. On a phone with spotty signal, this could take 30+ seconds to download and eats through mobile data plans. Most visitors won't even notice it's a video versus a still image, but they will notice the page takes forever to load.",
+        "category": "speed",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "Homepage takes 8+ seconds to load",
+        "impact": "Your homepage took over 8 seconds just to start loading. It loads 47 style files, 21 code files, and that 40MB video. For a Jacksonville homeowner whose AC just broke at 2 PM in August, waiting 8 seconds means hitting the back button and calling the next company on Google.",
+        "category": "speed",
+        "severity": "critical",
+        "fixEffort": "major",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "Google can't properly identify your business type",
+        "impact": "Google uses special code to understand that you're an HVAC business with a physical address, phone number, and service area. Your site only has generic code that doesn't identify you as a local HVAC company. Competitors with proper business details in their code show star ratings, hours, and click-to-call buttons in Google results. You show up as a plain blue link.",
+        "category": "seo",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "49 Google reviews not displayed on your website",
+        "impact": "You have 49 Google reviews at 4.7 stars — that's excellent trust proof. But those reviews aren't displayed directly on your site. The reviews section depends on a third-party widget that loads from an outside server. If that service goes down, visitors see nothing. Showing your real Google rating directly on the homepage would instantly build trust.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Contact form depends entirely on a third-party service",
+        "impact": "Your contact form loads from an outside service — if that company has a slow day, changes their pricing, or goes down, your contact form disappears completely. Your main way to capture leads should not depend on a service you don't control.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "No emergency or 24/7 messaging",
+        "impact": "HVAC emergencies happen at all hours in Florida. When someone's AC dies at 2 AM in summer, they search for 'emergency HVAC Jacksonville.' Your website has zero mention of emergency service, after-hours availability, or same-day service. Even saying 'same-day appointments available' would give people a reason to choose you.",
+        "category": "business",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "No pages targeting Jacksonville neighborhoods",
+        "impact": "Jacksonville is the largest city by area in the lower 48 states. People search for 'AC repair Mandarin,' 'HVAC Southside Jacksonville,' and 'heating repair Orange Park.' You have zero pages targeting any neighborhood or surrounding city. Each neighborhood page is a chance to rank for local searches competitors are already targeting.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "major",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "No blog or educational content",
+        "impact": "There's no blog on your site. Articles like 'how often should I change my air filter' or 'signs your AC needs repair' attract people searching for HVAC questions. These visitors may not need service today, but when they do, you're already the company they trust. Competitors who blog regularly outrank you over time.",
+        "category": "content",
+        "severity": "high",
+        "fixEffort": "major",
+        "estimatedMonthlyCost": "$800-$2,000"
+      },
+      {
+        "gap": "No financing page or payment options",
+        "impact": "An AC replacement in Jacksonville costs $4,000-$12,000. Many homeowners can't pay that upfront. Competitors who advertise financing close more replacement jobs because they remove the cost barrier. You mention nothing about financing or payment plans anywhere.",
+        "category": "business",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No tracking installed — flying blind",
+        "impact": "There's no Google Analytics or any tracking on your site. You have no idea how many people visit, which pages they look at, or if your marketing is working. You're making business decisions about your online presence with zero data.",
+        "category": "tracking",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "One-third of images have no descriptions for Google",
+        "impact": "6 out of 17 images on your homepage have no descriptions. Google can't understand what these images show, so they can't help your rankings. Adding descriptions helps you show up in Google Image search for searches like 'HVAC company Jacksonville.'",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "Two main headings on one page confuses Google",
+        "impact": "Your homepage has two main headings — Google looks at the main heading to understand what a page is about. Having two sends mixed signals. The second one ('Put us to work') says nothing about HVAC or Jacksonville.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "Google description is a generic service list",
+        "impact": "Your description in Google search results is just a plain list of services with no personality, no phone number, and no reason to click. A good description should make someone pick you over the other nine results on the page.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      }
+    ]
   }
 ]
