@@ -5,6 +5,9 @@
   "scripts": {
     "dev": "astro dev",
     "sync-reports": "node --env-file=.env scripts/sync-reports.mjs",
+    "sync-market": "node --env-file=.env scripts/sync-market-data.mjs",
+    "inventory": "node --env-file=.env scripts/inventory-market-data.mjs",
+    "sync-all": "node --env-file=.env scripts/sync-reports.mjs && node --env-file=.env scripts/sync-market-data.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"

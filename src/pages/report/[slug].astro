@@ -12,6 +12,7 @@ import {
   type Report,
   type Gap,
 } from "../../data/reports";
+import marketData from "../../data/market-data.json";
 
 export function getStaticPaths() {
   const publicPaths = reports.map((r) => ({
@@ -433,6 +434,29 @@ const jsonLd = isPrivate ? [] : [
       </div>
     </div>
   </section>
+
+  {/* Market Page Link */}
+  {(() => {
+    const marketCity = marketData.cities.find(
+      (c) => c.city === report.city && c.state === report.state
+    );
+    if (!marketCity) return null;
+    return (
+      <section class="py-10 border-t border-rule">
+        <div class="mx-auto max-w-4xl px-5" data-reveal>
+          <p class="text-sm text-ink-secondary">
+            See how all HVAC websites in {report.city} compare →
+          </p>
+          <a
+            href={`/market/hvac/${marketCity.slug}/`}
+            class="inline-block mt-2 text-accent hover:text-accent-hover font-medium transition-colors"
+          >
+            {report.city} HVAC Website Report ({marketCity.totalLeads} sites audited)
+          </a>
+        </div>
+      </section>
+    );
+  })()}
 
   <CTAForm />
   </Fragment>)}

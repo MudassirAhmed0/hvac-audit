@@ -139,6 +139,39 @@ input:focus-visible, button:focus-visible {
   border-bottom: 1px solid var(--color-rule);
 }
 
+/* ── Nav mega dropdown (CSS-only) ── */
+.nav-mega {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: -120px;
+  width: 640px;
+  background: rgba(11, 18, 32, 0.97);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--color-rule);
+  border-radius: 12px;
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+  pointer-events: none;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
+}
+
+.nav-dropdown:hover .nav-mega,
+.nav-dropdown:focus-within .nav-mega {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.nav-dropdown:hover .nav-dropdown-chevron,
+.nav-dropdown:focus-within .nav-dropdown-chevron {
+  transform: rotate(180deg);
+}
+
 /* ── Blog TOC bar ── */
 .toc-bar {
   position: fixed;

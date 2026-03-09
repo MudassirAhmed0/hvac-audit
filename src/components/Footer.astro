@@ -1,9 +1,15 @@
 ---
+import marketData from "../data/market-data.json";
+
 const year = new Date().getFullYear();
+
+const topCities = marketData.cities
+  .sort((a, b) => b.totalLeads - a.totalLeads)
+  .slice(0, 6);
 ---
 
 <footer class="border-t border-rule px-6 md:px-12 lg:px-16 pt-16 pb-8" data-theme="dark">
-  <!-- Top: brand + nav + social -->
+  <!-- Top: brand + nav columns -->
   <div class="flex flex-col gap-12 lg:flex-row lg:justify-between lg:gap-8">
     <!-- Brand + tagline -->
     <div class="max-w-xs">
@@ -24,15 +30,40 @@ const year = new Date().getFullYear();
     </div>
 
     <!-- Navigation columns -->
-    <div class="flex gap-16 sm:gap-20">
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-8 sm:gap-12">
+      <!-- Company -->
       <div>
         <p class="text-[10px] font-mono font-semibold uppercase tracking-widest text-ink-faint mb-4">Company</p>
         <ul class="space-y-3">
           <li><a href="/about/" class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">About</a></li>
           <li><a href="/blog/" class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">Blog</a></li>
-          <li><a href="/reports/" class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">Reports</a></li>
+          <li><a href="/reports/" class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">Audit Reports</a></li>
+          <li><a href="/market/" class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">Market Research</a></li>
         </ul>
       </div>
+
+      <!-- Research -->
+      <div>
+        <p class="text-[10px] font-mono font-semibold uppercase tracking-widest text-ink-faint mb-4">Research</p>
+        <ul class="space-y-3">
+          <li><a href="/market/hvac/" class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">National Report</a></li>
+          {marketData.states.map((state) => (
+            <li><a href={`/market/hvac/${state.slug}/`} class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">{state.stateName}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Top Cities -->
+      <div>
+        <p class="text-[10px] font-mono font-semibold uppercase tracking-widest text-ink-faint mb-4">Top Cities</p>
+        <ul class="space-y-3">
+          {topCities.map((city) => (
+            <li><a href={`/market/hvac/${city.slug}/`} class="text-sm text-ink-secondary hover:text-accent transition-colors duration-300">{city.city}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Connect -->
       <div>
         <p class="text-[10px] font-mono font-semibold uppercase tracking-widest text-ink-faint mb-4">Connect</p>
         <ul class="space-y-3">

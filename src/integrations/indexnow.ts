@@ -87,6 +87,37 @@ function mapFileToUrls(file: string, root: string): string[] {
     urls.push(`${SITE}/reports/`);
   }
 
+  // Market data changed — submit all market pages
+  else if (file === "src/data/market-data.json" || file === "src/data/gap-narratives.ts") {
+    urls.push(`${SITE}/market/`);
+    urls.push(`${SITE}/market/hvac/`);
+    const marketFile = path.join(root, "src/data/market-data.json");
+    if (fs.existsSync(marketFile)) {
+      const data = JSON.parse(fs.readFileSync(marketFile, "utf8"));
+      for (const state of data.states) {
+        urls.push(`${SITE}/market/hvac/${state.slug}/`);
+      }
+      for (const city of data.cities) {
+        urls.push(`${SITE}/market/hvac/${city.slug}/`);
+      }
+      for (const problem of data.problems) {
+        urls.push(`${SITE}/market/hvac/${problem.slug}/`);
+      }
+    }
+  }
+
+  // Market page templates
+  else if (file.startsWith("src/pages/market/")) {
+    urls.push(`${SITE}/market/`);
+    urls.push(`${SITE}/market/hvac/`);
+  }
+
+  // Market components
+  else if (file.startsWith("src/components/market/") && file.endsWith(".astro")) {
+    urls.push(`${SITE}/market/`);
+    urls.push(`${SITE}/market/hvac/`);
+  }
+
   // Shared components — submit homepage (most components live there)
   else if (file.startsWith("src/components/") && file.endsWith(".astro")) {
     urls.push(`${SITE}/`);

@@ -1,19 +1,21 @@
 import type { APIRoute } from "astro";
 import { reports } from "../data/reports";
 
+// Reports are synced manually via sync-reports.mjs. Update this date
+// when new reports are added or existing ones change.
+const REPORTS_LAST_SYNCED = "2026-03-09";
+
 export const GET: APIRoute = async ({ site }) => {
   const siteUrl =
     import.meta.env.SITE_URL ||
     site?.href?.replace(/\/$/, "") ||
     "https://hvacaudit.co";
 
-  const today = new Date().toISOString().split("T")[0];
-
   const urls = [
-    { loc: `${siteUrl}/reports/`, lastmod: today },
+    { loc: `${siteUrl}/reports/`, lastmod: REPORTS_LAST_SYNCED },
     ...reports.map((r) => ({
       loc: `${siteUrl}/report/${r.slug}/`,
-      lastmod: today,
+      lastmod: REPORTS_LAST_SYNCED,
     })),
   ];
 
