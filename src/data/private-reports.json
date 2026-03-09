@@ -974,5 +974,621 @@
         "estimatedMonthlyCost": "$200-$500"
       }
     ]
+  },
+  {
+    "slug": "semper-fi-heating-and-cooling-ab3ad0",
+    "name": "Semper Fi Heating and Cooling",
+    "domain": "semperfiheatingcooling.com",
+    "website": "https://semperfiheatingcooling.com/",
+    "rating": 4.8,
+    "reviewCount": 11798,
+    "city": "Mesa",
+    "state": "AZ",
+    "totalScore": 34,
+    "impactEstimate": {
+      "monthlyVisitors": 2800,
+      "bounceReason": "No way to call from the website, no booking option, no contact form, and your 11,798 Google reviews are invisible to visitors",
+      "bouncePercent": 55,
+      "bouncedVisitors": 1540,
+      "bookingRate": 5,
+      "missedLeads": "50-80",
+      "avgServiceCall": 450,
+      "missedRepairRevenue": "$22,500-$36,000",
+      "installNote": "Even 1-2 replacement jobs from those missed leads could mean another $16,000-$30,000."
+    },
+    "businessSummary": {
+      "oneLiner": "You have a strong 4.8-star reputation with 11,798 Google reviews in Mesa. But your website may be costing you HVAC calls. We found several issues that could be sending potential customers to competitors instead.",
+      "topThreeGaps": [
+        "Your 11,798 Google reviews are nowhere on your website — visitors never see the reputation you've built",
+        "Your phone number isn't clickable and doesn't match your Google Business Profile — customers can't tap to call and Google may be confused about your business",
+        "There's no way to book, no contact form, and no clear call-to-action — visitors have to figure out how to reach you on their own"
+      ],
+      "estimatedTotalMonthlyCost": "$22K-$55K",
+      "estimatedAnnualLtvLost": "$264K-$660K",
+      "competitivePosition": "With 11,798 reviews at 4.8 stars, you have one of the strongest reputations in the Mesa HVAC market. But your website isn't converting that reputation into calls. Competitors with cleaner sites and visible booking options are capturing customers who should be calling you.",
+      "seasonalUrgency": "AC demand in Mesa spikes by March — earlier than most markets because of the desert heat. Every week these gaps stay open is another week competitors capture the emergency calls and replacement jobs that should be yours.",
+      "recommendedFirstProject": "Make your phone number clickable and match it to your Google Business Profile so customers can tap to call and Google sees one consistent business. Add a clear call-to-action above the fold so visitors know exactly how to reach you.",
+      "recommendedFirstProjectPrice": "$500-$1,500",
+      "recommendedFirstProjectTimeline": "3-5 days",
+      "growthOpportunity": "Full website overhaul with a review widget showing your 11,798 Google reviews, online scheduling for after-hours bookings, service area pages targeting Mesa, Gilbert, Chandler, Tempe, and surrounding cities, and a contact form so visitors have multiple ways to reach you."
+    },
+    "gapSummary": [
+      {
+        "gap": "11,798 Google reviews not showing on your website",
+        "impact": "You've earned a 4.8-star rating with 11,798 reviews — that's exceptional in the Mesa market. But none of them appear on your website. When a homeowner is comparing HVAC companies, they pick the one showing real customer feedback. Right now, visitors have to leave your site and search Google separately to see what your customers think.",
+        "category": "trust",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$4,000-$10,000"
+      },
+      {
+        "gap": "Phone number on website doesn't match Google",
+        "impact": "The phone number on your website is different from the one on your Google Business Profile. Google uses this to verify and rank local businesses — when the numbers don't match, Google has less confidence in your listing. This can push you lower in local search results right when Mesa homeowners are searching for HVAC help.",
+        "category": "business",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$3,000-$8,000"
+      },
+      {
+        "gap": "Phone number isn't clickable on mobile",
+        "impact": "When someone visits your site on their phone — which is most people — they can't tap your phone number to call. They'd have to memorize it, switch apps, and dial manually. Most won't bother. They'll call whichever competitor makes it easy.",
+        "category": "lead-capture",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$3,000-$8,000"
+      },
+      {
+        "gap": "No clear way to call or book above the fold",
+        "impact": "When someone lands on your homepage, there's no obvious next step — no 'Call Now', 'Book Online', or 'Get a Quote' button visible without scrolling. In Mesa's heat, a homeowner with a broken AC isn't going to scroll around. They'll hit the back button and call whoever makes it easiest.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$2,000-$5,000"
+      },
+      {
+        "gap": "No way to book online",
+        "impact": "There's no way to schedule an appointment from your website. Most people prefer to book when it's convenient — including late at night or on weekends. After-hours visitors go to whichever competitor lets them book at 11 PM.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$2,000-$5,000"
+      },
+      {
+        "gap": "No contact form on the website",
+        "impact": "Some customers prefer writing over calling — especially for non-urgent requests like maintenance plans or quotes. Without a contact form, you're missing these leads entirely. They go to competitors who give them options.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No after-hours lead capture",
+        "impact": "When someone visits your site after business hours, there's no way to capture their information. No form, no booking widget, no chat. They move on to a competitor who can take their request at 10 PM.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "Your description in Google search results is missing",
+        "impact": "Your site doesn't have a description set for Google search results. Google will pick random text from your page instead — which may not be compelling. A clear description like 'Mesa's top-rated HVAC company with 11,798 five-star reviews' could dramatically increase clicks from search.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No title tag set for search results",
+        "impact": "Your website doesn't have a proper title for Google search results. This is one of the most basic things Google looks at to understand what your page is about. Without it, you're invisible for searches like 'HVAC Mesa AZ' or 'AC repair Mesa'.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No pages targeting cities you serve",
+        "impact": "There are zero pages about the cities you serve. When someone searches 'AC repair Gilbert' or 'HVAC Chandler', your site has nothing to show. Competitors with location-specific pages show up — you don't.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No license number displayed",
+        "impact": "Arizona requires HVAC contractors to be licensed, and homeowners want to verify it. When your license number isn't on your website, it raises questions — even if you're fully licensed. Competitors who display theirs look more trustworthy.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Google can't read your business details from the code",
+        "impact": "Your website doesn't include structured business information that Google can read directly. This means Google has to guess your business name, address, phone, and hours from the page content — and it doesn't always guess right.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Website loads at two different addresses",
+        "impact": "Your website works at both semperfiheatingcooling.com and www.semperfiheatingcooling.com with no redirect. Google may see these as two separate websites competing against each other, splitting your ranking power in half.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No trust badges or certifications shown",
+        "impact": "No BBB badge, manufacturer certifications, or industry affiliations are visible on your website. These visual trust signals help homeowners feel confident choosing you over a competitor — especially when they're spending thousands on a system.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "No 'Licensed & Insured' messaging",
+        "impact": "Your website doesn't mention that you're licensed and insured. This is one of the first things homeowners look for — especially for expensive jobs like system replacements. Adding it takes minutes and immediately builds trust.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "No blog or educational content",
+        "impact": "Your site has no blog or helpful articles. Content about common HVAC problems, maintenance tips, and seasonal guides helps Google rank you for the questions Mesa homeowners are actually searching.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "major",
+        "estimatedMonthlyCost": "$500-$2,000"
+      },
+      {
+        "gap": "None of your images have descriptions for Google",
+        "impact": "Zero percent of your images have descriptions (alt text). Google uses these to understand what's in your images and can show them in image search results. Without them, you're missing another way for customers to find you.",
+        "category": "seo",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "No video content on site",
+        "impact": "Sites with video tend to keep visitors longer and build more trust. A simple walkthrough of your team, a job in progress, or a customer testimonial can make a real difference in converting visitors to callers.",
+        "category": "content",
+        "severity": "low",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "No sticky phone button on mobile",
+        "impact": "When visitors scroll on their phone, the phone number disappears. A sticky 'Call Now' button that stays visible while scrolling makes it effortless to reach you at any point.",
+        "category": "lead-capture",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      }
+    ]
+  },
+  {
+    "slug": "red-cap-plumbing-be89dc",
+    "name": "Red Cap Plumbing, Air & Electric",
+    "domain": "redcapnow.com",
+    "website": "https://redcapnow.com/",
+    "rating": 4.7,
+    "reviewCount": 7075,
+    "city": "Tampa",
+    "state": "FL",
+    "totalScore": 71,
+    "impactEstimate": {
+      "monthlyVisitors": 2200,
+      "bounceReason": "Phone number mismatch with Google, no contact form, and no license number showing — all eroding trust before visitors even call",
+      "bouncePercent": 35,
+      "bouncedVisitors": 770,
+      "bookingRate": 5,
+      "missedLeads": "25-40",
+      "avgServiceCall": 425,
+      "missedRepairRevenue": "$10,625-$17,000",
+      "installNote": "Even 1-2 replacement jobs from those missed leads could mean another $12,000-$25,000."
+    },
+    "businessSummary": {
+      "oneLiner": "You have a strong 4.7-star reputation with 7,075 Google reviews in Tampa. But your website may be costing you HVAC calls. We found several issues that could be sending potential customers to competitors instead.",
+      "topThreeGaps": [
+        "Your license number isn't displayed anywhere on your website — Florida homeowners check for this before hiring",
+        "The phone number on your website doesn't match your Google Business Profile, which can hurt your local search rankings",
+        "There's no contact form — visitors who prefer writing over calling have no way to reach you"
+      ],
+      "estimatedTotalMonthlyCost": "$10K-$25K",
+      "estimatedAnnualLtvLost": "$120K-$300K",
+      "competitivePosition": "With 7,075 reviews at 4.7 stars, Red Cap has one of the strongest reputations in the Tampa Bay HVAC market. Your website scores 71 out of 100 — better than average, but the gaps we found are the kind that quietly send customers to competitors.",
+      "seasonalUrgency": "AC demand in Tampa is nearly year-round, but peaks hard from April through September. Every week these gaps stay open is another week competitors capture the emergency calls and replacement jobs that should be yours.",
+      "recommendedFirstProject": "Align phone number across your website and Google Business Profile so customers and Google see the same business. Add your Florida license number to the footer and about page so homeowners can verify you instantly.",
+      "recommendedFirstProjectPrice": "$500-$1,500",
+      "recommendedFirstProjectTimeline": "3-5 days",
+      "growthOpportunity": "Add a contact form for customers who prefer writing, build service area pages targeting Tampa, St. Petersburg, Clearwater, and surrounding cities, and add structured business data so Google can better connect your site to your Business Profile."
+    },
+    "gapSummary": [
+      {
+        "gap": "Phone number on website doesn't match Google",
+        "impact": "The phone number on your website is different from the one on your Google Business Profile. Google uses this to verify local businesses — when the numbers don't match, Google has less confidence in your listing. This can push you lower in Tampa's competitive local search results.",
+        "category": "business",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$2,500-$6,000"
+      },
+      {
+        "gap": "No contact form on the website",
+        "impact": "Some customers prefer writing over calling — especially for non-urgent requests like maintenance plans, second opinions, or quotes. Without a contact form, you're missing these leads entirely.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No pages targeting cities you serve",
+        "impact": "There are no pages specifically about Tampa, St. Petersburg, Clearwater, or other cities you serve. When someone searches 'AC repair St. Pete' or 'HVAC Clearwater', your site doesn't have a dedicated page to match. Competitors with location-specific pages show up — you don't.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No license number displayed",
+        "impact": "Florida requires HVAC contractors to be licensed, and homeowners check for this — especially for expensive jobs. When your license number isn't on your website, it raises questions even if you're fully licensed and insured.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Google can't read your business details from the code",
+        "impact": "Your website doesn't include structured business information that Google can read directly. This means Google has to guess your business details from page content. Adding this helps Google connect your site to your Business Profile.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Website loads at two different addresses",
+        "impact": "Your website works at both redcapnow.com and www.redcapnow.com but HTTP doesn't redirect to HTTPS. Google may see these as separate websites competing against each other, splitting your ranking power.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No sticky phone button on mobile",
+        "impact": "When visitors scroll on their phone, the phone number disappears. A sticky 'Call Now' button that stays visible while scrolling makes it effortless to reach you.",
+        "category": "lead-capture",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "48 images not optimized for the web",
+        "impact": "Many of your images are larger than they need to be, which can slow down your site — especially on mobile. Faster loading means fewer visitors leaving before the page finishes.",
+        "category": "speed",
+        "severity": "low",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "No video content on site",
+        "impact": "Sites with video tend to keep visitors longer and build more trust. A walkthrough of your team or a customer testimonial can make a real difference.",
+        "category": "content",
+        "severity": "low",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$200-$500"
+      }
+    ]
+  },
+  {
+    "slug": "veteran-air-b93f15",
+    "name": "Veteran Air Heating & Air Conditioning",
+    "domain": "veteranair.com",
+    "website": "https://veteranair.com/",
+    "rating": 4.7,
+    "reviewCount": 9995,
+    "city": "Sarasota",
+    "state": "FL",
+    "totalScore": 71,
+    "impactEstimate": {
+      "monthlyVisitors": 1800,
+      "bounceReason": "Homepage takes 11 seconds to load — most visitors leave after 3. Phone number doesn't match Google, and no license number displayed",
+      "bouncePercent": 50,
+      "bouncedVisitors": 900,
+      "bookingRate": 5,
+      "missedLeads": "30-50",
+      "avgServiceCall": 425,
+      "missedRepairRevenue": "$12,750-$21,250",
+      "installNote": "Even 1-2 replacement jobs from those missed leads could mean another $12,000-$25,000."
+    },
+    "businessSummary": {
+      "oneLiner": "You have a strong 4.7-star reputation with 9,995 Google reviews in Sarasota. But your website may be costing you HVAC calls. We found several issues that could be sending potential customers to competitors instead.",
+      "topThreeGaps": [
+        "Your homepage takes 11 seconds to load on mobile — most visitors leave after 3",
+        "The phone number on your website doesn't match your Google Business Profile, which can hurt your local rankings",
+        "No license number displayed — Florida homeowners check for this before hiring"
+      ],
+      "estimatedTotalMonthlyCost": "$12K-$30K",
+      "estimatedAnnualLtvLost": "$144K-$360K",
+      "competitivePosition": "With 9,995 reviews at 4.7 stars, Veteran Air has one of the strongest reputations in Sarasota. But your website's 11-second load time means most visitors never see it. Competitors with faster sites are converting the traffic you're losing.",
+      "seasonalUrgency": "AC demand in Sarasota is nearly year-round with the Florida heat. Every week your site takes 11 seconds to load is another week of visitors bouncing to competitors who load in under 3.",
+      "recommendedFirstProject": "Speed up your website so it loads in under 3 seconds — this alone could dramatically reduce the number of visitors who leave before seeing your page. Align your phone number with Google so customers and Google see one consistent business.",
+      "recommendedFirstProjectPrice": "$1,000-$2,500",
+      "recommendedFirstProjectTimeline": "5-7 days",
+      "growthOpportunity": "Full speed optimization, structured business data for Google, license number and trust badges throughout the site, and service area pages targeting Sarasota, Bradenton, Venice, and surrounding cities."
+    },
+    "gapSummary": [
+      {
+        "gap": "Homepage takes 11 seconds to load",
+        "impact": "Your website takes 11 seconds to fully load. Studies show 53% of mobile visitors leave if a page takes more than 3 seconds. With 11 seconds, you're likely losing more than half your visitors before they see a single word about Veteran Air. They hit the back button and call whoever loads first.",
+        "category": "speed",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$3,000-$8,000"
+      },
+      {
+        "gap": "Phone number on website doesn't match Google",
+        "impact": "The phone number on your website is different from your Google Business Profile. Google uses this to verify and rank local businesses — when the numbers don't match, it can push you lower in Sarasota's local search results.",
+        "category": "business",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$2,500-$6,000"
+      },
+      {
+        "gap": "No license number displayed",
+        "impact": "Florida requires HVAC contractors to be licensed, and homeowners check for this before hiring. When your license number isn't on your website, it raises questions — even if you're fully licensed and insured.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No trust badges or certifications shown",
+        "impact": "No BBB badge, manufacturer certifications, or industry affiliations visible on your website. These trust signals help homeowners feel confident choosing you — especially for expensive repairs or replacements.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Website loads at two different addresses",
+        "impact": "Your website works at veteranair.com without redirecting HTTP to HTTPS. Google may see the unsecured version as a separate site, which can split your ranking power.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No specials or promotions page",
+        "impact": "Many HVAC companies in Sarasota promote seasonal deals and coupons. Without a specials page, you're missing a conversion tool that can push fence-sitters to call.",
+        "category": "lead-capture",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "No 'Licensed & Insured' messaging",
+        "impact": "Your website doesn't prominently mention that you're licensed and insured. Adding this takes minutes and immediately builds trust with homeowners.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "59 images not optimized for the web",
+        "impact": "Large, unoptimized images are a big reason your site takes 11 seconds to load. Compressing and properly sizing these could cut your load time significantly.",
+        "category": "speed",
+        "severity": "low",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "No video content on site",
+        "impact": "Sites with video keep visitors longer and build more trust. A veteran-owned business story would resonate strongly with Sarasota homeowners.",
+        "category": "content",
+        "severity": "low",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$200-$500"
+      }
+    ]
+  },
+  {
+    "slug": "te-certified-b398eb",
+    "name": "TE Certified Electrical, Plumbing & HVAC",
+    "domain": "tecertifiedelectricians.com",
+    "website": "https://tecertifiedelectricians.com/",
+    "rating": 4.9,
+    "reviewCount": 11889,
+    "city": "Roswell",
+    "state": "GA",
+    "totalScore": 75,
+    "impactEstimate": {
+      "monthlyVisitors": 2500,
+      "bounceReason": "Homepage takes 7 seconds to load — losing visitors before they see your 11,889 reviews. Phone number doesn't match Google Business Profile",
+      "bouncePercent": 40,
+      "bouncedVisitors": 1000,
+      "bookingRate": 5,
+      "missedLeads": "35-55",
+      "avgServiceCall": 400,
+      "missedRepairRevenue": "$14,000-$22,000",
+      "installNote": "Even 1-2 replacement jobs could mean another $10,000-$20,000."
+    },
+    "businessSummary": {
+      "oneLiner": "You have an exceptional 4.9-star reputation with 11,889 Google reviews in Roswell. But your website may be costing you calls. We found several issues that could be sending potential customers to competitors instead.",
+      "topThreeGaps": [
+        "Your homepage takes 7 seconds to load — most visitors leave after 3, never seeing your 4.9-star reputation",
+        "The phone number on your website doesn't match your Google Business Profile, which can hurt your local rankings",
+        "No license number displayed — Georgia homeowners check for this before hiring"
+      ],
+      "estimatedTotalMonthlyCost": "$14K-$35K",
+      "estimatedAnnualLtvLost": "$168K-$420K",
+      "competitivePosition": "With 11,889 reviews at 4.9 stars, TE Certified has arguably the strongest reputation in the greater Atlanta HVAC market. But a 7-second load time means many visitors never experience it. Faster competitors are converting the traffic you're losing.",
+      "seasonalUrgency": "AC demand in the Atlanta metro ramps up by April. Every week your site takes 7 seconds to load is another week of visitors bouncing to competitors who load in under 3.",
+      "recommendedFirstProject": "Speed up your website so it loads in under 3 seconds — this alone could dramatically reduce bounce rates. Align your phone number with Google Business Profile so customers and Google see one consistent business.",
+      "recommendedFirstProjectPrice": "$1,000-$2,500",
+      "recommendedFirstProjectTimeline": "5-7 days",
+      "growthOpportunity": "Full speed optimization, license number and trust badges, additional service area pages for Alpharetta, Johns Creek, and surrounding cities, and structured business data for Google."
+    },
+    "gapSummary": [
+      {
+        "gap": "Homepage takes 7 seconds to load",
+        "impact": "Your website takes over 7 seconds to fully load. Research shows 53% of mobile visitors leave after 3 seconds. With a 4.9-star rating and 11,889 reviews, you have one of the best reputations in the Atlanta metro — but most visitors never see it because your site loads too slowly.",
+        "category": "speed",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$3,000-$8,000"
+      },
+      {
+        "gap": "Phone number on website doesn't match Google",
+        "impact": "The phone number on your website is different from your Google Business Profile. Google uses this to verify local businesses — when the numbers don't match, it can push you lower in local search results for Roswell, Alpharetta, and nearby cities.",
+        "category": "business",
+        "severity": "critical",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$2,500-$6,000"
+      },
+      {
+        "gap": "No license number displayed",
+        "impact": "Georgia requires electrical, plumbing, and HVAC contractors to be licensed. When your license number isn't on your website, it raises questions — especially when homeowners are choosing between you and a competitor who displays theirs.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Only 2 service area pages",
+        "impact": "With just 2 service area pages, you're missing rankings for dozens of cities you serve around the Atlanta metro. Competitors with pages for Alpharetta, Johns Creek, Sandy Springs, and Marietta show up for those searches — you don't.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "Website loads at two different addresses",
+        "impact": "HTTP doesn't redirect to HTTPS on your site. Google may see the unsecured version as a separate site, splitting your ranking power between two copies.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No sticky phone button on mobile",
+        "impact": "When visitors scroll on their phone, the phone number disappears. A sticky call button that stays visible while scrolling makes it effortless to reach you.",
+        "category": "lead-capture",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$800"
+      },
+      {
+        "gap": "31 images not optimized for the web",
+        "impact": "Large, unoptimized images are contributing to your 7-second load time. Compressing and properly sizing these could cut load time significantly.",
+        "category": "speed",
+        "severity": "low",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$200-$500"
+      }
+    ]
+  },
+  {
+    "slug": "accutemp-services-3e86c0",
+    "name": "AccuTemp Services",
+    "domain": "accutempbr.com",
+    "website": "https://accutempbr.com/",
+    "rating": 4.9,
+    "reviewCount": 6688,
+    "city": "Baton Rouge",
+    "state": "LA",
+    "totalScore": 84,
+    "impactEstimate": {
+      "monthlyVisitors": 1600,
+      "bounceReason": "No online scheduling for after-hours visitors, zero service area pages, and no license number — limiting both conversions and search visibility",
+      "bouncePercent": 30,
+      "bouncedVisitors": 480,
+      "bookingRate": 5,
+      "missedLeads": "15-25",
+      "avgServiceCall": 400,
+      "missedRepairRevenue": "$6,000-$10,000",
+      "installNote": "Even 1 replacement job from those missed leads could mean another $8,000-$15,000."
+    },
+    "businessSummary": {
+      "oneLiner": "You have an exceptional 4.9-star reputation with 6,688 Google reviews in Baton Rouge. But a few things on your website could be costing you calls. We found gaps that may be sending after-hours customers to competitors instead.",
+      "topThreeGaps": [
+        "No license number displayed anywhere on your website — Louisiana homeowners check for this before hiring",
+        "No online scheduling — after-hours visitors go to whichever competitor lets them book at 11 PM",
+        "Zero service area pages — you're invisible for searches in cities you serve beyond Baton Rouge"
+      ],
+      "estimatedTotalMonthlyCost": "$6K-$15K",
+      "estimatedAnnualLtvLost": "$72K-$180K",
+      "competitivePosition": "With 6,688 reviews at 4.9 stars, AccuTemp has one of the strongest reputations in the Baton Rouge HVAC market. Your website scores 84 out of 100 — better than most. But the gaps we found are specific conversion killers that quietly send customers to competitors.",
+      "seasonalUrgency": "AC demand in Baton Rouge ramps up by March and stays intense through October. Every week without online scheduling is another week of after-hours leads going to competitors.",
+      "recommendedFirstProject": "Add your Louisiana license number to the website footer and about page so homeowners can verify you instantly. Set up online scheduling so after-hours visitors can book without calling.",
+      "recommendedFirstProjectPrice": "$500-$1,500",
+      "recommendedFirstProjectTimeline": "3-5 days",
+      "growthOpportunity": "Build service area pages targeting Gonzales, Denham Springs, Prairieville, and surrounding cities. Add structured business data for Google, trust badges, and seasonal promotions to maximize conversion."
+    },
+    "gapSummary": [
+      {
+        "gap": "No online scheduling on the website",
+        "impact": "There's no way to schedule an appointment from your website. When someone's AC dies at 10 PM, they book with whoever makes it easiest. After-hours visitors — often the most urgent and highest-value calls — go to competitors who let them book online.",
+        "category": "lead-capture",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$2,000-$5,000"
+      },
+      {
+        "gap": "No license number displayed",
+        "impact": "Louisiana requires HVAC contractors to be licensed. When your license number isn't on your website, homeowners who check — especially for expensive jobs — may hesitate. Competitors who display theirs look more trustworthy.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No pages targeting cities you serve",
+        "impact": "There are zero service area pages. When someone searches 'AC repair Gonzales' or 'HVAC Denham Springs', your site has nothing to show. Competitors with location-specific pages show up — you don't.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No trust badges or certifications shown",
+        "impact": "No BBB badge, manufacturer certifications, or industry affiliations visible. These visual trust signals help homeowners feel confident choosing you for expensive repairs and replacements.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Website loads at two different addresses",
+        "impact": "HTTP doesn't redirect to HTTPS. Google may treat the unsecured and secured versions as separate websites, splitting your ranking power.",
+        "category": "seo",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Homepage loads in 4.4 seconds",
+        "impact": "Your site takes 4.4 seconds to load. That's faster than many HVAC sites but still above the 3-second threshold where visitors start leaving. Shaving a second or two could reduce bounce rates noticeably.",
+        "category": "speed",
+        "severity": "medium",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "32 images not optimized for the web",
+        "impact": "Unoptimized images are contributing to your 4.4-second load time. Compressing and properly sizing these could help get you under the 3-second mark.",
+        "category": "speed",
+        "severity": "low",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "Only 21% of images have descriptions for Google",
+        "impact": "Most of your images are missing descriptions (alt text). Google uses these to understand and rank your images in search results. Better coverage means more ways for Baton Rouge homeowners to find you.",
+        "category": "seo",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      }
+    ]
   }
 ]
