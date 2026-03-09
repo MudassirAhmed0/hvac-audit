@@ -1590,5 +1590,141 @@
         "estimatedMonthlyCost": "$200-$500"
       }
     ]
+  },
+  {
+    "slug": "forest-air-conditioning-52c653",
+    "name": "Forest Air Conditioning & Heating",
+    "domain": "forestairac.com",
+    "website": "https://www.forestairac.com/",
+    "rating": 4.9,
+    "reviewCount": 680,
+    "city": "St. Petersburg",
+    "state": "FL",
+    "totalScore": 62,
+    "impactEstimate": {
+      "monthlyVisitors": 800,
+      "bounceReason": "Visitors can't see your 680 Google reviews, the site takes nearly 9 seconds to load, and your browser shows a 'Not Secure' warning on some pages",
+      "bouncePercent": 35,
+      "bouncedVisitors": 280,
+      "bookingRate": 5,
+      "missedLeads": "8-16",
+      "avgServiceCall": 450,
+      "missedRepairRevenue": "$3,600-$7,200",
+      "installNote": "If even 1 of those was a system replacement, that's another $8,000-$18,000."
+    },
+    "businessSummary": {
+      "oneLiner": "You have an exceptional 4.9-star reputation with 680 Google reviews in St. Petersburg. But your website may be costing you HVAC calls. We found several issues that could be sending potential customers to competitors instead.",
+      "topThreeGaps": [
+        "Your 680 Google reviews — one of the strongest reputations in the Tampa Bay area — are invisible to website visitors",
+        "Your site takes nearly 9 seconds to load, which means many visitors leave before they ever see your services",
+        "Some pages load without the secure padlock, which can scare off visitors ready to book"
+      ],
+      "estimatedTotalMonthlyCost": "$8K-$20K",
+      "estimatedAnnualLtvLost": "$96K-$240K",
+      "competitivePosition": "680 reviews at 4.9 stars is one of the strongest reputations in the Tampa Bay HVAC market. But your website doesn't reflect that strength. Competitors with faster sites and visible reviews are capturing calls that should be going to you.",
+      "seasonalUrgency": "AC demand in St. Petersburg runs nearly year-round, with the biggest spike starting in April. Every week these gaps stay open is another week competitors capture the emergency calls and replacement jobs that should be yours.",
+      "recommendedFirstProject": "Display your 680 Google reviews directly on your website so visitors see your reputation without leaving. Speed up the site so customers don't bounce before they can call. Fix the security warning so visitors trust your site enough to book.",
+      "recommendedFirstProjectPrice": "$1,000-$2,500",
+      "recommendedFirstProjectTimeline": "5-7 days",
+      "growthOpportunity": "Service area pages targeting every city you serve in the Tampa Bay area, a review widget showing your Google reviews, faster page loads, and ongoing optimization to keep climbing in local search results."
+    },
+    "gapSummary": [
+      {
+        "gap": "680 Google reviews not showing on your website",
+        "impact": "You've earned a 4.9-star rating with 680 reviews — that's one of the best reputations in the Tampa Bay HVAC market. But none of them appear on your website. When a homeowner is comparing two HVAC companies side by side, they pick the one showing real customer feedback. Right now, visitors have to leave your site and search Google separately to see what your customers think of you.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$2,000-$5,000"
+      },
+      {
+        "gap": "Website takes nearly 9 seconds to load",
+        "impact": "Your website takes about 8.8 seconds to fully load. Most visitors expect a site to load in 3 seconds or less — after that, they hit the back button and call someone else. In a market like St. Petersburg where homeowners search for AC repair in the middle of a breakdown, every extra second costs you calls.",
+        "category": "speed",
+        "severity": "critical",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$2,500-$6,000"
+      },
+      {
+        "gap": "Some pages load without the secure padlock",
+        "impact": "Your site has an SSL certificate, but not all pages redirect to the secure version. When visitors see 'Not Secure' in the browser bar, many won't trust the site enough to submit a form or call. Google also uses security as a ranking signal, so this can push you lower in search results.",
+        "category": "trust",
+        "severity": "high",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$1,000-$3,000"
+      },
+      {
+        "gap": "No service area pages for the cities you serve",
+        "impact": "You serve multiple cities across the Tampa Bay area, but your website doesn't have pages dedicated to each one. When a homeowner in Clearwater or Largo searches for 'AC repair near me,' Google looks for pages that mention those cities specifically. Without them, competitors who have those pages show up instead of you.",
+        "category": "seo",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "Paying for traffic that lands on a site without enough trust signals",
+        "impact": "If you're running ads or showing up in search results, visitors arrive at your site expecting to see proof that you're trustworthy — reviews, license numbers, certifications. Without these visible, you're paying to get people to your door but not giving them a reason to knock.",
+        "category": "business",
+        "severity": "high",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$1,500-$4,000"
+      },
+      {
+        "gap": "No license number displayed on your website",
+        "impact": "Florida homeowners expect to see a contractor's license number before hiring. It's a basic trust signal — especially for big-ticket jobs like system replacements. Without it visible on your site, some visitors may question whether you're properly licensed.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "No industry trust badges or certifications shown",
+        "impact": "Badges like NATE Certified, BBB Accredited, or manufacturer authorizations give visitors instant confidence. Your competitors who display these badges look more credible at first glance — even if your team is more qualified.",
+        "category": "trust",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$300-$1,000"
+      },
+      {
+        "gap": "No specials or coupons page",
+        "impact": "Many homeowners search specifically for HVAC deals or coupons before choosing a company. A dedicated specials page gives you another way to show up in search results and gives price-conscious customers a reason to pick you over the competition.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$300-$1,000"
+      },
+      {
+        "gap": "No video content on website",
+        "impact": "Video builds trust faster than text. A quick intro from the owner, a technician walk-through, or a customer testimonial video helps visitors feel like they know your team before they call. Competitors using video on their sites convert more visitors into calls.",
+        "category": "content",
+        "severity": "medium",
+        "fixEffort": "moderate",
+        "estimatedMonthlyCost": "$300-$1,000"
+      },
+      {
+        "gap": "Running ads without call tracking",
+        "impact": "If you're spending money on Google Ads or other advertising, you need to know which ads are driving phone calls. Without call tracking, you're flying blind — spending money but unable to tell what's working and what's wasted.",
+        "category": "tracking",
+        "severity": "medium",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$500-$1,500"
+      },
+      {
+        "gap": "Most images are missing descriptions for Google",
+        "impact": "Only 43% of your images have descriptions (alt text). Google uses these to understand and rank your images in search results. Better coverage means more ways for Tampa Bay homeowners to find you when searching for HVAC services.",
+        "category": "seo",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      },
+      {
+        "gap": "6 images could be smaller for faster loading",
+        "impact": "Several images on your site are larger than they need to be, which adds to the 8.8-second load time. Compressing and resizing these images is one of the easiest ways to make your site load faster — and keep more visitors from bouncing.",
+        "category": "speed",
+        "severity": "low",
+        "fixEffort": "quick-win",
+        "estimatedMonthlyCost": "$200-$500"
+      }
+    ]
   }
 ]
