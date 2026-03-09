@@ -124,6 +124,9 @@ const ogImageUrl = `${siteUrl}${ogImage}`;
     </main>
     <Footer />
     <script>
+      // Enable animations only when JS is available (keeps content visible for Googlebot)
+      document.documentElement.classList.add("js-ready");
+
       // ── Navbar scroll effect ──
       const navEl = document.getElementById("navbar");
       let navTicking = false;
