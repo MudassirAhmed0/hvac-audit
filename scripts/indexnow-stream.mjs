@@ -15,7 +15,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
 const SITE = "https://hvacaudit.co";
-const KEY = "fb3e25fa4c70471a89e20604e1fe0a80";
+const KEY = "26295232b3334cf79da762c5718035c6";
 const DELAY_MS = 1500; // 1.5s between requests to be respectful
 
 // Collect all URLs
@@ -66,7 +66,7 @@ function getAllUrls() {
 }
 
 async function submitUrl(url) {
-  const endpoint = `https://api.indexnow.org/indexnow?url=${encodeURIComponent(url)}&key=${KEY}`;
+  const endpoint = `https://api.indexnow.org/indexnow?url=${encodeURIComponent(url)}&key=${KEY}&keyLocation=${encodeURIComponent(`${SITE}/${KEY}.txt`)}`;
   const res = await fetch(endpoint);
   return res.status;
 }
