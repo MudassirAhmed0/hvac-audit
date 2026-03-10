@@ -1,0 +1,347 @@
+{
+  "auditDate": "2026-03-09",
+  "businessName": "Tropic Air and Heat",
+  "domain": "tropicairheat.com",
+  "location": "Arlington, TX",
+  "address": "1214 California Ln. Suite B1, Arlington, TX 76015",
+  "phone": "817-467-9465",
+  "googleReviews": 49,
+  "googleStars": 4.8,
+  "platform": "Wix",
+  "totalPages": 6,
+  "pages": [
+    "Home (/)",
+    "Services (/services)",
+    "Filters (/services-4)",
+    "About (/about)",
+    "Our Team (/our-team)",
+    "Financing (/financing)"
+  ],
+  "totalScore": 32,
+  "scoreBreakdown": {
+    "trust": 25,
+    "business": 35,
+    "seo": 20,
+    "leadCapture": 40,
+    "content": 25,
+    "speed": 20,
+    "tracking": 30
+  },
+  "summary": "Tropic Air and Heat's website is built on Wix and has serious problems that are costing them phone calls and jobs every single day. The site takes over 9 seconds to load, has no meta description (so Google writes its own snippet), shows the wrong language code to search engines (Chinese instead of English), links to a dead social network (Google+), and uses the default Wix favicon instead of their own logo. They have only 6 pages total with no blog, no city-specific landing pages, and no online booking system. For a company with 4.8 stars and 49 Google reviews, this website is not doing the business justice.",
+  "gaps": [
+    {
+      "id": 1,
+      "title": "Website takes over 9 seconds to load",
+      "description": "The homepage took 9.3 seconds to fully load and the HTML file alone is 462 KB. Wix loads 62 separate JavaScript files on the page. Most visitors on a phone will leave before the site even appears. Google also penalizes slow sites in search rankings.",
+      "category": "speed",
+      "severity": "critical",
+      "fixEffort": "major",
+      "currentState": "9.3 second load time, 462 KB HTML, 62 script tags",
+      "recommendation": "Move to a faster platform like a custom-built site. Wix is known for bloated code that cannot be optimized. A properly built HVAC website should load in under 2 seconds."
+    },
+    {
+      "id": 2,
+      "title": "No meta description on the homepage",
+      "description": "The homepage has no meta description tag at all. This means Google makes up its own snippet when showing the site in search results. That snippet is often random text pulled from the page and usually does not include the phone number, services, or service area.",
+      "category": "seo",
+      "severity": "critical",
+      "fixEffort": "quick-win",
+      "currentState": "Meta description is completely missing",
+      "recommendation": "Add a meta description like: 'Tropic Air and Heat provides AC repair, heating installation, and HVAC maintenance in Arlington, TX. Call 817-467-9465 for same-day service. Licensed, insured, NATE-certified technicians.'"
+    },
+    {
+      "id": 3,
+      "title": "Page title says 'Home | tropicairheat' instead of describing the business",
+      "description": "The homepage title is generic and wastes valuable space. The title tag is the single most important thing Google reads to understand what a page is about. Right now it just says 'Home' followed by a lowercase version of the domain name.",
+      "category": "seo",
+      "severity": "critical",
+      "fixEffort": "quick-win",
+      "currentState": "Home | tropicairheat",
+      "recommendation": "Change to something like: 'Tropic Air and Heat | AC Repair & HVAC Service in Arlington, TX | 817-467-9465'"
+    },
+    {
+      "id": 4,
+      "title": "Website tells Google it is in Chinese",
+      "description": "The server sends a 'content-language: zh-CN' header, which tells Google and other search engines the site is written in Chinese. This is a Wix configuration error that can confuse search engines and hurt rankings for English searches in Arlington, TX.",
+      "category": "seo",
+      "severity": "critical",
+      "fixEffort": "quick-win",
+      "currentState": "content-language header set to zh-CN (Chinese)",
+      "recommendation": "Fix the language setting in Wix dashboard under Settings > Multilingual or contact Wix support. This should be set to 'en' or 'en-US'."
+    },
+    {
+      "id": 5,
+      "title": "No online booking or scheduling system",
+      "description": "There is no way for customers to book an appointment online. The site has 'Contact Us' buttons but no actual scheduling tool. Over 60% of homeowners prefer to book service appointments online, especially after business hours.",
+      "category": "lead-capture",
+      "severity": "critical",
+      "fixEffort": "moderate",
+      "currentState": "No online scheduling available",
+      "recommendation": "Add an online booking system like Housecall Pro, ServiceTitan, or even a simple Calendly embed. This captures leads 24/7, including nights and weekends when people's AC breaks down."
+    },
+    {
+      "id": 6,
+      "title": "Google reviews are not displayed on the website",
+      "description": "Despite having 49 Google reviews with a 4.8-star rating, none of these reviews appear on the website. Showing real Google reviews on the site builds instant trust and helps convert visitors into callers.",
+      "category": "trust",
+      "severity": "high",
+      "fixEffort": "quick-win",
+      "currentState": "No Google reviews displayed anywhere on the site",
+      "recommendation": "Add a Google Reviews widget to the homepage. This lets visitors see real feedback without leaving the site. The 4.8-star rating and 49 reviews are a strong selling point that is currently hidden."
+    },
+    {
+      "id": 7,
+      "title": "Dead Google+ social media link",
+      "description": "The footer has a link to Google+ (plus.google.com/+TropicAirHeatArlington), which was shut down by Google in April 2019. Clicking it leads to a dead page. This makes the business look outdated and unmaintained.",
+      "category": "trust",
+      "severity": "high",
+      "fixEffort": "quick-win",
+      "currentState": "Links to https://plus.google.com/+TropicAirHeatArlington (dead since 2019)",
+      "recommendation": "Remove the Google+ link. Replace it with a link to the Google Business Profile or Yelp page."
+    },
+    {
+      "id": 8,
+      "title": "Using default Wix favicon instead of business logo",
+      "description": "The browser tab shows the generic Wix 'W' icon instead of the Tropic Air and Heat logo. This looks unprofessional and makes it harder for customers to find the tab when they have multiple tabs open.",
+      "category": "trust",
+      "severity": "high",
+      "fixEffort": "quick-win",
+      "currentState": "Using default Wix favicon (pfavico.ico from parastorage.com)",
+      "recommendation": "Upload the Tropic Air and Heat logo as a custom favicon in Wix Settings > Favicon."
+    },
+    {
+      "id": 9,
+      "title": "No service area landing pages for nearby cities",
+      "description": "The site mentions Arlington, Mansfield, Pantego, Kennedale, Fort Worth, and Grand Prairie in passing but has zero dedicated pages for these cities. Each city should have its own page to rank in local Google searches like 'AC repair Mansfield TX' or 'HVAC service Grand Prairie'.",
+      "category": "seo",
+      "severity": "high",
+      "fixEffort": "major",
+      "currentState": "Cities mentioned in text only, no dedicated pages",
+      "recommendation": "Create individual landing pages for each service area city. Each page should include city-specific content, the services offered there, and local details. This is how HVAC companies dominate local search results."
+    },
+    {
+      "id": 10,
+      "title": "No blog or educational content",
+      "description": "There is no blog section on the website. Blog content helps attract homeowners who are searching for answers to HVAC questions like 'why is my AC blowing warm air' or 'how often should I change my air filter'. These visitors become potential customers.",
+      "category": "content",
+      "severity": "high",
+      "fixEffort": "major",
+      "currentState": "No blog exists (/blog returns 404)",
+      "recommendation": "Start a blog with helpful HVAC articles targeting common homeowner questions. Aim for 2 posts per month minimum, each at least 1,000 words, focused on problems people in Arlington search for."
+    },
+    {
+      "id": 11,
+      "title": "Only 6 pages on the entire website",
+      "description": "The entire site has just 6 pages: Home, Services, Filters, About, Our Team, and Financing. Competitors with 20-50 pages of content will outrank this site because Google sees them as more authoritative and relevant.",
+      "category": "content",
+      "severity": "high",
+      "fixEffort": "major",
+      "currentState": "6 total pages in sitemap",
+      "recommendation": "Expand to at least 20-30 pages: individual service pages (AC repair, furnace installation, duct cleaning, etc.), city pages, and blog posts. Each service deserves its own dedicated page."
+    },
+    {
+      "id": 12,
+      "title": "Confusing URL for the Filters page (/services-4)",
+      "description": "The Filters page has the URL '/services-4' which looks like a Wix-generated duplicate rather than a real page. This confuses both visitors and search engines. The URL gives no indication that the page is about air filters.",
+      "category": "seo",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "currentState": "URL is /services-4, page title is 'Filters | tropicairheat'",
+      "recommendation": "Change the URL slug to /filters or /air-filters in Wix page settings. Clean, descriptive URLs help with search rankings."
+    },
+    {
+      "id": 13,
+      "title": "9 out of 15 images have empty alt text",
+      "description": "60% of the images on the homepage have no alt text (alt=\"\"). Alt text helps Google understand what images show, helps with image search rankings, and is required for screen readers used by visually impaired visitors.",
+      "category": "seo",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "currentState": "9 of 15 images have alt=\"\" (empty)",
+      "recommendation": "Add descriptive alt text to every image. For example, instead of empty alt text on a photo of a technician, use 'Tropic Air and Heat technician repairing AC unit in Arlington TX'."
+    },
+    {
+      "id": 14,
+      "title": "No emergency or 24/7 messaging",
+      "description": "The site does not mention emergency service, after-hours availability, or same-day service anywhere. HVAC emergencies happen at night and on weekends. If a homeowner's AC dies at midnight in July, they need to know the company can help right away.",
+      "category": "business",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "currentState": "No emergency/24-7/same-day messaging found",
+      "recommendation": "If the company offers emergency service, add prominent messaging like '24/7 Emergency AC Repair' or 'Same-Day Service Available' above the fold on the homepage. If not, consider adding this service."
+    },
+    {
+      "id": 15,
+      "title": "Missing security headers",
+      "description": "The site is missing several important security headers: Content-Security-Policy, X-Frame-Options, Referrer-Policy, and Permissions-Policy. Only HSTS and X-Content-Type-Options are present. This is partly a Wix platform limitation.",
+      "category": "trust",
+      "severity": "medium",
+      "fixEffort": "moderate",
+      "currentState": "Only strict-transport-security and x-content-type-options are set",
+      "recommendation": "This is a Wix limitation. A custom-built site would allow full control over security headers. This matters less for a local HVAC business but is still a gap."
+    },
+    {
+      "id": 16,
+      "title": "Double redirect chain (non-www to www)",
+      "description": "When someone types tropicairheat.com, the browser goes through two redirects: HTTP to HTTPS, then non-www to www. Each redirect adds loading time. This is a minor speed issue but still costs precious milliseconds.",
+      "category": "speed",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "currentState": "http://tropicairheat.com -> https://tropicairheat.com -> https://www.tropicairheat.com (2 hops)",
+      "recommendation": "Configure DNS to redirect directly from http://tropicairheat.com to https://www.tropicairheat.com in a single hop. This is a Wix/DNS setting."
+    },
+    {
+      "id": 17,
+      "title": "Schema markup is incomplete",
+      "description": "The site has basic LocalBusiness schema but it is missing important fields: business hours (openingHours), geo coordinates (latitude/longitude), price range, service area, and aggregate rating. These help Google show rich results like star ratings and hours in search.",
+      "category": "seo",
+      "severity": "medium",
+      "fixEffort": "moderate",
+      "currentState": "LocalBusiness schema has only: name, url, image, address, telephone",
+      "recommendation": "Add openingHours, geo coordinates, priceRange, areaServed, aggregateRating (4.8 stars, 49 reviews), and a list of services to the schema. This can unlock star ratings showing directly in Google search results."
+    },
+    {
+      "id": 18,
+      "title": "No OG description for social sharing",
+      "description": "When someone shares the website link on Facebook, Instagram, or text messages, there is no description that appears in the preview. Only the title 'Home | tropicairheat' shows up, which tells the recipient nothing about the business.",
+      "category": "seo",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "currentState": "og:description tag is missing",
+      "recommendation": "Add an og:description that summarizes the business: 'Arlington TX's trusted HVAC company. AC repair, heating installation, and maintenance. 4.8 stars on Google. Call 817-467-9465.'"
+    },
+    {
+      "id": 19,
+      "title": "Using outdated Universal Analytics (UA) instead of GA4",
+      "description": "The site references a Universal Analytics (UA-) tracking code. Google shut down Universal Analytics data processing in July 2024. If this was not migrated to GA4, the business has no working website analytics and cannot see how many visitors come to the site or what they do.",
+      "category": "tracking",
+      "severity": "high",
+      "fixEffort": "moderate",
+      "currentState": "UA- tracking code found; no GA4 (G-) measurement ID detected in page source",
+      "recommendation": "Set up Google Analytics 4 (GA4) immediately. Without analytics, there is no way to know how many people visit the site, where they come from, or which pages they look at."
+    },
+    {
+      "id": 20,
+      "title": "Twitter link may be outdated",
+      "description": "The site links to twitter.com/TropicAirHeat. Twitter rebranded to X in 2023. The link may still work via redirect, but the social icon shows the old Twitter bird logo, which looks outdated.",
+      "category": "trust",
+      "severity": "low",
+      "fixEffort": "quick-win",
+      "currentState": "Links to https://twitter.com/TropicAirHeat with old Twitter branding",
+      "recommendation": "Either update to X branding or remove the link if the account is not active. Inactive social media accounts can hurt trust."
+    },
+    {
+      "id": 21,
+      "title": "No Google Maps embed on the website",
+      "description": "There is no Google Maps embed showing the business location. A map helps customers see where the company is located and builds trust that this is a real, local business.",
+      "category": "trust",
+      "severity": "low",
+      "fixEffort": "quick-win",
+      "currentState": "No Google Maps iframe found on the site",
+      "recommendation": "Add a Google Maps embed on the About or Contact page showing the business location at 1214 California Ln. Suite B1, Arlington, TX 76015."
+    },
+    {
+      "id": 22,
+      "title": "No individual service pages",
+      "description": "All services are lumped together on one page instead of having dedicated pages for AC repair, heating installation, maintenance plans, duct cleaning, etc. Individual pages rank better because they match exactly what people search for.",
+      "category": "content",
+      "severity": "high",
+      "fixEffort": "major",
+      "currentState": "Single /services page covers everything",
+      "recommendation": "Create separate pages: /ac-repair, /heating-installation, /ac-maintenance, /indoor-air-quality, /duct-cleaning, /thermostat-installation, etc. Each page should have unique content focused on that specific service."
+    },
+    {
+      "id": 23,
+      "title": "Phone number is clickable (this is good)",
+      "description": "The phone number 817-467-9465 has proper tel: links, making it clickable on mobile devices. This is one of the few things done correctly on the site.",
+      "category": "lead-capture",
+      "severity": "none",
+      "fixEffort": "none",
+      "currentState": "href='tel:817-467-9465' found multiple times",
+      "recommendation": "No action needed. This is working correctly."
+    },
+    {
+      "id": 24,
+      "title": "Site is heavily JavaScript-dependent (client-side rendered)",
+      "description": "The Wix platform renders most of the page content using JavaScript in the browser. If JavaScript fails to load or is slow, the visitor sees a blank page. Search engine crawlers may also miss content that only appears after JavaScript runs.",
+      "category": "speed",
+      "severity": "medium",
+      "fixEffort": "major",
+      "currentState": "Wix Thunderbolt framework, 62 script tags, client-side rendering",
+      "recommendation": "This is a fundamental Wix limitation. A server-rendered site (built with modern frameworks) would deliver visible content immediately without waiting for JavaScript."
+    },
+    {
+      "id": 25,
+      "title": "Wix platform limits growth and optimization",
+      "description": "Wix controls the hosting, code output, page speed, and server configuration. Many of the issues found in this audit (slow speed, missing security headers, language code error, bloated JavaScript) cannot be fully fixed while staying on Wix.",
+      "category": "speed",
+      "severity": "high",
+      "fixEffort": "major",
+      "currentState": "Built on Wix.com Website Builder",
+      "recommendation": "For a business serious about getting more calls from the internet, migrating to a custom-built, fast website is the single highest-impact investment. A properly built HVAC site loads in under 2 seconds, ranks better, and converts more visitors into service calls."
+    },
+    {
+      "id": 26,
+      "title": "Has a financing page (this is good)",
+      "description": "The site has a dedicated financing page, which is important for higher-ticket jobs like full system replacements. This helps close deals on expensive work.",
+      "category": "business",
+      "severity": "none",
+      "fixEffort": "none",
+      "currentState": "/financing page exists and returns 200",
+      "recommendation": "No action needed. Consider adding specific financing examples (e.g., '$89/month for a new system') to make it more compelling."
+    },
+    {
+      "id": 27,
+      "title": "Sitemap has not been updated since January 2025",
+      "description": "The sitemap shows a last modification date of January 20, 2025 for all pages. If no changes have been made to the site in over a year, Google may consider it stale and reduce crawl frequency.",
+      "category": "seo",
+      "severity": "low",
+      "fixEffort": "quick-win",
+      "currentState": "All pages show lastmod: 2025-01-20",
+      "recommendation": "Update website content regularly. Even small updates signal to Google that the site is active and maintained."
+    },
+    {
+      "id": 28,
+      "title": "No TACLA license number displayed prominently",
+      "description": "The Texas HVAC license number (TACLA) is mentioned somewhere in the site but not prominently displayed. Texas law requires this, and displaying it builds trust with homeowners who want to verify they are hiring a licensed contractor.",
+      "category": "trust",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "currentState": "License reference found but not in a prominent location",
+      "recommendation": "Display the TACLA license number in the website header or footer where it is always visible. This is both a legal requirement and a trust signal."
+    }
+  ],
+  "criticalIssues": 5,
+  "highIssues": 9,
+  "mediumIssues": 10,
+  "lowIssues": 3,
+  "positives": [
+    "Phone number is clickable with tel: link",
+    "Has a dedicated financing page",
+    "SSL/HTTPS is working properly",
+    "Has basic LocalBusiness schema markup",
+    "Canonical tag is properly set",
+    "Site is on a custom domain (not a free wixsite.com subdomain)",
+    "Facebook and Instagram social links are present",
+    "Contact Us CTA buttons exist on the page",
+    "Mentions service area cities (Arlington, Mansfield, Pantego, Kennedale, Fort Worth, Grand Prairie)",
+    "Has an About page and Our Team page",
+    "HSTS security header is enabled",
+    "HTML lang attribute is correctly set to 'en'"
+  ],
+  "competitorAdvantages": {
+    "description": "Here is what a top-performing HVAC website in the Arlington market would have that this site is missing:",
+    "gaps": [
+      "Sub-2-second page load time",
+      "Google reviews displayed with star ratings",
+      "Online booking/scheduling for 24/7 lead capture",
+      "15-20 individual service pages",
+      "8-12 city/service area landing pages",
+      "Active blog with HVAC educational content",
+      "Emergency/24-7 messaging above the fold",
+      "Custom favicon with business branding",
+      "Complete schema markup with aggregate ratings",
+      "Google Analytics 4 tracking with conversion goals",
+      "Strong meta titles and descriptions on every page"
+    ]
+  }
+}

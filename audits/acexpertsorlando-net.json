@@ -1,0 +1,356 @@
+{
+  "audit": {
+    "url": "https://acexpertsorlando.net/",
+    "businessName": "A/C HVAC and Air Conditioning Experts Orlando",
+    "auditDate": "2026-03-09",
+    "phone": "(407) 555-0137",
+    "googleReviews": 82,
+    "googleStars": 4.9,
+    "location": "Orlando, FL",
+    "platform": "Next.js (App Router) on Cloudflare",
+    "totalScore": 38
+  },
+
+  "summary": {
+    "totalPages": 20,
+    "pageWeight": "~920 KB (HTML 55 KB, JS 324 KB, CSS 16 KB, Images 523 KB)",
+    "loadTime": "1.57s TTFB (server response fast, Cloudflare CDN)",
+    "sslValid": true,
+    "mobileResponsive": true,
+    "hasContactForm": true,
+    "hasOnlineBooking": false,
+    "hasBlog": false,
+    "hasFinancingPage": false,
+    "hasAnalytics": false,
+    "hasSchemaMarkup": true,
+    "schemaIssues": true,
+    "hasGoogleMapsEmbed": true,
+    "hasServiceAreaPages": true,
+    "hasEmergencyMessaging": true,
+    "has24x7Messaging": true,
+    "phoneClickable": true,
+    "reviewsDisplayed": 6,
+    "reviewsMismatch": "Schema says 4 reviews, Google has 82, website shows 6"
+  },
+
+  "gaps": [
+    {
+      "id": 1,
+      "title": "No Google Analytics or any tracking installed",
+      "description": "Your website has zero tracking. You have no idea how many people visit, which pages they look at, or where they come from. You are flying completely blind. Every dollar you spend on marketing could be wasted and you would never know.",
+      "category": "tracking",
+      "severity": "critical",
+      "fixEffort": "quick-win",
+      "recommendation": "Install Google Analytics 4 and Google Search Console. Takes about 15 minutes. This is the single most important fix because it unlocks data for every other decision."
+    },
+    {
+      "id": 2,
+      "title": "HTTP does not redirect to HTTPS (4 versions of your site exist)",
+      "description": "Your website loads on 4 different addresses: http://acexpertsorlando.net, https://acexpertsorlando.net, http://www.acexpertsorlando.net, and https://www.acexpertsorlando.net. All 4 serve the same page with no redirect. Google sees this as 4 separate websites competing against each other, splitting your search ranking power into quarters.",
+      "category": "seo",
+      "severity": "critical",
+      "fixEffort": "quick-win",
+      "recommendation": "Set up redirects so all 3 variants (http non-www, http www, https www) permanently redirect (301) to one canonical: https://acexpertsorlando.net. This can be done in Cloudflare Page Rules in about 5 minutes."
+    },
+    {
+      "id": 3,
+      "title": "Schema markup says only 4 reviews (Google shows 82)",
+      "description": "The hidden code Google reads claims you have 4 reviews with a 5.0 rating. But your actual Google profile shows 82 reviews at 4.9 stars. This mismatch makes Google suspicious. The schema also shows '5.0' when your real rating is 4.9, which is inaccurate.",
+      "category": "trust",
+      "severity": "critical",
+      "fixEffort": "quick-win",
+      "recommendation": "Update the AggregateRating in your LocalBusiness schema to show ratingValue 4.9 and reviewCount 82. Keep these numbers updated monthly."
+    },
+    {
+      "id": 4,
+      "title": "Using FAQPage schema (deprecated by Google since August 2023)",
+      "description": "Your website uses FAQPage structured data. Google stopped showing FAQ rich results for most businesses in August 2023. This outdated code does nothing for you and signals to competitors that your site has not been maintained.",
+      "category": "seo",
+      "severity": "high",
+      "fixEffort": "quick-win",
+      "recommendation": "Remove the FAQPage schema entirely. Keep the FAQ content on the page for visitors, just remove the hidden code wrapper."
+    },
+    {
+      "id": 5,
+      "title": "No online booking or scheduling system",
+      "description": "When a homeowner's AC breaks at 11 PM, they want to book service right now, not wait until morning to call. You have no way for customers to schedule appointments online. Studies show 67% of consumers prefer online booking. Every competitor who offers it is capturing leads you are losing.",
+      "category": "lead-capture",
+      "severity": "critical",
+      "fixEffort": "moderate",
+      "recommendation": "Add an online scheduling tool like Housecall Pro, ServiceTitan, or even Calendly. Place a 'Book Now' button in the header next to your phone number."
+    },
+    {
+      "id": 6,
+      "title": "Only 6 reviews shown on website (you have 82 on Google)",
+      "description": "You are sitting on 82 Google reviews, which is a massive trust asset. But your website only shows 6 generic-looking testimonials. Visitors who do not check Google first see a business that looks like it just started.",
+      "category": "trust",
+      "severity": "high",
+      "fixEffort": "moderate",
+      "recommendation": "Embed a live Google Reviews widget (tools like Elfsight, Grade.us, or EmbedSocial) that automatically pulls and displays your real Google reviews. Show at least 20-30 reviews with dates and names."
+    },
+    {
+      "id": 7,
+      "title": "Zero security headers on the website",
+      "description": "Your site is missing all 6 standard security headers: HSTS, Content Security Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, and Permissions-Policy. This means your site could be loaded inside someone else's website (clickjacking), browsers do not enforce HTTPS strictly, and search engines may flag security concerns.",
+      "category": "trust",
+      "severity": "high",
+      "fixEffort": "quick-win",
+      "recommendation": "Add security headers through Cloudflare (Transform Rules > Response Headers). This is a 10-minute fix that improves both security and SEO trust signals."
+    },
+    {
+      "id": 8,
+      "title": "No blog or educational content",
+      "description": "You have zero blog posts. In a market like Orlando with intense HVAC competition, blog content is how you show up in Google for questions like 'why is my AC blowing warm air Orlando' or 'best SEER rating for Florida homes.' Without a blog, you only rank for your brand name and a few service pages.",
+      "category": "content",
+      "severity": "high",
+      "fixEffort": "major",
+      "recommendation": "Start a blog with 2-4 posts per month targeting common Orlando AC questions. Each post should be 1,500+ words, locally relevant, and include a call-to-action to schedule service."
+    },
+    {
+      "id": 9,
+      "title": "No financing page or payment options mentioned",
+      "description": "AC replacement in Orlando costs $5,000-$15,000. If a homeowner cannot afford it upfront, they will call the competitor who advertises 'financing available, $89/month.' You mention nothing about financing anywhere on your site.",
+      "category": "business",
+      "severity": "high",
+      "fixEffort": "moderate",
+      "recommendation": "Create a dedicated financing page. Partner with GreenSky, Synchrony, or Wisetack for HVAC financing. Mention financing options on every service page, especially AC installation."
+    },
+    {
+      "id": 10,
+      "title": "No favicon (browser tab icon)",
+      "description": "When someone has multiple browser tabs open, your site shows a generic blank icon. This looks unprofessional and makes it harder for customers to find your tab. It also appears as a missing icon in Google search results.",
+      "category": "trust",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Create a simple favicon using your logo. Add it as a 32x32 PNG and include an apple-touch-icon for mobile. Takes 5 minutes."
+    },
+    {
+      "id": 11,
+      "title": "No Open Graph image for social media sharing",
+      "description": "When someone shares your website on Facebook, Nextdoor, or text message, no preview image appears. It shows as a plain text link. Posts with images get 2.3x more engagement than those without.",
+      "category": "trust",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Add an og:image meta tag with a 1200x630 branded image showing your logo, phone number, and tagline. Also add twitter:image."
+    },
+    {
+      "id": 12,
+      "title": "Images are unoptimized JPEGs (523 KB total, no WebP)",
+      "description": "Your 3 images are all old-format JPEGs totaling over half a megabyte. The team photo alone is 201 KB. Modern websites use WebP format which would cut these sizes in half with no quality loss. On slow mobile connections, these images delay how fast your page appears.",
+      "category": "speed",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Convert all images to WebP format using a tool like Squoosh.app. The team photo should be under 80 KB. Also add proper width/height attributes to prevent layout shifts."
+    },
+    {
+      "id": 13,
+      "title": "No accessibility features (zero ARIA attributes)",
+      "description": "Your website has zero ARIA accessibility attributes. This means screen readers used by visually impaired visitors cannot navigate your site properly. It also exposes you to potential ADA compliance lawsuits, which are increasingly common for service businesses.",
+      "category": "trust",
+      "severity": "medium",
+      "fixEffort": "moderate",
+      "recommendation": "Add ARIA labels to navigation, buttons, and form fields. Ensure all interactive elements are keyboard-accessible. Run an accessibility audit with axe DevTools."
+    },
+    {
+      "id": 14,
+      "title": "Contact form has no service type dropdown",
+      "description": "Your contact form only asks for name, phone, email, and a message box. A customer has to type out their problem. A 'service needed' dropdown (AC Repair, AC Installation, Heating, Maintenance, Emergency) would make it easier for the customer and help you prioritize incoming leads.",
+      "category": "lead-capture",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Add a dropdown for service type and a preferred time/date field to the contact form. Also add an urgency indicator (routine vs same-day vs emergency)."
+    },
+    {
+      "id": 15,
+      "title": "Sitemap uses deprecated changefreq and priority tags",
+      "description": "Your sitemap.xml includes changefreq and priority values. Google has publicly stated they completely ignore both of these fields. It does not hurt your rankings, but it clutters your sitemap and signals outdated SEO practices.",
+      "category": "seo",
+      "severity": "low",
+      "fixEffort": "quick-win",
+      "recommendation": "Remove changefreq and priority from sitemap.xml. Keep just loc and lastmod."
+    },
+    {
+      "id": 16,
+      "title": "No BreadcrumbList schema on pages",
+      "description": "Your service pages and location pages do not have BreadcrumbList structured data. Breadcrumbs help Google understand your site hierarchy and can show enhanced breadcrumb trails in search results, making your listings look more professional.",
+      "category": "seo",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Add BreadcrumbList JSON-LD schema to every page. Example: Home > Services > AC Repair. This helps both Google and visitors."
+    },
+    {
+      "id": 17,
+      "title": "Only 20 pages total (thin site footprint)",
+      "description": "Your entire website has only 20 pages. Competing HVAC companies in Orlando with blogs have 50-200+ pages. More pages means more chances to show up in Google for different searches. Your 6 location pages and 6 service pages are a good start but very thin.",
+      "category": "content",
+      "severity": "medium",
+      "fixEffort": "major",
+      "recommendation": "Expand location pages to cover more neighborhoods (Kissimmee, Altamonte Springs, Sanford, Ocoee, Apopka, Windermere). Add individual service detail pages (duct cleaning, thermostat installation, indoor air quality). Target 50+ pages."
+    },
+    {
+      "id": 18,
+      "title": "No service pricing or cost ranges mentioned",
+      "description": "Homeowners searching 'AC repair cost Orlando' will not find your site. You mention no prices, no ranges, and no 'starting at' figures anywhere. People want to know what to expect before they call.",
+      "category": "business",
+      "severity": "medium",
+      "fixEffort": "moderate",
+      "recommendation": "Add a pricing page or cost ranges on each service page. Example: 'AC Repair starting at $89 diagnostic fee' or 'AC Installation from $4,500.' Even ranges build trust."
+    },
+    {
+      "id": 19,
+      "title": "No license number or insurance details visible",
+      "description": "While your FAQ says you are licensed and insured, the actual license number is nowhere on the site. Florida homeowners specifically look for contractor license numbers. Showing it builds instant trust.",
+      "category": "trust",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Add your Florida contractor license number to the footer of every page. Format: 'FL License #CAC1234567.' Also add a link to verify on the DBPR website."
+    },
+    {
+      "id": 20,
+      "title": "No call tracking or conversion tracking",
+      "description": "Without analytics or call tracking, you cannot tell which marketing channel drives phone calls. If you spend money on Google Ads, SEO, or Nextdoor, you have no way to measure what is working.",
+      "category": "tracking",
+      "severity": "high",
+      "fixEffort": "moderate",
+      "recommendation": "Set up Google Ads call tracking or a service like CallRail. Track form submissions as conversions in GA4. This data is essential for making smart marketing decisions."
+    },
+    {
+      "id": 21,
+      "title": "Preloading images that are not the LCP element",
+      "description": "Your page preloads 3 images including brand-logo.jpg and logo.jpg. Preloading too many resources wastes bandwidth and can actually delay the most important content from loading first. Only the hero/main image should be preloaded.",
+      "category": "speed",
+      "severity": "low",
+      "fixEffort": "quick-win",
+      "recommendation": "Only preload the team-photo.jpg (the likely LCP element). Remove preload for brand-logo.jpg and logo.jpg."
+    },
+    {
+      "id": 22,
+      "title": "Cloudflare email protection obscures email address",
+      "description": "Your email address is hidden behind Cloudflare's email obfuscation. While this prevents spam bots, it also means the email address is not visible in the page source for search engines or accessibility tools.",
+      "category": "trust",
+      "severity": "low",
+      "fixEffort": "quick-win",
+      "recommendation": "Consider adding a mailto: link with the email address in the schema markup (which already has info@acexpertsorlando.net). The Cloudflare protection is fine for the visible page."
+    },
+    {
+      "id": 23,
+      "title": "No Google Business Profile link on website",
+      "description": "There is no link from your website to your Google Business Profile. Making it easy for happy customers to find your GBP and leave a review is a missed opportunity. You should be actively funneling satisfied customers to review you.",
+      "category": "trust",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Add a 'Leave Us a Review' button that links directly to your Google review page. Place it in the footer and on the reviews page."
+    },
+    {
+      "id": 24,
+      "title": "No special offers, coupons, or seasonal promotions",
+      "description": "Orlando HVAC competitors frequently run promotions like '$49 AC Tune-Up' or '$500 Off New System Install.' Your site has no offers or urgency-creating promotions. This gives people no reason to pick you over a competitor offering a deal.",
+      "category": "lead-capture",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Add a seasonal offer banner: 'Spring AC Tune-Up Special: $69' or 'Free Estimate on New System Installation.' Rotate offers quarterly."
+    },
+    {
+      "id": 25,
+      "title": "Next.js JavaScript payload is 324 KB",
+      "description": "Your website ships 324 KB of JavaScript to render what is essentially a static brochure website. This is the React/Next.js framework overhead. On slower phones, this JavaScript must download, parse, and execute before the page becomes fully interactive.",
+      "category": "speed",
+      "severity": "medium",
+      "fixEffort": "major",
+      "recommendation": "For a static HVAC website, consider migrating to a lighter framework like Astro which ships zero JavaScript by default. This would cut load time significantly on mobile devices."
+    }
+  ],
+
+  "scoreBreakdown": {
+    "trust": {
+      "score": 30,
+      "maxScore": 100,
+      "issues": "Review count mismatch in schema, no license number, no favicon, no OG image, no GBP link, zero security headers, no accessibility"
+    },
+    "business": {
+      "score": 35,
+      "maxScore": 100,
+      "issues": "No financing page, no pricing info, no promotions/coupons, no online booking"
+    },
+    "seo": {
+      "score": 40,
+      "maxScore": 100,
+      "issues": "4 URL variants serve duplicate content, deprecated FAQPage schema, no BreadcrumbList, sitemap has deprecated fields, thin site footprint"
+    },
+    "leadCapture": {
+      "score": 45,
+      "maxScore": 100,
+      "issues": "No online booking, basic contact form, no special offers, no chat widget"
+    },
+    "content": {
+      "score": 25,
+      "maxScore": 100,
+      "issues": "No blog, only 20 pages, no pricing content, homepage only 1,130 words"
+    },
+    "speed": {
+      "score": 55,
+      "maxScore": 100,
+      "issues": "Unoptimized JPEGs, 324 KB JS payload, unnecessary preloads. Positives: Cloudflare CDN, fast TTFB, under 1 MB total"
+    },
+    "tracking": {
+      "score": 0,
+      "maxScore": 100,
+      "issues": "Zero analytics, zero call tracking, zero conversion tracking. Completely blind."
+    }
+  },
+
+  "positives": [
+    "HTTPS/SSL certificate is valid",
+    "Phone number is clickable (tel: link) on mobile -- appears 5 times across the page",
+    "Has a contact form on the /contact/ page with name, phone, email, and message fields",
+    "Clear CTA above the fold: 'Call Now' button with phone number",
+    "Good meta title with location and service keywords",
+    "Good meta description with phone number included",
+    "Canonical tag is properly set",
+    "HVACBusiness schema type (correct specific type, not generic LocalBusiness)",
+    "Google Maps embed showing service area",
+    "6 neighborhood/location pages (Downtown Orlando, Winter Park, Dr. Phillips, Lake Nona, College Park, Baldwin Park)",
+    "6 service pages (AC Repair, AC Installation, Heating Repair, Furnace Installation, HVAC Maintenance, Emergency Service)",
+    "Strong 24/7 emergency messaging throughout the site",
+    "Mobile responsive design with proper viewport tag and 10 CSS media queries",
+    "Clean URL structure with logical hierarchy (/services/ac-repair/, /locations/winter-park/)",
+    "All 3 images have descriptive alt text",
+    "Fast server response time (1.57s including full page download via Cloudflare)",
+    "Open Graph tags present for social sharing (title, description, URL)",
+    "areaServed properly listed in schema with 6 neighborhoods"
+  ],
+
+  "prioritizedActionPlan": {
+    "week1_quickWins": [
+      "Install Google Analytics 4 and Google Search Console (tracking, critical)",
+      "Fix URL redirects in Cloudflare: force all traffic to https://acexpertsorlando.net (seo, critical)",
+      "Update schema review count to 82 and rating to 4.9 (trust, critical)",
+      "Remove deprecated FAQPage schema (seo, high)",
+      "Add all 6 security headers via Cloudflare (trust, high)",
+      "Add favicon and OG image (trust, medium)",
+      "Add Florida license number to footer (trust, medium)"
+    ],
+    "week2_moderate": [
+      "Set up online booking system like Housecall Pro (lead-capture, critical)",
+      "Embed live Google Reviews widget showing 20+ reviews (trust, high)",
+      "Add service type dropdown and urgency field to contact form (lead-capture, medium)",
+      "Convert images to WebP and remove extra preloads (speed, medium)",
+      "Add seasonal promotion banner (lead-capture, medium)",
+      "Add 'Leave a Review' link to Google Business Profile (trust, medium)"
+    ],
+    "month1_major": [
+      "Create financing page with payment partner (business, high)",
+      "Add pricing ranges to all service pages (business, medium)",
+      "Add BreadcrumbList schema to all pages (seo, medium)",
+      "Set up call tracking with CallRail or similar (tracking, high)",
+      "Start blog with first 4 Orlando HVAC articles (content, high)"
+    ],
+    "ongoing": [
+      "Publish 2-4 blog posts per month targeting Orlando AC questions (content)",
+      "Expand location pages to cover 10+ more Orlando-area neighborhoods (content)",
+      "Add ARIA accessibility attributes across the site (trust)",
+      "Keep Google review count updated in schema monthly (trust)",
+      "Consider migrating from Next.js to lighter framework for better performance (speed)"
+    ]
+  }
+}

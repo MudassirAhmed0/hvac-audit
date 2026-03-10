@@ -1,0 +1,367 @@
+{
+  "auditDate": "2026-03-09",
+  "businessName": "Henry's Top Notch A/C & Heating Company",
+  "website": "https://henrystopnotch.com",
+  "location": "Houston, TX (West University Place area)",
+  "googleReviews": 49,
+  "googleStars": 4.8,
+  "platform": "WordPress + Elementor (WP Rocket caching, Cloudflare CDN)",
+  "seoPlugin": "Rank Math Pro",
+  "totalScore": 28,
+  "scoreSummary": "This website has serious problems that are actively costing the business phone calls and jobs. A wrong phone number, a fake location (San Francisco instead of Houston), and links pointing to someone else's demo website all make the site look unprofessional or even suspicious to potential customers. The site was clearly built from a template and never fully customized.",
+
+  "siteStructure": {
+    "totalPages": 27,
+    "breakdown": {
+      "mainPages": ["Home", "About Us", "Services", "Reviews", "Contact Us", "Blogs", "Special Offers", "Financing (external link to Synchrony)"],
+      "servicePages": ["Cooling & Heating Installation", "Cooling & Heating Repair", "Cooling & Heating Maintenance"],
+      "serviceAreaPages": ["Houston TX", "Missouri City TX", "Deer Park TX", "Humble TX", "Bellaire TX", "West University Place TX"],
+      "blogPosts": 14
+    }
+  },
+
+  "findings": [
+    {
+      "id": 1,
+      "title": "Wrong phone number showing on the website",
+      "description": "The header bar area shows a phone number (707) 235-2119 which is a Northern California area code -- not Houston. The correct number (281) 386-4840 appears in other places on the page. If a customer calls the wrong number, that is a lost job. The 707 number appears to be leftover from the website template and was never changed.",
+      "category": "business",
+      "severity": "critical",
+      "fixEffort": "quick-win",
+      "recommendation": "Find every place (707) 235-2119 appears on the site and replace it with (281) 386-4840. Check all pages, not just the homepage."
+    },
+    {
+      "id": 2,
+      "title": "Location says 'San Francisco, CA' instead of Houston",
+      "description": "The header bar shows 'San Francisco, CA' as the business location. This is leftover template text that was never updated. Any customer who notices this will immediately question whether this is a legitimate Houston business.",
+      "category": "trust",
+      "severity": "critical",
+      "fixEffort": "quick-win",
+      "recommendation": "Change the location text to the actual Houston-area address (West University Place, TX or Houston, TX)."
+    },
+    {
+      "id": 3,
+      "title": "Wrong email address from template (mwoolf8284@gmail.com)",
+      "description": "The header bar shows 'mwoolf8284@gmail.com' as the contact email. This appears to be the template developer's email, not Henry's business email. The footer has the correct email (henrystopnotchair@live.com). Customer emails sent to the wrong address are lost leads.",
+      "category": "business",
+      "severity": "critical",
+      "fixEffort": "quick-win",
+      "recommendation": "Replace mwoolf8284@gmail.com with henrystopnotchair@live.com everywhere on the site. Even better, set up a professional email like info@henrystopnotch.com."
+    },
+    {
+      "id": 4,
+      "title": "Links pointing to someone else's demo website",
+      "description": "The 'Why Choose Us' section has three links (Quality Assurance, Reliability and Timeliness, Customer Centric Approach) that all point to 'demo.uslocalbiz.org/WoolfMechanical/' -- a completely different HVAC company's demo site. This is a template that was never customized. Customers who click these links leave Henry's site entirely.",
+      "category": "trust",
+      "severity": "critical",
+      "fixEffort": "quick-win",
+      "recommendation": "Update all three links to point to Henry's own pages (services, about us, or contact pages)."
+    },
+    {
+      "id": 5,
+      "title": "Schema markup exposes template origin (AngryFarmer / MurilloConstructionHomes)",
+      "description": "The behind-the-scenes code that Google reads shows the website author as 'AngryFarmer' with a link to 'MurilloConstructionHomes' on uslocalbiz.org. This tells Google this site was built from a mass-produced template, which can hurt trust and rankings.",
+      "category": "seo",
+      "severity": "critical",
+      "fixEffort": "moderate",
+      "recommendation": "Update the Rank Math schema settings to remove the AngryFarmer author, remove the uslocalbiz.org sameAs link, and replace with Henry's actual business owner information."
+    },
+    {
+      "id": 6,
+      "title": "No Google Analytics or any visitor tracking installed",
+      "description": "There is no Google Analytics, Google Tag Manager, Facebook Pixel, or any other tracking code on the website. This means the business has zero data on how many people visit the site, which pages they look at, or where they come from. Without this data, there is no way to measure if any marketing is working.",
+      "category": "tracking",
+      "severity": "critical",
+      "fixEffort": "quick-win",
+      "recommendation": "Install Google Analytics 4 (GA4) and Google Search Console immediately. These are free tools that show exactly how customers find and use the website."
+    },
+    {
+      "id": 7,
+      "title": "No online booking or scheduling option",
+      "description": "There is no way for customers to book an appointment online. Modern HVAC customers, especially younger homeowners, expect to be able to schedule service without making a phone call. Every competitor with online booking has an advantage.",
+      "category": "lead-capture",
+      "severity": "high",
+      "fixEffort": "moderate",
+      "recommendation": "Add an online scheduling tool (Housecall Pro, Jobber, or even a simple Calendly link). Place 'Book Now' buttons prominently on every page."
+    },
+    {
+      "id": 8,
+      "title": "No Google reviews displayed on the website",
+      "description": "The site uses TrustIndex to show some reviews, but none of the 49 Google reviews (4.8 stars) are displayed on the homepage. The Google review count and star rating are the single most powerful trust signal for HVAC customers, and they are not being used.",
+      "category": "trust",
+      "severity": "high",
+      "fixEffort": "quick-win",
+      "recommendation": "Add a Google Reviews widget to the homepage that shows the 4.8-star rating and actual customer reviews. Display the star count prominently near the phone number."
+    },
+    {
+      "id": 9,
+      "title": "Homepage is extremely heavy (435 KB HTML alone)",
+      "description": "The raw HTML file is 435 KB, which is about 4-5 times larger than it should be. On top of that, there are 45 JavaScript files loading. This means slow page loads, especially on mobile phones with spotty cell service. Houston customers searching for emergency AC repair on a hot day will leave if the page takes too long.",
+      "category": "speed",
+      "severity": "high",
+      "fixEffort": "major",
+      "recommendation": "The Elementor page builder is generating bloated code. Consider cleaning up unused widgets, reducing inline CSS, and optimizing the Elementor output. WP Rocket is installed but the page is still very heavy."
+    },
+    {
+      "id": 10,
+      "title": "Mixed HTTP/HTTPS links throughout the site",
+      "description": "Many internal links use 'http://' instead of 'https://' -- including links to services pages, the homepage, about us, and contact pages in both the main content and footer. While Cloudflare redirects these, each redirect adds loading time and looks sloppy to Google.",
+      "category": "seo",
+      "severity": "high",
+      "fixEffort": "quick-win",
+      "recommendation": "Do a find-and-replace across the entire site changing all 'http://henrystopnotch.com' links to 'https://henrystopnotch.com'. This can be done in WordPress with a search-replace plugin like Better Search Replace."
+    },
+    {
+      "id": 11,
+      "title": "No physical street address shown anywhere",
+      "description": "The site only shows 'West University Place, TX' as a location in the footer. There is no street address. For a service business, showing a physical address builds trust and helps with local SEO. The Google Business Profile likely has an address that should match.",
+      "category": "trust",
+      "severity": "high",
+      "fixEffort": "quick-win",
+      "recommendation": "Add the full business address to the footer and Contact Us page. If the business operates from home, at minimum show the city and zip code."
+    },
+    {
+      "id": 12,
+      "title": "Schema markup is missing phone number, address, and service area",
+      "description": "The LocalBusiness schema (the structured data Google reads) is missing critical fields: telephone, address, areaServed, priceRange, and geo coordinates. The schema also incorrectly lists hours as 9-5 seven days a week when the meta description mentions 24/7 availability.",
+      "category": "seo",
+      "severity": "high",
+      "fixEffort": "moderate",
+      "recommendation": "Update the Rank Math LocalBusiness schema to include: telephone ((281) 386-4840), full address, areaServed (Houston metro cities), priceRange, geo coordinates, and correct business hours. If the business truly offers 24/7 service, the hours should reflect that."
+    },
+    {
+      "id": 13,
+      "title": "No og:image tag -- social shares look blank",
+      "description": "When someone shares the website on Facebook, Twitter, or in a text message, there is no preview image. The og:image meta tag is completely missing. Shared links will show as plain text with no visual, which gets far fewer clicks.",
+      "category": "seo",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Add an og:image tag with a professional image of the business (logo, truck, or team photo). Recommended size is 1200x630 pixels."
+    },
+    {
+      "id": 14,
+      "title": "Viewport meta tag blocks zooming on mobile",
+      "description": "The site has 'user-scalable=no' and 'maximum-scale=1' set, which prevents mobile users from pinching to zoom in. This is an accessibility violation and can hurt mobile usability scores. Some customers, especially older homeowners, need to zoom in to read text or tap buttons.",
+      "category": "seo",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Change the viewport meta tag to: <meta name='viewport' content='width=device-width, initial-scale=1'> -- remove the maximum-scale and user-scalable restrictions."
+    },
+    {
+      "id": 15,
+      "title": "No security headers configured",
+      "description": "The server response is missing all standard security headers: Content-Security-Policy, Strict-Transport-Security, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, and Permissions-Policy. While not visible to customers, this is a ranking factor and leaves the site more vulnerable to attacks.",
+      "category": "seo",
+      "severity": "medium",
+      "fixEffort": "moderate",
+      "recommendation": "Add security headers through Cloudflare (free) or the WordPress hosting panel. At minimum add HSTS and X-Content-Type-Options headers."
+    },
+    {
+      "id": 16,
+      "title": "Financing links to external Synchrony page with no context",
+      "description": "The Financing menu item sends customers directly to Synchrony's generic portal with no explanation. Customers have no idea what financing options are available, what the terms are, or how it works before they leave the site. A dedicated financing page would convert more equipment replacement jobs.",
+      "category": "lead-capture",
+      "severity": "medium",
+      "fixEffort": "moderate",
+      "recommendation": "Create a dedicated financing page on the website that explains payment options, monthly payment examples (e.g., 'New AC system for as low as $89/month'), and then links to the Synchrony application."
+    },
+    {
+      "id": 17,
+      "title": "Blog posts exist but are thin SEO content",
+      "description": "There are 14 blog posts, with the most recent from May 2025. The topics are extremely generic ('What is an HVAC system?', 'What is ductwork installation?') and unlikely to rank for any competitive Houston-area keywords. None target local search terms.",
+      "category": "content",
+      "severity": "medium",
+      "fixEffort": "major",
+      "recommendation": "Write Houston-specific blog content targeting real customer searches: 'How much does AC replacement cost in Houston?', 'Best HVAC companies in West University Place', 'Houston humidity and your AC system'. Each post should be 1,500+ words with local references."
+    },
+    {
+      "id": 18,
+      "title": "Service area pages likely duplicate content",
+      "description": "There are 6 city-specific pages (Houston, Missouri City, Deer Park, Humble, Bellaire, West University Place) but they all appear to use the same template with the same images. If the content is identical with only the city name swapped, Google may flag these as duplicate/thin content and ignore them.",
+      "category": "content",
+      "severity": "medium",
+      "fixEffort": "major",
+      "recommendation": "Each service area page needs unique content about that specific city: local landmarks, common HVAC issues in that neighborhood, mentions of nearby areas, and unique customer testimonials from that city."
+    },
+    {
+      "id": 19,
+      "title": "No emergency or 24/7 messaging visible on the page",
+      "description": "The meta description mentions '24/7 availability' but this is nowhere visible on the actual homepage. Emergency AC/heating service is a huge revenue driver in Houston's extreme heat. If the business offers emergency service, it should be prominently displayed.",
+      "category": "business",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Add a prominent banner or badge saying '24/7 Emergency Service Available' near the phone number. If the business does NOT actually offer 24/7 service, update the meta description to avoid misleading customers."
+    },
+    {
+      "id": 20,
+      "title": "Opening hours in schema say 9-5 but description says 24/7",
+      "description": "The structured data tells Google the business is open Monday-Sunday 9am-5pm, but the meta description says 24/7. This conflicting information confuses Google and can show wrong hours in search results.",
+      "category": "business",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Decide on the actual business hours and make sure the schema, Google Business Profile, and website all match exactly."
+    },
+    {
+      "id": 21,
+      "title": "No Google Maps embed on the site",
+      "description": "There is a Google Maps link in the footer that opens in a new tab, but no embedded map anywhere on the site. An embedded map on the contact page helps customers confirm the business is local and can serve their area.",
+      "category": "trust",
+      "severity": "low",
+      "fixEffort": "quick-win",
+      "recommendation": "Add a Google Maps embed to the Contact Us page showing the business service area or location."
+    },
+    {
+      "id": 22,
+      "title": "Logo image loads over HTTP (not HTTPS)",
+      "description": "The main logo image in the header loads from 'http://henrystopnotch.com/...' instead of 'https://'. This triggers a mixed-content warning and can cause the padlock icon to disappear in some browsers, making the site look insecure.",
+      "category": "trust",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Update the logo image URL in the WordPress Customizer or Elementor header template to use https:// instead of http://."
+    },
+    {
+      "id": 23,
+      "title": "Robots.txt has malformed sitemap URL",
+      "description": "The robots.txt file lists the sitemap as 'https://henrystopnotch.com/?sitemap.xml' with a question mark. While Rank Math may handle this internally, the standard format should be 'https://henrystopnotch.com/sitemap.xml'. This could confuse some search engines.",
+      "category": "seo",
+      "severity": "low",
+      "fixEffort": "quick-win",
+      "recommendation": "Update the robots.txt sitemap reference. This may be a Rank Math setting or a WordPress permalink issue."
+    },
+    {
+      "id": 24,
+      "title": "Homepage uses Article schema instead of proper LocalBusiness page",
+      "description": "The homepage is marked up as an 'Article' in the schema, which is incorrect -- it is a business homepage, not a news article or blog post. This sends the wrong signal to Google about what this page is.",
+      "category": "seo",
+      "severity": "medium",
+      "fixEffort": "moderate",
+      "recommendation": "Remove the Article schema from the homepage. The WebPage and LocalBusiness schemas are sufficient and correct for a homepage."
+    },
+    {
+      "id": 25,
+      "title": "No BreadcrumbList schema on any page",
+      "description": "Breadcrumb navigation schema is missing. Breadcrumbs help Google understand the site structure and can display as enhanced navigation in search results, taking up more visual space.",
+      "category": "seo",
+      "severity": "low",
+      "fixEffort": "quick-win",
+      "recommendation": "Enable BreadcrumbList schema in Rank Math settings. This is usually a one-click toggle."
+    },
+    {
+      "id": 26,
+      "title": "Images in sitemap use HTTP instead of HTTPS",
+      "description": "All image URLs in the XML sitemap reference 'http://' instead of 'https://'. This is a consistency issue that can confuse Google Image indexing.",
+      "category": "seo",
+      "severity": "low",
+      "fixEffort": "quick-win",
+      "recommendation": "Update the WordPress site URL and do a database search-replace to change all http:// image references to https://."
+    },
+    {
+      "id": 27,
+      "title": "Special Offers page exists but is not promoted",
+      "description": "There is a Special Offers page with coupons ($25 off service call, $300 off new system, free second opinion) but these deals are not visible on the homepage. Displaying current promotions on the homepage drives more calls.",
+      "category": "lead-capture",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Add a visible coupon or 'Current Special' callout on the homepage that links to the Special Offers page."
+    },
+    {
+      "id": 28,
+      "title": "No testimonials with customer names or photos",
+      "description": "The Client Testimonials section exists but uses a TrustIndex widget. If these are not verified reviews (Google, Yelp, etc.), they carry less weight with customers. Showing real names, photos, and review sources builds more trust.",
+      "category": "trust",
+      "severity": "low",
+      "fixEffort": "moderate",
+      "recommendation": "Connect TrustIndex to pull directly from Google Reviews so customers can verify the reviews are real."
+    },
+    {
+      "id": 29,
+      "title": "Contact form may exist on Contact page but not on homepage",
+      "description": "There is a MetForm plugin installed (contact form plugin), suggesting a form exists on the Contact Us page. However, the homepage has no contact form -- only phone call buttons. Adding a form to the homepage captures leads who prefer to type rather than call.",
+      "category": "lead-capture",
+      "severity": "medium",
+      "fixEffort": "quick-win",
+      "recommendation": "Add a simple contact form to the homepage (name, phone, service needed, preferred time). Place it near the 'Contact Us today' button."
+    },
+    {
+      "id": 30,
+      "title": "No mention of brands serviced or installed",
+      "description": "The site does not mention any HVAC equipment brands (Trane, Carrier, Lennox, Goodman, etc.). Customers often search for 'Trane repair Houston' or 'Carrier AC installation near me'. Missing brand names means missing these searches entirely.",
+      "category": "content",
+      "severity": "medium",
+      "fixEffort": "moderate",
+      "recommendation": "Add a section showing which brands are serviced and installed. Include brand logos if licensing allows. Create content around specific brand repair/installation."
+    }
+  ],
+
+  "scoreBreakdown": {
+    "trust": {
+      "score": 15,
+      "maxScore": 20,
+      "details": "Wrong phone number, wrong city (San Francisco), wrong email, links to another company's demo site. Multiple critical trust failures that would make a cautious customer leave immediately."
+    },
+    "business": {
+      "score": 8,
+      "maxScore": 15,
+      "details": "Conflicting hours (9-5 vs 24/7), no street address, no emergency messaging despite claiming 24/7 in meta description. Basic business information is inconsistent."
+    },
+    "seo": {
+      "score": 12,
+      "maxScore": 25,
+      "details": "Has Rank Math and basic meta tags, but schema is misconfigured (Article on homepage, missing phone/address/areaServed, template author exposed). Mixed HTTP/HTTPS links. No og:image. Malformed sitemap URL in robots.txt."
+    },
+    "leadCapture": {
+      "score": 8,
+      "maxScore": 15,
+      "details": "Phone number is clickable (the correct one). Has a contact page. But no online booking, no homepage form, special offers hidden, financing goes off-site with no context."
+    },
+    "content": {
+      "score": 10,
+      "maxScore": 15,
+      "details": "Has 14 blog posts and 6 service area pages, but content is generic/thin. No brand mentions. Service area pages likely duplicated. Blog topics are not locally targeted."
+    },
+    "speed": {
+      "score": 5,
+      "maxScore": 10,
+      "details": "435KB HTML, 45 JavaScript files, Elementor bloat. WP Rocket installed but page is still very heavy. Lazy loading is active for images."
+    },
+    "tracking": {
+      "score": 0,
+      "maxScore": 5,
+      "details": "Zero tracking installed. No Google Analytics, no Tag Manager, no conversion tracking. The business is completely blind to website performance."
+    }
+  },
+
+  "prioritizedActionPlan": {
+    "week1_quickWins": [
+      "Fix wrong phone number (707) 235-2119 -> (281) 386-4840",
+      "Fix wrong location San Francisco -> Houston/West University Place",
+      "Fix wrong email mwoolf8284@gmail.com -> henrystopnotchair@live.com",
+      "Fix 3 links pointing to demo.uslocalbiz.org/WoolfMechanical",
+      "Install Google Analytics 4 and Google Search Console",
+      "Replace all http:// internal links with https://",
+      "Add og:image meta tag",
+      "Fix viewport meta tag (remove user-scalable=no)"
+    ],
+    "week2_moderate": [
+      "Fix schema: remove AngryFarmer author, add phone/address/areaServed, fix hours",
+      "Remove Article schema from homepage",
+      "Enable BreadcrumbList schema",
+      "Create dedicated financing page",
+      "Add Google Reviews widget to homepage",
+      "Add contact form to homepage",
+      "Add emergency/24/7 messaging if applicable",
+      "Promote special offers on homepage"
+    ],
+    "month1_major": [
+      "Set up online booking/scheduling system",
+      "Rewrite service area pages with unique local content",
+      "Write Houston-targeted blog content (1,500+ words each)",
+      "Add brand logos and brand-specific service pages",
+      "Optimize page speed (reduce Elementor bloat)",
+      "Add Google Maps embed to Contact page",
+      "Configure security headers via Cloudflare"
+    ]
+  },
+
+  "competitiveContext": "With a 4.8-star rating across 49 Google reviews, Henry's has strong customer satisfaction. However, the website is actively undermining this trust with template leftovers (wrong phone, wrong city, wrong email, links to another company). Fixing just the Week 1 quick wins would likely increase call volume, since customers who currently see the San Francisco address or wrong phone number are bouncing to competitors."
+}
