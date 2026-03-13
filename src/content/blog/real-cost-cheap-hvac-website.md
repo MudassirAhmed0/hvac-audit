@@ -2,7 +2,7 @@
 title: "The Real Cost of a $500 HVAC Website: Lost Leads Add Up"
 description: "A $500 website saves you money upfront and costs you $2,000-5,000/month in missed leads. Here's the math."
 date: 2026-03-07
-lastModified: 2026-03-08
+lastModified: 2026-03-13
 readTime: "8 min read"
 cover: "/blog/cover-cheap.webp"
 ---

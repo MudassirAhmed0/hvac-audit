@@ -3,6 +3,7 @@ title: "How Independent HVAC Companies Compete With $18B Franchise Chains"
 description: "The HVAC franchise industry is worth $18B. Service Experts alone has 80+ locations. Here's how independent contractors compete — and win — against corporate marketing machines."
 date: 2026-03-08
 readTime: "9 min read"
+lastModified: 2026-03-13
 cover: "/blog/cover-compete-franchises.webp"
 ---
 

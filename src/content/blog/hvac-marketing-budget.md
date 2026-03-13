@@ -2,7 +2,7 @@
 title: "How Much Should an HVAC Company Spend on Marketing?"
 description: "Industry benchmarks say 5-10% of revenue. But where should that money go? Here's a channel-by-channel breakdown with real numbers."
 date: 2026-03-07
-lastModified: 2026-03-08
+lastModified: 2026-03-13
 readTime: "9 min read"
 cover: "/blog/cover-budget.webp"
 ---

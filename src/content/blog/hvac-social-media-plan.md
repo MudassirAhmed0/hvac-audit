@@ -3,6 +3,7 @@ title: "Your HVAC Social Posts Reach Other Contractors, Not Homeowners"
 description: "63% of consumers check social media before hiring. But most HVAC social posts reach other contractors, not homeowners. Here's how to fix your targeting, content, and frequency."
 date: 2026-03-08
 readTime: "8 min read"
+lastModified: 2026-03-13
 cover: "/blog/cover-social-media.webp"
 ---
 

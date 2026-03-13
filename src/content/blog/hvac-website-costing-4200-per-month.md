@@ -2,7 +2,7 @@
 title: "Your HVAC Website Is Losing You $4,200 Every Month"
 description: "We broke down exactly where the money goes when your HVAC website has common problems. Slow speed, no SSL, buried phone number — here's the math behind each one."
 date: 2026-02-28
-lastModified: 2026-03-07
+lastModified: 2026-03-13
 readTime: "12 min read"
 cover: "/blog/cover-4200.webp"
 ---

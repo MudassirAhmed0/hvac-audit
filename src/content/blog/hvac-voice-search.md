@@ -3,6 +3,7 @@ title: "27% of Searches Are Voice — Zero HVAC Contractors Are Optimized for It
 description: "76% of voice searchers visit a business within 24 hours. 40.7% of voice answers come from featured snippets. Zero HVAC contractors are optimized for voice search. Here's the playbook."
 date: 2026-03-08
 readTime: "8 min read"
+lastModified: 2026-03-13
 cover: "/blog/cover-voice-search.webp"
 ---
 

@@ -2,7 +2,7 @@
 title: "Your Score: 34. Your Competitor: 91. Guess Who Gets the Call."
 description: "When two HVAC sites show up for the same search, the one that loads faster and looks more trustworthy gets the call. Here's what separates a 34 from a 91."
 date: 2026-03-03
-lastModified: 2026-03-07
+lastModified: 2026-03-13
 readTime: "12 min read"
 cover: "/blog/cover-34vs91.webp"
 ---

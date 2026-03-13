@@ -2,7 +2,7 @@
 title: "Why HVAC Contractors in Texas Are Losing the Local SEO Battle"
 description: "Texas is the most competitive HVAC market in the US. Here's what the top-ranking contractors do that everyone else doesn't."
 date: 2026-03-07
-lastModified: 2026-03-08
+lastModified: 2026-03-13
 readTime: "9 min read"
 cover: "/blog/cover-seotx.webp"
 ---

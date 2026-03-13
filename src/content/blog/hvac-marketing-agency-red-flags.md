@@ -2,7 +2,7 @@
 title: "The HVAC Marketing Agency Checklist: How to Stop Getting Burned"
 description: "Most HVAC contractors have been burned by a marketing agency. Here's a 10-point checklist to vet your next one."
 date: 2026-03-07
-lastModified: 2026-03-08
+lastModified: 2026-03-13
 readTime: "9 min read"
 cover: "/blog/cover-redflag.webp"
 ---

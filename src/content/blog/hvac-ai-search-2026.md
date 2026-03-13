@@ -2,7 +2,7 @@
 title: "AI Search Is Changing How Homeowners Find HVAC Contractors"
 description: "AI Overviews now appear in 50%+ of Google searches. Here's what HVAC contractors need to change to stay visible in 2026 and beyond."
 date: 2026-03-07
-lastModified: 2026-03-08
+lastModified: 2026-03-13
 readTime: "10 min read"
 cover: "/blog/cover-aisearch.webp"
 ---

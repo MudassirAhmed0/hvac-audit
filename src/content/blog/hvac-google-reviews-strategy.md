@@ -2,7 +2,7 @@
 title: "HVAC Review Strategy: How to Get 15+ Google Reviews a Month"
 description: "Only 5-10% of happy customers leave reviews on their own. Here's the system that gets 15+ reviews per month without being pushy."
 date: 2026-03-07
-lastModified: 2026-03-08
+lastModified: 2026-03-13
 readTime: "10 min read"
 cover: "/blog/cover-reviews.webp"
 ---

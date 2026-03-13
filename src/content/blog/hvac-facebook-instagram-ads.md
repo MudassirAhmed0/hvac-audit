@@ -3,6 +3,7 @@ title: "Why HVAC Facebook Ads Burn Money — and the One Setup That Doesn't"
 description: "Most HVAC Facebook ad campaigns lose money because they target awareness instead of intent. The one setup that works: ZIP + homeowner targeting with 5-minute response. Here's the full breakdown."
 date: 2026-03-08
 readTime: "8 min read"
+lastModified: 2026-03-13
 cover: "/blog/cover-fb-ads.webp"
 ---
 

@@ -2,7 +2,7 @@
 title: "Is Your HVAC Website Losing Emergency Calls? The 2.5-Second Test"
 description: "Emergency HVAC calls are your highest-margin jobs. If your site takes over 2.5 seconds to load, you're losing them."
 date: 2026-03-07
-lastModified: 2026-03-08
+lastModified: 2026-03-13
 readTime: "8 min read"
 cover: "/blog/cover-speed.webp"
 ---

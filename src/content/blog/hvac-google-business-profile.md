@@ -2,7 +2,7 @@
 title: "Google Business Profile for HVAC: The Setup Most Get Wrong"
 description: "Your GBP is where most local calls come from. Here's the exact setup that gets HVAC contractors into the Map Pack and keeps them there."
 date: 2026-03-07
-lastModified: 2026-03-08
+lastModified: 2026-03-13
 readTime: "10 min read"
 cover: "/blog/cover-gbp.webp"
 ---

@@ -3,6 +3,7 @@ title: "City Landing Pages for HVAC: How to Rank in Every Area You Serve"
 description: "\"Near me\" searches are up 400% and 76% of those searchers visit a business within 24 hours. Here's how HVAC contractors build city pages that actually rank."
 date: 2026-03-08
 readTime: "9 min read"
+lastModified: 2026-03-13
 cover: "/blog/cover-city-pages.webp"
 ---
 

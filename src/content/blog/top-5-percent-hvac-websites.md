@@ -2,7 +2,7 @@
 title: "What the Top 5% of HVAC Websites Do Differently: A 50-Site Analysis"
 description: "We analyzed 50 HVAC contractor websites. The top performers share 8 traits that the bottom 95% consistently miss."
 date: 2026-03-07
-lastModified: 2026-03-08
+lastModified: 2026-03-13
 readTime: "9 min read"
 cover: "/blog/cover-top5pct.webp"
 ---
