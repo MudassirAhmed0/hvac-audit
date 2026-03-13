@@ -1,5 +1,5 @@
 ---
-title: "Your HVAC Website Doesn't Have Online Booking — Here's What That's Costing You"
+title: "No Online Booking on Your HVAC Website? Here's What It Costs"
 description: "HVAC companies miss 27% of calls and lose $45K-$120K yearly. Online booking captures leads 24/7 — even when no one's answering the phone."
 date: 2026-03-12
 readTime: "10 min read"

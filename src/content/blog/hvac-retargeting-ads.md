@@ -1,5 +1,5 @@
 ---
-title: "95% of HVAC Website Visitors Leave Without Calling — Here's How to Get Them Back"
+title: "95% of HVAC Visitors Leave Without Calling — Get Them Back"
 description: "The average HVAC site converts 2–5% of visitors. Retargeting brings back the other 95% at CPMs 40–60% lower than cold campaigns. Here's the setup that turns lost visitors into booked jobs."
 date: 2026-03-08
 readTime: "8 min read"
