@@ -163,6 +163,8 @@ Typical timeline: **1-2 days** of work. Typical cost: **$300-800** if you hire s
 
 The payback is immediate. The visitors are already there. They're already finding you. They already need HVAC service. You just need to let the page load fast enough for them to call.
 
+If speed is killing your leads, it's rarely the only problem. [See the full diagnostic for HVAC websites not getting calls](/hvac-not-getting-calls/) — speed is usually the first of several issues.
+
 [Get your free speed audit →](/#audit)
 
 ## Keep reading

@@ -200,6 +200,8 @@ No. Landing pages have different content than service pages. Landing pages are c
 
 You'll never send paid traffic to your homepage again.
 
+If your ads are running but leads aren't coming in, the landing page is usually the bottleneck. [See the full diagnostic for when ads aren't working because of your website](/hvac-ads-not-working/).
+
 ## Keep reading
 
 - [5 HVAC Website Pages That Actually Generate Leads](/blog/hvac-website-pages-that-generate-leads/)

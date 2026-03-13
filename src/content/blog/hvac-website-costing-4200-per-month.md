@@ -148,6 +148,8 @@ The ROI is **36x in the first year.** Spend $1,000 to fix the site, recover $50,
 
 3. **Get a professional audit.** We'll run the same 8-point diagnostic from our [147-site study](/blog/hvac-website-audit-147-sites/) on your site — free, no strings attached. You'll get your score, every issue, and the estimated monthly cost of each one.
 
+If your website has these foundational problems, [start with the full diagnostic for HVAC sites that aren't generating calls](/hvac-not-getting-calls/).
+
 [Get your free audit →](/#audit)
 
 ## Keep reading

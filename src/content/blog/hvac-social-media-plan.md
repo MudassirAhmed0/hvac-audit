@@ -163,6 +163,8 @@ When you shift your content from contractor-speak to homeowner-language, your en
 
 The HVAC companies that figured this out aren't posting more. They're posting differently. And the difference is showing up in their call volume every single week.
 
+Social media drives awareness, but if your website isn't showing up in search, you're still invisible. [See the diagnostic for HVAC websites that look great but get no traffic](/hvac-website-good-no-leads/).
+
 ## Keep reading
 
 - [88% of People Buy After Watching a Brand Video — HVAC Companies Don't Make Any](/blog/hvac-video-marketing/)

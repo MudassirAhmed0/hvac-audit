@@ -169,6 +169,8 @@ Monthly revenue recovered: **$1,800+** from speed improvement alone.
 
 That's a payback period of less than two weeks. There is no marketing investment in the HVAC industry with a faster ROI.
 
+Speed is just one of the problems we find. [See the full diagnostic for HVAC websites that aren't getting calls](/hvac-not-getting-calls/) — and the four traps that keep businesses stuck.
+
 ## Keep reading
 
 - [53% of Your Customers Leave Before Your Site Loads](/blog/53-percent-leave-before-site-loads/) — the full breakdown of what slow speed costs you

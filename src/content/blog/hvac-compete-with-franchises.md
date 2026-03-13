@@ -216,6 +216,8 @@ The franchise spends $800,000 to be mediocre everywhere. You can spend $30,000-$
 
 The $18 billion franchise industry is growing. So is the opportunity for independents who refuse to lose on the metrics they can control: speed, trust, transparency, and the human connection that no corporate playbook can replicate.
 
+If your website is better than the franchise down the street but they still outrank you, [the problem is visibility — not the site itself](/hvac-website-good-no-leads/).
+
 ## Keep reading
 
 - [Private Equity Is Coming for Your HVAC Business — Here's What That Means](/blog/hvac-private-equity/)

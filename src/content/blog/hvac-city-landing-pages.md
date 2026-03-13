@@ -223,6 +223,8 @@ The contractors ranking in every city they serve didn't get lucky. They built th
 
 Start with your top five cities this week. The compounding starts the moment Google indexes the first page.
 
+City pages fix one slice of the visibility problem. If your website looks great but still isn't ranking, [see the full diagnostic for invisible HVAC websites](/hvac-website-good-no-leads/).
+
 ## Keep reading
 
 - [Why HVAC Contractors in Texas Are Losing the Local SEO Battle](/blog/hvac-seo-texas/)

@@ -217,6 +217,8 @@ The homeowner who says "Hey Google, find AC repair near me" is choosing a compan
 
 Right now, the door is wide open. Every competitor is ignoring it. The HVAC company that walks through first owns the channel in their market — potentially for years.
 
+Voice search is just one piece of the visibility puzzle. If your site is solid but leads are flat, [see the diagnostic for good HVAC websites that aren't getting found](/hvac-website-good-no-leads/).
+
 ## Keep reading
 
 - [How AI Search Is Changing HVAC Marketing in 2026](/blog/hvac-ai-search-2026/)

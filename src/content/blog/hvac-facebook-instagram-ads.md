@@ -187,6 +187,8 @@ Most HVAC contractors who fail at Facebook ads spend their entire budget on cold
 
 The contractors who skip Facebook entirely are losing a channel that, when properly configured, produces the cheapest leads in HVAC marketing. The contractors who throw $2,000 at boosted posts with no strategy are funding Meta's stock price. The difference between those two outcomes is the setup — and the 5-minute response window that turns a curious click into a booked call.
 
+If your ad spend is climbing but conversions aren't, the problem is usually the website your ads send traffic to. [See the full diagnostic for ads that aren't working](/hvac-ads-not-working/).
+
 ## Keep reading
 
 - [HVAC Google Ads: Why 30% of Your Budget Is Wasted](/blog/hvac-google-ads-waste/)

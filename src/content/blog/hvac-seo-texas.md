@@ -169,6 +169,8 @@ Each market is different, and your strategy should reflect that:
 
 The Texas HVAC market rewards the companies that show up online consistently. The ones that wait, tinker, or depend on word-of-mouth alone will keep losing to the contractors who figured this out first.
 
+If your site looks professional but leads are flat, [the problem may be visibility, not the website](/hvac-website-good-no-leads/).
+
 ## Keep reading
 
 - [Google Business Profile for HVAC Contractors: The Setup Most Get Wrong](/blog/hvac-google-business-profile/)

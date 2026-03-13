@@ -162,6 +162,8 @@ Look at the difference between sites like [Air Tech of Houston](/report/air-tech
 
 The $500 website is the most expensive option. It just doesn't look like it on the invoice.
 
+Even if you upgrade to a proper site, you still need search visibility to generate leads. If the site is solid but traffic is flat, [see the diagnostic for good HVAC websites that nobody finds](/hvac-website-good-no-leads/).
+
 ## Keep reading
 
 - [Your HVAC Website Is Costing You $4,200 Per Month](/blog/hvac-website-costing-4200-per-month/)

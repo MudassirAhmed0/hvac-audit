@@ -182,6 +182,8 @@ Good agencies exist. Here's what separates them from the rest:
 
 They also won't panic if you get a second opinion. A [free website audit](/reports/) is a quick way to verify whether your current agency is actually fixing the problems that cost you leads — or just billing you while they persist.
 
+If you're paying for ads and an agency but leads still aren't coming in, the website itself is often the root cause. [See the diagnostic for when ads aren't working](/hvac-ads-not-working/).
+
 ## Keep reading
 
 - [How Much Should an HVAC Company Spend on Marketing?](/blog/hvac-marketing-budget/)

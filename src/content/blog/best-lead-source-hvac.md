@@ -205,6 +205,8 @@ If you're spending $3,000+ per month on HomeAdvisor or Angi, take half of that a
 
 The data is clear: contractors who invest in owned channels outperform those who rent leads — every time.
 
+No matter which channel you pick, every lead lands on your website. If the site can't convert, [your ads aren't working — and it's a website problem](/hvac-ads-not-working/).
+
 ## Keep reading
 
 - [How Much Should an HVAC Company Spend on Marketing?](/blog/hvac-marketing-budget/)

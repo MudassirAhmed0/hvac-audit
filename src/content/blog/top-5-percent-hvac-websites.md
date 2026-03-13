@@ -186,6 +186,8 @@ The pattern is remarkably consistent:
 
 These sites [cost their owners $2,000-$5,000/month](/blog/real-cost-cheap-hvac-website/) in lost leads. The fixes are known. The ROI is immediate. The barrier is awareness — most contractors don't know what their site is missing until someone shows them.
 
+If your site scores well on design but conversions are low, [see the diagnostic for good-looking HVAC websites that aren't converting](/hvac-website-not-converting/). If your site is solid but nobody finds it, the problem is [visibility, not the website](/hvac-website-good-no-leads/).
+
 ## Keep reading
 
 - [Why Your HVAC Website Isn't Getting Calls: 7 Fixes](/blog/hvac-website-not-getting-calls/)

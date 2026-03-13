@@ -183,6 +183,8 @@ The contractor with the 34-scoring site paid someone $5,000 for a website, appro
 
 Right now, your competitor is getting the calls because they paid attention first. The good news: it's not too late. The checklist above works. The timeline is days, not months. The cost is a fraction of what you're already losing.
 
+The gap between a 34 and a 91 isn't traffic — it's [how well the site converts visitors into calls](/hvac-website-not-converting/). If your site looks professional but leads are flat, the problems are hidden.
+
 [See your score → Get your free audit](/#audit)
 
 ## Keep reading

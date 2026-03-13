@@ -228,6 +228,8 @@ The 6 sites that scored 80+ weren't built by some elite agency charging $50,000.
 
 We'll run the same 8-point audit on your site — free, no strings. You'll get a full report with your score across every category, every issue we find, and what each one is costing you per month.
 
+If these patterns sound familiar, [see the full diagnostic for HVAC websites that aren't getting calls](/hvac-not-getting-calls/) — and find out which of the four traps your business falls into.
+
 [Get your free audit →](/#audit)
 
 ## Keep reading

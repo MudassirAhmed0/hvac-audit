@@ -192,6 +192,8 @@ Here's the emerging factor: [AI search engines](/blog/hvac-ai-search-2026/) like
 
 Businesses with more reviews, higher ratings, and recent activity get recommended more frequently. Your review strategy isn't just for Google anymore — it's for every AI assistant that homeowners are starting to use.
 
+Reviews are one piece of the conversion puzzle. If your site looks great but still isn't converting, [see the full diagnostic for hidden conversion gaps](/hvac-website-not-converting/).
+
 ## Keep reading
 
 - [Google Business Profile for HVAC Contractors: The Setup Most Get Wrong](/blog/hvac-google-business-profile/)

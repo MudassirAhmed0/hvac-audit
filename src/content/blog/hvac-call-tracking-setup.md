@@ -178,6 +178,8 @@ Set up Google's free call tracking this afternoon. It takes 30 minutes. Next mon
 
 And you'll wonder how you ever ran a business without it.
 
+If tracking reveals your ads generate clicks but not calls, your website is the weak link. [See the diagnostic for when ads aren't converting](/hvac-ads-not-working/).
+
 ## Keep reading
 
 - [How Much Should an HVAC Company Spend on Marketing?](/blog/hvac-marketing-budget/)

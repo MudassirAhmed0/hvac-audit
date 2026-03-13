@@ -190,6 +190,8 @@ Your site speed isn't a "nice to have." For emergency services, it's the differe
 
 Every dollar you spend on Google Ads, every hour you invest in [Google Business Profile optimization](/blog/hvac-google-business-profile/), every review you collect — all of it underperforms when your website can't load fast enough to capture the visitor. Speed is the foundation. Fix it first.
 
+If your site fails the 2.5-second test, [see the full diagnostic for HVAC websites not getting calls](/hvac-not-getting-calls/) — speed is usually the first of several problems costing you leads.
+
 ## Keep reading
 
 - [Why Your HVAC Website Isn't Getting Calls: 7 Fixes](/blog/hvac-website-not-getting-calls/)

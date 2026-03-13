@@ -143,6 +143,8 @@ If your website loads in [18.4 seconds](/blog/18-seconds-your-customer-left-afte
 
 The fix isn't complicated. But every week without it is another week those leads go to the company that made it easy to book.
 
+Online booking is one of the biggest conversion gaps on HVAC websites that look professional but aren't converting. [See the full diagnostic](/hvac-website-not-converting/).
+
 ---
 
 ### Keep reading

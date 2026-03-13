@@ -155,6 +155,8 @@ Most HVAC contractors haven't adapted to AI search yet. The ones who add structu
 
 This is an early-mover opportunity. The playbook is clear. The contractors who execute first will capture the leads that others don't even know they're missing.
 
+If your website is well-built but still isn't generating leads, the issue is usually search visibility. [See the full diagnostic for good HVAC websites that nobody finds](/hvac-website-good-no-leads/).
+
 ## Keep reading
 
 - [Google Business Profile for HVAC Contractors: The Setup Most Get Wrong](/blog/hvac-google-business-profile/)
