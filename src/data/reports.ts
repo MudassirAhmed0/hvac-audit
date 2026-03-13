@@ -10,6 +10,8 @@ export interface Gap {
   estimatedMonthlyCost: string;
 }
 
+export type DiagnosticType = "blind-spender" | "pretty-and-broken" | "half-built" | "invisible";
+
 export interface BusinessSummary {
   oneLiner: string;
   topThreeGaps: string[];
@@ -21,6 +23,11 @@ export interface BusinessSummary {
   recommendedFirstProjectPrice: string;
   recommendedFirstProjectTimeline: string;
   growthOpportunity: string;
+  diagnosticType?: DiagnosticType;
+  diagnosticLabel?: string;
+  diagnosticHeadline?: string;
+  diagnosticDescription?: string;
+  websiteQualityScore?: number;
 }
 
 export interface ImpactEstimate {
@@ -45,6 +52,7 @@ export interface Report {
   city: string;
   state: string;
   totalScore: number;
+  websiteQualityScore: number;
   impactEstimate: ImpactEstimate;
   businessSummary: BusinessSummary;
   gapSummary: Gap[];

@@ -9,6 +9,7 @@
     "city": "Dallas",
     "state": "TX",
     "totalScore": 60,
+    "websiteQualityScore": 63,
     "impactEstimate": {
       "monthlyVisitors": 500,
       "bounceReason": "Chrome \"Not Secure\" warning on HTTP links + no contact form + no visible reviews",
@@ -34,7 +35,12 @@
       "recommendedFirstProject": "HTTP does not redirect to HTTPS — some visitors see 'Not Secure' + No contact form",
       "estimatedTotalMonthlyCost": "$9K-$23K",
       "recommendedFirstProjectPrice": "$1,000-$3,000",
-      "recommendedFirstProjectTimeline": "1-2 weeks"
+      "recommendedFirstProjectTimeline": "1-2 weeks",
+      "diagnosticType": "invisible",
+      "diagnosticLabel": "The Hidden Gem",
+      "diagnosticHeadline": "Your site is solid — nobody can find it",
+      "diagnosticDescription": "Your website scores 63/100, well above the 34-point average. But without ads or an SEO strategy, you're invisible. Competitors with worse sites are getting the calls you should be getting.",
+      "websiteQualityScore": 63
     },
     "gapSummary": [
       {
@@ -105,6 +111,7 @@
     "city": "Dallas",
     "state": "TX",
     "totalScore": 60,
+    "websiteQualityScore": 30,
     "impactEstimate": {
       "monthlyVisitors": 1200,
       "bounceReason": "Chrome \"Not Secure\" warning on HTTP links + phone not clickable on mobile + no contact form",
@@ -130,7 +137,12 @@
       "recommendedFirstProject": "Fix phone number not clickable on mobile + phone number mismatch with google business profile",
       "estimatedTotalMonthlyCost": "$38K-$94K",
       "recommendedFirstProjectPrice": "$500-$1,500",
-      "recommendedFirstProjectTimeline": "3-5 days"
+      "recommendedFirstProjectTimeline": "3-5 days",
+      "diagnosticType": "half-built",
+      "diagnosticLabel": "The Money Pit",
+      "diagnosticHeadline": "You're paying for traffic that hits a broken site",
+      "diagnosticDescription": "We detected ad tracking (Facebook Pixel, Call Tracking) on your site, which means you're spending money to drive visitors. But your site scores 30/100, so that traffic is bouncing to competitors. Estimated waste: $38K-$94K/month.",
+      "websiteQualityScore": 30
     },
     "gapSummary": [
       {
@@ -337,6 +349,7 @@
     "city": "Dallas",
     "state": "TX",
     "totalScore": 80,
+    "websiteQualityScore": 70,
     "impactEstimate": {
       "monthlyVisitors": 1500,
       "bounceReason": "7s load time (53% leave after 3s) + Chrome \"Not Secure\" warning on HTTP links + no visible reviews",
@@ -362,7 +375,12 @@
       "recommendedFirstProject": "HTTP does not redirect to HTTPS — some visitors see 'Not Secure' + 3691 Google reviews not displayed on website",
       "estimatedTotalMonthlyCost": "$14K-$34K",
       "recommendedFirstProjectPrice": "$1,000-$3,000",
-      "recommendedFirstProjectTimeline": "1-2 weeks"
+      "recommendedFirstProjectTimeline": "1-2 weeks",
+      "diagnosticType": "pretty-and-broken",
+      "diagnosticLabel": "The Leaky Funnel",
+      "diagnosticHeadline": "Your site looks fine — it's quietly losing you leads",
+      "diagnosticDescription": "You're spending on marketing and your site scores 70/100 — above the 34-point industry average. But 8 hidden issues are killing your conversions. Estimated leak: $14K-$34K/month.",
+      "websiteQualityScore": 70
     },
     "gapSummary": [
       {
@@ -441,6 +459,7 @@
     "city": "Houston",
     "state": "TX",
     "totalScore": 30,
+    "websiteQualityScore": 27,
     "impactEstimate": {
       "monthlyVisitors": 2500,
       "bounceReason": "Chrome \"Not Secure\" warning on HTTP links + phone not clickable on mobile + no contact form",
@@ -466,7 +485,12 @@
       "recommendedFirstProject": "Fix phone number not clickable on mobile + phone number mismatch with google business profile",
       "estimatedTotalMonthlyCost": "$5K-$13K",
       "recommendedFirstProjectPrice": "$500-$1,500",
-      "recommendedFirstProjectTimeline": "3-5 days"
+      "recommendedFirstProjectTimeline": "3-5 days",
+      "diagnosticType": "blind-spender",
+      "diagnosticLabel": "The Blind Spot",
+      "diagnosticHeadline": "You're losing money and don't know where",
+      "diagnosticDescription": "No ads, no tracking, no strategy. Your website has 21 issues silently costing you an estimated $5K-$13K/month. You're not getting calls because your site isn't built to generate them.",
+      "websiteQualityScore": 27
     },
     "gapSummary": [
       {
@@ -649,6 +673,7 @@
     "city": "San Antonio",
     "state": "TX",
     "totalScore": 45,
+    "websiteQualityScore": 51,
     "impactEstimate": {
       "monthlyVisitors": 800,
       "bounceReason": "Chrome \"Not Secure\" warning on HTTP links + no contact form + no visible reviews",
@@ -674,7 +699,12 @@
       "recommendedFirstProject": "HTTP does not redirect to HTTPS — some visitors see 'Not Secure' + No contact form",
       "estimatedTotalMonthlyCost": "$2K-$5K",
       "recommendedFirstProjectPrice": "$1,000-$3,000",
-      "recommendedFirstProjectTimeline": "1-2 weeks"
+      "recommendedFirstProjectTimeline": "1-2 weeks",
+      "diagnosticType": "invisible",
+      "diagnosticLabel": "The Hidden Gem",
+      "diagnosticHeadline": "Your site is solid — nobody can find it",
+      "diagnosticDescription": "Your website scores 51/100, well above the 34-point average. But without ads or an SEO strategy, you're invisible. Competitors with worse sites are getting the calls you should be getting.",
+      "websiteQualityScore": 51
     },
     "gapSummary": [
       {
@@ -825,6 +855,7 @@
     "city": "Austin",
     "state": "TX",
     "totalScore": 50,
+    "websiteQualityScore": 38,
     "impactEstimate": {
       "monthlyVisitors": 350,
       "bounceReason": "Chrome \"Not Secure\" warning on HTTP links + phone not clickable on mobile + no contact form",
@@ -850,7 +881,12 @@
       "recommendedFirstProject": "Fix phone number not clickable on mobile",
       "estimatedTotalMonthlyCost": "$30K-$75K",
       "recommendedFirstProjectPrice": "$500-$1,500",
-      "recommendedFirstProjectTimeline": "3-5 days"
+      "recommendedFirstProjectTimeline": "3-5 days",
+      "diagnosticType": "blind-spender",
+      "diagnosticLabel": "The Blind Spot",
+      "diagnosticHeadline": "You're losing money and don't know where",
+      "diagnosticDescription": "No ads, no tracking, no strategy. Your website has 17 issues silently costing you an estimated $30K-$75K/month. You're not getting calls because your site isn't built to generate them.",
+      "websiteQualityScore": 38
     },
     "gapSummary": [
       {
@@ -1001,6 +1037,7 @@
     "city": "Phoenix",
     "state": "AZ",
     "totalScore": 60,
+    "websiteQualityScore": 74,
     "impactEstimate": {
       "monthlyVisitors": 800,
       "bounceReason": "Chrome \"Not Secure\" warning on HTTP links",
@@ -1026,7 +1063,12 @@
       "recommendedFirstProject": "Fix phone number mismatch with google business profile",
       "estimatedTotalMonthlyCost": "$5K-$11K",
       "recommendedFirstProjectPrice": "$500-$1,500",
-      "recommendedFirstProjectTimeline": "3-5 days"
+      "recommendedFirstProjectTimeline": "3-5 days",
+      "diagnosticType": "invisible",
+      "diagnosticLabel": "The Hidden Gem",
+      "diagnosticHeadline": "Your site is solid — nobody can find it",
+      "diagnosticDescription": "Your website scores 74/100, well above the 34-point average. But without ads or an SEO strategy, you're invisible. Competitors with worse sites are getting the calls you should be getting.",
+      "websiteQualityScore": 74
     },
     "gapSummary": [
       {
@@ -1145,6 +1187,7 @@
     "city": "Tampa",
     "state": "FL",
     "totalScore": 60,
+    "websiteQualityScore": 70,
     "impactEstimate": {
       "monthlyVisitors": 1200,
       "bounceReason": "4.3s load time (53% leave after 3s)",
@@ -1170,7 +1213,12 @@
       "recommendedFirstProject": "No emergency/24-7 messaging + No financing page for $5k-$15k replacements",
       "estimatedTotalMonthlyCost": "$11K-$26K",
       "recommendedFirstProjectPrice": "$1,000-$3,000",
-      "recommendedFirstProjectTimeline": "1-2 weeks"
+      "recommendedFirstProjectTimeline": "1-2 weeks",
+      "diagnosticType": "invisible",
+      "diagnosticLabel": "The Hidden Gem",
+      "diagnosticHeadline": "Your site is solid — nobody can find it",
+      "diagnosticDescription": "Your website scores 70/100, well above the 34-point average. But without ads or an SEO strategy, you're invisible. Competitors with worse sites are getting the calls you should be getting.",
+      "websiteQualityScore": 70
     },
     "gapSummary": [
       {
@@ -1265,6 +1313,7 @@
     "city": "Houston",
     "state": "TX",
     "totalScore": 70,
+    "websiteQualityScore": 40,
     "impactEstimate": {
       "monthlyVisitors": 500,
       "bounceReason": "Chrome \"Not Secure\" warning on HTTP links + phone not clickable on mobile + no contact form",
@@ -1290,7 +1339,12 @@
       "recommendedFirstProject": "Fix phone number not clickable on mobile",
       "estimatedTotalMonthlyCost": "$35K-$86K",
       "recommendedFirstProjectPrice": "$500-$1,500",
-      "recommendedFirstProjectTimeline": "3-5 days"
+      "recommendedFirstProjectTimeline": "3-5 days",
+      "diagnosticType": "half-built",
+      "diagnosticLabel": "The Money Pit",
+      "diagnosticHeadline": "You're paying for traffic that hits a broken site",
+      "diagnosticDescription": "We detected ad tracking (GA4, GTM, Facebook Pixel, Call Tracking) on your site, which means you're spending money to drive visitors. But your site scores 40/100, so that traffic is bouncing to competitors. Estimated waste: $35K-$86K/month.",
+      "websiteQualityScore": 40
     },
     "gapSummary": [
       {

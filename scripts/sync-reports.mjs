@@ -42,6 +42,109 @@ const LICENSE_TEXT = {
   FL: "Florida requires state contractor licensing for HVAC work. Not showing the license number makes the business look less legitimate than competitors who display theirs.",
 };
 
+// ── Website Quality Score (mirrors hvac.ts calculateWebsiteQualityScore) ─
+function calculateWebsiteQualityScore(audit) {
+  if (audit.websiteQualityScore) return audit.websiteQualityScore;
+
+  const speed = audit.pageSpeedSeconds ?? 20;
+  const speedScore = Math.max(0, 20 - Math.min(20, (speed - 2) * 2));
+
+  let trust = 0;
+  if (audit.hasSsl) trust += 5;
+  if (audit.httpRedirectsToHttps) trust += 5;
+  if (audit.hasLicenseNumber) trust += 5;
+  if (audit.hasReviewsOnSite) trust += 5;
+
+  let leadCapture = 0;
+  if (audit.hasClearCtaAboveFold) leadCapture += 5;
+  if (audit.hasClickToCall) leadCapture += 5;
+  if (audit.hasBookingWidget) leadCapture += 5;
+  if (audit.hasContactForm) leadCapture += 5;
+  if (audit.hasAfterHoursCapture) leadCapture += 5;
+
+  let seo = 0;
+  if (audit.hasMetaTitle && audit.hasMetaDescription) seo += 5;
+  if (audit.hasLocalBusinessSchema) seo += 5;
+  if (audit.hasXmlSitemap) seo += 5;
+
+  let content = 0;
+  if (audit.serviceAreaPageCount > 0) content += 5;
+  if (audit.hasAboutPage) content += 5;
+
+  let mobile = 0;
+  if (audit.hasStickyContactOnMobile) mobile += 10;
+
+  return Math.round(speedScore + trust + leadCapture + seo + content + mobile);
+}
+
+// ── Diagnostic Type Detection ──────────────────────────────────────
+const DIAGNOSTIC_CONFIG = {
+  "blind-spender": {
+    label: "The Blind Spot",
+    headline: "You're losing money and don't know where",
+    description: "No ads, no tracking, no strategy. Your website has {gapCount} issues silently costing you an estimated {monthlyCost}/month. You're not getting calls because your site isn't built to generate them.",
+  },
+  "pretty-and-broken": {
+    label: "The Leaky Funnel",
+    headline: "Your site looks fine — it's quietly losing you leads",
+    description: "You're spending on marketing and your site scores {score}/100 — above the 34-point industry average. But {gapCount} hidden issues are killing your conversions. Estimated leak: {monthlyCost}/month.",
+  },
+  "half-built": {
+    label: "The Money Pit",
+    headline: "You're paying for traffic that hits a broken site",
+    description: "We detected ad tracking ({adSignal}) on your site, which means you're spending money to drive visitors. But your site scores {score}/100, so that traffic is bouncing to competitors. Estimated waste: {monthlyCost}/month.",
+  },
+  "invisible": {
+    label: "The Hidden Gem",
+    headline: "Your site is solid — nobody can find it",
+    description: "Your website scores {score}/100, well above the 34-point average. But without ads or an SEO strategy, you're invisible. Competitors with worse sites are getting the calls you should be getting.",
+  },
+};
+
+function detectDiagnosticType(audit, qualityScore) {
+  const isRunningAds = audit.isRunningPaidAds || audit.adSpendSignal === "heavy-spender" || audit.adSpendSignal === "likely-running-ads";
+  const isDecentSite = qualityScore >= 50;
+
+  if (isRunningAds && isDecentSite) return "pretty-and-broken";
+  if (isRunningAds && !isDecentSite) return "half-built";
+  if (!isRunningAds && isDecentSite) return "invisible";
+  return "blind-spender";
+}
+
+function buildDiagnosticFields(audit, qualityScore) {
+  // If the audit already has diagnostic fields from a re-audit, use them
+  if (audit.businessSummary?.diagnosticType) {
+    return {
+      diagnosticType: audit.businessSummary.diagnosticType,
+      diagnosticLabel: audit.businessSummary.diagnosticLabel,
+      diagnosticHeadline: audit.businessSummary.diagnosticHeadline,
+      diagnosticDescription: audit.businessSummary.diagnosticDescription,
+    };
+  }
+
+  const type = detectDiagnosticType(audit, qualityScore);
+  const config = DIAGNOSTIC_CONFIG[type];
+  const adSignalText = audit.detectedPixels?.length > 0
+    ? audit.detectedPixels.join(", ")
+    : audit.adSpendSignal || "none";
+
+  const gapCount = audit.gapSummary?.length || 0;
+  const monthlyCost = audit.businessSummary?.estimatedTotalMonthlyCost || "thousands";
+
+  const description = config.description
+    .replace("{gapCount}", String(gapCount))
+    .replace("{monthlyCost}", monthlyCost)
+    .replace("{score}", String(qualityScore))
+    .replace("{adSignal}", adSignalText);
+
+  return {
+    diagnosticType: type,
+    diagnosticLabel: config.label,
+    diagnosticHeadline: config.headline,
+    diagnosticDescription: description,
+  };
+}
+
 // ── Impact estimate calculation (mirrors hvac.ts calculateRevenueImpact) ─
 function buildImpactEstimate(audit, lead) {
   let lostLeads = 0;
@@ -180,6 +283,9 @@ async function main() {
     const domain = extractDomain(row.website);
     const slug = slugify(row.name);
 
+    const qualityScore = calculateWebsiteQualityScore(audit);
+    const diagnostic = buildDiagnosticFields(audit, qualityScore);
+
     return {
       slug,
       name: row.name,
@@ -190,8 +296,13 @@ async function main() {
       city: row.city,
       state: row.state,
       totalScore: row.total_score,
+      websiteQualityScore: qualityScore,
       impactEstimate: buildImpactEstimate(audit, row),
-      businessSummary: audit.businessSummary,
+      businessSummary: {
+        ...audit.businessSummary,
+        ...diagnostic,
+        websiteQualityScore: qualityScore,
+      },
       gapSummary: fixGaps(audit.gapSummary, row.state),
     };
   });

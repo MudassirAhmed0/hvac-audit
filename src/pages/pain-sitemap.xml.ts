@@ -1,4 +1,6 @@
 import type { APIRoute } from "astro";
+import { painPages } from "../data/pain-pages";
+import marketData from "../data/market-data.json";
 
 export const GET: APIRoute = async ({ site }) => {
   const siteUrl =
@@ -6,12 +8,22 @@ export const GET: APIRoute = async ({ site }) => {
     site?.href?.replace(/\/$/, "") ||
     "https://hvacaudit.co";
 
-  const urls = [
-    { loc: `${siteUrl}/`, lastmod: "2026-03-13" },
-    { loc: `${siteUrl}/about/`, lastmod: "2026-03-07" },
-    { loc: `${siteUrl}/privacy/`, lastmod: "2026-01-15" },
-    { loc: `${siteUrl}/terms/`, lastmod: "2026-01-15" },
-  ];
+  const urls: { loc: string; lastmod: string }[] = [];
+
+  // Parent pain pages
+  for (const page of painPages) {
+    urls.push({ loc: `${siteUrl}/${page.slug}/`, lastmod: "2026-03-13" });
+  }
+
+  // City variant pages (pain × city)
+  for (const page of painPages) {
+    for (const city of marketData.cities) {
+      urls.push({
+        loc: `${siteUrl}/${page.slug}/${city.slug}/`,
+        lastmod: "2026-03-13",
+      });
+    }
+  }
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>

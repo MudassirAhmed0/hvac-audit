@@ -1,0 +1,487 @@
+---
+import Base from "../../layouts/Base.astro";
+import CTAForm from "../../components/CTAForm.astro";
+import { painPages, type PainPage } from "../../data/pain-pages";
+import { reports, severityColors, type Report } from "../../data/reports";
+import marketData from "../../data/market-data.json";
+
+interface CityData {
+  city: string;
+  state: string;
+  stateName: string;
+  slug: string;
+  totalLeads: number;
+  deepAudited: number;
+  avgSpeed: number;
+  avgDeepScore: number;
+  medianDeepScore: number;
+  bookingRate: number;
+  sslRate: number;
+  reviewsDisplayedRate: number;
+  ctaRate: number;
+  contactFormRate: number;
+  mobileRate: number;
+  seoRate: number;
+  topGaps: { gap: string; frequency: number; count: number; severity: string; category: string }[];
+  vsNational: { speedDelta: number; bookingDelta: number; sslDelta: number; reviewsDelta: number; scoreDelta: number };
+  vsState: { speedDelta: number; bookingDelta: number; sslDelta: number; reviewsDelta: number; scoreDelta: number };
+  nearbyCities: { city: string; state: string; slug: string; totalLeads: number; avgDeepScore: number }[];
+}
+
+export function getStaticPaths() {
+  const paths: any[] = [];
+  for (const page of painPages) {
+    for (const city of (marketData.cities as CityData[])) {
+      paths.push({
+        params: { pain: page.slug, city: city.slug },
+        props: { page, city },
+      });
+    }
+  }
+  return paths;
+}
+
+const { page, city } = Astro.props as { page: PainPage; city: CityData };
+
+// Reports matching both diagnostic type AND city
+const matchingReports = reports.filter(
+  (r) =>
+    r.businessSummary?.diagnosticType === page.diagnosticType &&
+    r.city === city.city &&
+    r.state === city.state
+);
+
+// All reports in this city (for general context)
+const cityReports = reports.filter((r) => r.city === city.city && r.state === city.state);
+
+const siteUrl = import.meta.env.SITE_URL || "https://hvacaudit.co";
+const pageUrl = `${siteUrl}/${page.slug}/${city.slug}/`;
+const parentUrl = `${siteUrl}/${page.slug}/`;
+const stateData = marketData.states.find((s: any) => s.state === city.state);
+
+// City-specific headline generation
+const cityHeadlines: Record<string, { h1: string; subtitle: string }> = {
+  "blind-spender": {
+    h1: `${city.city} HVAC websites\naverage ${city.avgDeepScore}/100.`,
+    subtitle: `We audited ${city.deepAudited} HVAC company websites in ${city.city}, ${city.state}. If your phone isn't ringing, your website has problems you can't see — and ${city.city} companies score ${city.vsNational.scoreDelta >= 0 ? city.vsNational.scoreDelta + " points above" : Math.abs(city.vsNational.scoreDelta) + " points below"} the national average.`,
+  },
+  "pretty-and-broken": {
+    h1: `${city.city} HVAC websites look good.\nThey're still losing leads.`,
+    subtitle: `Only ${Math.round(city.bookingRate * 100)}% of ${city.city} HVAC websites have online booking. If your site looks professional but isn't converting, hidden gaps are costing you — and ${city.city} has specific patterns we see over and over.`,
+  },
+  "half-built": {
+    h1: `${city.city} HVAC companies\nare wasting ad spend.`,
+    subtitle: `With an average site score of ${city.avgDeepScore}/100, ${city.city} HVAC websites are sending paid traffic to broken experiences. Every click that bounces is money wasted — and ${city.city} companies have specific issues driving that waste.`,
+  },
+  "invisible": {
+    h1: `Good ${city.city} HVAC websites\nthat nobody finds.`,
+    subtitle: `${city.city} HVAC websites score ${city.avgDeepScore}/100 on average. Some are well above that — but without SEO, ads, or local optimization, even a solid site gets zero visibility in a market with ${city.totalLeads}+ competitors.`,
+  },
+};
+
+const headlines = cityHeadlines[page.diagnosticType];
+
+// City-specific stats
+const cityStats = {
+  "blind-spender": { stat: `${city.avgDeepScore}`, label: `avg ${city.city} HVAC site score` },
+  "pretty-and-broken": { stat: `${Math.round(city.bookingRate * 100)}%`, label: `have online booking in ${city.city}` },
+  "half-built": { stat: `${city.avgDeepScore}/100`, label: `avg score in ${city.city}` },
+  "invisible": { stat: `${city.totalLeads}+`, label: `HVAC competitors in ${city.city}` },
+};
+const heroStat = cityStats[page.diagnosticType];
+
+// Title and meta
+const title = `${page.title.split("|")[0].trim()} in ${city.city}, ${city.state} | HVAC Audit`;
+const metaDescription = `${city.city}, ${city.state} HVAC websites average ${city.avgDeepScore}/100. ${page.metaDescription.split(".").slice(0, 2).join(".")}.`;
+
+// JSON-LD
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: title,
+    description: metaDescription,
+    url: pageUrl,
+    publisher: { "@type": "Organization", name: "HVAC Audit", url: siteUrl },
+    author: {
+      "@type": "Person",
+      name: "Mudassir Ahmed",
+      url: `${siteUrl}/about/`,
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: page.h1.split("\n")[0], item: parentUrl },
+      { "@type": "ListItem", position: 3, name: `${city.city}, ${city.state}`, item: pageUrl },
+    ],
+  },
+];
+
+// Diagnostic type colors
+const typeColors: Record<string, { accent: string; accentBg: string; accentBorder: string }> = {
+  "blind-spender": { accent: "text-red-400", accentBg: "bg-red-500/10", accentBorder: "border-red-500/20" },
+  "pretty-and-broken": { accent: "text-orange-400", accentBg: "bg-orange-500/10", accentBorder: "border-orange-500/20" },
+  "half-built": { accent: "text-yellow-400", accentBg: "bg-yellow-500/10", accentBorder: "border-yellow-500/20" },
+  "invisible": { accent: "text-sky-400", accentBg: "bg-sky-500/10", accentBorder: "border-sky-500/20" },
+};
+const colors = typeColors[page.diagnosticType] || typeColors["blind-spender"];
+
+// Top 5 gaps for this city
+const topCityGaps = city.topGaps.slice(0, 5);
+
+// Comparison helpers
+function deltaLabel(delta: number, unit: string, inverse = false): string {
+  if (delta === 0) return `Same as national avg`;
+  const better = inverse ? delta < 0 : delta > 0;
+  const abs = Math.abs(delta);
+  const formatted = unit === "%" ? `${Math.round(abs * 100)}%` : unit === "s" ? `${abs}s` : `${abs}`;
+  return `${formatted} ${better ? "better" : "worse"} than national avg`;
+}
+---
+
+<Base title={title} description={metaDescription} jsonLd={jsonLd}>
+  <!-- Hero -->
+  <section class="relative pt-28 pb-16 sm:pt-36 sm:pb-20 px-6 md:px-12 lg:px-16">
+    <div class="absolute top-0 right-0 w-1/2 h-full opacity-[0.03] pointer-events-none"
+      style="background: radial-gradient(ellipse at 70% 30%, #0ea5e9, transparent 70%);"
+      aria-hidden="true">
+    </div>
+
+    <div class="relative z-10">
+      <!-- Breadcrumb -->
+      <nav class="hero-reveal text-xs text-ink-muted font-mono mb-8 flex items-center gap-2 flex-wrap" aria-label="Breadcrumb">
+        <a href="/" class="hover:text-accent transition-colors">Home</a>
+        <span aria-hidden="true">/</span>
+        <a href={`/${page.slug}/`} class="hover:text-accent transition-colors">{page.h1.split("\n")[0]}</a>
+        <span aria-hidden="true">/</span>
+        <span class="text-ink-secondary">{city.city}, {city.state}</span>
+      </nav>
+
+      <div class="hero-reveal">
+        <p class={`text-xs font-mono tracking-widest uppercase ${colors.accent} flex items-center gap-2 mb-6`}>
+          <span class={`w-1.5 h-1.5 rounded-full ${colors.accentBg.replace('/10', '')}`}></span>
+          {city.city}, {city.state} HVAC Diagnostic
+        </p>
+        {headlines.h1.split("\n").map((line, i) => (
+          <span
+            class={`hero-reveal block text-[clamp(2rem,5vw,4rem)] font-bold leading-[0.95] tracking-tight ${i > 0 ? "text-ink-secondary" : ""}`}
+            style={`--delay: ${(i + 1) * 100}ms`}
+          >
+            {line}
+          </span>
+        ))}
+      </div>
+
+      <p class="hero-reveal mt-8 text-base md:text-lg text-ink-secondary leading-relaxed max-w-2xl" style="--delay: 300ms">
+        {headlines.subtitle}
+      </p>
+
+      <div class="hero-reveal mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-6" style="--delay: 400ms">
+        <a
+          href="#audit"
+          class="inline-flex items-center gap-3 px-7 py-3.5 rounded-full bg-accent text-[#0b1220] text-sm font-semibold hover:bg-accent-hover transition-colors duration-300"
+        >
+          Get Your Free Diagnostic
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+        <div class={`flex items-center gap-3 rounded-lg ${colors.accentBg} px-4 py-2.5`}>
+          <span class={`text-2xl font-bold font-mono ${colors.accent}`}>{heroStat.stat}</span>
+          <span class="text-xs text-ink-muted font-mono">{heroStat.label}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- City Data Snapshot -->
+  <section class="py-16 sm:py-24 px-6 md:px-12 lg:px-16 border-t border-rule bg-surface-alt/50">
+    <h2 class="text-2xl sm:text-4xl font-bold tracking-tight leading-[0.95]" data-reveal>
+      {city.city} HVAC Website Data
+    </h2>
+    <p class="mt-4 text-ink-secondary leading-relaxed max-w-2xl" data-reveal style="--delay:80ms">
+      Based on our audit of {city.deepAudited} HVAC company websites in {city.city}, {city.stateName}.
+    </p>
+
+    <div class="mt-10 grid grid-cols-2 md:grid-cols-3 gap-4" data-reveal style="--delay:160ms">
+      <div class="rounded-xl border border-rule bg-surface px-5 py-5">
+        <span class={`text-3xl font-bold font-mono ${city.avgDeepScore >= 50 ? "text-warning" : "text-danger"}`}>{city.avgDeepScore}</span>
+        <span class="text-sm text-ink-muted font-mono">/100</span>
+        <p class="text-xs text-ink-muted mt-1.5 font-mono uppercase tracking-widest">Avg Site Score</p>
+        <p class="text-[10px] text-ink-muted mt-1">{city.vsNational.scoreDelta >= 0 ? "+" : ""}{city.vsNational.scoreDelta} vs national</p>
+      </div>
+      <div class="rounded-xl border border-rule bg-surface px-5 py-5">
+        <span class="text-3xl font-bold font-mono text-ink">{Math.round(city.bookingRate * 100)}%</span>
+        <p class="text-xs text-ink-muted mt-1.5 font-mono uppercase tracking-widest">Online Booking</p>
+        <p class="text-[10px] text-ink-muted mt-1">{Math.round(city.vsNational.bookingDelta * 100) >= 0 ? "+" : ""}{Math.round(city.vsNational.bookingDelta * 100)}% vs national</p>
+      </div>
+      <div class="rounded-xl border border-rule bg-surface px-5 py-5">
+        <span class="text-3xl font-bold font-mono text-ink">{Math.round(city.sslRate * 100)}%</span>
+        <p class="text-xs text-ink-muted mt-1.5 font-mono uppercase tracking-widest">SSL Secured</p>
+        <p class="text-[10px] text-ink-muted mt-1">{Math.round(city.vsNational.sslDelta * 100) >= 0 ? "+" : ""}{Math.round(city.vsNational.sslDelta * 100)}% vs national</p>
+      </div>
+      <div class="rounded-xl border border-rule bg-surface px-5 py-5">
+        <span class="text-3xl font-bold font-mono text-ink">{Math.round(city.reviewsDisplayedRate * 100)}%</span>
+        <p class="text-xs text-ink-muted mt-1.5 font-mono uppercase tracking-widest">Show Reviews</p>
+      </div>
+      <div class="rounded-xl border border-rule bg-surface px-5 py-5">
+        <span class="text-3xl font-bold font-mono text-ink">{Math.round(city.contactFormRate * 100)}%</span>
+        <p class="text-xs text-ink-muted mt-1.5 font-mono uppercase tracking-widest">Contact Form</p>
+      </div>
+      <div class="rounded-xl border border-rule bg-surface px-5 py-5">
+        <span class="text-3xl font-bold font-mono text-ink">{city.totalLeads}</span>
+        <p class="text-xs text-ink-muted mt-1.5 font-mono uppercase tracking-widest">Companies Audited</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Top Gaps in This City -->
+  <section class="py-16 sm:py-24 px-6 md:px-12 lg:px-16 border-t border-rule">
+    <h2 class="text-2xl sm:text-4xl font-bold tracking-tight" data-reveal>
+      Top Issues We Find in {city.city}
+    </h2>
+    <p class="mt-4 text-ink-secondary leading-relaxed max-w-2xl" data-reveal style="--delay:80ms">
+      These are the most common problems across {city.city} HVAC websites — and they're directly tied to why businesses {page.diagnosticType === "blind-spender" ? "aren't getting calls" : page.diagnosticType === "pretty-and-broken" ? "aren't converting" : page.diagnosticType === "half-built" ? "are wasting ad spend" : "can't be found"}.
+    </p>
+
+    <div class="mt-10 space-y-0">
+      {topCityGaps.map((gap, i) => {
+        const sevColors = severityColors[gap.severity as keyof typeof severityColors] || severityColors.medium;
+        return (
+          <div
+            class="border-t border-rule-light py-8 md:py-10"
+            data-reveal
+            style={`--delay: ${i * 80}ms`}
+          >
+            <div class="flex flex-col md:flex-row md:items-start gap-6 md:gap-12">
+              <div class="flex items-start gap-5 md:w-1/3 shrink-0">
+                <div class="flex flex-col items-center gap-3 pt-1">
+                  <span class="text-[10px] font-mono text-ink-muted">0{i + 1}</span>
+                  <div class={`w-0.5 h-8 rounded-full ${sevColors.dot}`}></div>
+                </div>
+                <div>
+                  <span class={`text-3xl md:text-4xl font-bold tracking-tight ${sevColors.text}`}>
+                    {Math.round(gap.frequency * 100)}%
+                  </span>
+                  <span class="block text-sm font-medium text-ink mt-1">{gap.gap}</span>
+                </div>
+              </div>
+              <div class="md:w-2/3 max-w-xl">
+                <p class="text-ink-secondary text-base leading-relaxed">
+                  {gap.count} of {city.deepAudited} {city.city} HVAC websites have this issue.
+                  {gap.severity === "critical" ? " This is a critical problem that directly costs leads." : gap.severity === "high" ? " This is a high-impact issue affecting conversions." : " This is a common gap in the market."}
+                </p>
+                <div class="mt-2 flex items-center gap-3">
+                  <span class={`inline-flex items-center gap-1.5 text-xs font-mono ${sevColors.text} ${sevColors.bg} rounded-md px-2 py-0.5`}>
+                    <span class={`w-1 h-1 rounded-full ${sevColors.dot}`}></span>
+                    {gap.severity}
+                  </span>
+                  <span class="text-xs text-ink-muted font-mono">{gap.category}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+      })}
+      <div class="border-t border-rule-light"></div>
+    </div>
+  </section>
+
+  <!-- What We Find (from pain page data) -->
+  <section class="py-16 sm:py-24 px-6 md:px-12 lg:px-16 border-t border-rule bg-surface-alt/50">
+    <h2 class="text-2xl sm:text-4xl font-bold tracking-tight leading-[0.95]" data-reveal>
+      {page.sections.whatWeFind.heading.replace("HVAC", `${city.city} HVAC`)}
+    </h2>
+    <p class="mt-4 text-ink-secondary leading-relaxed max-w-2xl" data-reveal style="--delay:80ms">
+      {page.sections.whatWeFind.intro}
+    </p>
+
+    <div class="mt-12 space-y-0">
+      {page.sections.whatWeFind.findings.map((finding, i) => (
+        <div
+          class="border-t border-rule-light py-8 md:py-10"
+          data-reveal
+          style={`--delay: ${i * 80}ms`}
+        >
+          <div class="flex flex-col md:flex-row md:items-start gap-6 md:gap-12">
+            <div class="flex items-start gap-5 md:w-1/3 shrink-0">
+              <div class="flex flex-col items-center gap-3 pt-1">
+                <span class="text-[10px] font-mono text-ink-muted">0{i + 1}</span>
+                <div class={`w-0.5 h-8 rounded-full ${i < 2 ? "bg-danger" : "bg-warning"}`}></div>
+              </div>
+              <div>
+                <span class={`text-3xl md:text-4xl font-bold tracking-tight ${i < 2 ? "text-danger" : "text-warning"}`}>
+                  {finding.stat}
+                </span>
+                <span class="block text-sm font-medium text-ink mt-1">{finding.label}</span>
+              </div>
+            </div>
+            <p class="text-ink-secondary text-base leading-relaxed md:w-2/3 max-w-xl">
+              {finding.detail}
+            </p>
+          </div>
+        </div>
+      ))}
+      <div class="border-t border-rule-light"></div>
+    </div>
+  </section>
+
+  <!-- Why It Happens -->
+  <section class="py-16 sm:py-24 px-6 md:px-12 lg:px-16 border-t border-rule">
+    <h2 class="text-2xl sm:text-4xl font-bold tracking-tight" data-reveal>
+      {page.sections.whyItHappens.heading}
+    </h2>
+
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-0">
+      {page.sections.whyItHappens.reasons.map((reason, i) => (
+        <div
+          data-reveal
+          style={`--delay: ${i * 100}ms`}
+          class="relative border-t border-rule-light md:border-t-0 md:border-l md:first:border-l-0 md:border-rule-light"
+        >
+          <div class="p-6 md:p-8">
+            <span class="text-5xl md:text-6xl font-bold tracking-tighter text-ink opacity-[0.06] block leading-none">0{i + 1}</span>
+            <h3 class="text-lg md:text-xl font-bold mt-3 mb-3">{reason.title}</h3>
+            <p class="text-sm text-ink-secondary leading-relaxed">
+              {reason.description}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Real Reports (matching this type + city) -->
+  {matchingReports.length > 0 && (
+    <section class="py-16 sm:py-24 px-6 md:px-12 lg:px-16 border-t border-rule bg-surface-alt/50">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight" data-reveal>
+        {city.city} HVAC Businesses With This Problem
+      </h2>
+      <p class="mt-3 text-ink-secondary" data-reveal style="--delay:60ms">
+        Real audits from {city.city} HVAC companies. See the full diagnostic.
+      </p>
+
+      <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {matchingReports.slice(0, 4).map((r, i) => {
+          const scoreColor = r.websiteQualityScore >= 60 ? "text-success" : r.websiteQualityScore >= 40 ? "text-warning" : "text-danger";
+          return (
+            <a
+              href={`/report/${r.slug}/`}
+              class="group block rounded-xl border border-rule bg-surface hover:bg-surface-card px-5 py-5 transition-colors duration-300"
+              data-reveal
+              style={`--delay: ${i * 80}ms`}
+            >
+              <div class="flex items-start justify-between gap-3">
+                <div class="min-w-0">
+                  <p class="font-semibold text-sm truncate group-hover:text-accent transition-colors">{r.name}</p>
+                  <p class="text-xs text-ink-muted mt-1">{r.city}, {r.state}</p>
+                </div>
+                <div class="flex-none text-right">
+                  <span class={`text-xl font-bold font-mono ${scoreColor}`}>{r.websiteQualityScore}</span>
+                  <span class="text-[10px] text-ink-muted block font-mono">/100</span>
+                </div>
+              </div>
+              <div class="mt-3 flex items-center gap-3">
+                <span class="text-xs text-ink-muted">{r.gapSummary.length} issues</span>
+                <span class="text-xs text-ink-muted">&middot;</span>
+                <span class="text-xs text-danger">{r.impactEstimate.missedLeads} missed leads/mo</span>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
+  <!-- What to Fix -->
+  <section class="py-16 sm:py-24 px-6 md:px-12 lg:px-16 border-t border-rule">
+    <h2 class="text-2xl sm:text-4xl font-bold tracking-tight" data-reveal>
+      {page.sections.whatToFix.heading}
+    </h2>
+    <p class="mt-4 text-ink-secondary leading-relaxed max-w-2xl" data-reveal style="--delay:80ms">
+      {page.sections.whatToFix.intro}
+    </p>
+
+    <div class="mt-10 space-y-4">
+      {page.sections.whatToFix.steps.map((step, i) => (
+        <div
+          class="rounded-xl border border-rule bg-surface-alt/40 px-5 py-5 sm:px-6 sm:py-6"
+          data-reveal
+          style={`--delay: ${i * 80}ms`}
+        >
+          <div class="flex items-start gap-4">
+            <span class="flex-none mt-0.5 w-8 h-8 rounded-lg bg-accent/15 text-accent flex items-center justify-center font-bold text-sm font-mono">
+              {i + 1}
+            </span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-base sm:text-lg">{step.title}</h3>
+              <p class="mt-2 text-sm text-ink-secondary leading-relaxed">{step.description}</p>
+              <div class="mt-3 flex items-center gap-4 flex-wrap">
+                <div class="flex items-center gap-1.5">
+                  <span class="text-xs font-mono text-ink-muted">Effort:</span>
+                  <span class="text-sm font-medium text-accent">{step.effort}</span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                  <span class="text-xs font-mono text-ink-muted">Impact:</span>
+                  <span class="text-sm font-medium text-success">{step.impact}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Nearby Cities -->
+  {city.nearbyCities && city.nearbyCities.length > 0 && (
+    <section class="py-16 sm:py-24 px-6 md:px-12 lg:px-16 border-t border-rule bg-surface-alt/50">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight" data-reveal>
+        Nearby HVAC Markets
+      </h2>
+      <p class="mt-3 text-ink-secondary" data-reveal style="--delay:60ms">
+        See how {city.city} compares to other {city.stateName} HVAC markets.
+      </p>
+
+      <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {city.nearbyCities.slice(0, 5).map((nearby, i) => {
+          const scoreColor = nearby.avgDeepScore >= 60 ? "text-success" : nearby.avgDeepScore >= 40 ? "text-warning" : "text-danger";
+          return (
+            <a
+              href={`/${page.slug}/${nearby.slug}/`}
+              class="group block rounded-xl border border-rule bg-surface hover:bg-surface-card px-5 py-5 transition-colors duration-300"
+              data-reveal
+              style={`--delay: ${i * 60}ms`}
+            >
+              <div class="flex items-start justify-between gap-3">
+                <div>
+                  <p class="font-semibold text-sm group-hover:text-accent transition-colors">{nearby.city}, {nearby.state}</p>
+                  <p class="text-xs text-ink-muted mt-1">{nearby.totalLeads} companies audited</p>
+                </div>
+                <div class="text-right">
+                  <span class={`text-xl font-bold font-mono ${scoreColor}`}>{nearby.avgDeepScore}</span>
+                  <span class="text-[10px] text-ink-muted block font-mono">/100</span>
+                </div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
+  <!-- Bottom CTA context -->
+  <section class="py-10 px-6 md:px-12 lg:px-16 border-t border-rule bg-accent/5">
+    <div data-reveal>
+      <p class="text-ink-secondary leading-relaxed">
+        <span class="font-semibold text-ink">Stop guessing.</span> We'll audit your {city.city} HVAC website for free and show you exactly what's broken,
+        what it's costing you, and what to fix first. 48-hour turnaround.
+      </p>
+    </div>
+  </section>
+
+  <CTAForm />
+</Base>
