@@ -5,7 +5,6 @@ import marketData from "../data/market-data.json";
 // Fixed dates for sitemaps with manually-synced content.
 // Update these when the underlying data actually changes.
 const PAGE_LAST_UPDATED = "2026-03-09";
-const REPORTS_LAST_SYNCED = "2026-03-09";
 
 export const GET: APIRoute = async ({ site }) => {
   const siteUrl =
@@ -35,10 +34,6 @@ export const GET: APIRoute = async ({ site }) => {
   <sitemap>
     <loc>${siteUrl}/blog-sitemap.xml</loc>
     <lastmod>${blogLastmod}</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>${siteUrl}/report-sitemap.xml</loc>
-    <lastmod>${REPORTS_LAST_SYNCED}</lastmod>
   </sitemap>
   <sitemap>
     <loc>${siteUrl}/pain-sitemap.xml</loc>
